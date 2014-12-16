@@ -2,7 +2,7 @@
 -----Edited by Ispiro---
 
 function giveItemToPlayer(cid, itemid, count, cost, topos)
-	if (doPlayerRemoveMoney(cid, cost) == 1) then
+	if (doPlayerRemoveMoney(cid, cost) == true) then
 		doPlayerAddItem(cid, itemid, count)
 		doSendMagicEffect(topos, 12)
 	else	

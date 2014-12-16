@@ -37,7 +37,7 @@ function getRail(pos)
   repeat
     pos.stackpos = stack
     rail = getThingfromPos(pos)
-    if (rail.itemid == 0) then break end   
+    if (rail.itemid == false) then break end   
     for i, r in ipairs(RAILS) do
       if (rail.itemid == r.id) then
         found = 1
@@ -58,7 +58,7 @@ function moveTrain(cid)
     if (rail.itemid == r.id) then
       if (RollerCoaster:onMove(cid, rail, r, pos) == FALSE) then table.remove(INFOS, cid) return true end 
       if (r.stop ~= nil) then
-        if (r.stop == 1) then
+        if (r.stop == true) then
           RollerCoaster:onExitQuery(cid)
           addEvent(exitTrain, 1999, cid)
           return true
@@ -75,7 +75,7 @@ function moveTrain(cid)
         if (RollerCoaster:onChangeSpeed(cid, power) == TRUE) then
           if (power == 2) then
             INFOS[cid].speed = INFOS[cid].speed - INCREASE
-          elseif (power == 1) then
+          elseif (power == true) then
             INFOS[cid].speed = INFOS[cid].speed + DECREASE
           end 
         end
@@ -163,7 +163,7 @@ change[all[10]] = {}
 function doChangeType(cid, id, beforeID)
   if (table.getn(change[id]) > 0) then
     if (isInArray(change[id],beforeID) == TRUE) then
-      if (INFOS[cid].type == 1) then INFOS[cid].type = 2 else INFOS[cid].type = 1 end
+      if (INFOS[cid].type == true) then INFOS[cid].type = 2 else INFOS[cid].type = 1 end
     end   
   end
 end
