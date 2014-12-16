@@ -1,0 +1,177 @@
+keywordHandler:addKeyword({'nova'},             travel, {cost = 80, pos = {x = 487, y = 422, z = 6} })-
+keywordHandler:addKeyword({'thalia'},           travel, {cost = 80, pos = {x = 210, y = 210, z = 6} })-
+keywordHandler:addKeyword({'iceisland'},        travel, {cost = 90, pos = {x = 464, y = 127, z = 6} })-------
+keywordHandler:addKeyword({'vincent of glory'}, travel, {cost = 80, pos = {x = 268, y = 341, z = 7} })--
+keywordHandler:addKeyword({'jungle island'},    travel, {cost = 120, pos = {x = 189, y = 182, z = 7} })--
+keywordHandler:addKeyword({'ankrahmun'},        travel, {cost = 100, pos = {x = 504, y = 336, z = 6} })
+keywordHandler:addKeyword({'morgoth'},          travel, {cost = 250, pos = {x = 397, y = 755, z = 6} })-----
+keywordHandler:addKeyword({'la morge'},         travel, {cost = 150, pos = {x = 466, y = 176, z = 6} })
+keywordHandler:addKeyword({'orclan'},           travel, {cost = 80, pos = {x = 184, y = 503, z = 7} })
+keywordHandler:addKeyword({'pirate island'},    travel, {cost = 120, pos = {x = 691, y = 835, z = 7} })--
+keywordHandler:addKeyword({'orclan'},           travel, {cost = 80, pos = {x = 184, y = 503, z = 7} })
+keywordHandler:addKeyword({'ghost ship'},       travel, {cost = 100, pos = {x = 394, y = 185, z = 7} })
+keywordHandler:addKeyword({'Atlantis'},         travel, {cost = 100, pos = {x = 321, y = 682, z = 6} })
+keywordHandler:addKeyword({'artica'},           travel, {cost = 100, pos = {x = 503, y = 67, z = 7} })
+
+--thalia, nova, Genova --Armenio
+	<parameters>
+		<parameter key="module_travel" value="1" />
+		<parameter key="travel_destinations" value="thalia,210,210,6,80;nova,487,422,6,80;genova,321,682,6" />
+		<!-- Syntax: name,x,y,z,cost,premium;name,x,y,z,cost;name,x,y,z,cost,premium etc. -->
+		<!-- Premium is not needed for the npc to work and will require the isPlayerPremiumCallback function to be defined.  -->
+	</parameters>
+----------------
+travel.lua
+--nova, thalia, vincent of glory, jungle island, atlantis, ankrahmun
+-- The Captain Conan - The Captain Ronal - The Captain Silver - The Captain Thomas - The Captain Genova
+	<parameters>
+		<parameter key="module_travel" value="1" />
+		<parameter key="travel_destinations" value="thalia,210,210,6,80;nova,487,422,6,80;vincent of glory,268,341,7,80;jungle island,189,182,7,80;genova,321,682,6,100" />
+		<!-- Syntax: name,x,y,z,cost,premium;name,x,y,z,cost;name,x,y,z,cost,premium etc. -->
+		<!-- Premium is not needed for the npc to work and will require the isPlayerPremiumCallback function to be defined.  -->
+	</parameters>
+---------------
+travel2.lua
+--morgoth, ankrahmun, la morge, pirate island, thalia
+- The Captain Kevin - The Captain Jhonm - The Captain Philip - The Captain Sidfrield - The Captain Louisa - The Captain Albert
+	<parameters>
+		<parameter key="module_travel" value="1" />
+		<parameter key="travel_destinations" value="morgoth,397,755,6,120;ankrahmun,504,336,6,120;la morge,466,176,6,120;pirate island,691,835,7,120;thalia,210,210,6,80" />
+		<!-- Syntax: name,x,y,z,cost,premium;name,x,y,z,cost;name,x,y,z,cost,premium etc. -->
+		<!-- Premium is not needed for the npc to work and will require the isPlayerPremiumCallback function to be defined.  -->
+	</parameters>
+---------------
+travel3.lua
+--iceisland, ghost ship, orclan, thalia
+-- The Captain Grisella - The Captain Anthony - The Captain Peter
+	<parameters>
+		<parameter key="module_travel" value="1" />
+		<parameter key="travel_destinations" value="iceisland,464,127,6,110;ghost ship,394,185,7,110;orclan,184,503,7,110;thalia,210,210,6,80" />
+		<!-- Syntax: name,x,y,z,cost,premium;name,x,y,z,cost;name,x,y,z,cost,premium etc. -->
+		<!-- Premium is not needed for the npc to work and will require the isPlayerPremiumCallback function to be defined.  -->
+	</parameters>
+--------------
+-- artica
+-- The king
+	<parameters>
+		<parameter key="module_travel" value="1" />
+		<parameter key="travel_destinations" value="artica,503,67,7,120" />
+		<!-- Syntax: name,x,y,z,cost,premium;name,x,y,z,cost;name,x,y,z,cost,premium etc. -->
+		<!-- Premium is not needed for the npc to work and will require the isPlayerPremiumCallback function to be defined.  -->
+	</parameters>
+------------------
+------------------
+Armenio --Situado en Artica--
+thalia, nova, Genoma
+---Name
+The Captain Conan --Situado en thalia--
+nova, thalia, vincent of glory, jungle island, Genoma
+
+
+Archivo.lua: travel.lua
+
+------------------
+---Name
+The Captain Ronal --Situado en nova--
+nova, thalia, vincent of glory, jungle island, Genoma
+
+
+Archivo.lua: travel.lua
+
+------------------
+---Name
+The Captain Silver --Situado en vincent of glory--
+nova, thalia, vincent of glory, jungle island, Genoma
+
+
+Archivo.lua: travel.lua
+
+------------------
+---Name
+The Captain Thomas --Situado en jungle island--
+nova, thalia, vincent of glory, jungle island, Genoma
+
+
+Archivo.lua: travel.lua
+
+------------------
+---Name
+The Captain Genova --Situado en Genoma--
+nova, thalia, vincent of glory, jungle island, Genoma
+
+
+Archivo.lua: travel.lua
+
+------------------
+---Name
+The Captain Kevin --Situado en desierto--
+morgoth, ankrahmun, la morge, pirate island, thalia
+
+
+Archivo.lua: travel2.lua
+
+------------------
+---Name
+The Captain Jhonm --Situado en ankrahmun--
+morgoth, ankrahmun, la morge, pirate island, thalia
+
+
+Archivo.lua: travel2.lua
+
+------------------
+---Name
+The Captain Philip --Situado en morgoth--
+morgoth, ankrahmun, la morge, pirate island, thalia
+
+
+Archivo.lua: travel2.lua
+
+------------------
+---Name
+The Captain Sidfrield --Situado en la morge--
+morgoth, ankrahmun, la morge, pirate island, thalia
+
+
+Archivo.lua: travel2.lua
+
+------------------
+---Name
+The Captain Louisa  --Situado en ENTRADA la Morge--
+morgoth, ankrahmun, la morge, pirate island, thalia
+
+
+Archivo.lua: travel2.lua
+
+------------------
+---Name
+The Captain Albert  --Situado en pirate island--
+morgoth, ankrahmun, la morge, pirate island, thalia
+
+
+Archivo.lua: travel2.lua
+
+------------------
+---Name
+The Captain Grisella  --Situado en iceisland--
+iceisland, ghost ship, orclan, thalia
+
+
+Archivo.lua: travel3.lua
+
+------------------
+---Name
+The Captain Anthony  --Situado en entrada iceisland--
+iceisland, ghost ship, orclan, thalia
+
+
+Archivo.lua: travel3.lua
+
+------------------
+---Name
+The Captain Peter  --Situado en entrada orclan--
+iceisland, ghost ship, orclan, thalia
+
+
+Archivo.lua: travel3.lua
+
+------------------

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<npc name="The post man" script="data/npc/scripts/the post man.lua" floorchange="1" speed="80" autowalk="80">
+	<health now="40" max="40"/>
+	<look type="128" head="114" body="0" legs="58" feet="114" corpse="3128"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Do you need anything?." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="letter,2597,10;sobre,2597,10;carta,2597,10;postal,2597,10;label,2599,2;backpack brown,1988,20;bp marron,1988,20;shovel,2554,150;pala,2554,150;rope,2120,100;cuerda,2120,100;torch,2050,2;antorcha,2050,2;fishing rod,2580,100;pick,2553,100;pico,2553,100;machete,2420,90;box,1738,100;caja,1738,100;cajon,1738,100" />
+
+		<parameter key="module_keywords" value="1" />
+-------------------------------------------------- 1    2    3    4    5      6       7     8      9    10     11      12     13    14    15    16   17    18   19
+		<parameter key="keywords" value="name;offer;sell;job;quest;mission;compra;compro;vendo;vende;trabajo;oferta;mision;free;gratis;help;ayuda;info;item" />
+		<parameter key="keyword_reply1" value="Im the oficial post man!" />
+		<parameter key="keyword_reply2" value="Im selling backpack brown, shovel, torch, rope, fishing rod, pick, machete, box, letter and parcel, say me the item name only." />
+		<parameter key="keyword_reply3" value="Sorry, nothing i need." />
+		<parameter key="keyword_reply4" value="I am the official postman of this city!" />
+		<parameter key="keyword_reply5" value="I dont know about any quest." />
+		<parameter key="keyword_reply6" value="My mission is sell parcel and other normal items." />
+		<parameter key="keyword_reply7" value="yo vendo algunos objetos, dime el nombre del objeto." />
+		<parameter key="keyword_reply8" value="yo vendo algunos objetos, dime el nombre del objeto." />
+		<parameter key="keyword_reply9" value="Lo siento, yo no compro nada." />
+		<parameter key="keyword_reply10" value="Lo siento, yo no compro nada." />
+		<parameter key="keyword_reply11" value="Yo soy el cartero ofical de esta ciudad!." />
+		<parameter key="keyword_reply12" value="Yo vendo, backpack brown, shovel, torch, rope, fishing rod, pick, box, letter and parcel, dime solo el nombre del item." />
+		<parameter key="keyword_reply13" value="Mi mision es la de vender alguno objetos a los players." />
+		<parameter key="keyword_reply14" value="Sorry, nothing is free." />
+		<parameter key="keyword_reply15" value="Lo siento nada es gratis." />
+		<parameter key="keyword_reply16" value="Need help? open the Help channel, for any help." />
+		<parameter key="keyword_reply17" value="Necesitas ayuda? abre el Canal Help y pide ayuda." />
+		<parameter key="keyword_reply18" value="Im selling many items you need, say me item." />
+		<parameter key="keyword_reply19" value="Im selling backpack brown, shovel, torch, rope, fishing rod, pick, machete, box, letter and parcel, say me the item name only." />
+	</parameters>
+</npc>

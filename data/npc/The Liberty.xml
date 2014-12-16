@@ -1,0 +1,9 @@
+<npc name="The Liberty" script="data/npc/scripts/travel to promo.lua" autowalk="80" floorchange="0" speed="80" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="140" head="78" body="113" legs="114" feet="132" addons="3" corpse="2212"/>
+	<parameters>
+		<parameter key="message_farewell" value="Farewell |PLAYERNAME|!" />
+		<parameter key="message_greet" value="Greetings |PLAYERNAME|. Thi is a nice day no? :)" />
+
+	</parameters>
+</npc>

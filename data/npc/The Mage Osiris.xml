@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<npc name="The Mage Osiris" script="data/npc/scripts/mages.lua" floorchange="0" speed="80" autowalk="80">
+	<health now="40" max="40"/>
+	<look type="130" head="0" body="78" legs="58" feet="57" addons="3" corpse="3128"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Do you want to buy any spell runes?" />
+		<parameter key="message_needmoremoney" value="You do not have enough money." />
+		<parameter key="message_decline" value="Is |TOTALCOST| gold coins too much for you? Get out of here!" />
+
+		<parameter key="module_keywords" value="1" />
+-------------------------------------------------  1   2    3    4      5      6      7     8      9     10     11      12     13   14    15   16  17    18   19   20   21
+		<parameter key="keywords" value="name;sell;job;quest;mission;atolon;spinm;shamy;compra;vendo;trabajo;oferta;mision;free;gratis;gm;help;ayuda;info;item;sell" />
+		<parameter key="keyword_reply1" value="Im the mage Osiris." />
+		<parameter key="keyword_reply2" value="I offer several kinds of magical runes and magical items. Say me sell item name." />
+		<parameter key="keyword_reply3" value="I am the shopkeeper of this magic shop." />
+		<parameter key="keyword_reply4" value="A quest is nothing I want to be involved in." />
+		<parameter key="keyword_reply5" value="I cannot help you in that area, son." />
+		<parameter key="keyword_reply6" value="El junto con el GM Spinm y la GM Shamy y su equipo, son los creadores de este mundo." />
+		<parameter key="keyword_reply7" value="El junto con el GM Atolon y su equipo, son los creadores de este mundo." />
+		<parameter key="keyword_reply8" value="Ella junto con el GM Spinm y GM Atolon y su equipo, son los creadores de este mundo." />
+		<parameter key="keyword_reply9" value="yo vendo muchas runas y otros objetos magicos que deseas comprar?." />
+		<parameter key="keyword_reply10" value="Lo siento, yo no compro nada." />
+		<parameter key="keyword_reply11" value="Yo soy el rey de las ventas! vendo runas y otros items." />
+		<parameter key="keyword_reply12" value="Yo ofrezco muchas runas y otros objetos magicos a cambio de dinero." />
+		<parameter key="keyword_reply13" value="Mi mision es la de vender runas y otros objetos magicos a los players." />
+		<parameter key="keyword_reply14" value="Any item free? Sorry i cant." />
+		<parameter key="keyword_reply15" value="Quieres items gratis? lo siento pero no puedo darte nada." />
+		<parameter key="keyword_reply16" value="Need a Game Master? open the Help channel, for any help." />
+		<parameter key="keyword_reply17" value="Need help? open the Help channel, for any help." />
+		<parameter key="keyword_reply18" value="Necesitas ayuda? abre el Canal Help y pide ayuda." />
+		<parameter key="keyword_reply19" value="Im selling runes, uh, sd, explo, hmm, gfb, blank, mana fluid,life fluid, light wand, backpack, scythe." />
+		<parameter key="keyword_reply20" value="Im selling runes, uh, sd, explo, hmm, gfb, blank, mana fluid,life fluid, light wand, backpack, scythe." />
+		<parameter key="keyword_reply21" value="Sorry, nothing i buy." />
+	</parameters>
+       
+</npc>

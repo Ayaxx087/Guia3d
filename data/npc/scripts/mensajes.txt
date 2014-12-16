@@ -1,0 +1,130 @@
+--VENDEDORES:
+		<parameter key="module_keywords" value="1" />
+-------------------------------------------------  1    2       3    4     5    6   7    8     9      10    11    12    13     14     15    16      16    18     19    20    21   22   23    24   25  26    27   28   29
+		<parameter key="keywords" value="name;amulets;rods;wands;rings;xd;shop;quest;mission;city;atolon;spinm;shamy;compra;vendo;trabajo;oferta;offer;mision;n00b;serve;game;free;gratis;gm;help;ayuda;info;item" />
+		<parameter key="keyword_reply1" value="" />
+		<parameter key="keyword_reply2" value="Im buying many amulets, strange talisman, silver amulet, protection amulet, dragon necklace. Say me sell item name." />
+		<parameter key="keyword_reply3" value="Im buying you snakebite rod, moonlight rod, volcanic rod, quagmire rod and tempest rod. Say me sell item name." />
+		<parameter key="keyword_reply4" value="Im buying you wand of vortex, wand of dragonbreath, wand of plague, wand of cosmic energy and wand of inferno. Say me sell item name." />
+		<parameter key="keyword_reply5" value="Im buying all you rings. Say me sell item name." />
+		<parameter key="keyword_reply6" value="Que te hace tanta gracia?." />
+		<parameter key="keyword_reply7" value="I am the shopkeeper of this shop." />
+		<parameter key="keyword_reply8" value="A quest is nothing I want to be involved in." />
+		<parameter key="keyword_reply9" value="My mission is sell much items to players." />
+		<parameter key="keyword_reply10" value="You are citizen of here?." />
+		<parameter key="keyword_reply11" value="El junto con el GM Spinm y la GM Shamy y su equipo, son los creadores de este mundo." />
+		<parameter key="keyword_reply12" value="El junto con el GM Atolon y la GM Shamy y su equipo, son los creadores de este mundo." />
+		<parameter key="keyword_reply13" value="Ella junto con el GM Spinm y GM Atolon y su equipo, son los creadores de este mundo." />
+		<parameter key="keyword_reply14" value="yo vendo muchas runas y otros objetos magicos que deseas comprar?." />
+		<parameter key="keyword_reply15" value="Lo siento, yo no compro nada." />
+		<parameter key="keyword_reply16" value="Yo soy el rey de las ventas! vendo backpacks y otros items y tambien compro algunos anillos y gemas." />
+		<parameter key="keyword_reply17" value="Yo ofrezco mucha comida y muchos objetos que puedas necesitar a cambio de dinero, Preguntame sobre items" />
+		<parameter key="keyword_reply18" value="I offer several kinds of food and much item for gold coin say me item." />
+		<parameter key="keyword_reply19" value="Mi mision es la de vender muchos objetos a los players, preguntame por item." />
+		<parameter key="keyword_reply20" value="Eso es lo que eres realmente?" />
+		<parameter key="keyword_reply21" value="Este es el mejor Server en RPG!" />
+		<parameter key="keyword_reply22" value="This is the best RPG online!" />
+		<parameter key="keyword_reply23" value="Any item free? Sorry i cant." />
+		<parameter key="keyword_reply24" value="Quieres items gratis? lo siento pero no puedo darte nada." />
+		<parameter key="keyword_reply25" value="Need a Game Master? open the Help channel, for any help." />
+		<parameter key="keyword_reply26" value="Need help? open the Help channel, for any help." />
+		<parameter key="keyword_reply27" value="Necesitas ayuda? abre el Canal Help y pide ayuda." />
+		<parameter key="keyword_reply28" value="im buying all your diamond, sapphire, ruby, emerald, amethyst, white pearl, black pearl, talon and all you rings." />
+		<parameter key="keyword_reply29" value="Im selling bolt, arrow, spear, crossbow, bow, all colour backpack, rope, shovel, pick, machete, box, juice squeezer, fireworks rocket, fishing rod, torch and helmet of the deep." />
+
+	</parameters>
+
+--Mages:
+		<parameter key="module_keywords" value="1" />
+-------------------------------------------------  1   2    3    4      5      6      7     8      9     10     11      12     13   14    15   16  17    18   19   20   21
+		<parameter key="keywords" value="name;sell;job;quest;mission;atolon;spinm;shamy;compra;vendo;trabajo;oferta;mision;free;gratis;gm;help;ayuda;info;item;sell" />
+		<parameter key="keyword_reply1" value="" />
+		<parameter key="keyword_reply2" value="I offer several kinds of magical runes and magical items. Say me sell item name." />
+		<parameter key="keyword_reply3" value="I am the shopkeeper of this magic shop." />
+		<parameter key="keyword_reply4" value="A quest is nothing I want to be involved in." />
+		<parameter key="keyword_reply5" value="I cannot help you in that area, son." />
+		<parameter key="keyword_reply6" value="El junto con el GM Spinm y la GM Shamy y su equipo, son los creadores de este mundo." />
+		<parameter key="keyword_reply7" value="El junto con el GM Atolon y su equipo, son los creadores de este mundo." />
+		<parameter key="keyword_reply8" value="Ella junto con el GM Spinm y GM Atolon y su equipo, son los creadores de este mundo." />
+		<parameter key="keyword_reply9" value="yo vendo muchas runas y otros objetos magicos que deseas comprar?." />
+		<parameter key="keyword_reply10" value="Lo siento, yo no compro nada." />
+		<parameter key="keyword_reply11" value="Yo soy el rey de las ventas! vendo runas y otros items." />
+		<parameter key="keyword_reply12" value="Yo ofrezco muchas runas y otros objetos magicos a cambio de dinero." />
+		<parameter key="keyword_reply13" value="Mi mision es la de vender runas y otros objetos magicos a los players." />
+		<parameter key="keyword_reply14" value="Any item free? Sorry i cant." />
+		<parameter key="keyword_reply15" value="Quieres items gratis? lo siento pero no puedo darte nada." />
+		<parameter key="keyword_reply16" value="Need a Game Master? open the Help channel, for any help." />
+		<parameter key="keyword_reply17" value="Need help? open the Help channel, for any help." />
+		<parameter key="keyword_reply18" value="Necesitas ayuda? abre el Canal Help y pide ayuda." />
+		<parameter key="keyword_reply19" value="Im selling runes, uh, sd, explo, hmm, gfb, blank, mana fluid,life fluid, light wand, backpack, scythe." />
+		<parameter key="keyword_reply20" value="Im selling runes, uh, sd, explo, hmm, gfb, blank, mana fluid,life fluid, light wand, backpack, scythe." />
+		<parameter key="keyword_reply21" value="Sorry, nothing i buy." />
+	</parameters>
+
+--PARCEL:
+		<parameter key="module_keywords" value="1" />
+-------------------------------------------------- 1    2    3    4    5      6       7     8      9    10     11      12     13    14    15    16   17    18   19
+		<parameter key="keywords" value="name;offer;sell;job;quest;mission;compra;compro;vendo;vende;trabajo;oferta;mision;free;gratis;help;ayuda;info;item" />
+		<parameter key="keyword_reply1" value="Im the oficial post man!" />
+		<parameter key="keyword_reply2" value="Im selling backpack brown, shovel, torch, rope, fishing rod, pick, machete, box, letter and parcel, say me the item name only." />
+		<parameter key="keyword_reply3" value="Sorry, nothing i need." />
+		<parameter key="keyword_reply4" value="I am the official postman of this city!" />
+		<parameter key="keyword_reply5" value="I dont know about any quest." />
+		<parameter key="keyword_reply6" value="My mission is sell parcel and other normal items." />
+		<parameter key="keyword_reply7" value="yo vendo algunos objetos, dime el nombre del objeto." />
+		<parameter key="keyword_reply8" value="yo vendo algunos objetos, dime el nombre del objeto." />
+		<parameter key="keyword_reply9" value="Lo siento, yo no compro nada." />
+		<parameter key="keyword_reply10" value="Lo siento, yo no compro nada." />
+		<parameter key="keyword_reply11" value="Yo soy el cartero ofical de esta ciudad!." />
+		<parameter key="keyword_reply12" value="Yo vendo, backpack brown, shovel, torch, rope, fishing rod, pick, box, letter and parcel, dime solo el nombre del item." />
+		<parameter key="keyword_reply13" value="Mi mision es la de vender alguno objetos a los players." />
+		<parameter key="keyword_reply14" value="Sorry, nothing is free." />
+		<parameter key="keyword_reply15" value="Lo siento nada es gratis." />
+		<parameter key="keyword_reply16" value="Need help? open the Help channel, for any help." />
+		<parameter key="keyword_reply17" value="Necesitas ayuda? abre el Canal Help y pide ayuda." />
+		<parameter key="keyword_reply18" value="Im selling many items you need, say me item." />
+		<parameter key="keyword_reply19" value="Im selling backpack brown, shovel, torch, rope, fishing rod, pick, machete, box, letter and parcel, say me the item name only." />
+	</parameters>
+
+---Oracle:
+		<parameter key="module_keywords" value="1" />
+------------------------------------------------   1     2       3         4               5        6    7     8    9    10   11     12     13     14    15    16   17  18   19    20   21
+		<parameter key="keywords" value="name;armenio;artica;amulet of loss;amulet of item;aol;fluid;offer;sell;job;quest;mission;oferta;mision;free;gratis;gm;help;ayuda;info;item" />
+		<parameter key="keyword_reply1" value="Im the oracle." />
+		<parameter key="keyword_reply2" value="Armenio can sell you amulet of loss or amulet of item." />
+		<parameter key="keyword_reply3" value="Find the King for travel travel to artica for just a small fee." />
+		<parameter key="keyword_reply4" value="You need travel to Artica for buy that" />
+		<parameter key="keyword_reply5" value="You need travel to Artica for buy that." />
+		<parameter key="keyword_reply6" value="You need travel to Artica for buy that." />
+		<parameter key="keyword_reply7" value="I have got many fluids." />
+		<parameter key="keyword_reply8" value="I offer many fluids and info about travel to Artica and Armenio. Say me the item name." />
+		<parameter key="keyword_reply9" value="Nothing i buy." />
+		<parameter key="keyword_reply10" value="Im the oracle of the life." />
+		<parameter key="keyword_reply11" value="ok, give me an item." />
+		<parameter key="keyword_reply12" value="My mission is help you on the life." />
+		<parameter key="keyword_reply13" value="Yo ofrezco fluids e informacion sobre Artica y Armenio. Dime el nombre del objeto." />
+		<parameter key="keyword_reply14" value="Mi mision es la de ayudarte en tu vida." />
+		<parameter key="keyword_reply15" value="Any item free? Sorry i cant." />
+		<parameter key="keyword_reply16" value="Quieres items gratis? lo siento pero no puedo darte nada." />
+		<parameter key="keyword_reply17" value="Need a Game Master? open the Help channel, for any help." />
+		<parameter key="keyword_reply18" value="Need help? open the Help channel, for any help." />
+		<parameter key="keyword_reply19" value="Necesitas ayuda? abre el Canal Help y pide ayuda." />
+		<parameter key="keyword_reply20" value="Im the oracle of the life and i sell fluids and info about Armenio and artica." />
+		<parameter key="keyword_reply21" value="I offer many fluids and others... Say me the item name." />
+	</parameters>
+
+--Armenio:
+		<parameter key="module_keywords" value="1" />
+------------------------------------------------   1    2      3      4    5    6      7     8    9      10
+		<parameter key="keywords" value="name;fluids;mission;item;info;quest;present;help;offer;princes" />
+		<parameter key="keyword_reply1" value="Im Armenio the great mage." />
+		<parameter key="keyword_reply2" value="I have got many fluids to sell." />
+		<parameter key="keyword_reply3" value="My mission is help you on the life." />
+		<parameter key="keyword_reply4" value="I offer many fluids and amulet of loss and amulet of item. Say me the item name." />
+		<parameter key="keyword_reply5" value="I offer many fluids and amulet of loss and amulet of item. Say me the item name." />
+		<parameter key="keyword_reply6" value="Sell me a nice item and you receive a present." />
+		<parameter key="keyword_reply7" value="Sell me a nice item and you receive a present." />
+		<parameter key="keyword_reply8" value="hmm.. I can take you to thalia or Nova or Genoma for just a small fee." />
+		<parameter key="keyword_reply9" value="hmm.. I can take you to thalia or Nova or Genoma for just a small fee." />
+		<parameter key="keyword_reply10" value="She is my friend but i dont know where is she." />
+	</parameters>

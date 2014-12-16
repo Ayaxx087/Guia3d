@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<npc name="Sirfried" script="data/npc/scripts/heal.lua" access="0" level="1" maglevel="1" speed="80" autowalk="80">
+	<health now="140" max="40"/>
+	<look type="57" head="78" body="86" legs="114" feet="132" addons="1" corpse="3065"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. I will heal you if you are injured. Feel free to ask me for help." />
+		<parameter key="module_keywords" value="1" />
+-------------------------------------------------  1    2   3    4
+		<parameter key="keywords" value="name;quest;job;item" />
+		<parameter key="keyword_reply1" value="My name is The Monk, i can heal you if you are really bad." />
+		<parameter key="keyword_reply2" value="a quest? and?." />
+		<parameter key="keyword_reply3" value="My job is heal to all player with low heal point." />
+		<parameter key="keyword_reply4" value="im no a seller." />
+	</parameters>
+       
+</npc>
