@@ -1,11 +1,10 @@
 function onUse(cid, item, frompos, item2, topos)
+ 
+ 	n = math.random(1,6)
+ 	name = getPlayerName(cid)
+ 	doPlayerSay(cid, name..' rolled a '..n, 16)
+ 	doTransformItem(item.uid, 5791 + n)
+ 	doSendMagicEffect(frompos, 26)
+ 	return 1
+ end
 
-	local n = math.random(1,6)
-	doPlayerSay(cid, getPlayerName(cid) ..' rolled a '..n, TALKTYPE_ORANGE_1)
-	doTransformItem(item.uid, 5791 + n)
-	if item.actionid ~= 0 then
-		doSetItemActionId(item.uid, item.actionid)
-	end
-	doSendMagicEffect(frompos, CONST_ME_CRAPS)
-	return true
-end
