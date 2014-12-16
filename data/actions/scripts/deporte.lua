@@ -1,6 +1,6 @@
 --Sport Area--
 function onUse(cid, item, frompos, item2, topos)
-if doPlayerRemoveMoney(cid, 10) == 1 then 
+if doPlayerRemoveMoney(cid, 10) == true then 
 npos = {x=frompos.x+6, y=frompos.y, z=frompos.z}
 	if item.itemid == 1945 then
 	 	doTransformItem(item.uid,1946)
@@ -17,5 +17,5 @@ else
 end
 
 
-	return 1
+	return true
 end

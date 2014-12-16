@@ -1,7 +1,7 @@
 function onUse(cid, item, frompos, item2, topos)
 if getPlayerAccess(cid) < 5 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you dont have access to use it.")
-		return 1
+		return true
 	end
 	if item.actionid == 2901 then
 			doPlayerSendTextMessage(cid,22,"You have found 20 adura vita.")
@@ -634,5 +634,5 @@ if getPlayerAccess(cid) < 5 then
 
 
 end
-	return 1
+	return true
 end

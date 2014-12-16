@@ -8,8 +8,8 @@ if al > 1 then
         else
            doTransformItem(item.uid,item.itemid-1)
 	end
-	return 1
+	return true
 else
-	return 0
+	return false
 end
 end

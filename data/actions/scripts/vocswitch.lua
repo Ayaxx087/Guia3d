@@ -8,7 +8,7 @@ function onUse(cid, item, frompos, item2, topos)
 	
 	if getPlayerVocation(cid) > 0 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you already have a vocation.")
-		return 1
+		return true
 	end
 
 	if item.itemid == 1945 then
@@ -34,5 +34,5 @@ function onUse(cid, item, frompos, item2, topos)
 		doTransformItem(item.uid,1945)
 	end
 
-	return 1
+	return true
 end

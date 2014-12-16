@@ -8,7 +8,7 @@ function onUse(cid, item, frompos, item2, topos)
 			--setPlayerStorageValue(cid,8000,1)--
 
 	else
-		return 0
+		return false
 	end
 	elseif item.uid == 4008 then
 		queststatus = getPlayerStorageValue(cid,8051)
@@ -19,7 +19,7 @@ function onUse(cid, item, frompos, item2, topos)
 			--setPlayerStorageValue(cid,8000,1)--
 
 	else
-		return 0
+		return false
 	end
 
 
@@ -32,7 +32,7 @@ function onUse(cid, item, frompos, item2, topos)
 			--setPlayerStorageValue(cid,8000,1)--
 
 	else
-		return 0
+		return false
 	end
 	elseif item.uid == 4012 then
 		queststatus = getPlayerStorageValue(cid,8051)
@@ -43,9 +43,9 @@ function onUse(cid, item, frompos, item2, topos)
 			--setPlayerStorageValue(cid,8000,1)--
 
 	else
-		return 0
+		return false
 	end
 
 end
-	return 1
+	return true
 end

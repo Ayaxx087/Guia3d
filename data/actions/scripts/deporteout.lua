@@ -13,5 +13,5 @@ npos = {x=frompos.x-5, y=frompos.y, z=frompos.z}
                 doSendMagicEffect(npos,12)
 
 
-	return 1
+	return true
 end

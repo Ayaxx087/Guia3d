@@ -6,8 +6,8 @@ if al > 6 then
 		doSendMagicEffect(topos,2)
 		doRemoveItem(item2.uid,1)
 	end
-	return 1
+	return true
 else
-	return 0
+	return false
 end
 end

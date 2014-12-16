@@ -50,12 +50,12 @@ function onUse(cid, item, frompos, item2, topos)
 			item2.itemid == 4916 then
 				doTransformItem(item2.uid,item2.itemid+2)
 		else
-			return 0
+			return false
 		end
 	else
-		return 0
+		return false
 	end
 
-	return 1
+	return true
 	
 end

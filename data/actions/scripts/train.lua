@@ -1,6 +1,6 @@
 
 function onUse(cid, item, frompos, item2, topos)
-if doPlayerRemoveMoney(cid, 1000) == 1 then 
+if doPlayerRemoveMoney(cid, 1000) == true then 
 npos = {x=frompos.x, y=frompos.y-2, z=frompos.z}
 	if item.itemid == 1945 then
 	 	doTransformItem(item.uid,1946)
@@ -19,5 +19,5 @@ else
 end
 
 
-	return 1
+	return true
 end

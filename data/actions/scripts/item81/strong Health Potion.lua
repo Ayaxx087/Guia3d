@@ -10,7 +10,7 @@ if item.itemid == 7588 then
 
 	end
 
-	return 1
+	return true
 end
 
  

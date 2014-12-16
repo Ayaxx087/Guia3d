@@ -1,7 +1,7 @@
 
 function onUse(cid, item, frompos, item2, topos)
 	if item2.itemid == 0 then
-		return 0
+		return false
 	end	
 
 	if item2.itemid == 3108 then
@@ -11,5 +11,5 @@ function onUse(cid, item, frompos, item2, topos)
 
 	end
 	
-	return 1
+	return true
 end

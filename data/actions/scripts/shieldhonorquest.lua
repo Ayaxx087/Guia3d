@@ -3,7 +3,7 @@
 function onUse(cid, item, frompos, item2, topos)
  if getPlayerLevel(cid) < 30 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 30.")
-		return 1
+		return true
 	end
 
 if item.uid == 7777 then
@@ -40,8 +40,8 @@ if item.uid == 7777 then
 		else
 			doPlayerSendTextMessage(cid,22,"Nothing Here.")
 		end
-		return 1
+		return true
 	end
 end
-return 1
+return true
 end

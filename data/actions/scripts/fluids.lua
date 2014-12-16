@@ -96,7 +96,7 @@ function onUse(cid, item, frompos, item2, topos)
 ----------
 
 	elseif item2.uid == 0 then
-		return 0
+		return false
 	else
 		if item.type == 0 then
 			doPlayerSendCancel(cid, "It is empty.")
@@ -108,7 +108,7 @@ function onUse(cid, item, frompos, item2, topos)
 					debugPrint("1:x:"..topos.x.." y:"..topos.y.." z:"..topos.z.." item:"..splash.." "..getPlayerName(cid))
 				end
 			elseif isInArray(WATER, item2.itemid) == TRUE or isInArray(MUD, item2.itemid) == TRUE or isInArray(LAVA, item2.itemid) == TRUE or isInArray(SWAMP, item2.itemid) == TRUE or item2.itemid == 1777 then
-				return 0
+				return false
 			else
 				doChangeTypeItem(item.uid, 0)
 				splash = doCreateItem(2025, item.type, topos)
@@ -118,5 +118,5 @@ function onUse(cid, item, frompos, item2, topos)
 			end
 		end
 	end
-	return 1
+	return true
 end

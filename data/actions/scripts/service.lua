@@ -7,9 +7,9 @@ function giveItemToPlayer(cid, itemid, count, cost, topos)
 		doSendMagicEffect(topos, 12)
 	else	
 		doPlayerSendCancel(cid, "You don\'t have enough money, you need ".. cost .." gold coins.")
-		return 0
+		return false
 	end	
-	return 1
+	return true
 end
 
 function onUse(cid, item, frompos, item2, topos)
@@ -111,7 +111,7 @@ function onUse(cid, item, frompos, item2, topos)
 	elseif item.actionid == 2347 then ------------PICK
 		giveItemToPlayer(cid, 2553, 1, 100, topos)
 	elseif item.actionid == 2348 then ------------Parcel
-		if doPlayerRemoveMoney(cid, 15) == 1 then 
+		if doPlayerRemoveMoney(cid, 15) == true then 
 			doPlayerAddItem(cid, 2595, 1)
 			doPlayerAddItem(cid, 2599, 1)
 			doSendMagicEffect(topos,12)
@@ -181,5 +181,5 @@ function onUse(cid, item, frompos, item2, topos)
 		giveItemToPlayer(cid, 8845, 10, 30, topos)
 
 	end	
-	return 1
+	return true
 end

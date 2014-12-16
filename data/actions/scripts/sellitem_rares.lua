@@ -1,7 +1,7 @@
 --Selling rares items--
 function onUse(cid, item, frompos, item2, topos)
 	if item.actionid == 3048 then 
-		if doPlayerRemoveItem(cid, 2383, 1) == 1 then --spike sword
+		if doPlayerRemoveItem(cid, 2383, 1) == true then --spike sword
 			doPlayerAddItem(cid, 2152, 30)  
 
 		else
@@ -9,7 +9,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3049 then 	
-		if doPlayerRemoveItem(cid, 2391, 1) == 1 then --war hammer
+		if doPlayerRemoveItem(cid, 2391, 1) == true then --war hammer
 			doPlayerAddItem(cid, 2152, 80)  
 
 		else
@@ -17,7 +17,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3050 then 	
-		if doPlayerRemoveItem(cid, 2392, 1) == 1 then --fire sword ---
+		if doPlayerRemoveItem(cid, 2392, 1) == true then --fire sword ---
 			doPlayerAddItem(cid, 2152, 100)  
 			doPlayerAddItem(cid, 2152, 10)
 
@@ -26,7 +26,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3051 then 	
-		if doPlayerRemoveItem(cid, 2396, 1) == 1 then --ice rapier 
+		if doPlayerRemoveItem(cid, 2396, 1) == true then --ice rapier 
 			doPlayerAddItem(cid, 2152, 80)  
 
 		else
@@ -34,7 +34,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3052 then 	
-		if doPlayerRemoveItem(cid, 2409, 1) == 1 then --serpent sword 
+		if doPlayerRemoveItem(cid, 2409, 1) == true then --serpent sword 
 			doPlayerAddItem(cid, 2152, 40)  
 
 		else
@@ -42,7 +42,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3053 then 	
-		if doPlayerRemoveItem(cid, 2404, 1) == 1 then --combat knife 
+		if doPlayerRemoveItem(cid, 2404, 1) == true then --combat knife 
 			doPlayerAddItem(cid, 2148, 50)  
 
 		else
@@ -50,7 +50,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3054 then 	
-		if doPlayerRemoveItem(cid, 2411, 1) == 1 then --poison dagger 
+		if doPlayerRemoveItem(cid, 2411, 1) == true then --poison dagger 
 			doPlayerAddItem(cid, 2148, 40)  
 
 		else
@@ -58,7 +58,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3055 then 	
-		if doPlayerRemoveItem(cid, 2413, 1) == 1 then --broad sword 
+		if doPlayerRemoveItem(cid, 2413, 1) == true then --broad sword 
 			doPlayerAddItem(cid, 2152, 20)   
 
 		else
@@ -66,7 +66,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3056 then 	
-		if doPlayerRemoveItem(cid, 2425, 1) == 1 then --obsidian lance ---
+		if doPlayerRemoveItem(cid, 2425, 1) == true then --obsidian lance ---
 			doPlayerAddItem(cid, 2152, 10)  
 
 		else
@@ -74,7 +74,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3057 then 	
-		if doPlayerRemoveItem(cid, 2430, 1) == 1 then --knight axe ---
+		if doPlayerRemoveItem(cid, 2430, 1) == true then --knight axe ---
 			doPlayerAddItem(cid, 2152, 80)  
 
 		else
@@ -82,7 +82,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3058 then 	
-		if doPlayerRemoveItem(cid, 2429, 1) == 1 then --barbarian axe ---
+		if doPlayerRemoveItem(cid, 2429, 1) == true then --barbarian axe ---
 			doPlayerAddItem(cid, 2152, 30)  
 
 		else
@@ -90,7 +90,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3059 then 	
-		if doPlayerRemoveItem(cid, 2432, 1) == 1 then --fire axe ---
+		if doPlayerRemoveItem(cid, 2432, 1) == true then --fire axe ---
 			doPlayerAddItem(cid, 2152, 100)
 			doPlayerAddItem(cid, 2152, 60)   
 
@@ -99,7 +99,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3060 then 	
-		if doPlayerRemoveItem(cid, 2434, 1) == 1 then --dragon hammer ---
+		if doPlayerRemoveItem(cid, 2434, 1) == true then --dragon hammer ---
 			doPlayerAddItem(cid, 2152, 40)  
 
 		else
@@ -107,7 +107,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3061 then 	
-		if doPlayerRemoveItem(cid, 2476, 1) == 1 then --knight armor ---
+		if doPlayerRemoveItem(cid, 2476, 1) == true then --knight armor ---
 			doPlayerAddItem(cid, 2152, 100) 
 			doPlayerAddItem(cid, 2152, 50) 
 
@@ -116,7 +116,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3062 then 	
-		if doPlayerRemoveItem(cid, 2477, 1) == 1 then --knight leg ---
+		if doPlayerRemoveItem(cid, 2477, 1) == true then --knight leg ---
 			doPlayerAddItem(cid, 2152, 100) 
 			doPlayerAddItem(cid, 2152, 70)  
 
@@ -125,7 +125,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3063 then 	
-		if doPlayerRemoveItem(cid, 2479, 1) == 1 then --strange helmet ---
+		if doPlayerRemoveItem(cid, 2479, 1) == true then --strange helmet ---
 			doPlayerAddItem(cid, 2152, 10)  
 
 		else
@@ -133,7 +133,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3064 then 	
-		if doPlayerRemoveItem(cid, 2488, 1) == 1 then --crown legs ---
+		if doPlayerRemoveItem(cid, 2488, 1) == true then --crown legs ---
 			doPlayerAddItem(cid, 2152, 100)
 			doPlayerAddItem(cid, 2152, 100)
 
@@ -142,7 +142,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3065 then 	
-		if doPlayerRemoveItem(cid, 2491, 1) == 1 then --crown helmet ---
+		if doPlayerRemoveItem(cid, 2491, 1) == true then --crown helmet ---
 			doPlayerAddItem(cid, 2152, 50)  
 
 		else
@@ -150,7 +150,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3066 then 	
-		if doPlayerRemoveItem(cid, 2518, 1) == 1 then --beholder shield ---
+		if doPlayerRemoveItem(cid, 2518, 1) == true then --beholder shield ---
 			doPlayerAddItem(cid, 2152, 20)  
 
 		else
@@ -158,7 +158,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3067 then 	
-		if doPlayerRemoveItem(cid, 2528, 1) == 1 then --tower shield ---
+		if doPlayerRemoveItem(cid, 2528, 1) == true then --tower shield ---
 			doPlayerAddItem(cid, 2152, 80)  
 
 		else
@@ -166,7 +166,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3068 then 	
-		if doPlayerRemoveItem(cid, 2532, 1) == 1 then --ancient shield ---
+		if doPlayerRemoveItem(cid, 2532, 1) == true then --ancient shield ---
 			doPlayerAddItem(cid, 2152, 10)  
 
 		else
@@ -174,7 +174,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3069 then 	
-		if doPlayerRemoveItem(cid, 2661, 1) == 1 then --scarf ---
+		if doPlayerRemoveItem(cid, 2661, 1) == true then --scarf ---
 			doPlayerAddItem(cid, 2148, 100)  
 
 		else
@@ -182,7 +182,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3070 then 	
-		if doPlayerRemoveItem(cid, 2515, 1) == 1 then --guardians shield ---
+		if doPlayerRemoveItem(cid, 2515, 1) == true then --guardians shield ---
 			doPlayerAddItem(cid, 2152, 20)  
 
 		else
@@ -190,7 +190,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3071 then 	
-		if doPlayerRemoveItem(cid, 2529, 1) == 1 then --black shield ---
+		if doPlayerRemoveItem(cid, 2529, 1) == true then --black shield ---
 			doPlayerAddItem(cid, 2152, 5)
 
 		else
@@ -198,7 +198,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3072 then 	
-		if doPlayerRemoveItem(cid, 2475, 1) == 1 then --warrior helmet ---
+		if doPlayerRemoveItem(cid, 2475, 1) == true then --warrior helmet ---
 			doPlayerAddItem(cid, 2152, 80)  
 
 		else
@@ -206,7 +206,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3073 then 	
-		if doPlayerRemoveItem(cid, 2423, 1) == 1 then --clerical mace ---
+		if doPlayerRemoveItem(cid, 2423, 1) == true then --clerical mace ---
 			doPlayerAddItem(cid, 2152, 5)
 
 		else
@@ -214,7 +214,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3074 then 	
-		if doPlayerRemoveItem(cid, 2412, 1) == 1 then --katana ---
+		if doPlayerRemoveItem(cid, 2412, 1) == true then --katana ---
 			doPlayerAddItem(cid, 2148, 40) 
 
 		else
@@ -222,7 +222,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3075 then 	
-		if doPlayerRemoveItem(cid, 2436, 1) == 1 then --skull staff ---
+		if doPlayerRemoveItem(cid, 2436, 1) == true then --skull staff ---
 			doPlayerAddItem(cid, 2152, 100)  
 			doPlayerAddItem(cid, 2152, 10)
 
@@ -231,7 +231,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3076 then 	
-		if doPlayerRemoveItem(cid, 2516, 1) == 1 then --dragon shield ---
+		if doPlayerRemoveItem(cid, 2516, 1) == true then --dragon shield ---
 			doPlayerAddItem(cid, 2152, 30)  
 
 		else
@@ -239,7 +239,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3077 then 
-		if doPlayerRemoveItem(cid, 2439, 1) == 1 then --daramanian mace
+		if doPlayerRemoveItem(cid, 2439, 1) == true then --daramanian mace
 			doPlayerAddItem(cid, 2152, 20)  
 
 		else
@@ -247,7 +247,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3078 then 	
-		if doPlayerRemoveItem(cid, 2536, 1) == 1 then --medusa shield ---
+		if doPlayerRemoveItem(cid, 2536, 1) == true then --medusa shield ---
 			doPlayerAddItem(cid, 2152, 50)  
 
 		else
@@ -255,7 +255,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3079 then 	
-		if doPlayerRemoveItem(cid, 2535, 1) == 1 then --castle shield ---
+		if doPlayerRemoveItem(cid, 2535, 1) == true then --castle shield ---
 			doPlayerAddItem(cid, 2152, 10)  
 
 		else
@@ -263,7 +263,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3080 then 	
-		if doPlayerRemoveItem(cid, 2393, 1) == 1 then --Giant sword ---
+		if doPlayerRemoveItem(cid, 2393, 1) == true then --Giant sword ---
 			doPlayerAddItem(cid, 2160, 2)  
 
 		else
@@ -271,7 +271,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3081 then 	
-		if doPlayerRemoveItem(cid, 2171, 1) == 1 then --Platinum amulet ---
+		if doPlayerRemoveItem(cid, 2171, 1) == true then --Platinum amulet ---
 			doPlayerAddItem(cid, 2160, 1)  
 
 		else
@@ -279,7 +279,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3082 then 	
-		if doPlayerRemoveItem(cid, 2177, 1) == 1 then --life crystal ---
+		if doPlayerRemoveItem(cid, 2177, 1) == true then --life crystal ---
 			doPlayerAddItem(cid, 2152, 10)
 
 		else
@@ -287,7 +287,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 ---------------------------
 	elseif item.actionid == 3083 then 	
-		if doPlayerRemoveItem(cid, 2440, 1) == 1 then --daramanian waraxe ---
+		if doPlayerRemoveItem(cid, 2440, 1) == true then --daramanian waraxe ---
 			doPlayerAddItem(cid, 2152, 100)
 			doPlayerAddItem(cid, 2152, 80)   
 
@@ -296,7 +296,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3084 then 	
-		if doPlayerRemoveItem(cid, 2446, 1) == 1 then --pharaoh sword ---
+		if doPlayerRemoveItem(cid, 2446, 1) == true then --pharaoh sword ---
 			doPlayerAddItem(cid, 2160, 2)  
 
 		else
@@ -304,7 +304,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3085 then 	
-		if doPlayerRemoveItem(cid, 2656, 1) == 1 then --blue robe ---
+		if doPlayerRemoveItem(cid, 2656, 1) == true then --blue robe ---
 			doPlayerAddItem(cid, 2152, 100) 
 			doPlayerAddItem(cid, 2152, 50) 
 
@@ -313,7 +313,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3086 then 	
-		if doPlayerRemoveItem(cid, 2466, 1) == 1 then --golden armor ---
+		if doPlayerRemoveItem(cid, 2466, 1) == true then --golden armor ---
 			doPlayerAddItem(cid, 2160, 2)
 			doPlayerAddItem(cid, 2152, 50) 
 
@@ -322,7 +322,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3087 then 	
-		if doPlayerRemoveItem(cid, 2492, 1) == 1 then --dragon scale mail  ---
+		if doPlayerRemoveItem(cid, 2492, 1) == true then --dragon scale mail  ---
 			doPlayerAddItem(cid, 2160, 4)
 
 		else
@@ -330,7 +330,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3088 then 	
-		if doPlayerRemoveItem(cid, 2487, 1) == 1 then --crown armor ---
+		if doPlayerRemoveItem(cid, 2487, 1) == true then --crown armor ---
 			doPlayerAddItem(cid, 2152, 100) 
 			doPlayerAddItem(cid, 2152, 70) 
 
@@ -339,7 +339,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3089 then 	
-		if doPlayerRemoveItem(cid, 2534, 1) == 1 then --vampire shield ---
+		if doPlayerRemoveItem(cid, 2534, 1) == true then --vampire shield ---
 			doPlayerAddItem(cid, 2152, 100) 
 			doPlayerAddItem(cid, 2152, 90) 
 
@@ -348,7 +348,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3090 then 	
-		if doPlayerRemoveItem(cid, 2519, 1) == 1 then --crown shield ---
+		if doPlayerRemoveItem(cid, 2519, 1) == true then --crown shield ---
 			doPlayerAddItem(cid, 2152, 100) 
 			doPlayerAddItem(cid, 2152, 60) 
 
@@ -357,7 +357,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3091 then 	
-		if doPlayerRemoveItem(cid, 2498, 1) == 1 then --royal helmet ---
+		if doPlayerRemoveItem(cid, 2498, 1) == true then --royal helmet ---
 			doPlayerAddItem(cid, 2160, 3)
 
 		else
@@ -365,7 +365,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3092 then 	
-		if doPlayerRemoveItem(cid, 2497, 1) == 1 then --crusader helmet  ---
+		if doPlayerRemoveItem(cid, 2497, 1) == true then --crusader helmet  ---
 			doPlayerAddItem(cid, 2152, 100) 
 			doPlayerAddItem(cid, 2152, 60) 
 
@@ -374,7 +374,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3093 then 	
-		if doPlayerRemoveItem(cid, 2462, 1) == 1 then --devil helmet  ---
+		if doPlayerRemoveItem(cid, 2462, 1) == true then --devil helmet  ---
 			doPlayerAddItem(cid, 2152, 60)
 
 		else
@@ -382,7 +382,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3094 then 	
-		if doPlayerRemoveItem(cid, 2502, 1) == 1 then --dwarven helmet  ---
+		if doPlayerRemoveItem(cid, 2502, 1) == true then --dwarven helmet  ---
 			doPlayerAddItem(cid, 2152, 50)
 
 		else
@@ -390,7 +390,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3095 then 	
-		if doPlayerRemoveItem(cid, 3969, 1) == 1 then --horseman helmet  ---
+		if doPlayerRemoveItem(cid, 3969, 1) == true then --horseman helmet  ---
 			doPlayerAddItem(cid, 2152, 50)
 
 		else
@@ -398,7 +398,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3096 then 	
-		if doPlayerRemoveItem(cid, 2524, 1) == 1 then --ornamented shield  ---
+		if doPlayerRemoveItem(cid, 2524, 1) == true then --ornamented shield  ---
 			doPlayerAddItem(cid, 2152, 70)
 
 		else
@@ -406,7 +406,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3097 then 	
-		if doPlayerRemoveItem(cid, 3973, 1) == 1 then --tusk shield  ---
+		if doPlayerRemoveItem(cid, 3973, 1) == true then --tusk shield  ---
 			doPlayerAddItem(cid, 2152, 50)
 
 		else
@@ -414,7 +414,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3098 then 	
-		if doPlayerRemoveItem(cid, 3975, 1) == 1 then --salamander shield  ---
+		if doPlayerRemoveItem(cid, 3975, 1) == true then --salamander shield  ---
 			doPlayerAddItem(cid, 2152, 40)
 
 		else
@@ -422,7 +422,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3099 then 	
-		if doPlayerRemoveItem(cid, 3974, 1) == 1 then --sentinel shield  ---
+		if doPlayerRemoveItem(cid, 3974, 1) == true then --sentinel shield  ---
 			doPlayerAddItem(cid, 2152, 20)
 
 		else
@@ -430,7 +430,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3100 then 	
-		if doPlayerRemoveItem(cid, 2435, 1) == 1 then --dwarven axe  ---
+		if doPlayerRemoveItem(cid, 2435, 1) == true then --dwarven axe  ---
 			doPlayerAddItem(cid, 2152, 100)
 
 		else
@@ -438,7 +438,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3101 then 	
-		if doPlayerRemoveItem(cid, 2427, 1) == 1 then --guardian halberd ---
+		if doPlayerRemoveItem(cid, 2427, 1) == true then --guardian halberd ---
 			doPlayerAddItem(cid, 2160, 2)
 
 		else
@@ -446,7 +446,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3102 then 	
-		if doPlayerRemoveItem(cid, 2539, 1) == 1 then --phoenix shield ---
+		if doPlayerRemoveItem(cid, 2539, 1) == true then --phoenix shield ---
 			doPlayerAddItem(cid, 2152, 100) 
 			doPlayerAddItem(cid, 2152, 90) 
 
@@ -455,7 +455,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3103 then 	
-		if doPlayerRemoveItem(cid, 2540, 1) == 1 then --scarab shield  ---
+		if doPlayerRemoveItem(cid, 2540, 1) == true then --scarab shield  ---
 			doPlayerAddItem(cid, 2152, 30)
 
 		else
@@ -463,7 +463,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3104 then 	
-		if doPlayerRemoveItem(cid, 2645, 1) == 1 then --steel boots  ---
+		if doPlayerRemoveItem(cid, 2645, 1) == true then --steel boots  ---
 			doPlayerAddItem(cid, 2160, 3)
 
 		else
@@ -471,7 +471,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3105 then 	
-		if doPlayerRemoveItem(cid, 2195, 1) == 1 then --boots of haste  ---
+		if doPlayerRemoveItem(cid, 2195, 1) == true then --boots of haste  ---
 			doPlayerAddItem(cid, 2160, 2)
 			doPlayerAddItem(cid, 2152, 50)
 
@@ -480,7 +480,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3106 then 	
-		if doPlayerRemoveItem(cid, 3970, 1) == 1 then --feather headdress  ---
+		if doPlayerRemoveItem(cid, 3970, 1) == true then --feather headdress  ---
 			doPlayerAddItem(cid, 2152, 30)
 
 		else
@@ -488,7 +488,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3107 then 	
-		if doPlayerRemoveItem(cid, 3971, 1) == 1 then --charmer tiara  ---
+		if doPlayerRemoveItem(cid, 3971, 1) == true then --charmer tiara  ---
 			doPlayerAddItem(cid, 2152, 30)
 
 		else
@@ -496,7 +496,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3108 then 	
-		if doPlayerRemoveItem(cid, 2485, 1) == 1 then --doublet  ---
+		if doPlayerRemoveItem(cid, 2485, 1) == true then --doublet  ---
 			doPlayerAddItem(cid, 2152, 1)
 
 		else
@@ -504,7 +504,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3109 then 	
-		if doPlayerRemoveItem(cid, 2445, 1) == 1 then --crystal mace ---
+		if doPlayerRemoveItem(cid, 2445, 1) == true then --crystal mace ---
 			doPlayerAddItem(cid, 2160, 3)  
 			doPlayerAddItem(cid, 2152, 40)
 
@@ -513,7 +513,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3110 then 	
-		if doPlayerRemoveItem(cid, 2494, 1) == 1 then --demon armor  ---
+		if doPlayerRemoveItem(cid, 2494, 1) == true then --demon armor  ---
 			doPlayerAddItem(cid, 2160, 5)
 
 		else
@@ -521,7 +521,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3111 then 	
-		if doPlayerRemoveItem(cid, 3963, 1) == 1 then --templar scytheblade --- 
+		if doPlayerRemoveItem(cid, 3963, 1) == true then --templar scytheblade --- 
 			doPlayerAddItem(cid, 2152, 10)
 			doPlayerAddItem(cid, 2148, 20)
 
@@ -530,7 +530,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3112 then 	
-		if doPlayerRemoveItem(cid, 3966, 1) == 1 then --banana staff --- 
+		if doPlayerRemoveItem(cid, 3966, 1) == true then --banana staff --- 
 			doPlayerAddItem(cid, 2152, 10)
 			doPlayerAddItem(cid, 2148, 30)
 
@@ -539,7 +539,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3113 then 	
-		if doPlayerRemoveItem(cid, 3964, 1) == 1 then --ripper lance --- 
+		if doPlayerRemoveItem(cid, 3964, 1) == true then --ripper lance --- 
 			doPlayerAddItem(cid, 2152, 10)
 			doPlayerAddItem(cid, 2148, 50)
 
@@ -548,7 +548,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3114 then 	
-		if doPlayerRemoveItem(cid, 2135, 1) == 1 then --scarab amulet --- 
+		if doPlayerRemoveItem(cid, 2135, 1) == true then --scarab amulet --- 
 			doPlayerAddItem(cid, 2152, 30)
 
 		else
@@ -556,7 +556,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3115 then 	
-		if doPlayerRemoveItem(cid, 2142, 1) == 1 then --ancient amulet --- 
+		if doPlayerRemoveItem(cid, 2142, 1) == true then --ancient amulet --- 
 			doPlayerAddItem(cid, 2152, 30)
 
 		else
@@ -564,7 +564,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3116 then 	
-		if doPlayerRemoveItem(cid, 2125, 1) == 1 then --crystal necklace --- 
+		if doPlayerRemoveItem(cid, 2125, 1) == true then --crystal necklace --- 
 			doPlayerAddItem(cid, 2152, 5)
 
 		else
@@ -573,7 +573,7 @@ function onUse(cid, item, frompos, item2, topos)
 -----WANDS Y ROD-----  -2148 gold -2152 platinum -2160 crystal
 
 	elseif item.actionid == 3117 then 	
-		if doPlayerRemoveItem(cid, 2190, 1) == 1 then --wand of vortex --- 
+		if doPlayerRemoveItem(cid, 2190, 1) == true then --wand of vortex --- 
 			doPlayerAddItem(cid, 2152, 5)
 
 		else
@@ -581,7 +581,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3118 then 	
-		if doPlayerRemoveItem(cid, 2191, 1) == 1 then --wand of dragonbreath --- 
+		if doPlayerRemoveItem(cid, 2191, 1) == true then --wand of dragonbreath --- 
 			doPlayerAddItem(cid, 2152, 10)
 
 		else
@@ -589,7 +589,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3119 then 	
-		if doPlayerRemoveItem(cid, 2188, 1) == 1 then --wand of plague --- 
+		if doPlayerRemoveItem(cid, 2188, 1) == true then --wand of plague --- 
 			doPlayerAddItem(cid, 2152, 20)
 
 		else
@@ -597,7 +597,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3120 then 	
-		if doPlayerRemoveItem(cid, 2189, 1) == 1 then --wand of cosmic energy --- 
+		if doPlayerRemoveItem(cid, 2189, 1) == true then --wand of cosmic energy --- 
 			doPlayerAddItem(cid, 2152, 30)
 
 		else
@@ -605,7 +605,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3121 then 	
-		if doPlayerRemoveItem(cid, 2187, 1) == 1 then --wand of inferno --- 
+		if doPlayerRemoveItem(cid, 2187, 1) == true then --wand of inferno --- 
 			doPlayerAddItem(cid, 2152, 50)
 
 		else
@@ -613,7 +613,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3122 then 	
-		if doPlayerRemoveItem(cid, 2182, 1) == 1 then --snakebite rod --- 
+		if doPlayerRemoveItem(cid, 2182, 1) == true then --snakebite rod --- 
 			doPlayerAddItem(cid, 2152, 5)
 
 		else
@@ -621,7 +621,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3123 then 	
-		if doPlayerRemoveItem(cid, 2186, 1) == 1 then --moonlight rod --- 
+		if doPlayerRemoveItem(cid, 2186, 1) == true then --moonlight rod --- 
 			doPlayerAddItem(cid, 2152, 10)
 
 		else
@@ -629,7 +629,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3124 then 	
-		if doPlayerRemoveItem(cid, 2185, 1) == 1 then --volcanic rod --- 
+		if doPlayerRemoveItem(cid, 2185, 1) == true then --volcanic rod --- 
 			doPlayerAddItem(cid, 2152, 20)
 
 		else
@@ -637,7 +637,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3125 then 	
-		if doPlayerRemoveItem(cid, 2181, 1) == 1 then --quagmire rod --- 
+		if doPlayerRemoveItem(cid, 2181, 1) == true then --quagmire rod --- 
 			doPlayerAddItem(cid, 2152, 30)
 
 		else
@@ -645,7 +645,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3126 then 	
-		if doPlayerRemoveItem(cid, 2183, 1) == 1 then --tempest rod --- 
+		if doPlayerRemoveItem(cid, 2183, 1) == true then --tempest rod --- 
 			doPlayerAddItem(cid, 2152, 50)
 
 		else
@@ -653,7 +653,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3127 then 	
-		if doPlayerRemoveItem(cid, 2520, 1) == 1 then --demon shield --- 
+		if doPlayerRemoveItem(cid, 2520, 1) == true then --demon shield --- 
 			doPlayerAddItem(cid, 2160, 3)
 
 		else
@@ -661,7 +661,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 --lol---
 	elseif item.actionid == 3157 then 	
-		if doPlayerRemoveItem(cid, 2503, 1) == 1 then --dwarven armor ---
+		if doPlayerRemoveItem(cid, 2503, 1) == true then --dwarven armor ---
 			doPlayerAddItem(cid, 2152, 100)  
 
 		else
@@ -669,7 +669,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3158 then 	
-		if doPlayerRemoveItem(cid, 2514, 1) == 1 then --mastermind shield --- 
+		if doPlayerRemoveItem(cid, 2514, 1) == true then --mastermind shield --- 
 			doPlayerAddItem(cid, 2160, 5)
 
 		else
@@ -677,7 +677,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3159 then 	
-		if doPlayerRemoveItem(cid, 2470, 1) == 1 then --golden legs --- 
+		if doPlayerRemoveItem(cid, 2470, 1) == true then --golden legs --- 
 			doPlayerAddItem(cid, 2160, 8)
 
 		else
@@ -685,7 +685,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3160 then 	
-		if doPlayerRemoveItem(cid, 2522, 1) == 1 then --great shield --- 
+		if doPlayerRemoveItem(cid, 2522, 1) == true then --great shield --- 
 			doPlayerAddItem(cid, 2160, 8)
 
 		else
@@ -693,7 +693,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3161 then 	
-		if doPlayerRemoveItem(cid, 2472, 1) == 1 then --magic plate armor --- 
+		if doPlayerRemoveItem(cid, 2472, 1) == true then --magic plate armor --- 
 			doPlayerAddItem(cid, 2160, 10)
 
 		else
@@ -701,7 +701,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3162 then 	
-		if doPlayerRemoveItem(cid, 2495, 1) == 1 then --demon legs --- 
+		if doPlayerRemoveItem(cid, 2495, 1) == true then --demon legs --- 
 			doPlayerAddItem(cid, 2160, 11)
 
 		else
@@ -715,5 +715,5 @@ end
 		doTransformItem(item.uid, 1945)
 	end
 
-	return 1
+	return true
 end

@@ -1,7 +1,7 @@
 function onUse(cid, item, frompos, item2, topos)
  if getPlayerLevel(cid) < 40 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 40.")
-		return 1
+		return true
 	end
 	if item.actionid == 20030 then
 		queststatus = getPlayerStorageValue(cid,20030)
@@ -111,7 +111,7 @@ function onUse(cid, item, frompos, item2, topos)
 
 		queststatus = getPlayerStorageValue(cid,20030)
 		if queststatus == 8 then
-         if doPlayerRemoveItem(cid, 4864, 1) == 1 then --piedra part of a bigger helmet ---
+         if doPlayerRemoveItem(cid, 4864, 1) == true then --piedra part of a bigger helmet ---
 			doPlayerSendTextMessage(cid,22,"You have found a part of helmet of the ancient")
 			doPlayerAddItem(cid,2336,1)
                         doSendMagicEffect(topos,12)
@@ -127,9 +127,9 @@ end
                         --doSendMagicEffect(topos,6)
 --end
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end
 
 

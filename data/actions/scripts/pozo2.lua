@@ -4,7 +4,7 @@ npos = {x=frompos.x, y=frompos.y, z=frompos.z}
 			npos.z = npos.z + 1
 			doTeleportThing(cid,npos)
 	else
-	return 0
+	return false
 end
-  return 1
+  return true
 end

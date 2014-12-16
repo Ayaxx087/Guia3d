@@ -10,5 +10,5 @@ if item.itemid == 7590 then
 
 	end
 
-	return 1
+	return true
 end

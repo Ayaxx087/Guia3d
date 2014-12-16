@@ -1,7 +1,7 @@
 function onUse(cid, item, frompos, item2, topos)
  if getPlayerLevel(cid) < 30 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 30.")
-		return 1
+		return true
 	end
 	if item.uid == 2103 then
 		queststatus = getPlayerStorageValue(cid,8000)
@@ -11,7 +11,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,8000,1)--
 		else
-		return 0
+		return false
 		end
 
 
@@ -32,7 +32,7 @@ function onUse(cid, item, frompos, item2, topos)
 
 
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end

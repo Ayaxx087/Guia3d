@@ -19,5 +19,5 @@ function onUse(cid, item, frompos, item2, topos)
 	else
 		doPlayerSendCancel(cid, "Sorry quest finish for today, plz try next day.")
 	end
-	return 1
+	return true
 end

@@ -21,7 +21,7 @@ function onUse(cid, item, frompos, item2, topos)
  		doSendMagicEffect(topos,1)
  	end
 
- 	return 1
+ 	return true
  end
 -- 1200 second 20 minut for regeneration fish. prevents macroing
 --in items.xml 492 need to decay to 490

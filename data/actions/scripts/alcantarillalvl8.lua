@@ -10,11 +10,11 @@ function onUse(cid, item, frompos, item2, topos)
 			npos.z = npos.z + 1
 			doTeleportThing(cid,npos)
 		else
-			return 0
+			return false
 		end
-		return 1
+		return true
 	else
 		doPlayerSendTextMessage(cid,22,"Sorry, Dungeon for players with no vocation.")
-		return 0
+		return false
 	end
 end

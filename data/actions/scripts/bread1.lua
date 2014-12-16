@@ -11,7 +11,7 @@ function onUse(cid, item, frompos, item2, topos)
  		doDecayItem(item2.uid)
 		doCreateItem(5467,1,topos)
 	else 
-		return 0
+		return false
 	end
-	return 1
+	return true
 end

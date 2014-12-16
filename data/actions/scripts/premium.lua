@@ -17,5 +17,5 @@ function onUse(cid, item, frompos, item2, topos)
 		doSendMagicEffect(newpos,12)
 end
 	end
-	return 1
+	return true
 end

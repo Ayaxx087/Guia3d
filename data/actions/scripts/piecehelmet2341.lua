@@ -1,7 +1,7 @@
 function onUse(cid, item, frompos, item2, topos)
  if getPlayerLevel(cid) < 35 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 35.")
-		return 1
+		return true
 	end
 	if item.actionid == 20041 then
 		queststatus = getPlayerStorageValue(cid,20041)
@@ -130,12 +130,12 @@ function onUse(cid, item, frompos, item2, topos)
 
 
 	else
-		return 0
+		return false
 end
 	--if item.itemid == 1945 then
 		--doTransformItem(item.uid, 1946)
 	--else
 		--doTransformItem(item.uid, 1945)
 	--end
-	return 1
+	return true
 end

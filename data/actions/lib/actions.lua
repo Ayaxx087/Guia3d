@@ -93,7 +93,7 @@ function addOutfit(cid, outfitid, addons, sex)
 			looktype = 288
 		else
 			debugPrint("addOutfit unk female oufitid:"..outfitid)
-			return 0
+			return false
 		end
 	else
 		if outfitid == OUTFIT_CITIZEN then
@@ -138,10 +138,10 @@ function addOutfit(cid, outfitid, addons, sex)
 			looktype = 289
 		else
 			debugPrint("addOutfit unk male oufitid:"..outfitid)
-			return 0
+			return false
 		end
 	end
 	doPlayerAddOutfit(cid, looktype, addons)
-	return 1
+	return true
 end
 

@@ -61,7 +61,7 @@ function onUse(cid, item, frompos, item2, topos)
 		--puerta quest
 		if getPlayerLevel(cid) < 40 then
 			doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 40.")
-			return 1
+			return true
 		end
 		npos = {x=673, y=369, z=12}
 		doTeleportThing(cid,npos)
@@ -76,12 +76,12 @@ function onUse(cid, item, frompos, item2, topos)
 	elseif item.actionid == 21109 then
 		--cofre que no se abre		
 		doPlayerSendTextMessage(cid,22,"It is locked by Osiris Magic.")
-		return 1
+		return true
 
 	elseif item.actionid == 21110 then
 		--crea cofre
 		if getPlayerAccess(cid) < 5 then
-			return 0
+			return false
 		end
 		npos = {x=66, y=479, z=7}
 		cofre = doCreateItem(1746,0,npos)
@@ -101,11 +101,11 @@ function onUse(cid, item, frompos, item2, topos)
 			doSetItemActionId(item2.uid,21109)
 			doPlayerSendTextMessage(cid,22,"Chest closed.")
 		else
-			return 0
+			return false
 		end
 	else
-		return 0
+		return false
 	end
 
-	return 1
+	return true
 end

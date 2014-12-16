@@ -7,6 +7,6 @@ function onUse(cid, item, frompos, item2, topos)
 	else
 		doPlayerSendTextMessage(cid,22,"It is locked.")
 	end
-	return 1
+	return true
 
 end

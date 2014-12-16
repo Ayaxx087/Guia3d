@@ -295,16 +295,16 @@ elseif item.itemid == 8838 then --potato
 food = 180
 som = "Chas."
 else
-return 0
+return false
 end
 if getPlayerFood(cid) + food > MAX_FOOD then
 doPlayerSendCancel(cid, "You are full.")
-return 1
+return true
 end
 if item.itemid ~= 6280 then
 doPlayerFeed(cid, food)
 doRemoveItem(item.uid,1)
 doPlayerSay(cid, som, 19)
 end
-return 1
+return true
 end 

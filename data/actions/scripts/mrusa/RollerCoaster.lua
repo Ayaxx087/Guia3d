@@ -56,12 +56,12 @@ function moveTrain(cid)
   dir = -1
   for i,r in ipairs(RAILS) do
     if (rail.itemid == r.id) then
-      if (RollerCoaster:onMove(cid, rail, r, pos) == FALSE) then table.remove(INFOS, cid) return 1 end 
+      if (RollerCoaster:onMove(cid, rail, r, pos) == FALSE) then table.remove(INFOS, cid) return true end 
       if (r.stop ~= nil) then
         if (r.stop == 1) then
           RollerCoaster:onExitQuery(cid)
           addEvent(exitTrain, 1999, cid)
-          return 1
+          return true
         end
       end 
       change = rail.actionid - 1000 

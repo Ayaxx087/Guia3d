@@ -4,11 +4,11 @@ function onUse(cid, item, frompos, item2, topos)
  	elseif item2.itemid == 5470 then
  		doTransformItem(item2.uid,5514)
  	else
- 		return 0
+ 		return false
  	end
  	doRemoveItem(item.uid, 1)
  	doDecayItem(item2.uid)
- 	return 1
+ 	return true
  end
 
 

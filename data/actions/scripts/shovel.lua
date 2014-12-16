@@ -1,7 +1,7 @@
 
 function onUse(cid, item, frompos, item2, topos)
 	if item2.itemid == 0 then
-		return 0
+		return false
 	end	
 
 	if item2.itemid == 468 then
@@ -19,10 +19,10 @@ function onUse(cid, item, frompos, item2, topos)
 	elseif item2.itemid == 293 then
 		doTransformItem(item2.uid,294)
 	else
-		return 0
+		return false
 	end
 
         doDecayItem(item2.uid)
 	
-	return 1
+	return true
 end

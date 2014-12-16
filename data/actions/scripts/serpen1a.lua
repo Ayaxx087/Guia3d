@@ -8,6 +8,6 @@ if item.actionid == 0 then
 	else
 		--doPlayerSendTextMessage(cid,22,"It is locked.")
 	end
-	return 1
+	return true
 
 end

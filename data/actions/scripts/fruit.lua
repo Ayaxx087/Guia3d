@@ -9,20 +9,20 @@ function onUse(cid, item, frompos, item2, topos)
 		if itemmano.itemid == 2006 and itemmano.type == 0 then
 			doChangeTypeItem(itemmano.uid, 21)
 			doRemoveItem(item2.uid,1)
-			return 1
+			return true
 		end
 		--mano izquierda
 		itemmano = getPlayerSlotItem(cid, 6)
 		if itemmano.itemid == 2006 and itemmano.type == 0 then
 			doChangeTypeItem(itemmano.uid, 21)
 			doRemoveItem(item2.uid,1)
- 			return 1
+ 			return true
 		end
 
 		doPlayerSendCancel(cid, "You need an empty vial in your hands.")
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end
 

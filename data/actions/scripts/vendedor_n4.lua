@@ -13,5 +13,5 @@ function onUse(cid, item, frompos, item2, topos)
  	doTeleportThing(comprador.uid,npos)
  	doSendMagicEffect(npos,12)
 
-	return 1
+	return true
 end

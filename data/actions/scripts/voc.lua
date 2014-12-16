@@ -9,7 +9,7 @@ function onUse(cid, item, frompos, item2, topos)
 
 	if getPlayerVocation(cid) > 0 then
 		doPlayerSendTextMessage(cid,22,"Sorry, already have a vocation.")
-		return 1
+		return true
 	end
 
 	if getPlayerLevel(cid) >= 8 then
@@ -28,8 +28,8 @@ function onUse(cid, item, frompos, item2, topos)
 			doPlayerSendTextMessage(cid,22,"Now you are a knight")
 		end
 		doSendMagicEffect(topos,12)
-		return 1
+		return true
         else
-		return 0
+		return false
 	end
 end

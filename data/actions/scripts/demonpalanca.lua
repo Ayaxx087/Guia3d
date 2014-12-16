@@ -21,5 +21,5 @@ function onUse(cid, item, frompos, item2, topos)
  doSummonCreature("Demon", demon4pos)
 
 
-	return 1
+	return true
 end

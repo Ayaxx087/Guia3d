@@ -3,7 +3,7 @@
 function onUse(cid, item, frompos, item2, topos)
  if getPlayerLevel(cid) < 30 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 30.")
-		return 1
+		return true
 	end
 	if item2.itemid == 2391 then
 			doPlayerSendTextMessage(cid,22,"You make an enchanted over you weapon.")
@@ -113,7 +113,7 @@ function onUse(cid, item, frompos, item2, topos)
 
 	else
 --doPlayerSendTextMessage(cid,22,"Sorry, wrong item.")
-		return 0
+		return false
 	end
-	return 1
+	return true
 end

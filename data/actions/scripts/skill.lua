@@ -39,5 +39,5 @@ end
                 doSendMagicEffect(topos,12)
 	end
 
-	return 1
+	return true
 end

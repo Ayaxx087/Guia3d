@@ -8,9 +8,9 @@ function onUse(cid, item, frompos, item2, topos)
 		doPlayerSendTextMessage(cid,22,"Wellcome to the GuildHouse.")
 		doTeleportThing(cid,newpos)
 		doSendMagicEffect(newpos,12)
-		return 1
+		return true
 	else
 		doPlayerSendTextMessage(cid,22,"Sorry, you can not join to the Guild.")
-		return 0
+		return false
 	end
 end

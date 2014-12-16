@@ -7,9 +7,9 @@ function giveItemToPlayer(cid, itemid, count, cost, topos)
 		doSendMagicEffect(topos, 12)
 	else	
 		doPlayerSendCancel(cid, "You don\'t have enough money, you need ".. cost .." gold coins.")
-		return 0
+		return false
 	end	
-	return 1
+	return true
 end
 
 function onUse(cid, item, frompos, item2, topos)
@@ -72,5 +72,5 @@ function onUse(cid, item, frompos, item2, topos)
 
 
 	end	
-	return 1
+	return true
 end

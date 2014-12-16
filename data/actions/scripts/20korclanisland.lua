@@ -2,14 +2,14 @@
 function onUse(cid, item, frompos, item2, topos)
  if getPlayerLevel(cid) < 35 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 35.")
-		return 1
+		return true
 	end
 
 	if item.actionid == 2199 then
 
 		queststatus = getPlayerStorageValue(cid,2199)
 		if queststatus == -1 or queststatus == 0 then
-                     if doPlayerRemoveItem(cid, 2218, 1) == 1 then --mono amulet       
+                     if doPlayerRemoveItem(cid, 2218, 1) == true then --mono amulet       
 			orcoskey_uid = doPlayerAddItem(cid,2088,1)
                         doSetItemActionId(orcoskey_uid,605)
 			doPlayerSendTextMessage(cid,22,"You have found a key 605.")
@@ -47,7 +47,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end

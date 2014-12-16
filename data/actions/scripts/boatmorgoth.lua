@@ -1,7 +1,7 @@
 --boat to Morgoth city 200gp--
 function onUse(cid, item, frompos, item2, topos)
 	if item.actionid == 20040 then 
-		if doPlayerRemoveMoney(cid, 200) == 1 then --boat to Morgoth city 200gp
+		if doPlayerRemoveMoney(cid, 200) == true then --boat to Morgoth city 200gp
 			--npos = {x=381, y=695, z=8}
                         npos = {x=frompos.x, y=frompos.y-2, z=frompos.z}
                         doTeleportThing(cid,npos)
@@ -19,5 +19,5 @@ end
 		doTransformItem(item.uid, 1945)
 	end
 
-	return 1
+	return true
 end

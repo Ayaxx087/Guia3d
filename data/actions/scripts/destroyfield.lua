@@ -11,11 +11,11 @@ doRemoveItem(item.uid,1)
 end
 else
 doSendMagicEffect(frompos,2)
-return 0
+return false
 end
 else
 doSendMagicEffect(frompos,2)
 doPlayerSendCancel(cid,"You don't have the required magic level to use that rune.")
 end
-return 1
+return true
 end

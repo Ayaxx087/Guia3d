@@ -18,6 +18,6 @@ if item.itemid == 1945 then
  
 end
 
- return 1
+ return true
 end
 

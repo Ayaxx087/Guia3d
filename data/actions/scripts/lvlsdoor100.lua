@@ -8,10 +8,10 @@ function onUse(cid, item, frompos, item2, topos)
 
 	if getPlayerLevel(cid) < 100 then
 		doPlayerSendTextMessage(cid,23,"Sorry, you are under lvl 100.")
-		return 1
+		return true
 	end
 
-	if isInArray(puertas, item.itemid) == 1 then
+	if isInArray(puertas, item.itemid) == true then
 
 		doTransformItem(item.uid, item.itemid+1)
 
@@ -34,8 +34,8 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	else
-		return 0
+		return false
 	end
 
-	return 1
+	return true
 end

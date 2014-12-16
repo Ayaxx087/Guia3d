@@ -4,15 +4,15 @@ function onUse(cid, item, frompos, item2, topos)
  		doPlayerAddHealth(cid, -5)
  		doSendMagicEffect(frompos, 4)
  		doRemoveItem(item.uid, 1)
- 		return 1
+ 		return true
  	end
 
  	if item2.itemid == 5466 then
 		doTransformItem(item2.uid,5465)
 		doDecayItem(item2.uid)
  	else
- 		return 0
+ 		return false
  	end
 
-  	return 1
+  	return true
  end

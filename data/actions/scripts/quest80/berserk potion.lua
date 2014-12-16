@@ -10,7 +10,7 @@ if item.actionid == 21253 then
 
 	end
 
-	return 1
+	return true
 end
 
  

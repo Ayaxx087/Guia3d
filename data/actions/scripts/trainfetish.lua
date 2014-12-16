@@ -1,7 +1,7 @@
 function onUse(cid, item, frompos, item2, topos)
  
 	if item.uid == 8516 then
-                   if doPlayerRemoveMoney(cid, 500) == 1 then
+                   if doPlayerRemoveMoney(cid, 500) == true then
 			doPlayerSendTextMessage(cid,22,"You buy a Magic Parchment for 500 gold! make click on it on the GROUND, No Used it! into you Backpack.")
 			Parchment_uid = doPlayerAddItem(cid,1948,1)
 			doSetItemSpecialDescription(Parchment_uid, "Parchment of training")
@@ -20,5 +20,5 @@ function onUse(cid, item, frompos, item2, topos)
 			doPlayerSendTextMessage(cid,22,"you cant use it.")
 		end
 
-	return 1
+	return true
 end

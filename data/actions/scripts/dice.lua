@@ -5,6 +5,6 @@ function onUse(cid, item, frompos, item2, topos)
  	doPlayerSay(cid, name..' rolled a '..n, 16)
  	doTransformItem(item.uid, 5791 + n)
  	doSendMagicEffect(frompos, 26)
- 	return 1
+ 	return true
  end
 

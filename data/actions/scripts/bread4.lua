@@ -11,7 +11,7 @@ function onUse(cid, item, frompos, item2, topos)
 		doRemoveItem(item.uid,1)
 		doCreateItem(2689,1,topos)
 	else 
-		return 0
+		return false
 	end
-	return 1
+	return true
 end

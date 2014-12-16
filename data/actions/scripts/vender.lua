@@ -6,7 +6,7 @@ if item.actionid == 2992 then
                 --doCreateItem(2160,100)
                   doPlayerAddItem(cid,2160,100)
 	else 
-		return 0
+		return false
 	end
-	return 1
+	return true
 end

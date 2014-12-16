@@ -4,12 +4,12 @@ function onUse(cid, item, frompos, item2, topos)
 
  if getPlayerLevel(cid) < 30 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 30.")
-		return 1
+		return true
 	end
 
  if getPlayerVocation(cid) == 2 or getPlayerVocation(cid) == 3 or getPlayerVocation(cid) == 4 or getPlayerVocation(cid) == 6 or getPlayerVocation(cid) == 7 or getPlayerVocation(cid) == 8 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you vocation is no correct.")
-		return 1
+		return true
 	end
 	if item.actionid == 2192 then
 
@@ -25,7 +25,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end

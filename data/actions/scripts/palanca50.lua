@@ -18,7 +18,7 @@ if item.itemid == 1945 then
 
  end
 
- return 1
+ return true
 end
 
 --<action uniqueid="4004" script="palanca50.lua" />---

@@ -17,5 +17,5 @@ npos = {x=frompos.x, y=frompos.y, z=frompos.z}
                 doTransformItem(20015,1946)
                 doTransformItem(20016,1945)
  end
- return 1
+ return true
  end

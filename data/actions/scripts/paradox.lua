@@ -1,7 +1,7 @@
 -- example of quest --
  if getPlayerLevel(cid) < 30 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 30.")
-		return 1
+		return true
 	end
 function onUse(cid, item, frompos, item2, topos)
 	if item.uid == 9201 then
@@ -12,7 +12,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 
 	elseif item.uid == 9202 then
@@ -23,7 +23,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 
 	elseif item.uid == 9203 then
@@ -34,7 +34,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 
 	elseif item.uid == 9204 then
@@ -45,7 +45,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 
 	elseif item.uid == 9205 then
@@ -56,7 +56,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 
 	elseif item.uid == 9206 then
@@ -67,7 +67,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 
 	elseif item.uid == 9207 then
@@ -78,7 +78,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 
 	elseif item.uid == 9208 then
@@ -89,7 +89,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9209 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -99,7 +99,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9210 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -109,7 +109,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9211 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -119,7 +119,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9212 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -129,7 +129,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9213 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -139,7 +139,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9214 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -149,7 +149,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9215 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -159,7 +159,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9216 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -169,7 +169,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9217 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -179,7 +179,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9218 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -189,7 +189,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9219 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -199,7 +199,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9220 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -209,7 +209,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9221 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -219,7 +219,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9222 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -229,7 +229,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9223 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -239,7 +239,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9224 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -249,7 +249,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9225 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -259,7 +259,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9226 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -269,7 +269,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9227 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -279,7 +279,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9228 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -289,7 +289,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9229 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -299,7 +299,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9230 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -309,7 +309,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9231 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -319,7 +319,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9232 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -329,7 +329,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9233 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -339,7 +339,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9234 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -349,7 +349,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9235 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -359,7 +359,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9236 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -369,7 +369,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9237 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -379,7 +379,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9238 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -389,7 +389,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9239 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -399,7 +399,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9240 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -409,7 +409,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9241 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -419,7 +419,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9242 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -429,7 +429,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9243 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -439,7 +439,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9244 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -449,7 +449,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9245 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -459,7 +459,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9246 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -469,7 +469,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9247 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -479,7 +479,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9248 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -489,7 +489,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9249 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -499,7 +499,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9250 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -509,7 +509,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9251 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -519,7 +519,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9252 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -529,7 +529,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9253 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -539,7 +539,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9254 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -549,7 +549,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9255 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -559,7 +559,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9256 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -569,7 +569,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9257 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -579,7 +579,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9258 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -589,7 +589,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9259 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -599,7 +599,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9260 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -609,7 +609,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9261 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -619,7 +619,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9262 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -629,7 +629,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9263 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -639,7 +639,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9264 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -649,7 +649,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9265 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -659,7 +659,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9266 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -669,7 +669,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9267 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -679,7 +679,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9268 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -689,7 +689,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9269 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -699,7 +699,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9269 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -709,7 +709,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9270 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -719,7 +719,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9271 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -729,7 +729,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9272 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -739,7 +739,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9273 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -749,7 +749,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9274 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -759,7 +759,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9275 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -769,7 +769,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9276 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -779,7 +779,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9277 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -789,7 +789,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9278 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -799,7 +799,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9278 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -809,7 +809,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9279 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -819,7 +819,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9280 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -829,7 +829,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9281 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -839,7 +839,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9282 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -849,7 +849,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9283 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -859,7 +859,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9284 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -869,7 +869,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9285 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -879,7 +879,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9286 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -889,7 +889,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9287 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -899,7 +899,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9288 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -909,7 +909,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9289 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -919,7 +919,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9290 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -929,7 +929,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9291 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -939,7 +939,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9292 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -949,7 +949,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9293 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -959,7 +959,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9294 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -969,7 +969,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9295 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -979,7 +979,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9296 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -989,7 +989,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9297 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -999,7 +999,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9298 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -1009,7 +1009,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9299 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -1019,7 +1019,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9300 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -1029,7 +1029,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9301 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -1039,7 +1039,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9302 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -1049,7 +1049,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9303 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -1059,7 +1059,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9304 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -1069,7 +1069,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9305 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -1079,7 +1079,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9306 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -1089,7 +1089,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9307 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -1099,7 +1099,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9308 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -1109,7 +1109,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9309 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -1119,7 +1119,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 	elseif item.uid == 9310 then
 		queststatus = getPlayerStorageValue(cid,9200)
@@ -1129,7 +1129,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			--setPlayerStorageValue(cid,9200,1)--
 		else
-		return 0
+		return false
 		end
 
 
@@ -1162,9 +1162,9 @@ function onUse(cid, item, frompos, item2, topos)
 
 
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end
 
 

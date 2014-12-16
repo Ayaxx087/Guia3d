@@ -3,7 +3,7 @@
 
 function onUse(cid, item, frompos, item2, topos)
 	if item2.itemid == 0 then
-		return 0
+		return false
 	end	
 
  	if item.itemid == 2050 then
@@ -55,10 +55,10 @@ function onUse(cid, item, frompos, item2, topos)
  		doTransformItem(item.uid,2162)
 
 	else
-		return 0
+		return false
 	end
 
         doDecayItem(item.uid)
 
-	return 1
+	return true
 end

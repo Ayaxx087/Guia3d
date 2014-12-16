@@ -12,6 +12,6 @@ function onUse(cid, item, frompos, item2, topos)
 	end
 
 	doTransformItem(item.uid,item.itemid-2)
-	return 1
+	return true
 
 end

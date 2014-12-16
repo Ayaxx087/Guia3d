@@ -3,7 +3,7 @@
 function onUse(cid, item, frompos, item2, topos)
  if getPlayerLevel(cid) < 40 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 40.")
-		return 1
+		return true
 	end
           if item.itemid == 1945 then
 		queststatus = getPlayerStorageValue(cid,2176)
@@ -21,5 +21,5 @@ function onUse(cid, item, frompos, item2, topos)
 	else
 		doPlayerSendCancel(cid, "Sorry quest finish for today, plz try next day.")
 	end
-	return 1
+	return true
 end

@@ -1,7 +1,7 @@
 --Selling items--
 function onUse(cid, item, frompos, item2, topos)
 	if item.actionid == 3218 then 
-		if doPlayerRemoveItem(cid, 2123, 1) == 1 then --Ring of the Sky
+		if doPlayerRemoveItem(cid, 2123, 1) == true then --Ring of the Sky
 			doPlayerAddItem(cid, 2152, 20)  
 
 		else
@@ -9,7 +9,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3219 then 	
-		if doPlayerRemoveItem(cid, 7884, 1) == 1 then --Terra Mantle 
+		if doPlayerRemoveItem(cid, 7884, 1) == true then --Terra Mantle 
                         doPlayerAddItem(cid, 2152, 80) 
 
 		else
@@ -17,7 +17,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3220 then 	
-		if doPlayerRemoveItem(cid, 7885, 1) == 1 then --Terra Legs 
+		if doPlayerRemoveItem(cid, 7885, 1) == true then --Terra Legs 
                         doPlayerAddItem(cid, 2152, 90) 
 
 		else
@@ -25,7 +25,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3221 then 	
-		if doPlayerRemoveItem(cid, 7886, 1) == 1 then --Terra Boots 
+		if doPlayerRemoveItem(cid, 7886, 1) == true then --Terra Boots 
                         doPlayerAddItem(cid, 2152, 20) 
 
 		else
@@ -33,7 +33,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3222 then 	
-		if doPlayerRemoveItem(cid, 7903, 1) == 1 then --Terra Hood
+		if doPlayerRemoveItem(cid, 7903, 1) == true then --Terra Hood
                         doPlayerAddItem(cid, 2152, 40) 
 
 		else
@@ -41,7 +41,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3223 then 	
-		if doPlayerRemoveItem(cid, 7887, 1) == 1 then --Terra Amulet
+		if doPlayerRemoveItem(cid, 7887, 1) == true then --Terra Amulet
                         doPlayerAddItem(cid, 2152, 10) 
 
 		else
@@ -49,7 +49,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3224 then 	
-		if doPlayerRemoveItem(cid, 7897, 1) == 1 then --Glacier Robe
+		if doPlayerRemoveItem(cid, 7897, 1) == true then --Glacier Robe
                         doPlayerAddItem(cid, 2152, 80) 
 
 		else
@@ -57,7 +57,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3225 then 	
-		if doPlayerRemoveItem(cid, 7896, 1) == 1 then --Glacier Kilt
+		if doPlayerRemoveItem(cid, 7896, 1) == true then --Glacier Kilt
                         doPlayerAddItem(cid, 2152, 90) 
 
 		else
@@ -65,14 +65,14 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3226 then 	
-		if doPlayerRemoveItem(cid, 7892, 1) == 1 then --Glacier Shoes
+		if doPlayerRemoveItem(cid, 7892, 1) == true then --Glacier Shoes
                         doPlayerAddItem(cid, 2152, 20) 
 
 		else
 			doPlayerSendCancel(cid, "You dont have any Glacier Shoes to sell.")
 		end
 	elseif item.actionid == 3227 then 	
-		if doPlayerRemoveItem(cid, 7902, 1) == 1 then --Glacier Mask
+		if doPlayerRemoveItem(cid, 7902, 1) == true then --Glacier Mask
                         doPlayerAddItem(cid, 2152, 40) 
 
 		else
@@ -80,7 +80,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3228 then 	
-		if doPlayerRemoveItem(cid, 7888, 1) == 1 then --Glacier Amulet
+		if doPlayerRemoveItem(cid, 7888, 1) == true then --Glacier Amulet
                         doPlayerAddItem(cid, 2152, 10) 
 
 		else
@@ -88,7 +88,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3229 then 	
-		if doPlayerRemoveItem(cid, 7899, 1) == 1 then --Magma Coat
+		if doPlayerRemoveItem(cid, 7899, 1) == true then --Magma Coat
                         doPlayerAddItem(cid, 2152, 80) 
 
 		else
@@ -96,7 +96,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3230 then 	
-		if doPlayerRemoveItem(cid, 7894, 1) == 1 then --Magma Legs
+		if doPlayerRemoveItem(cid, 7894, 1) == true then --Magma Legs
                         doPlayerAddItem(cid, 2152, 90) 
 
 		else
@@ -104,7 +104,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3231 then 	
-		if doPlayerRemoveItem(cid, 7891, 1) == 1 then --Magma Boots
+		if doPlayerRemoveItem(cid, 7891, 1) == true then --Magma Boots
                         doPlayerAddItem(cid, 2152, 20) 
 
 		else
@@ -112,7 +112,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3232 then 	
-		if doPlayerRemoveItem(cid, 7900, 1) == 1 then --Magma Monocle
+		if doPlayerRemoveItem(cid, 7900, 1) == true then --Magma Monocle
                         doPlayerAddItem(cid, 2152, 20) 
 
 		else
@@ -120,7 +120,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3233 then 	
-		if doPlayerRemoveItem(cid, 7890, 1) == 1 then --Magma Amulet
+		if doPlayerRemoveItem(cid, 7890, 1) == true then --Magma Amulet
                         doPlayerAddItem(cid, 2152, 10) 
 
 		else
@@ -128,7 +128,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3234 then 	
-		if doPlayerRemoveItem(cid, 7898, 1) == 1 then --Lightning Robe
+		if doPlayerRemoveItem(cid, 7898, 1) == true then --Lightning Robe
                         doPlayerAddItem(cid, 2152, 80) 
 
 		else
@@ -136,7 +136,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3235 then 	
-		if doPlayerRemoveItem(cid, 7895, 1) == 1 then --Lightning Legs
+		if doPlayerRemoveItem(cid, 7895, 1) == true then --Lightning Legs
                         doPlayerAddItem(cid, 2152, 90) 
 
 		else
@@ -144,7 +144,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3236 then 	
-		if doPlayerRemoveItem(cid, 7893, 1) == 1 then --Lightning Boots
+		if doPlayerRemoveItem(cid, 7893, 1) == true then --Lightning Boots
                         doPlayerAddItem(cid, 2152, 20) 
 
 		else
@@ -152,7 +152,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3237 then 	
-		if doPlayerRemoveItem(cid, 7901, 1) == 1 then --Lightning Headband
+		if doPlayerRemoveItem(cid, 7901, 1) == true then --Lightning Headband
                         doPlayerAddItem(cid, 2152, 40) 
 
 		else
@@ -160,7 +160,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3238 then 	
-		if doPlayerRemoveItem(cid, 7889, 1) == 1 then --Lightning Pendant
+		if doPlayerRemoveItem(cid, 7889, 1) == true then --Lightning Pendant
                         doPlayerAddItem(cid, 2152, 10) 
 
 		else
@@ -168,7 +168,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 
 	elseif item.actionid == 3239 then 	
-		if doPlayerRemoveItem(cid, 5941, 1) == 1 then --distance stake
+		if doPlayerRemoveItem(cid, 5941, 1) == true then --distance stake
                         doPlayerAddItem(cid, 2152, 10) 
 
 		else
@@ -181,5 +181,5 @@ end
 		doTransformItem(item.uid, 1945)
 	end
 
-	return 1
+	return true
 end

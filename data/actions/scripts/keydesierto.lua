@@ -30,8 +30,8 @@ function onUse(cid, item, frompos, item2, topos)
 		else
 			doPlayerSendTextMessage(cid,22,"Sorry, you can not use it....")
 		end
-		return 1
+		return true
 	end
 end
-return 1
+return true
 end

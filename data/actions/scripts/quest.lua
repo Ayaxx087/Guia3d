@@ -10,7 +10,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSetItemText(picture_uid, "Go to the east to find the treasure.")
 			setPlayerStorageValue(cid,1000,1)
 		else
-			return 0
+			return false
 		end
 	elseif item.actionid == 5000 then
 		queststatus = getPlayerStorageValue(cid,1000)
@@ -24,7 +24,7 @@ function onUse(cid, item, frompos, item2, topos)
 				setPlayerStorageValue(cid,1000,2)
 			end
 		else
-			return 0
+			return false
 		end
 	elseif item.uid == 2001 then
 		queststatus = getPlayerStorageValue(cid,1000)
@@ -34,7 +34,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doSendMagicEffect(npos,12)
 			setPlayerStorageValue(cid,1000,3)
 		else
-			return 0
+			return false
 		end
 	elseif item.uid == 2002 then
 		queststatus = getPlayerStorageValue(cid,1000)
@@ -57,7 +57,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doPlayerSendCancel(cid,"Only some special people can use this lyre.")
 		end
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end

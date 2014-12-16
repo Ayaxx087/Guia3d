@@ -3,7 +3,7 @@
 function onUse(cid, item, frompos, item2, topos)
 npos = {x=topos.x, y=topos.y, z=topos.z}
 if item2.itemid == 0 then
- return 0
+ return false
 end 
 
 if item2.itemid == 384 then
@@ -230,8 +230,8 @@ elseif item2.itemid == 418 then
 		end
 --END hole or stair to rope items--
 	else
-		return 0
+		return false
 	end
 	
-	return 1
+	return true
 end

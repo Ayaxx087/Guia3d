@@ -16,5 +16,5 @@ if item.itemid == 1945 then
  	doTransformItem(1200,1444)
  end
 
- return 1
+ return true
 end

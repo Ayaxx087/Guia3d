@@ -8,9 +8,9 @@ function onUse(cid, item, frompos, item2, topos)
 		doPlayerSendTextMessage(cid,22,"Now you live in Tutor room.")
 		doTeleportThing(cid,newpos)
 		doSendMagicEffect(newpos,12)
-		return 1
+		return true
 	else
 		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 1")
-		return 0
+		return false
 	end
 end

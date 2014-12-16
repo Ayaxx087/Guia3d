@@ -1,14 +1,14 @@
 function onUse(cid, item, frompos, item2, topos)
  if getPlayerLevel(cid) < 30 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 30.")
-		return 1
+		return true
 	end
 
 	if item.actionid == 21222 then
 
 		queststatus = getPlayerStorageValue(cid,21222)
 		if queststatus == -1 or queststatus == 0 then
-                     if doPlayerRemoveItem(cid, 5880, 100) == 1 then -- 100 iron ore     
+                     if doPlayerRemoveItem(cid, 5880, 100) == true then -- 100 iron ore     
 			doPlayerSendTextMessage(cid,22,"You have found a sword hit.")
 			doPlayerAddItem(cid,2350,1)
                         doSendMagicEffect(topos,12)
@@ -24,8 +24,8 @@ function onUse(cid, item, frompos, item2, topos)
 --------------------
 
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end
 

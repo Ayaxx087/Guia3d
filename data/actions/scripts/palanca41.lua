@@ -19,7 +19,7 @@ npos = {x=frompos.x, y=frompos.y, z=frompos.z}
                 doTransformItem(1203,1946)
                 doTransformItem(4003,1945)
  end
- return 1
+ return true
  end
 
 --<action uniqueid="1203" script="palanca41.lua" /> --little quest--

@@ -5,10 +5,10 @@ function onUse(cid, item, frompos, item2, topos)
 			doPlayerSendTextMessage(cid,22,"You find a strange text...")
 			doShowTextWindow(item.uid,0,0)
 	else
-		return 0
+		return false
 
 end
-	return 1
+	return true
 end
 
 

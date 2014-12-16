@@ -8,5 +8,5 @@ function onUse(cid, item, frompos, item2, topos)
                 doSendMagicEffect(frompos, 0)
 	end
 	doRemoveItem(item.uid, 1)
-	return 1
+	return true
 end

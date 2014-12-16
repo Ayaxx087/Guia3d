@@ -36,6 +36,6 @@ addEvent(writePlayers, 60000, nil)
 
 -- DUmmy function
 function onUse(cid, item, frompos, item2, topos)
-	return 1
+	return true
 end
 ---------FIN PLAYERS ONLINE------

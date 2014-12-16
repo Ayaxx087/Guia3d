@@ -1,7 +1,7 @@
 function onUse(cid, item, frompos, item2, topos)
 
 	if item.actionid == 2800 then
-	 if doPlayerRemoveMoney(cid, 3020) == 1 then --UH
+	 if doPlayerRemoveMoney(cid, 3020) == true then --UH
 			doPlayerSendTextMessage(cid,22,"You buy 20 adura vita and a bp.")
                         doSendMagicEffect(topos,12)
 			doPlayerAddItem(cid,2002,1)
@@ -33,7 +33,7 @@ end
 
 
 	elseif item.actionid == 2801 then
-	 if doPlayerRemoveMoney(cid, 2020) == 1 then --HMM
+	 if doPlayerRemoveMoney(cid, 2020) == true then --HMM
 	                doPlayerSendTextMessage(cid,22,"You buy 20 adori gran and a bp.")
                         doSendMagicEffect(topos,12)
 			doPlayerAddItem(cid,2001,1)
@@ -65,7 +65,7 @@ end
 
 
 	elseif item.actionid == 2802 then
-	 if doPlayerRemoveMoney(cid, 3520) == 1 then --GFB
+	 if doPlayerRemoveMoney(cid, 3520) == true then --GFB
 	                doPlayerSendTextMessage(cid,22,"You buy 20 adori gran flam and a bp.")
                         doSendMagicEffect(topos,12)
 			doPlayerAddItem(cid,2000,1)
@@ -99,7 +99,7 @@ end
 
 
 	elseif item.actionid == 2803 then
-	 if doPlayerRemoveMoney(cid, 6020) == 1 then --SD
+	 if doPlayerRemoveMoney(cid, 6020) == true then --SD
 	                doPlayerSendTextMessage(cid,22,"You buy 20 adori vita vis and a bp.")
                         doSendMagicEffect(topos,12)
 			doPlayerAddItem(cid,2003,1)
@@ -131,7 +131,7 @@ else
 end
 
 	elseif item.actionid == 2804 then --blank rune
-	 if doPlayerRemoveMoney(cid, 220) == 1 then 
+	 if doPlayerRemoveMoney(cid, 220) == true then 
 	                doPlayerSendTextMessage(cid,22,"You buy 20 blank rune and a bp.")
                         doSendMagicEffect(topos,12)
 			doPlayerAddItem(cid,1988,1)
@@ -163,7 +163,7 @@ else
 end
 
 	elseif item.actionid == 2805 then
-	 if doPlayerRemoveMoney(cid, 3520) == 1 then --EXPLOSION
+	 if doPlayerRemoveMoney(cid, 3520) == true then --EXPLOSION
 	                doPlayerSendTextMessage(cid,22,"You buy 20 adevo mas hur and a bp.")
                         doSendMagicEffect(topos,12)
 			doPlayerAddItem(cid,2001,1)
@@ -196,7 +196,7 @@ end
 
  	elseif item.actionid == 2806 then --MANA FLUID
 
-	 if doPlayerRemoveMoney(cid, 3020) == 1 then --manas fluid
+	 if doPlayerRemoveMoney(cid, 3020) == true then --manas fluid
 	        doPlayerSendTextMessage(cid,22,"You buy 20 manas fluid and a bp.")
                 doSendMagicEffect(topos,12)
 		doPlayerAddItem(cid,1988,1)
@@ -228,7 +228,7 @@ end
 
  	elseif item.actionid == 2807 then --MANA RUNE
 
-	 if doPlayerRemoveMoney(cid, 60020) == 1 then --manas RUNES
+	 if doPlayerRemoveMoney(cid, 60020) == true then --manas RUNES
 	        doPlayerSendTextMessage(cid,22,"You buy a backpack with 20 manas runes.")
                 doSendMagicEffect(topos,12)
 		doPlayerAddItem(cid,1988,1)
@@ -259,5 +259,5 @@ else
 end
 
 end
-	return 1
+	return true
 end

@@ -4,19 +4,19 @@
 function onUse(cid, item, frompos, item2, topos)
 	if frompos.x == 65535 then
  		doPlayerSendCancel(cid,"Use it on the floor.")
- 		return 1
+ 		return true
  	end
 
-	if getTileHouseInfo(frompos) == 0 then
+	if getTileHouseInfo(frompos) == false then
 		doPlayerSendCancel(cid,"Use it in houses.")
- 		return 1
+ 		return true
 	end
 
 	tilepos = topos
 	tilepos.stackpos = 253
 	creature = getThingfromPos(tilepos)
 	if creature.uid > 0 then
-		return 0
+		return false
 	end
 
 
@@ -192,8 +192,8 @@ function onUse(cid, item, frompos, item2, topos)
 		doTransformItem(item.uid, 1750) --1750 large trunk
                 doSendMagicEffect(topos,12)
 	else
-		return 0
+		return false
 
 	end
-	return 1
+	return true
 end
