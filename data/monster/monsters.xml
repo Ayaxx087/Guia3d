@@ -271,28 +271,28 @@
 --End monster 80
 
 --Monster 8.1
-<monster name="Cyclops Drone" file="Monster81/Cyclops Drone.xml" />
-<monster name="Cyclops Smith" file="Monster81/Cyclops Smith.xml" />
-<monster name="Cat" file="Monster81/cat.xml" />
-<monster name="Dragon Hatchling" file="Monster81/Dragon Hatchling.xml" />
-<monster name="Dragon Lord Hatchling" file="Monster81/Dragon Lord Hatchling.xml" />
-<monster name="Frost Dragon Hatchling" file="Monster81/Frost Dragon Hatchling.xml" />
-<monster name="Sea serpent" file="Monster81/Sea serpent.xml" />
-<monster name="Squirrel" file="Monster81/Squirrel.xml" />
-<monster name="Troll Champion" file="Monster81/Troll Champion.xml" />
-<monster name="klaus cat" file="Monster81/klaus cat.xml" />
-<monster name="Elder Lich" file="Monster81/elder lich.xml" />
-<monster name="Ghazbaran" file="Monster81/Ghazbaran.xml" />
+<monster name="Cyclops Drone" file="monster81/Cyclops Drone.xml" />
+<monster name="Cyclops Smith" file="monster81/Cyclops Smith.xml" />
+<monster name="Cat" file="monster81/cat.xml" />
+<monster name="Dragon Hatchling" file="monster81/Dragon Hatchling.xml" />
+<monster name="Dragon Lord Hatchling" file="monster81/Dragon Lord Hatchling.xml" />
+<monster name="Frost Dragon Hatchling" file="monster81/Frost Dragon Hatchling.xml" />
+<monster name="Sea serpent" file="monster81/Sea serpent.xml" />
+<monster name="Squirrel" file="monster81/Squirrel.xml" />
+<monster name="Troll Champion" file="monster81/Troll Champion.xml" />
+<monster name="klaus cat" file="monster81/klaus cat.xml" />
+<monster name="Elder Lich" file="monster81/elder lich.xml" />
+<monster name="Ghazbaran" file="monster81/Ghazbaran.xml" />
 <monster name="deathslicer2" file="rares/deathslicer2.xml" />
-<monster name="klaus cat gold" file="Monster81/Klaus cat gold.xml" />
-<monster name="Knight Soldier" file="Monster81/Knight Soldier.xml" />
-<monster name="Knight Gold" file="Monster81/Knight Gold.xml" />
-<monster name="Rumpelstikin" file="Monster81/Rumpelstikin.xml" />
-<monster name="Armagedon 90" file="Monster81/Armagedon 90.xml" />
-<monster name="ruly the cat" file="Monster81/ruly the cat.xml" />
-<monster name="Albert the Squirrel" file="Monster81/Albert the Squirrel.xml" />
-<monster name="the king atolon1000" file="Monster81/the king atolon1000.xml" />
-<monster name="The Evul Klautyo2000" file="Monster81/The Evul Klautyo2000.xml" />
+<monster name="klaus cat gold" file="monster81/Klaus cat gold.xml" />
+<monster name="Knight Soldier" file="monster81/Knight Soldier.xml" />
+<monster name="Knight Gold" file="monster81/Knight Gold.xml" />
+<monster name="Rumpelstikin" file="monster81/Rumpelstikin.xml" />
+<monster name="Armagedon 90" file="monster81/Armagedon 90.xml" />
+<monster name="ruly the cat" file="monster81/ruly the cat.xml" />
+<monster name="Albert the Squirrel" file="monster81/Albert the Squirrel.xml" />
+<monster name="the king atolon1000" file="monster81/the king atolon1000.xml" />
+<monster name="The Evul Klautyo2000" file="monster81/The Evul Klautyo2000.xml" />
 --End Monster 8.1
 
 --8.22 Monsters
@@ -310,7 +310,7 @@
 <monster name="Young Sea Serpent" file="8.22/young sea serpent.xml"/>
 <monster name="Blistering Fire Elemental" file="8.22/blistering fire elemental.xml"/>
 <monster name="Goblin Scavenger" file="8.22/goblin scavenger.xml"/>
-<monster name="Goblin Scavenger2" file="8.22/Zoralurk.xml"/>
+<monster name="Goblin Scavenger2" file="8.22/zoralurk.xml"/>
 <monster name="Muddy Earth Elemental" file="8.22/muddy earth elemental.xml"/>
 <monster name="Massive Earth Elemental" file="8.22/massive earth elemental.xml"/>
 <monster name="Big Boss Trolliver" file="8.22/big boss trolliver.xml"/>
@@ -321,7 +321,7 @@
 <monster name="The Bear one" file="The Bear one.xml" />
 <monster name="train rat" file="train rat.xml" />
 <monster name="Tiro al Blanco" file="Tiro al Blanco.xml" />
-<monster name="Train" file="Train.xml" />
+<monster name="Train" file="train.xml" />
 <monster name="Yellow Butterfly" file="Yellow Butterfly.xml" />
 
 
