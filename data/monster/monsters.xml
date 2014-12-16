@@ -280,15 +280,15 @@
 <monster name="Sea serpent" file="monster81/Sea serpent.xml" />
 <monster name="Squirrel" file="monster81/Squirrel.xml" />
 <monster name="Troll Champion" file="monster81/Troll Champion.xml" />
-<monster name="klaus cat" file="monster81/klaus cat.xml" />
-<monster name="Elder Lich" file="monster81/elder lich.xml" />
+<monster name="klaus cat" file="monster81/Klaus cat.xml" />
+<monster name="Elder Lich" file="monster81/Elder lich.xml" />
 <monster name="Ghazbaran" file="monster81/Ghazbaran.xml" />
 <monster name="deathslicer2" file="rares/deathslicer2.xml" />
 <monster name="klaus cat gold" file="monster81/Klaus cat gold.xml" />
 <monster name="Knight Soldier" file="monster81/Knight Soldier.xml" />
 <monster name="Knight Gold" file="monster81/Knight Gold.xml" />
 <monster name="Rumpelstikin" file="monster81/Rumpelstikin.xml" />
-<monster name="Armagedon 90" file="monster81/Armagedon 90.xml" />
+<monster name="Armagedon 90" file="monster81/armagedon 90.xml" />
 <monster name="ruly the cat" file="monster81/ruly the cat.xml" />
 <monster name="Albert the Squirrel" file="monster81/Albert the Squirrel.xml" />
 <monster name="the king atolon1000" file="monster81/the king atolon1000.xml" />
