@@ -1,0 +1,18 @@
+
+--271 - Dragon Hatchling
+--272 - Dragon Lord Hatchling
+--274 - Squirrel
+--275 - Sea serpent(?)
+--276 - Cat
+--277 - Cyclops Smith
+--280 - Cyclops Drone
+--281 - Troll champion
+--282 - Island Troll
+
+267 - White token(wtf? oO)
+268 - Nightmare Knight male
+269 - Nightmare Knight female
+270 - Jester female
+273 - Jester male
+278 - Brotherhood of Bones male
+279 - Brotherhood of Bones female

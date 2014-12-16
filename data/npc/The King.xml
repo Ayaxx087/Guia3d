@@ -1,0 +1,28 @@
+<npc name="The King" script="data/npc/scripts/the king.lua" autowalk="80" floorchange="0" speed="80" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="73" head="140" body="64" legs="121" feet="76" corpse="2212"/>
+	<parameters>
+		<parameter key="message_farewell" value="Farewell |PLAYERNAME|!" />
+	        <parameter key="message_greet" value="Greetings |PLAYERNAME|. You are welcome to my house." />
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="big fish,2269,1000;salmon,2268,500;mystic turban,2663,2500;red robe,2655,2000" />
+		<parameter key="module_travel" value="1" />
+		<parameter key="travel_destinations" value="artica,503,67,7,120" />
+		<!-- Syntax: name,x,y,z,cost,premium;name,x,y,z,cost;name,x,y,z,cost,premium etc. -->
+		<!-- Premium is not needed for the npc to work and will require the isPlayerPremiumCallback function to be defined.  -->
+
+		<parameter key="module_keywords" value="1" />
+------------------------------------------------  1    2    3     4     5      6      7       8      9    10
+		<parameter key="keywords" value="job;name;promo;help;mission;quest;princes;blessing;info;item" />
+		<parameter key="keyword_reply1" value="Im the king of the city. need travel to Artica  island?" />
+		<parameter key="keyword_reply2" value="My name is King. Why do you ask?" />
+		<parameter key="keyword_reply3" value="You can get promotion for 20000 gold coins but you need travel to artica." />
+		<parameter key="keyword_reply4" value="Do I look like a helpful guy to you?. I offer the possability to travel to Artica island also you can buy a blessing on the island." />
+		<parameter key="keyword_reply5" value="What are you talking about?" />
+		<parameter key="keyword_reply6" value="Hum. I'll tell you what! If you come back in a month or so I might be able to help you with that my friend." />
+		<parameter key="keyword_reply7" value="She is my wife but i dont no where is she." />
+		<parameter key="keyword_reply8" value="in Artica island or Armenio island, you can buy a blessing for 10k gold coin. You will not lose Exp if you die." />
+		<parameter key="keyword_reply9" value="in Artica island or Armenio island, you can buy a blessing for 10k gold coin. You will not lose Exp if you die." />
+		<parameter key="keyword_reply10" value="if you have many semi rares items i can buy that! say me the item names." />
+	</parameters>
+</npc>

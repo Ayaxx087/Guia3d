@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="assasin" nameDescription="a assasin" race="blood" experience="337" speed="224" manacost="0">
+  <health now="175" max="175"/>
+  <look type="152" head="114" body="114" legs="114" feet="114" addons="3" corpse="6080"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="45" attack="45"/>
+    <attack name="physical" interval="3000" chance="13" range="7" min="-28" max="-38">
+      <attribute key="shootEffect" value="throwingstar"/>
+    </attack>
+    <attack name="drunk" interval="3000" chance="10" range="6">
+      <attribute key="shootEffect" value="poison"/>
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+  </attacks>
+  <defenses armor="15" defense="10">
+    <defense name="speed" interval="3000" chance="9" speedchange="260" duration="3000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+    <defense name="invisible" interval="3000" chance="14" duration="4000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+    <immunity ice="0"/>
+    <immunity holy="0"/>
+    <immunity death="0"/>
+    <immunity earth="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Die!"/>
+    <voice sentence="Feel the hand of death!"/>
+    <voice sentence="You are on my deathlist!"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+    <item id="2148" countmax="20" chance1="100000" chancemax="0"/>
+    <item id="2671" countmax="2" chance1="10000" chancemax="0"/>
+    <item id="2666" countmax="3" chance1="20000" chancemax="0"/>
+    <item id="2376" chance="6666"/>
+    <item id="2649" chance="5000"/>
+    <item id="2661" chance="4000"/>
+    <item id="3968" chance="333"/>
+    <item id="1987" chance="100000">
+      <inside>
+        <item id="7366" chance="6667" countmax="3" /> -- viper star
+        <item id="2391" chance="555"/>
+        <item id="2671" countmax="2" chance1="10000" chancemax="0"/>
+      </inside>
+    </item>
+  </loot>
+</monster>

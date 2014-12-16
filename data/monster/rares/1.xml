@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Oracle" nameDescription="a The Oracle" race="undead" experience="100" speed="260" manacost="0">
+  <health now="3820" max="3820"/>
+  <look typeex="1448" head="20" body="30" legs="40" feet="50" />
+  <targetchange interval="4000" chance="7"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="80"/>
+    <flag runonhealth="8"/>
+  </flags>
+  <attacks>
+    <attack name="poisonfield" interval="1000" chance="57" range="7" radius="1" target="1">
+      <attribute key="shootEffect" value="poison"/>
+    </attack>
+  </attacks>
+  <defenses armor="1" defense="4"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+    <immunity ice="0"/>
+    <immunity holy="0"/>
+    <immunity death="0"/>
+    <immunity earth="0"/>
+  </immunities>
+  <voices interval="1000" chance="20">
+    <voice sentence="Are you prepared you face your destiny?"/>
+    <voice sentence="Are you sure that you wish to become a player This decition is irreversible!"/>
+    <voice sentence="Allright then. What vocation do you wish to become? A sorcerer, druid, paladin or knight!"/>
+    <voice sentence="You are not yet worthy. Come back when you are ready"/>
+  </voices>
+  <loot>
+    <item id="2671" countmax="10" chance1="33333" chancemax="0"/>
+  </loot>
+</monster>

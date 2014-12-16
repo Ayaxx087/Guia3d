@@ -1,205 +1,37 @@
 <?xml version="1.0"?>
-<npc name="The Oracle" floorchange="0" walkinterval="0">
-	<health now="150" max="150"/>
-	<look typeex="1448"/>
-	
-	<interaction range="3" idletimeout="30">
-		
-		<interact keywords="hi" focus="1">
-			<!--These are the keywords will trigger this interaction-->
-			<keywords>hello</keywords>
-			<keywords>greet</keywords>
 
-			<response>
-				<action name="script">
-					<!--
-					if(getPlayerVocation(cid) ~= 0) then
-						selfSay("SORRY, YOU HAVE ALREADY MADE YOUR CHOICE IN LIFE!")
-						_state.isidle = true
-						return
-					end
-					-->
-					
-					if(getPlayerLevel(cid)) >= 8 then
-						selfSay(getCreatureName(cid) .. ", ARE YOU PREPARED O FACE YOUR DESTINY?")
-						_state.b1 = (isPremium(cid) == TRUE)
-						_state.topic = 1
-					else
-						selfSay("CHILD! COME BACK WHEN YOU HAVE GROWN UP!")
-						_state.isidle = true
-					end
-				</action>
-			</response>
-			
-			</interact>
+<npc name="Oracle" script="data/npc/scripts/oracle.lua" access="0" autowalk="0">
+      	<health now="150" max="150"/>
+        <look typeex="1448" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. Do you want to buy amulet of or mana fluids or life fluids or a blessing?" />
+		<parameter key="message_needmoremoney" value="You do not have enough money." />
+		<parameter key="message_decline" value="Is |TOTALCOST| gold coins too much for you?" />
+		<parameter key="module_keywords" value="1" />
+------------------------------------------------   1     2       3         4            5     6     7     8    9    10   11     12     13     14    15    16        17     18   19    20   21
+		<parameter key="keywords" value="name;armenio;artica;amulet of loss;blessing;aol;fluids;offer;sell;job;quest;mission;oferta;mision;free;gratis;gamemaster;help;ayuda;info;item" />
+		<parameter key="keyword_reply1" value="Im the oracle." />
+		<parameter key="keyword_reply2" value="Armenio can sell you amulet of loss or fluids or a nice blessing." />
+		<parameter key="keyword_reply3" value="speaks with the king for travel to artica for just a small fee." />
+		<parameter key="keyword_reply4" value="You need travel to Artica for buy that" />
+		<parameter key="keyword_reply5" value="You need travel to Artica to buy a blessing. You will not lose Exp if you die. The King may help you on that." />
+		<parameter key="keyword_reply6" value="You need travel to Artica for buy that." />
+		<parameter key="keyword_reply7" value="I have got many fluids." />
+		<parameter key="keyword_reply8" value="I offer many fluids and info about travel to Artica, Armenio and blessing. Say me the item name." />
+		<parameter key="keyword_reply9" value="Nothing i buy." />
+		<parameter key="keyword_reply10" value="Im the oracle of the life." />
+		<parameter key="keyword_reply11" value="ok, give me an item." />
+		<parameter key="keyword_reply12" value="My mission is help you on the life." />
+		<parameter key="keyword_reply13" value="Yo ofrezco fluids e informacion sobre Artica, Armenio y los blessing. Dime el nombre del objeto." />
+		<parameter key="keyword_reply14" value="Mi mision es la de ayudarte en tu vida." />
+		<parameter key="keyword_reply15" value="Any item free? Sorry i cant." />
+		<parameter key="keyword_reply16" value="Quieres items gratis? lo siento pero no puedo darte nada." />
+		<parameter key="keyword_reply17" value="Need a Game Master? open the Help channel, for any help." />
+		<parameter key="keyword_reply18" value="Need help? open the Help channel, for any help." />
+		<parameter key="keyword_reply19" value="Necesitas ayuda? abre el Canal Help y pide ayuda." />
+		<parameter key="keyword_reply20" value="Im the oracle of the life and i sell fluids and info about Armenio, Artica and blessing." />
+		<parameter key="keyword_reply21" value="I offer many fluids and others... Say me the item name." />
 
-		<interact topic="1" keywords="yes">
-			<!--Premium account, b1 is set in above-->
-			<response b1="1" text="IN WHICH TOWN DO YOU WANT TO LIVE: CARLIN, EDRON, THAIS, OR VENORE?">
-				<action name="topic" value="2"/>
-			</response>
-			
-			<!--Normal account-->
-			<response text="IN WHICH TOWN DO YOU WANT TO LIVE: CARLIN, THAIS, OR VENORE?">
-				<action name="topic" value="2"/>
-			</response>
-		</interact>
-
-		<interact topic="2" keywords="carlin">
-			<response text="IN CARLIN! AND WHAT PROFESSION HAVE YOU CHOSEN: KNIGHT, PALADIN, SORCERER, OR DRUID?">
-				<!--n1: 1 = carlin, 2 = edron, 3 = thais, 4 = venore-->
-				<action name="script">
-					_state.n1 = 1
-					_state.topic = 3
-				</action>
-			</response>
-		</interact>
-
-		<interact topic="2" keywords="thais">
-			<response text="IN THAIS! AND WHAT PROFESSION HAVE YOU CHOSEN: KNIGHT, PALADIN, SORCERER, OR DRUID?">
-				<!--n1: 1 = carlin, 2 = edron, 3 = thais, 4 = venore-->
-				<action name="script">
-					_state.n1 = 2
-					_state.topic = 3
-				</action>
-			</response>
-		</interact>
-
-		<interact topic="2" keywords="venore">
-			<response text="IN VENORE! AND WHAT PROFESSION HAVE YOU CHOSEN: KNIGHT, PALADIN, SORCERER, OR DRUID?">
-				<!--n1: 1 = carlin, 2 = edron, 3 = thais, 4 = venore-->
-				<action name="script">
-					_state.n1 = 3
-					_state.topic = 3
-				</action>
-			</response>
-		</interact>
-
-		<interact topic="2" keywords="edron">
-			<response text="YOU NEED A PREMIUM ACCOUNT IN ORDER TO GO THERE!">
-				<!--Set the topic back to 2, ie. choose a new town.-->
-				<action name="topic" value="2"/>
-			</response>
-			<!--b1: premium account, see <interact keywords="hi" focus="1"> where _state.b1 is is set.-->
-			<response b1="1" text="IN EDRON! AND WHAT PROFESSION HAVE YOU CHOSEN: KNIGHT, PALADIN, SORCERER, OR DRUID?">
-				<!--n1: 1 = carlin, 2 = edron, 3 = thais, 4 = venore-->
-				<action name="script">
-					_state.n1 = 3
-					_state.topic = 3
-				</action>
-			</response>
-		</interact>
-		
-		<!--If the player does not say any city, repeat our question-->
-		<interact topic="2" keywords="|*|">
-			<response b1="1" text="CARLIN, EDRON, THAIS, OR VENORE?">
-				<action name="topic" value="2"/>
-			</response>
-			<response text="CARLIN, EDRON, THAIS, OR VENORE?">
-				<action name="topic" value="2"/>
-			</response>
-		</interact>
-
-		<interact topic="3" keywords="sorcerer">
-			<response text="A SORCERER! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!">
-				<!--n2: 1 = sorcerer, 2 = druid, 3 = paladin, 4 = knight-->
-				<action name="script">
-					_state.n2 = 1
-					_state.topic = 4
-				</action>
-			</response>
-		</interact>
-
-		<interact topic="3" keywords="druid">
-			<response text="A DRUID! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!">
-				<!--n2: 1 = sorcerer, 2 = druid, 3 = paladin, 4 = knight-->
-				<action name="script">
-					_state.n2 = 2
-					_state.topic = 4
-				</action>
-			</response>
-		</interact>
-
-		<interact topic="3" keywords="paladin">
-			<response text="A PALADIN! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!">
-				<!--n2: 1 = sorcerer, 2 = druid, 3 = paladin, 4 = knight-->
-				<action name="script">
-					_state.n2 = 3
-					_state.topic = 4
-				</action>
-			</response>
-		</interact>
-		
-		<interact topic="3" keywords="knight">
-			<response text="A KNIGHT! ARE YOU SURE? THIS DECISION IS IRREVERSIBLE!">
-				<!--n2: 1 = sorcerer, 2 = druid, 3 = paladin, 4 = knight-->
-			<action name="script">
-					_state.n2 = 4
-					_state.topic = 4
-				</action>
-			</response>
-		</interact>
-
-		<!--If the player does not say any profession, repeat our question-->
-		<interact topic="3" keywords="|*|">
-			<response text="KNIGHT, PALADIN, SORCERER, OR DRUID?">
-				<action name="topic" value="3"/>
-			</response>
-		</interact>
-		
-		<interact topic="4" keywords="yes">
-			<response>
-				<!--n1: 1 = carlin, 2 = edron, 3 = thais, 4 = venore-->
-				<!--n2: 1 = knight, 2 = paladin, 3 = sorcerer, 4 = druid-->
-				<action name="script">
-					local pos = 0
-					if(_state.n1 == 1) then
-						pos = {x=180, y=233, z=7}
-					elseif(_state.n1 == 2) then
-						pos = {x=180, y=233, z=7}
-					elseif(_state.n1 == 3) then
-						pos = {x=180, y=233, z=7}
-					elseif(_state.n1 == 4) then
-						pos = {x=180, y=233, z=7}
-					else
-						selfSay("I DO NOT KNOW WHAT PROFESSION THAT IS, ASK THE GODS FOR GUIDANCE!")
-						return
-					end
-					
-					selfSay("SO BE IT!")
-					doSendMagicEffect(getCreaturePosition(cid), CONST_ME_TELEPORT)
-
-					if(doTeleportThing(cid, pos) == 0) then
-						doPlayerSetVocation(cid, _state.n2)
-						doSendMagicEffect(getCreaturePosition(cid), CONST_ME_TELEPORT)
-					end                  
-
-				</action>
-				<action name="idle" value="1"/>
-			</response>
-		</interact>
-		
-		<interact keywords="bye" focus="0">
-			<keywords>farewell</keywords>
-			<response text="Good bye. Recommend us, if you were satisfied with our service."/>
-		</interact>
-
-		<!--
-		If the event onBusy exists, the npc will make a queue like Tibia, if the event is removed
-		the npc will be able to talk to all customers at the same time without problems.
-		-->
- 
-		<interact event="onBusy">
-			<response text="WAIT UNTIL IT IS YOUR TURN!">
-				<action name="addqueue" value="|PLAYER|"/>
-			</response>
-		</interact>
-
-		<!--This event triggers if the player goes to far away from the npc/logout/idle timeout-->
-		<interact event="onPlayerLeave" focus="0">
-			<response text="COME BACK WHEN YOU ARE PREPARED TO FACE YOUR DESTINY!"/>
-		</interact>
-		
-	</interaction>
-	
+	</parameters>
+       
 </npc>

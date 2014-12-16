@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ice Golem" nameDescription="an ice golem" race="undead" experience="8993" speed="325" manacost="150">
+  <health now="5585" max="5585"/>
+  <look type="261" head="20" body="30" legs="40" feet="50" corpse="7282"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-125" max="-175"/>
+    <attack name="physical" interval="3000" chance="34" range="7" min="-95" max="-165">
+      <attribute key="shootEffect" value="bolt"/>
+    </attack>
+    <attack name="physical" interval="2000" chance="35" range="7" min="-160" max="-285">
+      <attribute key="shootEffect" value="largerock"/>
+    </attack>
+    <attack name="speed" interval="2000" chance="42" radius="6" target="0" speedchange="-850" duration="60000">
+      <attribute key="areaEffect" value="poff"/>
+    </attack>
+<attack name="melee" interval="3000" chance="50" range="7" radius="3" target="0" min="-115" max="-155">
+  <attribute key="areaEffect" value="blackspark"/>
+</attack>
+  </attacks>
+  <defenses armor="65" defense="63">
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+    <immunity ice="1"/>
+    <immunity holy="1"/>
+    <immunity death="1"/>
+    <immunity earth="0"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="Chrr."/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="90" chance1="100000" chancemax="0"/> --Gold Coins
+    <item id="7388" chance="388" /> -- vile axe
+    <item id="7902" chance="400"/> --Glacier Mask
+    <item id="2144" countmax="3" chance1="4200" chancemax="0"/> --Black Pearl
+    <item id="7290" chance="3666"/> --Shard
+    <item id="2145" countmax="2" chance1="2222" chancemax="0"/> --Small Diamond
+    <item id="7380" chance="467" /> -- headchopper sword
+    <item id="7441" chance="2222"/> --Ice Cube
+    <item id="1987" chance="100000"> --Bag
+      <inside>
+          <item id="2146" countmax="1" chance1="4200" chancemax="0"/> --Small Sapphire
+          <item id="2396" chance="800"/> --Ice Rapier
+          <item id="2479" chance="1555"/> --Strange Helmet
+          <item id="2393" chance="488"/> --GIANT SWORD
+          <item id="7449" chance="609"/> --Crystal Sword
+          <item id="2383" chance="1666"/> --Spike Sword
+       </inside>
+     </item>
+  </loot>
+</monster>

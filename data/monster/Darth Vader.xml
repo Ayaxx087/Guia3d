@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Darth Vader" nameDescription="a darth vader" race="blood" experience="4200" speed="250" manacost="0">
+  <health now="1900" max="1900"/>
+  <look type="145" head="114" body="114" legs="114" feet="114" addons="1" corpse="6080"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="60"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="100"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="75" attack="90"/>
+    <attack name="physical" interval="3000" chance="50" range="7" min="-85" max="-155">
+      <attribute key="shootEffect" value="energy"/>
+    </attack>
+    <attack name="manadrain" interval="3000" chance="17" range="7" min="-35" max="-75"/>
+    <attack name="speed" interval="3000" chance="12" range="7" speedchange="-850" duration="20000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+    <attack name="fire" interval="3000" chance="34" range="7" radius="3" target="1" min="-90" max="-170">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+    <attack name="energy" interval="4000" chance="13" length="8" spread="0" min="-145" max="-205">
+      <attribute key="areaEffect" value="energy"/>
+    </attack>
+
+  </attacks>
+  <defenses armor="20" defense="17">
+    <defense name="healing" interval="4000" chance="15" min="150" max="250">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+    <immunity ice="0"/>
+    <immunity holy="0"/>
+    <immunity death="0"/>
+    <immunity earth="0"/>
+  </immunities>
+  <summons maxSummons="6">
+    <summon name="imperial troops" interval="1000" chance="5000"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="imperial troops camon!!"/>
+    <voice sentence="The imperial attack again!"/>
+  </voices>
+  <loot>
+    <item id="3976" countmax="10" chance1="50000" chancemax="0"/>
+    <item id="2148" countmax="50" chance1="100000" chancemax="0"/>
+    <item id="2483" chance="20000"/>
+    <item id="2489" chance="2222"/>
+    <item id="2417" chance="33333"/>
+    <item id="2387" chance="25000"/>
+    <item id="2787" countmax="3" chance1="33333" chancemax="0"/>
+    <item id="1988" chance="100000">
+      <inside>
+        <item id="2148" countmax="15" chance1="90000" chancemax="0"/>
+        <item id="2459" chance="10000"/>
+        <item id="2392" chance="1818"/>
+        <item id="2513" chance="6666"/>
+        <item id="2150" countmax="2" chance1="4000" chancemax="0"/>
+        <item id="2378" chance="5000"/>
+        <item id="2169" chance="2500"/>
+      </inside>
+    </item>
+  </loot>
+</monster>

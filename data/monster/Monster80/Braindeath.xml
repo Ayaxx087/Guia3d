@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Braindeath" nameDescription="an Braindeath" race="blood" experience="1800" speed="220" manacost="250">
+  <health now="1500" max="1500"/>
+  <look type="256" head="20" body="30" legs="40" feet="50" corpse="7260"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-125" max="-250"/>
+    <attack name="physical" interval="3000" chance="20" range="7" min="-55" max="-195">
+      <attribute key="shootEffect" value="suddendeath"/>
+    </attack>
+    <attack name="energy" interval="3000" chance="25" range="7" min="-55" max="-150">
+      <attribute key="shootEffect" value="energy"/>
+    </attack>
+    <attack name="manadrain" interval="2000" chance="15" range="7" min="-40" max="-240">
+      <attribute key="areaEffect" value="redshimmer"/>
+  </attack>
+<attack name="melee" interval="3000" chance="10" range="7" radius="3" target="0" min="-115" max="-155">
+  <attribute key="areaEffect" value="blackspark"/>
+</attack>
+  </attacks>
+  <defenses armor="43" defense="40">
+    <defense name="healing" interval="3000" chance="15" min="64" max="120">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+    <immunity ice="0"/>
+    <immunity holy="0"/>
+    <immunity death="1"/>
+    <immunity earth="1"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="You have disturbed my thoughts!"/>
+    <voice sentence="Let me turn you into something more useful!"/>
+  </voices>
+  <summons maxSummons="3">
+    <summon name="vampire" interval="1000" chance="5000"/>
+  </summons>
+  <loot>
+    <item id="5022" countmax="3" chance1="1483" chancemax="0"/> --Orichalcum Pearl
+    <item id="7452" chance="709" /> -- spiked squelcher
+    <item id="2148" countmax="50" chance1="100000" chancemax="0"/> --Gold Coins
+    <item id="2144" countmax="3" chance1="4200" chancemax="0"/> --Black Pearl
+    <item id="2145" countmax="2" chance1="2222" chancemax="0"/> --Small Diamond
+    <item id="7890" chance="1300"/> --fire amulet
+    <item id="3972" chance="900" /> -- beholder helmet
+    <item id="1987" chance="100000"> --Bag
+      <inside>
+       <item id="7407" chance="800" /> -- haunted blade
+       <item id="7364" chance="1818" countmax="5" /> -- sniper arrow
+       <item id="2146" countmax="1" chance1="4200" chancemax="0"/> --Small Sapphire
+       <item id="5898" chance="1666" countmax="1" /> -- beholder eye
+       <item id="2518" chance="1000"/> --beholder shield
+
+       </inside>
+     </item>
+  </loot>
+</monster>

@@ -1,0 +1,8 @@
+<npc name="Simon" script="data/npc/scripts/mister promo.lua" autowalk="80" floorchange="0" speed="80" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="130" head="78" body="94" legs="97" feet="95" addons="1" corpse="2212"/>
+	<parameters>
+		<parameter key="message_farewell" value="Farewell |PLAYERNAME|!" />
+
+	</parameters>
+</npc>

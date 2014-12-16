@@ -1,2 +1,6 @@
 <?xml version="1.0"?>
-<raids/>
+<raids>
+<!-- executed on average once every 2 minutes -->
+--raid name="evento1" file="orc.xml" interval2="2" margin="0" />
+
+</raids>

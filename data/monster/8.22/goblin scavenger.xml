@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<monster name="Goblin Scavenger" nameDescription="a goblin scavenger" race="blood" experience="67" speed="220" manacost="360">
+	<health now="60" max="60"/>
+	<look type="297" corpse="6002"/>
+	<targetchange interval="10000" chance="0"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="15"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" max="-10"/>
+		<attack name="drunk" interval="5000" chance="15" duration="10000">
+			<attribute key="areaEffect" value="poison"/>
+			<attriubte key="shootEffect" value="poison"/>
+		</attack>
+		<attack name="physical" interval="1000" chance="9" range="7" min="-20" max="-30">
+			<attribute key="shootEffect" value="smallstone"/>
+		</attack>
+		<attack name="physical" interval="3000" chance="10" range="7" min="-10" max="-30">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>	
+	</attacks>
+	<defenses armor="8" defense="10" />
+	<elements>
+		<element energyPercent="10"/>
+		<element earthPercent="-10"/>
+		<element holyPercent="5"/>
+		<element deathPercent="-15"/>
+	</elements>
+ 
+	<voices interval="5000" chance="10">
+		<voice sentence="Goblin Powahhh!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="9" chance1="100000" chancemax="0"/>
+		<item id="2667" countmax="1" chance1="20000" chancemax="0"/>
+		<item id="2235" chance="10000"/>
+		<item id="2461" chance="10000"/>
+		<item id="2230" chance="10000"/>
+		<item id="1987" chance="100000">
+            <inside>
+				<item id="1294" countmax="3" chance1="20000" chancemax="0"/>
+				<item id="2449" chance="10000"/>
+				<item id="2406" chance="10000"/>
+				<item id="2559" chance="10000"/>
+				<item id="2379" chance="10000"/>
+			</inside>	
+		</item>
+	</loot>
+</monster>

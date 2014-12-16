@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Morgaroth" nameDescription="a Morgaroth" race="blood" experience="18750" speed="310" manacost="0">
+  <health now="15500" max="15500"/>
+   <look type="12" head="0" body="114" legs="0" feet="113" corpse="5995"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="2000" skill="150" attack="150"/>
+    <attack name="manadrain" interval="2000" chance="35" range="7" min="-60" max="-275">
+      <attribute key="areaEffect" value="redshimmer"/>
+  </attack>
+    <attack name="fire" interval="2000" chance="34" range="7" radius="7" target="1" min="-180" max="-380">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+    <attack name="fire" interval="2000" chance="30" range="7" radius="3" target="1" min="-120" max="-230">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+<attack name="melee" interval="2000" chance="40" range="7" radius="1" target="0" min="-55" max="-105">
+  <attribute key="areaEffect" value="blackspark"/>
+</attack>
+    <attack name="physical" interval="3000" chance="25" range="7" min="-140" max="-220">
+      <attribute key="shootEffect" value="spear"/>
+    </attack>
+</attacks>
+
+  <defenses armor="78" defense="68">
+    <defense name="healing" interval="3000" chance="25" min="150" max="200">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="invisible" interval="3000" chance="15" duration="5000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+    <immunity ice="1"/>
+    <immunity holy="0"/>
+    <immunity death="0"/>
+    <immunity earth="1"/>
+  </immunities>
+  <summons maxSummons="1">
+    <summon name="demon" interval="1000" chance="3000"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="Give me you Blood!"/>
+    <voice sentence="Morgaroth attack!"/>
+  </voices>
+<loot>
+<item id="2148" chance="100000" countmax="100" /> -- gold coin
+<item id="2148" chance="50000" countmax="90" /> -- gold coin
+<item id="2143" chance="5000" countmax="5" /> -- white pearl
+<item id="8851" chance="600" /> -- royal crossbow
+<item id="2186" chance="1038" /> -- moonlight rod
+<item id="7889" chance="1300"/> --energy amulet
+<item id="2396" chance="1429" /> -- ice rapier
+<item id="2462" chance="1000" /> -- devil helmet
+<item id="2214" chance="3000" /> -- ring of healing
+<item id="1987" chance="100000" > -- bag
+<inside>
+        <item id="2436" chance="533"/> --skull staff
+	<item id="2387" chance="10000" /> -- double axe
+	<item id="2393" chance="400" /> -- giant sword
+	<item id="2195" chance="700" /> -- boots of haste
+	<item id="2421" chance="309" /> -- thunder hammer
+	<item id="2192" chance="2000" /> -- crystal ball
+</inside>
+</item>
+</loot>
+</monster>

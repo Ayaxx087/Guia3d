@@ -36,7 +36,7 @@ if(Queue == nil) then
 	
 	-- Returns true if the given cid is already in the queue.
 	function Queue:isInQueue(cid)
-		return (isInArray(self.customers, cid) )
+		return (isInArray(self.customers, cid) == TRUE)
 	end
 	
 	-- Removes and returns the first cid from the queue
@@ -49,7 +49,7 @@ if(Queue == nil) then
 		return self.customers[1]
 	end
 	
-	-- Returns true if this queue is empty.
+	-- Returns true if htis queue is empty.
 	function Queue:empty()
 		return(self:peek() == nil)
 	end
@@ -73,8 +73,7 @@ if(Queue == nil) then
 		if(self.handler ~= nil) then
 			self.handler:greet(cid)
 		else
-			print('[Warning - ' .. getCreatureName(getNpcCid()) .. '] No handler assigned to queue!')
-			return false
+			error('No handler assigned to queue!')
 		end
 	end
 	
@@ -91,5 +90,5 @@ if(Queue == nil) then
 		end
 		return false
 	end
-
+	
 end

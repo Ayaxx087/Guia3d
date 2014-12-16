@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crystal Spider" nameDescription="a crystal spider" race="undead" experience="1650" speed="320" manacost="0">
+  <health now="1450" max="1450"/>
+  <look type="263" head="0" body="0" legs="0" feet="0" corpse="7344"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-60" max="-240"/>
+    <attack name="energy" interval="3000" chance="17" range="7" min="-65" max="-125">
+      <attribute key="shootEffect" value="energy"/>
+    </attack>
+    <attack name="speed" interval="3000" chance="12" radius="6" target="0" speedchange="-850" duration="60000">
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+    <attack name="physical" interval="3000" chance="20" length="8" spread="3" min="-100" max="-230">
+      <attribute key="areaEffect" value="bluebubble"/>
+    </attack>
+
+  </attacks>
+  <defenses armor="17" defense="25">
+    <defense name="speed" interval="3000" chance="6" speedchange="350" duration="20000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+    <immunity ice="1"/>
+    <immunity holy="0"/>
+    <immunity death="0"/>
+    <immunity earth="0"/>
+  </immunities>
+<voices interval="2000" chance="5">
+    <voice sentence="Screeech!"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="95" chance1="100000" chancemax="0"/> --Gold Coins
+    <item id="7589" chance="1100"/> --strong mana potion
+    <item id="2463" chance="3333"/> --Plate Armor
+    <item id="2476" chance="1428"/> --Knight Armor
+    <item id="2457" chance="3555"/> --Steel Helmet
+    <item id="7449" chance="1000"/> --Crystal Sword
+    <item id="2171" chance="1222"/> --Platinum Amulet
+    <item id="7437" chance="666"/> --Sapphire Hammer
+    <item id="1987" chance="100000"> --Bag
+      <inside>
+        <item id="2169" chance="800" /> -- time ring
+        <item id="7902" chance="600"/> --Glacier Mask
+        <item id="7441" chance="2500" /> -- ice cube
+        <item id="7449" chance="1555"/> --Crystal Sword
+        <item id="2477" chance="1000"/> --Knight Legs
+        <item id="7364" countmax="7" chance1="1777" chancemax="0"/> --Sniper Arrows
+        <item id="7290" chance="1333"/> --Shard
+      </inside>
+    </item>
+  </loot>
+</monster>

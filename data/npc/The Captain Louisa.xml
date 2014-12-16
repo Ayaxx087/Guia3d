@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<npc name="The Captain Louisa" script="data/npc/scripts/travel2.lua" floorchange="0" speed="80" autowalk="80">
+	<health now="40" max="40"/>
+	<look type="155" head="78" body="94" legs="97" feet="95" addons="3" corpse="3065"/>
+	<attack type="melee" damage="10"/>
+	<parameters>
+	        <parameter key="message_greet" value="Greetings |PLAYERNAME|. Do you want to travel to any city?" />
+		<parameter key="module_travel" value="1" />
+		<parameter key="travel_destinations" value="morgoth,397,755,6,120;ankrahmun,504,336,6,120;la morge,466,176,6,120;pirate island,691,835,7,120;thalia,210,210,6,80;tortuge city,691,835,7,120" />
+		<!-- Syntax: name,x,y,z,cost,premium;name,x,y,z,cost;name,x,y,z,cost,premium etc. -->
+		<!-- Premium is not needed for the npc to work and will require the isPlayerPremiumCallback function to be defined.  -->
+
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;name;offer;help;mission;quest" />
+		<parameter key="keyword_reply1" value="I am the captain of this ship." />
+		<parameter key="keyword_reply2" value="My name is Louisa. Why do you ask?" />
+		<parameter key="keyword_reply3" value="I offer only the possability to travel to far away cities on this continent." />
+		<parameter key="keyword_reply4" value="Do I look like a helpful guy to you?" />
+		<parameter key="keyword_reply5" value="What are you talking about?" />
+		<parameter key="keyword_reply6" value="Hum. I'll tell you what! If you come back in a month or so I might be able to help you with that my friend." />
+	</parameters>
+</npc>

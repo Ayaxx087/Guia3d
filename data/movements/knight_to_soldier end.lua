@@ -1,0 +1,46 @@
+-- voc knight to soldier or warrior --
+
+function onStepIn(cid, item, pos)
+
+ if getPlayerLevel(cid) < 50 then
+		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 50.")
+		return 1
+	end
+
+if getPlayerVocation(cid) > 4 or getPlayerVocation(cid) < 4 then
+		doPlayerSendTextMessage(cid,22,"Sorry, only Knight are allowed.")
+		return 1
+	end
+	if item.actionid == 914 then
+	npos = {x=241, y=962, z=8}
+		queststatus = getPlayerStorageValue(cid,914)
+		if queststatus == -1 or queststatus == 0 then
+			doPlayerSetVocation(cid, 9)
+			doPlayerSendTextMessage(cid,22,"Now you are a Soldier.")
+                        doTeleportThing(cid,npos)
+			doSendMagicEffect(npos,12)
+			--setPlayerStorageValue(cid,914,1)
+
+		else
+			doPlayerSendTextMessage(cid,22,"Sorry, you cant change you vocation.")
+		end
+
+	elseif item.actionid == 915 then
+	npos = {x=241, y=962, z=8}
+		queststatus = getPlayerStorageValue(cid,915)
+		if queststatus == -1 or queststatus == 0 then
+			doPlayerSetVocation(cid, 10)
+			doPlayerSendTextMessage(cid,22,"Now you are a Warrior.")
+                        doTeleportThing(cid,npos)
+			doSendMagicEffect(npos,12)
+			--setPlayerStorageValue(cid,915,1)
+
+		else
+			doPlayerSendTextMessage(cid,22,"Sorry, you cant change you vocation.")
+		end
+
+	else
+		return 0
+	end
+	return 1
+end

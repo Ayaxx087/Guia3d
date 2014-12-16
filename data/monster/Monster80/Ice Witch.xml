@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ice Witch" nameDescription="an ice witch" race="blood" experience="2025" speed="310" manacost="0">
+  <health now="1840" max="1840"/>
+  <look type="149" head="0" body="47" legs="105" feet="105" addons="3" corpse="6081"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-120" max="-250"/>
+    <attack name="outfit" interval="1000" chance="10" range="7" item="7309" duration="6500">
+       <attribute key="areaEffect" value="blueshimmer"/>
+     </attack>
+
+    <attack name="outfit" interval="1000" chance="14" length="8" spread="3" item="7311" duration="70000">
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+
+    <attack name="physical" interval="3000" chance="15" range="7" min="-70" max="-145">
+      <attribute key="shootEffect" value="snowball"/>
+      <attribute key="areaEffect" value="poff"/>
+    </attack>
+<attack name="melee" interval="3000" chance="10" range="7" radius="3" target="0" min="-125" max="-230">
+  <attribute key="areaEffect" value="redspark"/>
+</attack>
+
+    <attack name="speed" interval="2000" chance="12" radius="6" target="0" speedchange="-850" duration="60000">
+      <attribute key="areaEffect" value="poff"/>
+    </attack>
+  </attacks>
+  <defenses armor="25" defense="19">
+    <defense name="healing" interval="3000" chance="25" min="50" max="120">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+    <immunity ice="1"/>
+    <immunity holy="0"/>
+    <immunity death="0"/>
+    <immunity earth="0"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="So you think you are cool?"/>
+    <voice sentence="I hope it is not too cold for you! HeHeHe."/>
+    <voice sentence="Freeze!"/>
+  </voices>
+  <loot>
+    <item id="2152" countmax="5" chance1="100000" chancemax="0"/> --platinum Coins
+    <item id="7589" chance="1100"/> --strong mana potion
+    <item id="2436" chance="1222"/> --Skull Staff
+    <item id="7449" chance="1222"/> --Crystal Sword
+    <item id="7896" chance="600"/> --Glacier Kilt
+    <item id="7730" chance="800"/> --blue leg
+    <item id="7441" chance="5555"/> --Ice Cube
+    <item id="7387" chance="1444"/> --Diamond Sceptre
+    <item id="1987" chance="100000"> --Bag
+      <inside>
+        <item id="2195" chance="1444"/> --Boots of Haste
+        <item id="2445" chance="1333"/> --Crystal Mace
+        <item id="2423" chance="999"/> --Clerical Mace
+        <item id="2796" countmax="3" chance1="9999" chancemax="0"/> --Green Mushrooms
+        <item id="2663" chance="1111"/> --Mystic Turban
+        <item id="7459" chance="1000"/> --Ear Muffs
+      </inside>
+    </item>
+  </loot>
+</monster>

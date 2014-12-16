@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The King Atolon" nameDescription="a The King Atolon" race="blood" experience="50000" speed="320" manacost="0">
+  <health now="108000" max="108000"/>
+  <look type="73" head="20" body="30" legs="40" feet="50" corpse="6080"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="120" attack="150" energy="500"/>
+    <attack name="physical" interval="2500" chance="25" range="7" min="-175" max="-425">
+      <attribute key="shootEffect" value="arrow"/>
+    </attack>
+
+<attack name="energy" interval="2000" chance="25" range="7" radius="5" target="0" min="-195" max="-455">
+  <attribute key="areaEffect" value="holydamage"/>
+</attack>
+    <attack name="physical" interval="1000" chance="35" range="7" min="-70" max="-95">
+      <attribute key="shootEffect" value="whirlwindaxe"/>
+    </attack>
+
+    <attack name="speed" interval="2000" chance="12" radius="6" target="0" speedchange="-850" duration="60000">
+      <attribute key="areaEffect" value="poison"/>
+    </attack>
+    <attack name="fire" interval="3000" chance="14" range="7" radius="7" target="1" min="-250" max="-350">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="bigclouds"/>
+    </attack>
+  </attacks>
+  <defenses armor="18" defense="20">
+    <defense name="healing" interval="3000" chance="15" min="150" max="250">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+    <immunity ice="1"/>
+    <immunity holy="1"/>
+    <immunity death="1"/>
+    <immunity earth="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Vais a Morir todos!"/>
+    <voice sentence="Quieres free items... Pues toma esto!!"/>
+    <voice sentence="Necesitas un GameMaster? Buscate la vida!!"/>
+    <voice sentence="Fuera de mi castillo!."/>
+  </voices>
+  <loot>
+    <item id="2491" chance="1200"/>
+    <item id="7591" chance="900"/> --great  heal potion
+    <item id="2160" countmax="3" chance1="20000" chancemax="0"/> --crystal coin
+    <item id="2120" chance="20000"/>
+    <item id="7438" chance="400"/> --golden bow
+    <item id="7889" chance="1300"/> --energy amulet
+    <item id="1949" chance="10000"/>
+    <item id="7364" chance="1818" countmax="5" /> -- sniper arrow
+    <item id="2456" chance="10000"/>
+    <item id="2155" chance="1000"/> --big emerald
+    <item id="8918" chance="1000" /> -- spellbook of dark mistery
+    <item id="2661" chance="12000"/>
+    <item id="2681" chance="10000"/>
+    <item id="2121" chance="6666"/>
+    <item id="5941" chance="2000"/> --distand stake
+    <item id="2666" countmax="3" chance1="20000" chancemax="0"/>
+    <item id="5911" countmax="1" chance1="5000" chancemax="0"/>
+    <item id="1987" chance="100000">
+      <inside>
+        <item id="2377" chance="1500"/>
+        <item id="2520" chance="900"/> --demon shield
+        <item id="7590" chance="1100"/> --great mana potion
+        <item id="6132" chance="750"/> --soft boots
+        <item id="2487" chance="600"/> --crow armor
+        <item id="2392" chance="700"/>
+        <item id="2507" chance="833" /> -- Elven Legs
+        <item id="2519" chance="900"/>
+        <item id="2488" chance="800"/>
+        <item id="2071" chance="10000"/>
+        <item id="2544" countmax="13" chance1="20000" chancemax="0"/>
+        <item id="2652" chance="10000"/>
+        <item id="2164" chance="1000"/>
+        <item id="2391" chance="1333"/>
+        <item id="2744" chance="20000"/>
+      </inside>
+    </item>
+  </loot>
+</monster>

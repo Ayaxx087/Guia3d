@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Barbarian Headsplitter" nameDescription="a barbarian headsplitter" race="blood" experience="638" speed="210" manacost="450">
+  <health now="800" max="800"/>
+  <look type="253" head="132" body="105" legs="0" feet="132" corpse="6080"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="90"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-60" max="-120"/>
+    <attack name="physical" interval="2000" chance="25" range="7" min="-56" max="-90">
+      <attribute key="shootEffect" value="arrow"/>
+    </attack>
+  </attacks>
+  <defenses armor="19" defense="18"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+    <immunity ice="0"/>
+    <immunity holy="0"/>
+    <immunity death="0"/>
+    <immunity earth="0"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="I will regain my honor with your blood!"/>
+    <voice sentence="Surrender is not option!"/>
+    <voice sentence="Its you or me!"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="30" chance1="100000" chancemax="0"/> --Gold Coins
+    <item id="2050" chance="11111"/> --Torch
+    <item id="7449" chance="833"/> --Crystal Sword
+    <item id="2229" countmax="1" chance1="20000" chancemax="0"/> --Skull
+    <item id="2460" chance="6666"/> --Brass Helmet
+    <item id="7457" chance="800"/> --Fur Boots
+    <item id="5913" countmax="1" chance1="2555" chancemax="0"/> --Brown Piece of Cloth
+    <item id="1987" chance="100000"> --Bag
+        <inside>
+           <item id="2473" chance="5535"/> --Viking Helmet
+           <item id="2403" chance="8888"/> --Knife
+           <item id="7461" chance="1999"/> --Krimhorn Helmet
+        </inside>
+     </item>
+  </loot>
+</monster>

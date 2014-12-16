@@ -1,0 +1,182 @@
+numeros segun partes de tu ekipo.
+<slot slotid="3"><item id="1411"/></slot>
+1= el casco
+2= Amuleto
+3=BP
+4=Armadura
+5=mano derecha
+6=mano izquierda
+7=Legs
+8=Botas
+9=Donde los anillos
+10=Donde las flechas			2281
+
+All monsters:
+-2 = orc warlord
+-3 = war wolf
+-4 = orc rider
+-5 = orc
+-6 = orc shaman
+-7 = orc warrior
+-8 = orc berzeker
+-9 = necromancer
+-13 = black sheep
+-14 = sheep
+-15 = troll
+-16 = bear
+-17 = beholder
+-18 = ghoul
+-19 = slime
+-20 = slime
+-21 = rat
+-22 = cyclopse
+-23 = minotaur mage
+-24 = minotaur archer
+-25 = minotaur
+-26 = rotworm
+-27 = wolf
+-28 = snake
+-29 = minotaur guard
+-30 = spider
+-31 = deer
+-32 = dog
+-33 = skeleton
+-34 = dragon
+-35 = demon
+-36 = poison spider
+-37 = demon skeleton
+-38 = giant spider
+-39 = dragon lord
+-40 = fire devil
+-41 = lion
+-42 = polar bear
+-43 = scorpion
+-44 = wasp
+-45 = bug
+-48 = ghost
+-49 = fire elemental
+-50 = orc spearman
+-51 = green djin
+-52 = winter wolf
+-53 = frost troll
+-54 = witch
+-55 = behemoth
+-56 = cave rat
+-57 = monk
+-58 = priestess
+-59 = orc leader
+-60 = pig
+-61 = goblin
+-62 = elf
+-63 = elf arcanist
+-64 = elf scout
+-65 = mummy
+-66 = dwarf geomancer
+-67 = stone golem
+-68 = vampire
+-69 = dwarf
+-70 = dwarf guard
+-71 = dwarf soldier
+-73 = hero
+-74 = rabbit
+-75 = gamemaster
+-76 = swamp troll
+
+>>>>>>> New Monsters <<<<<<<<<<
+
+-77 = woman white
+-78 = banshee
+-79 = ancient scarab
+-80 = blue djinn
+-81 = cobra
+-82 = larva
+-83 = scarab
+-84 = omruc
+-85 = morguthis
+-86 = thalas
+-87 = dipthrah
+-88 = ashmunrah
+-89 = mahrdis
+-90 = vashresamun
+-91 = rahemos
+-92 = mimic
+-93 = egipctothrower
+-94 = hyaena
+-95 = gargoyle
+-96 = magicthrower
+-97 = plaguethrower
+-98 = flamethrower
+-99 = liche
+-100 = crypt shambler
+-101 = bonebeast
+-102 = deathslicer
+-103 = Efreet
+-104 = marid
+-105 = badger
+-106 = skunk
+-107 = demon
+-108 = elder beholder
+109 = little beholder
+110 = yeti
+111 = nothing...
+112 = nothing...
+113 = nothing...
+114 = nothing...
+115 = nothing...
+116 = nothing...
+117 = nothing...
+118 = nothing...
+
+monster para el creature del editor de mapas:
+
+<creature looktype="88" name="Osiris" type="monster"/>
+<creature looktype="88" name="Nefertari" type="monster"/>
+<creature looktype="129" head="20" body="30" legs="40" feet="50" name="Sikoman" type="monster"/>
+<creature looktype="55" name="Torun" type="monster"/>
+<creature looktype="133" head="20" body="30" legs="40" feet="50" name="Darth vader" type="monster"/>
+<creature looktype="35" name="Satanic" type="monster"/>
+<creature looktype="37" name="Skeleton Archer" type="monster"/>
+<creature looktype="66" name="Merlin" type="monster"/>
+<creature looktype="40" name="Devil Hot" type="monster"/>
+<creature looktype="49" name="Fire Fox" type="monster"/>
+<creature looktype="202" name="General Monroe" type="monster"/>
+<creature looktype="48" name="Spektro" type="monster"/>
+<creature looktype="18" name="Ancient Ghoul" type="monster"/>
+<creature looktype="73" name="Hero Arcanist" type="monster"/>
+<creature looktype="116" name="Kin Kong" type="monster"/>
+<creature looktype="114" name="Velociraptor" type="monster"/>
+<creature looktype="115" name="Velociraptor Mage" type="monster"/>
+<creature looktype="113" name="Velociraptor Guard" type="monster"/>
+<creature looktype="24" name="Minotaur Hunter" type="monster"/>
+<creature looktype="58" name="Priscilia" type="monster"/>
+<creature looktype="219" name="Tarantula Leader" type="monster"/>
+<creature looktype="68" name="Vampire Archer" type="monster"/>
+<creature looktype="54" name="Black Mage" type="monster"/>
+<creature looktype="131" head="57" body="57" legs="114" feet="57" name="Imperial Troops" type="monster"/>
+
+monster para la lista en monsters/
+
+<monster name="osiris" file="osiris.xml" />
+<monster name="nefertari" file="nefertari.xml" />
+<monster name="sikoman" file="sikoman.xml" />
+<monster name="torun" file="torun.xml" />
+<monster name="Darth Vader" file="Darth Vader.xml" />
+<monster name="satanic" file="satanic.xml" />
+<monster name="Skeleton Archer" file="Skeleton Archer.xml" />
+<monster name="Merlin" file="merlin.xml" />
+<monster name="Devil hot" file="devil hot.xml" />
+<monster name="fire fox" file="fire fox.xml" />
+<monster name="General Monroe" file="General Monroe.xml" />
+<monster name="spektro" file="spektro.xml" />
+<monster name="Ancient Ghoul" file="Ancient Ghoul.xml" />
+<monster name="Hero Arcanist" file="Hero Arcanist.xml" />
+<monster name="king kong" file="king kong.xml" />
+<monster name="Velociraptor" file="Velociraptor.xml" />
+<monster name="Velociraptor Mage" file="Velociraptor Mage.xml" />
+<monster name="Velociraptor Guard" file="Velociraptor Guard.xml" />
+<monster name="Minotaur Hunter" file="Minotaur Hunter.xml" />
+<monster name="Priscilia" file="Priscilia.xml" />
+<monster name="Tarantula Leader" file="Tarantula Leader.xml" />
+<monster name="Vampire Archer" file="Vampire Archer.xml" />
+<monster name="Black Mage" file="Black Mage.xml" />
+<monster name="Imperial Troops" file="Imperial Troops.xml" />

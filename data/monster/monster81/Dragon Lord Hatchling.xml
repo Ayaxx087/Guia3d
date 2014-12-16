@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dragon Lord Hatchling" nameDescription="a Dragon Lord Hatchling" race="blood" experience="1000" speed="240" manacost="0">
+  <health now="750" max="750"/>
+  <look type="272" head="20" body="30" legs="40" feet="50" corpse="7622"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="300"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="55" attack="55"/>
+    <attack name="fire" interval="3000" chance="17" range="7" radius="4" target="1" min="-90" max="-140">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+    <attack name="firefield" interval="3000" chance="10" range="7" radius="4" target="1">
+      <attribute key="shootEffect" value="fire"/>
+    </attack>
+    <attack name="fire" interval="4000" chance="12" length="8" spread="3" min="-110" max="-180">
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+  </attacks>
+  <defenses armor="25" defense="20">
+    <defense name="healing" interval="2000" chance="15" min="57" max="93">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+    <immunity ice="0"/>
+    <immunity holy="0"/>
+    <immunity death="0"/>
+    <immunity earth="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="ZCHHHHH" yell="1"/>
+    <voice sentence="YOU WILL BURN!" yell="1"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+    <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+<item id="7891" chance="600"/> --magma boots
+    <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+    <item id="2672" countmax="2" chance1="20000" chancemax="0"/> --dragon hams
+    <item id="7589" chance="1100"/> --strong mana potion
+    <item id="7890" chance="1300"/> --fire amulet
+    <item id="2546" countmax="5" chance1="2500" chancemax="0"/>
+    <item id="2547" countmax="5" chance1="2222" chancemax="0"/>
+    <item id="2796" countmax="3" chance1="6666" chancemax="0"/>
+    <item id="5948" countmax="1" chance1="5000" chancemax="0"/>
+    <item id="6542" chance="900" countmax="1" /> -- red egg
+  </loot>
+</monster>

@@ -1338,20 +1338,12 @@
 		<attribute key="effect" value="fire"/>
 	</item>
 	<item id="1510" name="slits">
-		<attribute key="decayTo" value="1511"/>
-		<attribute key="duration" value="10"/>
 	</item>
 	<item id="1511" name="blades">
-		<attribute key="decayTo" value="1510"/>
-		<attribute key="duration" value="10"/>
 	</item>
 	<item id="1512" name="strange holes">
-		<attribute key="decayTo" value="1513"/>
-		<attribute key="duration" value="4"/>
 	</item>
 	<item id="1513" name="spikes">
-		<attribute key="decayTo" value="1512"/>
-		<attribute key="duration" value="4"/>
 	</item>
 	<item id="1514" article="a" name="stone pillar"/>
 	<item id="1515" article="a" name="marble pillar"/>
@@ -3901,10 +3893,12 @@
 		<attribute key="duration" value="86400"/>
 	</item>
 	<item id="2352" article="a" name="crystal arrow">
-		<attribute key="description" value="This arrow seems not suitable for the use with ordinary bows. It seems to be rotting rapidly."/>
+		<attribute key="description" value="The Magic arrow for ordinary bows. The train arrow with low damage, Attack 5."/>
 		<attribute key="weight" value="100"/>
-		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="86400"/>
+		<attribute key="attack" value="5"/>
+		<attribute key="weaponType" value="ammunition"/>
+		<attribute key="ammoType" value="arrow"/>
+		<attribute key="shootType" value="arrow"/>
 	</item>
 	<item id="2353" article="a" name="burning heart">
 		<attribute key="description" value="It is still beating with unholy life. It seems to be rotting rapidly."/>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="dragon lord" nameDescription="a dragon lord" race="blood" experience="4200" speed="240" manacost="0">
+  <health now="1900" max="1900"/>
+  <look type="39" head="20" body="30" legs="40" feet="50" corpse="5984"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="300"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="85" attack="95"/>
+    <attack name="fire" interval="2000" chance="27" range="7" radius="4" target="1" min="-120" max="-180">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+    <attack name="firefield" interval="2000" chance="30" range="7" radius="4" target="1">
+      <attribute key="shootEffect" value="fire"/>
+    </attack>
+    <attack name="fire" interval="2000" chance="32" length="8" spread="3" min="-150" max="-250">
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+  </attacks>
+  <defenses armor="55" defense="50">
+    <defense name="healing" interval="3000" chance="25" min="57" max="93">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+    <immunity ice="0"/>
+    <immunity holy="0"/>
+    <immunity death="0"/>
+    <immunity earth="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="ZCHHHHH" yell="1"/>
+    <voice sentence="YOU WILL BURN!" yell="1"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+    <item id="2672" countmax="2" chance1="20000" chancemax="0"/>
+    <item id="2033" chance="1818"/>
+    <item id="8849" chance="800" /> -- modify crossbow
+    <item id="1976" chance="3333"/>
+    <item id="2413" chance="5000"/>
+    <item id="2498" chance="488"/>
+    <item id="2492" chance="233"/>
+    <item id="7588" chance="1100"/> --strong heal potion
+    <item id="2546" countmax="5" chance1="2500" chancemax="0"/>
+    <item id="2547" countmax="10" chance1="2222" chancemax="0"/>
+    <item id="2796" countmax="1" chance1="6666" chancemax="0"/>
+    <item id="5948" countmax="1" chance1="5000" chancemax="0"/>
+    <item id="1987" chance="100000">
+      <inside>
+        <item id="7402" chance="300"/> --Dragon Slayer
+        <item id="2479" chance="300"/>
+        <item id="7378" chance="2500" countmax="1" /> -- royal spear
+        <item id="6542" chance="900" countmax="1" /> -- red egg
+        <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+        <item id="2177" countmax="1" chance="600"/>
+        <item id="2167" chance="5000"/>
+        <item id="2149" countmax="2" chance1="833" chancemax="0"/>
+        <item id="2392" chance="1428"/>
+        <item id="2146" countmax="2" chance1="2222" chancemax="0"/>
+        <item id="2528" chance="1333"/>
+        <item id="5882" countmax="1" chance1="5000" chancemax="0"/>
+      </inside>
+    </item>
+  </loot>
+</monster>

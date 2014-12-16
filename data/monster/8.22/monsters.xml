@@ -1,0 +1,23 @@
+	<!-- 8.22 Monsters
+	<monster name="Rotworm Queen" file="8.22/rotworm queen.xml"/>
+	<monster name="Bog Raider" file="8.22/bog raider.xml"/>
+	<monster name="Cockroach" file="8.22/cockroach.xml"/>
+	<monster name="Grim Reaper" file="8.22/grim reaper.xml"/>
+	<monster name="Wisp" file="8.22/wisp.xml"/>
+	<monster name="Skeleton Warrior" file="8.22/skeleton warrior.xml"/>
+	<monster name="Goblin Assassin" file="8.22/goblin assassin.xml"/>
+	<monster name="Blazing Fire Elemental" file="8.22/blazing fire elemental.xml"/>
+	<monster name="Sea Serpent" file="8.22/sea serpent.xml"/>
+	<monster name="Wyrm" file="8.22/wyrm.xml"/>
+	<monster name="Earth Elemental" file="8.22/earth elemental.xml"/>
+	<monster name="Young Sea Serpent" file="8.22/young sea serpent.xml"/>
+	<monster name="Blistering Fire Elemental" file="8.22/blistering fire elemental.xml"/>
+	<monster name="Goblin Scavenger" file="8.22/goblin scavenger.xml"/>
+	<monster name="Goblin Scavenger" file="8.22/Zoralurk.xml"/>
+	<monster name="Muddy Earth Elemental" file="8.22/muddy earth elemental.xml"/>
+	<monster name="Massive Earth Elemental" file="8.22/massive earth elemental.xml"/>
+	<monster name="Ice Golem" file="8.22/ice golem.xml"/>
+	<monster name="Husky" file="8.22/Husky.xml"/>
+	<monster name="Big Boss Trolliver" file="8.22/big boss trolliver.xml"/>
+	<monster name="Countess Sorrow" file="8.22/countess sorrow.xml"/>
+	<monster name="Mad Technomancer" file="8.22/mad technomancer.xml"/>

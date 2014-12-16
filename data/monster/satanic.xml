@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Satanic" nameDescription="a satanic" race="blood" experience="14250" speed="310" manacost="0">
+  <health now="9500" max="9500"/>
+  <look type="12" head="0" body="97" legs="19" feet="94" corpse="5995"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+<attacks>
+    <attack name="melee" interval="2000" skill="140" attack="130"/>
+    <attack name="fire" interval="3000" chance="44" range="7" radius="7" target="1" min="-250" max="-550">
+      <attribute key="shootEffect" value="fire"/>
+      <attribute key="areaEffect" value="firearea"/>
+    </attack>
+
+<attack name="fire" interval="2000" chance="40" range="7" radius="4" target="1" min="-85" max="-165">
+  <attribute key="shootEffect" value="fire"/>
+  <attribute key="areaEffect" value="firearea"/>
+</attack>
+
+    <attack name="manadrain" interval="2000" chance="27" range="7" min="-65" max="-115"/>
+    <attack name="physical" interval="2000" chance="25" range="7" min="-55" max="-95">
+      <attribute key="shootEffect" value="suddendeath"/>
+    </attack>
+</attacks>
+  <defenses armor="70" defense="85">
+    <defense name="healing" interval="3000" chance="25" min="90" max="150">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+    <defense name="invisible" interval="2000" chance="38" duration="5000">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+    <immunity ice="0"/>
+    <immunity holy="1"/>
+    <immunity death="0"/>
+    <immunity earth="1"/>
+  </immunities>
+  <summons maxSummons="1">
+    <summon name="demonannik" interval="1000" chance="4000"/>
+  </summons>
+  <voices interval="5000" chance="10">
+    <voice sentence="Your blood is my blood die!"/>
+    <voice sentence="This is my house go out!"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+    <item id="2148" countmax="25" chance1="100000" chancemax="0"/>
+    <item id="7890" chance="1300"/> --fire amulet
+    <item id="2377" chance="3333"/>
+    <item id="8853" chance="600" /> -- iron worker crossbow
+    <item id="2438" chance="533"/>
+    <item id="6542" chance="900" countmax="1" /> -- red egg
+    <item id="2492" chance="433"/>
+    <item id="2393" chance="659"/>
+    <item id="2392" chance="3000"/>
+    <item id="3976" countmax="10" chance1="50000" chancemax="0"/>
+    <item id="2495" chance="300"/>
+    <item id="1988" chance="100000">
+      <inside>
+        <item id="2500" chance="800"/>
+        <item id="8904" chance="700" /> -- spellbook of prophecies
+        <item id="2678" countmax="3" chance1="10000" chancemax="0"/>
+        <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+        <item id="2151" countmax="4" chance1="4000" chancemax="0"/>
+        <item id="2462" chance="555"/>
+        <item id="2149" countmax="3" chance1="1428" chancemax="0"/>
+        <item id="2171" chance="2333"/>
+        <item id="2387" chance="6666"/>
+        <item id="2474" chance="300"/>
+        <item id="2520" chance="650"/>
+      </inside>
+    </item>
+  </loot>
+</monster>

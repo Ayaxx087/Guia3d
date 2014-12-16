@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Chakoya Windcaller" nameDescription="a Chakoya Windcaller" race="blood" experience="278" speed="240" manacost="305">
+  <health now="178" max="178"/>
+  <look type="260" head="20" body="30" legs="40" feet="50" corpse="7324"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="1"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="90"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-40" max="-81"/>
+    <attack name="physical" interval="3000" chance="30" range="7" min="-20" max="-95">
+      <attribute key="shootEffect" value="energy"/>
+    </attack>
+    <attack name="energy" interval="3000" chance="20" radius="5" target="0" min="-60" max="-140">
+      <attribute key="areaEffect" value="poff"/>
+    </attack>
+  </attacks>
+  <defenses armor="15" defense="15"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+    <immunity ice="1"/>
+    <immunity holy="0"/>
+    <immunity death="0"/>
+    <immunity earth="0"/>
+  </immunities>
+  <voices interval="2000" chance="5">
+    <voice sentence="Chikuva!"/>
+    <voice sentence="Siqsiq ji jusipa!"/>
+    <voice sentence="Jagura taluka taqua!"/>
+  </voices>
+  <loot>
+    <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+    <item id="2148" countmax="100" chance1="100000" chancemax="0"/>
+    <item id="2148" countmax="27" chance1="100000" chancemax="0"/> --Gold Coins
+    <item id="2666" countmax="2" chance1="35000" chancemax="0"/> --meat
+    <item id="7290" chance="800" /> -- shard
+    <item id="7441" chance="2500" /> -- ice cube
+    <item id="2398" chance="4888"/> --Mace
+    <item id="1987" chance="100000"> --Bag
+        <inside>
+           <item id="2541" chance="7999"/> --Bone Shield
+           <item id="2667" countmax="3" chance1="48000" chancemax="0"/> --Fishes
+           <item id="7158" chance="4000" countmax="1" /> -- rainbow trout
+           <item id="2669" chance="200" countmax="1" /> -- northern pike
+           <item id="2148" countmax="7" chance1="65000" chancemax="0"/> --Gold Coins
+        </inside>
+     </item>
+  </loot>
+</monster>

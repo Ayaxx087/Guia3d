@@ -1,0 +1,30 @@
+<npc name="Armenio" script="data/npc/scripts/armenio.lua" autowalk="80" floorchange="0" speed="80" access="5" level="1" maglevel="1">
+	<health now="150" max="150"/>
+	<look type="130" head="0" body="86" legs="67" feet="114" addons="1" corpse="2212"/>
+	<parameters>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. You are welcome to my little island." />
+		<parameter key="message_farewell" value="Farewell |PLAYERNAME|!" />
+		<parameter key="module_travel" value="1" />
+		<parameter key="travel_destinations" value="thalia,210,210,6,80;nova,487,422,6,80;atlantis,321,682,6,100" />
+		<!-- Syntax: name,x,y,z,cost,premium;name,x,y,z,cost;name,x,y,z,cost,premium etc. -->
+		<!-- Premium is not needed for the npc to work and will require the isPlayerPremiumCallback function to be defined.  -->
+---------------------
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="amulet of loss,2173,12000;aol,2173,12000;" />
+---------------------
+		<parameter key="module_keywords" value="1" />
+------------------------------------------------   1    2      3        4    5    6      7     8    9      10       11
+		<parameter key="keywords" value="name;fluids;mission;items;info;quest;present;help;offer;princes;blessing" />
+		<parameter key="keyword_reply1" value="Im Armenio the blessing mage." />
+		<parameter key="keyword_reply2" value="I have got many fluids to sell." />
+		<parameter key="keyword_reply3" value="My mission is help you on the life." />
+		<parameter key="keyword_reply4" value="I offer many fluids and amulet of loss and you can buy a nice blessing on my Angel statue. You will not lose Exp if you die." />
+		<parameter key="keyword_reply5" value="I offer many fluids and amulet of loss and you can buy a nice blessing on my Angel statue. You will not lose Exp if you die." />
+		<parameter key="keyword_reply6" value="Sell me a nice item and you receive a present." />
+		<parameter key="keyword_reply7" value="Sell me a nice item and you receive a present." />
+		<parameter key="keyword_reply8" value="hmm.. I can take you to thalia or Nova or Atlantis for just a small fee." />
+		<parameter key="keyword_reply9" value="hmm.. I can take you to thalia or Nova or Atlantis for just a small fee." />
+		<parameter key="keyword_reply10" value="She is my friend but i dont know where is she." />
+		<parameter key="keyword_reply11" value="You can buy a nice blessing on my Angel statue. You will not lose Exp if you die." />
+	</parameters>
+</npc>
