@@ -174,7 +174,7 @@
 <monster name="demonannik" file="rares/demonannik.xml" />
 <monster name="You are Noob" file="rares/You are Noob.xml" />
 <monster name="giant rat123" file="rares/giant rat123.xml" />
-<monster name="fury1" file="rares/fury1.xml" />
+<monster name="fury1" file="rares/Fury1.xml" />
 <monster name="loboo" file="rares/loboo.xml" />
 
 <monster name="halloweenhare" file="halloweenhare.xml" />
