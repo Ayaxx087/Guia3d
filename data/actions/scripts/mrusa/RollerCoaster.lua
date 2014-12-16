@@ -1,4 +1,4 @@
-dofile('data\\actions\\scripts\\mrusa\\RollerCoasterEvents.lua')
+dofile('data/actions/scripts/mrusa/RollerCoasterEvents.lua')
 
 local TRAINS = {7131, 7132}
 local all = {7121, 7122, 7123, 7124, 7125, 7126, 7133, 7134, 7135, 7136}
