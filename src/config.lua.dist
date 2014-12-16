@@ -3,10 +3,10 @@
 ----------------------------
 
 -- data directory location
-datadir = "Data/"
+datadir = "data/"
 
 -- map location
-map = "Data/world/map.otbm"
+map = "data/world/map.otbm"
 
 -- Type of map storage,
 -- 'relational' - Slower, but possible to run database queries to change all items to another id for example.
@@ -385,6 +385,9 @@ house_level = 1
 -- Show house price and its rent price when looking at its door?
 -- PS: This info is going to be shown just if house has no owner
 show_house_prices = false
+
+max_packets_per_second = 25
+
 
 -- SQL type
 -- options: mysql, sqlite, odbc or pgsql

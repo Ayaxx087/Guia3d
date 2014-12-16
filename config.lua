@@ -3,10 +3,10 @@
 ----------------------------
 
 -- data directory location
-datadir = "Data/"
+datadir = "data/"
 
 -- map location
-map = "Data/world/map.otbm"
+map = "data/world/map.otbm"
 
 -- Type of map storage,
 -- 'relational' - Slower, but possible to run database queries to change all items to another id for example.
@@ -71,22 +71,22 @@ exhausted = 30000
 fightexhausted = 2000
 
 -- exhausted time in ms (1000 = 1 second) for none-aggressive spells
-healexhausted = 1000*2
+healexhausted = 2000
 
 -- exhausted time in ms (1000 = 1 second) for floor changing
-stairhop_exhausted = 2000/2
+stairhop_exhausted = 1000
 
 -- how many ms to add if the player is already exhausted and tries to cast a spell/yells (1000 = 1 second)
-exhaustedadd = 5000*0
+exhaustedadd = 0
 
 -- how long does the player has to stay out of fight to get pz unlocked in ms (1000 = 1 second)
-in_fight_duration = 60000*3
+in_fight_duration = 180000
 
 -- how long a field belongs to a player before it no longer causes PZ lock for the owner
 field_ownership_duration = 5000
 
 -- When a player dies, how many of the assisting players (ie. how many of those who made damage) should be stored in database?
-death_assist_count = 19*0
+death_assist_count = 0
 
 -- Should only the player who did the last hit get the 15-minute pz lock?
 last_hit_pzblock_only = true
@@ -270,7 +270,7 @@ house_tile_limit = 0
 
 -- fist fighting configuration
 -- How strong should be the attack using bare hands (fist fighting)?
-fist_strength = 7*2
+fist_strength = 14
 
 -- Guild War Fee
 -- The addition 'war charge' to start a guild war (default: 1000)
@@ -385,6 +385,9 @@ house_level = 40
 -- Show house price and its rent price when looking at its door?
 -- PS: This info is going to be shown just if house has no owner
 show_house_prices = true
+
+max_packets_per_second = 25
+
 
 -- SQL type
 -- options: mysql, sqlite, odbc or pgsql
