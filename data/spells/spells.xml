@@ -13,109 +13,109 @@
 -- Attack Runes
 <rune name="imitate" id="20001" enabled="1" script="monsters/imitate.lua"></rune>
 
-<rune name="Poison Field" id="2285" charges="3" maglv="0" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="poison_field.lua"></rune>
-<rune name="Poison Bomb" id="2286" charges="2" maglv="4" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="poison_bomb.lua"></rune>
-<rune name="Poison Wall" id="2289" charges="4" maglv="5" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="poison_wall.lua"></rune>
-<rune name="Envenom" id="2292" charges="1" maglv="4" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="envenom.lua"></rune>
-<rune name="Fire Field" id="2301" charges="3" maglv="1" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="fire_field.lua"></rune>
-<rune name="Firebomb" id="2305" charges="2" maglv="5" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="firebomb.lua"></rune>
-<rune name="Fire Wall" id="2303" charges="4" maglv="13" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="fire_wall.lua"></rune>
-<rune name="Soulfire" id="2308" charges="2" maglv="7" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="soulfire.lua"></rune>
-<rune name="Fireball" id="2302" charges="2" maglv="2" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="fireball.lua"></rune>
-<rune name="Great Fireball" id="2304" charges="2" maglv="4" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="great_fireball.lua"></rune>
-<rune name="Energy Field" id="2277" charges="3" maglv="3" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="energy_field.lua"></rune>
-<rune name="Energybomb" id="2262" charges="2" maglv="10" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="energybomb.lua"></rune>
-<rune name="Energy Wall" id="2279" charges="4" maglv="9" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="energy_wall.lua"></rune>
-<rune name="Light Magic Missile" id="2287" charges="5" maglv="0" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="light_magic_missile.lua"></rune>
-<rune name="Heavy Magic Missile" id="2311" charges="5" maglv="1" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="heavy_magic_missile.lua"></rune>
-<rune name="Explosion" id="2313" charges="3" maglv="6" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="explosion.lua"></rune>
-<rune name="Sudden Death" id="2268" charges="1" maglv="15" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="sudden_death.lua"></rune>
-<rune name="ancient rune" id="2263" charges="1" maglv="65" mana="1000" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="ancient_rune.lua"></rune>
-<rune name="Thunderstorm" id="2315" charges="5" maglv="4" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="81/adori mas vis rune.lua"></rune>
-<rune name="Icicle Rune" id="2271" charges="5" maglv="1" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="81/adori frigo rune.lua"></rune>
+<rune name="Poison Field" id="2285" charges="3" maglv="0" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="poison_field.lua"></rune>
+<rune name="Poison Bomb" id="2286" charges="2" maglv="4" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="poison_bomb.lua"></rune>
+<rune name="Poison Wall" id="2289" charges="4" maglv="5" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="poison_wall.lua"></rune>
+<rune name="Envenom" id="2292" charges="1" maglv="4" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="envenom.lua"></rune>
+<rune name="Fire Field" id="2301" charges="3" maglv="1" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="fire_field.lua"></rune>
+<rune name="Firebomb" id="2305" charges="2" maglv="5" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="firebomb.lua"></rune>
+<rune name="Fire Wall" id="2303" charges="4" maglv="13" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="fire_wall.lua"></rune>
+<rune name="Soulfire" id="2308" charges="2" maglv="7" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="soulfire.lua"></rune>
+<rune name="Fireball" id="2302" charges="2" maglv="2" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="fireball.lua"></rune>
+<rune name="Great Fireball" id="2304" charges="2" maglv="4" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="great_fireball.lua"></rune>
+<rune name="Energy Field" id="2277" charges="3" maglv="3" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="energy_field.lua"></rune>
+<rune name="Energybomb" id="2262" charges="2" maglv="10" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="energybomb.lua"></rune>
+<rune name="Energy Wall" id="2279" charges="4" maglv="9" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="energy_wall.lua"></rune>
+<rune name="Light Magic Missile" id="2287" charges="5" maglv="0" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="light_magic_missile.lua"></rune>
+<rune name="Heavy Magic Missile" id="2311" charges="5" maglv="1" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="heavy_magic_missile.lua"></rune>
+<rune name="Explosion" id="2313" charges="3" maglv="6" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="explosion.lua"></rune>
+<rune name="Sudden Death" id="2268" charges="1" maglv="15" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="sudden_death.lua"></rune>
+<rune name="ancient rune" id="2263" charges="1" maglv="65" mana="1000" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="ancient_rune.lua"></rune>
+<rune name="Thunderstorm" id="2315" charges="5" maglv="4" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="81/adori mas vis rune.lua"></rune>
+<rune name="Icicle Rune" id="2271" charges="5" maglv="1" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="81/adori frigo rune.lua"></rune>
 
-<rune name="Mana Rune" id="2316" charges="1" maglv="1" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="0" enabled="1" script="manarune.lua"></rune>
+<rune name="Mana Rune" id="2316" charges="1" maglv="1" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="manarune.lua"></rune>
 
-<rune name="Antidote Rune" id="2266" charges="1" maglv="0" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="antidote.lua"></rune>
-<rune name="Intense Healing Rune" id="2265" charges="1" maglv="1" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="intense_healing.lua"></rune>
-<rune name="Ultimate Healing Rune" id="2273" charges="1" maglv="4" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="ultimate_healing.lua"></rune>
+<rune name="Antidote Rune" id="2266" charges="1" maglv="0" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="antidote.lua"></rune>
+<rune name="Intense Healing Rune" id="2265" charges="1" maglv="1" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="intense_healing.lua"></rune>
+<rune name="Ultimate Healing Rune" id="2273" charges="1" maglv="4" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="ultimate_healing.lua"></rune>
 
-<rune name="Destroy Field" id="2261" charges="3" lvl="10" maglv="3" exhaustion="1"  enabled="1" needtarget="0" allowfaruse="1" blockwalls="1" blocktype="all" script="destroy field.lua"></rune>
+<rune name="Destroy Field" id="2261" charges="3" lvl="10" maglv="3"  enabled="1" needtarget="0" allowfaruse="1" blockwalls="1" blocktype="all" script="destroy field.lua"></rune>
 -- Summon Runes
-<rune name="Convince Creature" id="2290" mana="200" charges="1" maglv="5" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" function="convince"></rune>
+<rune name="Convince Creature" id="2290" mana="200" charges="1" maglv="5" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" function="convince"></rune>
 
 
 -- Support Runes
-<rune name="Chameleon" id="2291" selftarget="1" charges="1" maglv="4" mana="0" aggressive="0" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" function="chameleon"></rune>
-<rune name="Magic Wall" id="2293" charges="3" maglv="9" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" blocktype="all" exhaustion="1" enabled="1" script="magic_wall.lua"></rune>
-<rune name="Paralyze" id="2278" charges="1" maglv="18" mana="1400" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="paralyze.lua"></rune>
-<rune name="Drunkness" id="2267" charges="3" needtarget="1" lvl="10" maglv="2" mana="0" exhaustion="1"  enabled="1" allowfaruse="1" script="drunk.lua"></rune>
+<rune name="Chameleon" id="2291" selftarget="1" charges="1" maglv="4" mana="0" aggressive="0" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" function="chameleon"></rune>
+<rune name="Magic Wall" id="2293" charges="3" maglv="9" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" blocktype="all" enabled="1" script="magic_wall.lua"></rune>
+<rune name="Paralyze" id="2278" charges="1" maglv="18" mana="1400" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="paralyze.lua"></rune>
+<rune name="Drunkness" id="2267" charges="3" needtarget="1" lvl="10" maglv="2" mana="0"  enabled="1" allowfaruse="1" script="drunk.lua"></rune>
 --GM Runes
-<rune name="2hpDAMAGE" id="2300" charges="1" maglv="4000" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" exhaustion="1" enabled="1" script="gmrune2hp.lua"></rune>
+<rune name="2hpDAMAGE" id="2300" charges="1" maglv="4000" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="gmrune2hp.lua"></rune>
 
 
-<instant prem="1" name="Portal Thalia" words="Exani ina thalia" lvl="1000" maglv="400" aggressive="1" mana="20000" exhaustion="1"  enabled="1" script="81/blue.lua">
+<instant prem="1" name="Portal Thalia" words="Exani ina thalia" lvl="1000" maglv="400" aggressive="1" mana="20000"  enabled="1" script="81/blue.lua">
 <vocation name="GameMaster" />
 </instant>
 
-<instant prem="1" name="GM spell" words="ue" lvl="1000" maglv="400" aggressive="1" mana="20000" exhaustion="1"  enabled="1" script="ue.lua">
+<instant prem="1" name="GM spell" words="ue" lvl="1000" maglv="400" aggressive="1" mana="20000"  enabled="1" script="ue.lua">
 <vocation name="GameMaster" />
 </instant>
 
-<instant prem="1" name="GM spell" words="zz1" lvl="1000" maglv="400" mana="20000" aggressive="1" exhaustion="1"  direction="1" enabled="1" script="zz.lua">
+<instant prem="1" name="GM spell" words="zz1" lvl="1000" maglv="400" mana="20000" aggressive="1"  direction="1" enabled="1" script="zz.lua">
 <vocation name="GameMaster" />
 </instant>
 
-<instant prem="1" name="GM spell" words="xx1" lvl="1000" maglv="400" mana="20000" aggressive="1" exhaustion="1"  direction="0" enabled="1" script="xx.lua">
+<instant prem="1" name="GM spell" words="xx1" lvl="1000" maglv="400" mana="20000" aggressive="1"  direction="0" enabled="1" script="xx.lua">
 <vocation name="GameMaster" />
 </instant>
 
-<instant prem="1" name="GM spell" words="xxx1" lvl="1000" maglv="400" mana="20000" aggressive="1" exhaustion="1"  direction="0" enabled="1" script="xxx.lua">
+<instant prem="1" name="GM spell" words="xxx1" lvl="1000" maglv="400" mana="20000" aggressive="1"  direction="0" enabled="1" script="xxx.lua">
 <vocation name="GameMaster" />
 </instant>
 
 
-<instant prem="1" name="Apocalypse" words="exevo gran mas flam" lvl="1000" maglv="400" manapercent="60" needlearn="1" soul="0" exhaustion="1"  enabled="1" script="apocalypse.lua">
+<instant prem="1" name="Apocalypse" words="exevo gran mas flam" lvl="1000" maglv="400" manapercent="60" needlearn="1" soul="0"  enabled="1" script="apocalypse.lua">
 <vocation name="GameMaster" />
 </instant>
 
-<instant prem="0" name="Muted Friend" words="muted sio" aggressive="0" params="1" needtarget="1" lvl="1000" maglv="400" mana="70" exhaustion="1"  enabled="1" script="gm/muted sio.lua">
+<instant prem="0" name="Muted Friend" words="muted sio" aggressive="0" params="1" needtarget="1" lvl="1000" maglv="400" mana="70"  enabled="1" script="gm/muted sio.lua">
 <vocation name="GameMaster" />
 </instant>
 
-<instant prem="0" name="UnMuted Friend" words="muted off" aggressive="0" params="1" needtarget="1" lvl="1000" maglv="400" mana="70" exhaustion="1"  enabled="1" script="gm/muted_off.lua">
+<instant prem="0" name="UnMuted Friend" words="muted off" aggressive="0" params="1" needtarget="1" lvl="1000" maglv="400" mana="70"  enabled="1" script="gm/muted_off.lua">
 <vocation name="GameMaster" />
 </instant>
 
-<instant prem="0" name="Muted all" words="muted all" lvl="1000" maglv="400" manapercent="60" needlearn="1" soul="0" exhaustion="1"  enabled="1" script="gm/muted_all.lua">
+<instant prem="0" name="Muted all" words="muted all" lvl="1000" maglv="400" manapercent="60" needlearn="1" soul="0"  enabled="1" script="gm/muted_all.lua">
 <vocation name="GameMaster" />
 </instant>
 
-<instant prem="0" name="UnMuted all" words="unmuted all" lvl="1000" maglv="400" manapercent="60" needlearn="1" soul="0" exhaustion="1"  enabled="1" script="gm/unmuted_all.lua">
+<instant prem="0" name="UnMuted all" words="unmuted all" lvl="1000" maglv="400" manapercent="60" needlearn="1" soul="0"  enabled="1" script="gm/unmuted_all.lua">
 <vocation name="GameMaster" />
 </instant>
 
-<instant prem="0" name="Muted Distand" words="muted 1" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="gm/muted 1.lua">
+<instant prem="0" name="Muted Distand" words="muted 1" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="gm/muted 1.lua">
 <vocation name="GameMaster" />
 </instant>
 
-<instant prem="0" name="Muted Distand" words="muted 2" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="gm/muted 2.lua">
+<instant prem="0" name="Muted Distand" words="muted 2" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="gm/muted 2.lua">
 <vocation name="GameMaster" />
 </instant>
 
-<instant prem="0" name="Muted Distand" words="muted 3" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="gm/muted 3.lua">
+<instant prem="0" name="Muted Distand" words="muted 3" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="gm/muted 3.lua">
 <vocation name="GameMaster" />
 </instant>
 
-<instant prem="0" name="Muted Distand" words="muted 4" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="gm/muted 4.lua">
+<instant prem="0" name="Muted Distand" words="muted 4" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="gm/muted 4.lua">
 <vocation name="GameMaster" />
 </instant>
 
-<instant prem="0" name="Muted Distand" words="muted 5" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="gm/muted 5.lua">
+<instant prem="0" name="Muted Distand" words="muted 5" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="gm/muted 5.lua">
 <vocation name="GameMaster" />
 </instant>
 
-<instant prem="0" name="carcel" words="jail sio" lvl="1000" maglv="400" mana="25" needtarget="1" allowfaruse="1" blockwalls="0" exhaustion="1"  enabled="1" script="81/carcel.lua">
+<instant prem="0" name="carcel" words="jail sio" lvl="1000" maglv="400" mana="25" needtarget="1" allowfaruse="1" blockwalls="0"  enabled="1" script="81/carcel.lua">
 <vocation name="GameMaster" />
 </instant>
 
@@ -127,42 +127,42 @@
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="0" name="Wild Growth" words="exevo grav vita" lvl="27" maglv="1" mana="200" aggressive="1" direction="1" blocktype="all" exhaustion="1"  enabled="1" script="wild growth.lua">
+<instant prem="0" name="Wild Growth" words="exevo grav vita" lvl="27" maglv="1" mana="200" aggressive="1" direction="1" blocktype="all"  enabled="1" script="wild growth.lua">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </instant>
 
-<instant prem="0" name="Levitate" words="exani hur" params="1" lvl="12" mana="50" soul="0" exhaustion="1"  enabled="1" function="Levitate">
+<instant prem="0" name="Levitate" words="exani hur" params="1" lvl="12" mana="50" soul="0"  enabled="1" function="Levitate">
 
 </instant>
 
-<instant prem="0" name="Find Person" words="exiva" lvl="8" mana="20"  aggressive="0" selftarget="0" needtarget="0" params="1" direction="0" blocking="0" exhaustion="1" enabled="1" function="searchPlayer">
+<instant prem="0" name="Find Person" words="exiva" lvl="8" mana="20"  aggressive="0" selftarget="0" needtarget="0" params="1" direction="0" blocking="0" enabled="1" function="searchPlayer">
 
 </instant>
 
-<instant prem="0" name="Heal Friend" words="exura sio" aggressive="0" params="1" needtarget="1" lvl="18" maglv="1" mana="70" exhaustion="1"  enabled="1" script="healfriend.lua">
+<instant prem="0" name="Heal Friend" words="exura sio" aggressive="0" params="1" needtarget="1" lvl="18" maglv="1" mana="70"  enabled="1" script="healfriend.lua">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </instant>
 
-<instant prem="0" name="Energy Wave" words="exevo mort hur" direction="1" lvl="38" maglv="1" mana="250" exhaustion="1"  enabled="1" script="energy wave.lua">
+<instant prem="0" name="Energy Wave" words="exevo mort hur" direction="1" lvl="38" maglv="1" mana="250"  enabled="1" script="energy wave.lua">
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="0" name="Mass Healing" words="exura gran mas res" aggressive="0" lvl="36" maglv="1" mana="150" exhaustion="1"  enabled="1" script="mass healing.lua">
+<instant prem="0" name="Mass Healing" words="exura gran mas res" aggressive="0" lvl="36" maglv="1" mana="150"  enabled="1" script="mass healing.lua">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </instant>
 
-<instant prem="0" name="Strong Haste" words="utani gran hur" selftarget="1" aggressive="0" lvl="20" maglv="1" mana="100" exhaustion="1"  enabled="1" script="strong_haste.lua">
+<instant prem="0" name="Strong Haste" words="utani gran hur" selftarget="1" aggressive="0" lvl="20" maglv="1" mana="100"  enabled="1" script="strong_haste.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Shaman" />
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="0" name="Magic Shield" words="utamo vita" selftarget="1" aggressive="0" lvl="14" maglv="1" mana="50" exhaustion="1"  enabled="1" script="magic shield.lua">
+<instant prem="0" name="Magic Shield" words="utamo vita" selftarget="1" aggressive="0" lvl="14" maglv="1" mana="50"  enabled="1" script="magic shield.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Paladin"/>
@@ -172,18 +172,18 @@
 <vocation name="Scout" />
 </instant>
 
-<instant prem="0" name="Ultimate Explosion" words="exevo gran mas vis" lvl="50" maglv="1" mana="800" exhaustion="1"  enabled="1" script="ultimate explosion.lua">
+<instant prem="0" name="Ultimate Explosion" words="exevo gran mas vis" lvl="50" maglv="1" mana="800"  enabled="1" script="ultimate explosion.lua">
 <vocation name="Sorcerer"/>
 <vocation name="Wizard"/>
 </instant>
 
-<instant prem="0" name="Challenge" words="exeta res" lvl="4" maglv="1" mana="90" exhaustion="1"  enabled="1" script="challenge.lua">
+<instant prem="0" name="Challenge" words="exeta res" lvl="4" maglv="1" mana="90"  enabled="1" script="challenge.lua">
 <vocation name="Knight"/>
 <vocation name="Warrior" />
 <vocation name="Soldier" />
 </instant>
 
-<instant prem="0" name="invisiblee" words="utana vid" selftarget="1" aggressive="0" lvl="35" maglv="1" mana="220" exhaustion="1"  enabled="1" script="invisible.lua">
+<instant prem="0" name="invisiblee" words="utana vid" selftarget="1" aggressive="0" lvl="35" maglv="1" mana="220"  enabled="1" script="invisible.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Paladin"/>
@@ -193,12 +193,12 @@
 <vocation name="Scout" />
 </instant>
 	
-<instant prem="0" name="Cancel Invisibility" words="exana ina" lvl="26" maglv="1" mana="200"  aggressive="0" selftarget="1" needtarget="0" params="0" direction="0" blocking="0" exhaustion="1" enabled="1" script="cancel_invisibility.lua">
+<instant prem="0" name="Cancel Invisibility" words="exana ina" lvl="26" maglv="1" mana="200"  aggressive="0" selftarget="1" needtarget="0" params="0" direction="0" blocking="0" enabled="1" script="cancel_invisibility.lua">
 <vocation name="Sorcerer" />
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="0" name="cancel Magic Shield" words="utamo end" selftarget="1" aggressive="0" lvl="14" maglv="1" mana="20" exhaustion="1"  enabled="1" script="cancel_manashield.lua">
+<instant prem="0" name="cancel Magic Shield" words="utamo end" selftarget="1" aggressive="0" lvl="14" maglv="1" mana="20"  enabled="1" script="cancel_manashield.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Paladin"/>
@@ -208,7 +208,7 @@
 <vocation name="Scout" />
 </instant>
 
-<instant prem="0" name="Ultimate Light" words="utevo vis lux" lvl="26" maglv="1" mana="140"  aggressive="0" selftarget="1" needtarget="0" params="0" direction="0" blocking="0" exhaustion="1" enabled="1" script="ultimate_light.lua">
+<instant prem="0" name="Ultimate Light" words="utevo vis lux" lvl="26" maglv="1" mana="140"  aggressive="0" selftarget="1" needtarget="0" params="0" direction="0" blocking="0" enabled="1" script="ultimate_light.lua">
 <vocation name="Sorcerer" />
 <vocation name="Druid" />
 <vocation name="Shaman" />
@@ -216,41 +216,28 @@
 </instant>
 
 <!--//ALL OLD SPELL FOR TESTING \\-->
-<instant prem="0" name="Energy Strike" words="exori vis" casterTargetOrDirection="1" range="3" lvl="12" maglv="1" mana="20" exhaustion="1"  enabled="1" script="exori vis.lua">
+<instant prem="0" name="Energy Strike" words="exori vis" casterTargetOrDirection="1" range="3" lvl="12" maglv="1" mana="20"  enabled="1" script="exori vis.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Shaman" />
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="0" name="Force Strike" words="exori mort" casterTargetOrDirection="1" range="3" lvl="12" maglv="1" mana="20" exhaustion="1"  enabled="1" script="exori mort.lua">
+<instant prem="0" name="Force Strike" words="exori mort" casterTargetOrDirection="1" range="3" lvl="12" maglv="1" mana="20"  enabled="1" script="exori mort.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Shaman" />
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="0" name="Flame Strike" words="exori flam" casterTargetOrDirection="1" range="3" lvl="12" maglv="1" mana="20" exhaustion="1"  enabled="1" script="exori flam.lua">
+<instant prem="0" name="Flame Strike" words="exori flam" casterTargetOrDirection="1" range="3" lvl="12" maglv="1" mana="20"  enabled="1" script="exori flam.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Shaman" />
 <vocation name="Wizard" />
 
 </instant>
-<instant prem="0" name="Ultimate healing" words="exura vita" aggressive="0" lvl="18" maglv="1" mana="80" exhaustion="1"  enabled="1" script="exura vita.lua">
-<vocation name="Druid"/>
-<vocation name="Sorcerer"/>
-<vocation name="Paladin"/>
-<vocation name="Shaman" />
-<vocation name="Wizard" />
-<vocation name="Hunter" />
-<vocation name="Scout" />
-</instant>
-
-<instant prem="0" name="Light Healing" words="exura" aggressive="0" lvl="9" maglv="1" mana="25" exhaustion="1"  enabled="1" script="exura.lua">
-
-</instant>
-<instant prem="0" name="Intense Healing" words="exura gran" aggressive="0" lvl="11" maglv="1" mana="40" exhaustion="1"  enabled="1" script="exura gran.lua">
+<instant prem="0" name="Ultimate healing" words="exura vita" aggressive="0" lvl="18" maglv="1" mana="80"  enabled="1" script="exura vita.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Paladin"/>
@@ -260,14 +247,27 @@
 <vocation name="Scout" />
 </instant>
 
-<instant prem="0" name="Energy Beam" words="exevo vis lux" direction="1" lvl="23" maglv="1" mana="80" exhaustion="1"  enabled="1" script="exevo vis lux.lua">
+<instant prem="0" name="Light Healing" words="exura" aggressive="0" lvl="9" maglv="1" mana="25"  enabled="1" script="exura.lua">
+
+</instant>
+<instant prem="0" name="Intense Healing" words="exura gran" aggressive="0" lvl="11" maglv="1" mana="40"  enabled="1" script="exura gran.lua">
+<vocation name="Druid"/>
+<vocation name="Sorcerer"/>
+<vocation name="Paladin"/>
+<vocation name="Shaman" />
+<vocation name="Wizard" />
+<vocation name="Hunter" />
+<vocation name="Scout" />
+</instant>
+
+<instant prem="0" name="Energy Beam" words="exevo vis lux" direction="1" lvl="23" maglv="1" mana="80"  enabled="1" script="exevo vis lux.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Shaman" />
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="0" name="Great Energy Beam" words="exevo gran vis lux" direction="1" lvl="29" maglv="1" mana="200" exhaustion="1"  enabled="1" script="exevo gran vis lux.lua">
+<instant prem="0" name="Great Energy Beam" words="exevo gran vis lux" direction="1" lvl="29" maglv="1" mana="200"  enabled="1" script="exevo gran vis lux.lua">
 <vocation name="Sorcerer"/>
 <vocation name="Paladin"/>
 <vocation name="Wizard" />
@@ -275,41 +275,41 @@
 <vocation name="Scout" />
 </instant>
 
-<instant prem="0" name="Haste" words="utani hur" selftarget="1" aggressive="0" lvl="14" maglv="1" mana="60" exhaustion="1"  enabled="1" script="utani hur.lua">
+<instant prem="0" name="Haste" words="utani hur" selftarget="1" aggressive="0" lvl="14" maglv="1" mana="60"  enabled="1" script="utani hur.lua">
 
 </instant>
 
-<instant prem="0" name="Poison Storm" words="exevo gran mas pox" lvl="50" maglv="1" mana="600" exhaustion="1"  enabled="1" script="exevo gran mas pox.lua">
+<instant prem="0" name="Poison Storm" words="exevo gran mas pox" lvl="50" maglv="1" mana="600"  enabled="1" script="exevo gran mas pox.lua">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </instant>
 
-<instant prem="0" name="Berserk" words="exori" lvl="35" maglv="1" mana="200" exhaustion="1"  enabled="1" script="exori.lua">
+<instant prem="0" name="Berserk" words="exori" lvl="35" maglv="1" mana="200"  enabled="1" script="exori.lua">
 <vocation name="Knight"/>
 <vocation name="Soldier" />
 <vocation name="Warrior" />
 </instant>
 
-<instant prem="0" name="Light" words="utevo lux" aggressive="0" lvl="8" maglv="0" mana="20" exhaustion="1"  enabled="1" script="light.lua">
+<instant prem="0" name="Light" words="utevo lux" aggressive="0" lvl="8" maglv="0" mana="20"  enabled="1" script="light.lua">
 
 </instant>
-<instant prem="0" name="Great Light" words="utevo gran lux" lvl="13" maglv="0" mana="60"  aggressive="0" selftarget="1" needtarget="0" params="0" direction="0" blocking="0" exhaustion="1" enabled="1" script="great_light.lua">
-
-</instant>
-
-<instant prem="0" name="Magic Rope" words="exani tera" lvl="9" mana="20"  aggressive="0" selftarget="1" needtarget="0" params="0" direction="0" blocking="0" exhaustion="1" enabled="1" script="magic_rope.lua">
+<instant prem="0" name="Great Light" words="utevo gran lux" lvl="13" maglv="0" mana="60"  aggressive="0" selftarget="1" needtarget="0" params="0" direction="0" blocking="0" enabled="1" script="great_light.lua">
 
 </instant>
 
-<instant prem="0" name="Create Illusion" words="utevo res ina" params="1" aggressive="0" lvl="23" maglv="1" mana="100" exhaustion="1"  enabled="1" function="Illusion">
+<instant prem="0" name="Magic Rope" words="exani tera" lvl="9" mana="20"  aggressive="0" selftarget="1" needtarget="0" params="0" direction="0" blocking="0" enabled="1" script="magic_rope.lua">
 
 </instant>
 
-<instant prem="0" name="Antidote" words="exana pox" lvl="10" maglv="1" mana="30"  aggressive="0" selftarget="1" needtarget="0" params="0" direction="0" blocking="0" exhaustion="1" enabled="1" script="antidote.lua">
+<instant prem="0" name="Create Illusion" words="utevo res ina" params="1" aggressive="0" lvl="23" maglv="1" mana="100"  enabled="1" function="Illusion">
 
 </instant>
 
-<instant prem="0" name="Fire Wave" words="exevo flam hur" lvl="18" maglv="1" mana="80"  aggressive="1" selftarget="0" needtarget="0" params="0" direction="1" blocking="0" exhaustion="1" enabled="1" script="fire_wave.lua">
+<instant prem="0" name="Antidote" words="exana pox" lvl="10" maglv="1" mana="30"  aggressive="0" selftarget="1" needtarget="0" params="0" direction="0" blocking="0" enabled="1" script="antidote.lua">
+
+</instant>
+
+<instant prem="0" name="Fire Wave" words="exevo flam hur" lvl="18" maglv="1" mana="80"  aggressive="1" selftarget="0" needtarget="0" params="0" direction="1" blocking="0" enabled="1" script="fire_wave.lua">
 <vocation name="Sorcerer" />
 <vocation name="Wizard" />
 </instant>
@@ -511,32 +511,32 @@
 </conjure>
 
 <!--//Spell for Paladins\\-->
-<conjure prem="0" name="Conjure Bolt" words="exevo con mort" lvl="17" conjureId="2543" conjureCount="15" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure Bolt" words="exevo con mort" lvl="17" conjureId="2543" conjureCount="15" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
 
-<conjure prem="0" name="Conjure Arrow" words="exevo con" lvl="13" conjureId="2544" conjureCount="15" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure Arrow" words="exevo con" lvl="13" conjureId="2544" conjureCount="15" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
 
-<conjure prem="0" name="Conjure Poison Arrow" words="exevo con pox" lvl="16" conjureId="2545" conjureCount="15" aggressive="0" maglv="1" mana="70" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure Poison Arrow" words="exevo con pox" lvl="16" conjureId="2545" conjureCount="15" aggressive="0" maglv="1" mana="70" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
 
-<conjure prem="0" name="Conjure Explosion Arrow" words="exevo con flam" lvl="25" conjureId="2546" conjureCount="15" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure Explosion Arrow" words="exevo con flam" lvl="25" conjureId="2546" conjureCount="15" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
 
-<conjure prem="0" name="Conjure Power Bolt" words="exevo con vis" lvl="59" conjureId="2547" conjureCount="15" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure Power Bolt" words="exevo con vis" lvl="59" conjureId="2547" conjureCount="15" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
 
-<conjure prem="0" name="Conjure infernal Bolt" words="exevo con vis mort" lvl="60" conjureId="6529" conjureCount="15" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure infernal Bolt" words="exevo con vis mort" lvl="60" conjureId="6529" conjureCount="15" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
@@ -547,93 +547,93 @@
 <vocation name="Soldier" />
 </conjure>
 
-<conjure prem="0" name="Create Food" words="exevo pan" lvl="14" aggressive="0" maglv="0" mana="75" soul="0"  exhaustion="1" enabled="1" function="conjureFood">
+<conjure prem="0" name="Create Food" words="exevo pan" lvl="14" aggressive="0" maglv="0" mana="75" soul="0"  enabled="1" function="conjureFood">
 </conjure>
 
 --8.0 spell
-<conjure prem="0" name="Conjure sniper arrow" words="exevo con hur" lvl="24" conjureId="7364" conjureCount="15" aggressive="0" maglv="1" mana="45" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure sniper arrow" words="exevo con hur" lvl="24" conjureId="7364" conjureCount="15" aggressive="0" maglv="1" mana="45" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="0" name="Conjure onyx arrow" words="exevo con mas" lvl="55" conjureId="7365" conjureCount="15" aggressive="0" maglv="1" mana="180" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure onyx arrow" words="exevo con mas" lvl="55" conjureId="7365" conjureCount="15" aggressive="0" maglv="1" mana="180" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="0" name="Conjure piercing bolt" words="exevo con grav" lvl="33" conjureId="7363" conjureCount="15" aggressive="0" maglv="1" mana="85" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure piercing bolt" words="exevo con grav" lvl="33" conjureId="7363" conjureCount="15" aggressive="0" maglv="1" mana="85" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
 --Scout
-<conjure prem="0" name="Conjure Bolt" words="exina con mort" lvl="17" conjureId="2543" conjureCount="25" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure Bolt" words="exina con mort" lvl="17" conjureId="2543" conjureCount="25" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="0" name="Conjure Arrow" words="exina con" lvl="13" conjureId="2544" conjureCount="25" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure Arrow" words="exina con" lvl="13" conjureId="2544" conjureCount="25" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="0" name="Conjure Poison Arrow" words="exina con pox" lvl="16" conjureId="2545" conjureCount="25" aggressive="0" maglv="1" mana="70" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure Poison Arrow" words="exina con pox" lvl="16" conjureId="2545" conjureCount="25" aggressive="0" maglv="1" mana="70" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="0" name="Conjure Explosion Arrow" words="exina con flam" lvl="25" conjureId="2546" conjureCount="25" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure Explosion Arrow" words="exina con flam" lvl="25" conjureId="2546" conjureCount="25" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="0" name="Conjure Power Bolt" words="exina con vis" lvl="59" conjureId="2547" conjureCount="25" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure Power Bolt" words="exina con vis" lvl="59" conjureId="2547" conjureCount="25" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="0" name="Conjure infernal Bolt" words="exina con vis mort" lvl="60" conjureId="6529" conjureCount="25" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure infernal Bolt" words="exina con vis mort" lvl="60" conjureId="6529" conjureCount="25" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
 
 --Shaman y Wizard
-<instant prem="0" name="Ultimate Explosion" words="exina gran mas vis" lvl="50" maglv="1" mana="800" exhaustion="1"  enabled="1" script="/80/exina gran mas vis.lua">
+<instant prem="0" name="Ultimate Explosion" words="exina gran mas vis" lvl="50" maglv="1" mana="800"  enabled="1" script="/80/exina gran mas vis.lua">
 <vocation name="Shaman"/>
 <vocation name="Wizard"/>
 </instant>
 --exena ira
-<instant prem="0" name="Combustion" words="exena ira" lvl="50" maglv="1" mana="300" exhaustion="1"  enabled="1" script="/80/combustion.lua">
+<instant prem="0" name="Combustion" words="exena ira" lvl="50" maglv="1" mana="300"  enabled="1" script="/80/combustion.lua">
 <vocation name="Shaman"/>
 <vocation name="Wizard"/>
 </instant>
 
-<instant prem="0" name="Energy stars" words="exevo mort evo" direction="1" lvl="38" maglv="1" mana="250" exhaustion="1"  enabled="1" script="/80/energy star.lua">
+<instant prem="0" name="Energy stars" words="exevo mort evo" direction="1" lvl="38" maglv="1" mana="250"  enabled="1" script="/80/energy star.lua">
 <vocation name="Shaman"/>
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="0" name="Berserk" words="exori mas" lvl="33" maglv="1" mana="160" exhaustion="1"  enabled="1" script="/80/exori mas.lua">
+<instant prem="0" name="Berserk" words="exori mas" lvl="33" maglv="1" mana="160"  enabled="1" script="/80/exori mas.lua">
 <vocation name="Knight"/>
 <vocation name="Soldier" />
 <vocation name="Warrior" />
 </instant>
 
-<instant prem="0" name="Berserk" words="exori gran" lvl="70" maglv="1" mana="340" exhaustion="1"  enabled="1" script="/80/exori gran.lua">
+<instant prem="0" name="Berserk" words="exori gran" lvl="70" maglv="1" mana="340"  enabled="1" script="/80/exori gran.lua">
 <vocation name="Knight"/>
 <vocation name="Soldier" />
 <vocation name="Warrior" />
 </instant>
 
-<instant prem="0" name="Berserk" words="exori hur" lvl="15" maglv="1" mana="40" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="/80/exori hur.lua">
+<instant prem="0" name="Berserk" words="exori hur" lvl="15" maglv="1" mana="40" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="/80/exori hur.lua">
 <vocation name="Knight"/>
 <vocation name="Soldier" />
 <vocation name="Warrior" />
 </instant>
 
-<instant prem="0" name="Berserk spear" words="exori con" lvl="23" maglv="1" mana="35" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="/80/exori con.lua">
+<instant prem="0" name="Berserk spear" words="exori con" lvl="23" maglv="1" mana="35" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="/80/exori con.lua">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </instant>
 
-<instant prem="0" name="Berserk spear" words="exori con vis" lvl="23" maglv="1" mana="45" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="/80/exori con vis.lua">
+<instant prem="0" name="Berserk spear" words="exori con vis" lvl="23" maglv="1" mana="45" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="/80/exori con vis.lua">
 <vocation name="Scout" />
 </instant>
 
-<instant prem="0" name="Berserk" words="exori hur vis" lvl="21" maglv="1" mana="50" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="/80/exori hur vis.lua">
+<instant prem="0" name="Berserk" words="exori hur vis" lvl="21" maglv="1" mana="50" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="/80/exori hur vis.lua">
 <vocation name="Soldier" />
 <vocation name="Warrior" />
 </instant>
@@ -645,7 +645,7 @@
 <vocation name="Shaman" />
 </conjure>
 
-<instant prem="0" name="changeoutfit" words="exen ina" lvl="25" maglv="5" mana="25" exhaustion="1"  enabled="1" script="/80/exen ina.lua">
+<instant prem="0" name="changeoutfit" words="exen ina" lvl="25" maglv="5" mana="25"  enabled="1" script="/80/exen ina.lua">
 <vocation name="Sorcerer"/>
 <vocation name="Druid"/>
 <vocation name="Paladin"/>
@@ -655,43 +655,43 @@
 <vocation name="Scout" />
 </instant>
 
-<instant prem="0" name="Absorve Illusion" words="exina ani" params="0" aggressive="0" lvl="25" maglv="1" mana="25" exhaustion="1"  enabled="1" script="/80/imitate.lua">
+<instant prem="0" name="Absorve Illusion" words="exina ani" params="0" aggressive="0" lvl="25" maglv="1" mana="25"  enabled="1" script="/80/imitate.lua">
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </instant>
 
-<instant prem="0" name="Berserk Strike" words="exori win" lvl="25" maglv="1" mana="35" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="exori win.lua">
+<instant prem="0" name="Berserk Strike" words="exori win" lvl="25" maglv="1" mana="35" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="exori win.lua">
 <vocation name="Knight"/>
 <vocation name="Warrior" />
 <vocation name="Soldier" />
 </instant>
 
-<instant prem="0" name="Mini Explosion" words="exevo gran mas win" lvl="40" maglv="1" mana="500" exhaustion="1"  enabled="1" script="exevo gran mas win.lua">
+<instant prem="0" name="Mini Explosion" words="exevo gran mas win" lvl="40" maglv="1" mana="500"  enabled="1" script="exevo gran mas win.lua">
 <vocation name="Sorcerer"/>
 <vocation name="Druid"/>
 <vocation name="Wizard"/>
 <vocation name="Shaman" />
 </instant>
 
-<conjure prem="0" name="Conjure earth Arrow" words="exevo con earth" lvl="25" conjureId="7850" conjureCount="15" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure earth Arrow" words="exevo con earth" lvl="25" conjureId="7850" conjureCount="15" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="0" name="Conjure fire Arrow" words="exevo con hot" lvl="25" conjureId="7840" conjureCount="15" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure fire Arrow" words="exevo con hot" lvl="25" conjureId="7840" conjureCount="15" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="0" name="Conjure fire Arrow" words="exevo con ice" lvl="25" conjureId="7839" conjureCount="15" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure fire Arrow" words="exevo con ice" lvl="25" conjureId="7839" conjureCount="15" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="0" name="Conjure fire Arrow" words="exevo con ray" lvl="25" conjureId="7838" conjureCount="15" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="0" name="Conjure fire Arrow" words="exevo con ray" lvl="25" conjureId="7838" conjureCount="15" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
@@ -699,7 +699,7 @@
 -------------------------------------
 <!--//Premium SPELLS\\-->
 
-<instant prem="1" name="boltUE" words="exevo con gran" lvl="53" maglv="1" mana="340" exhaustion="1"  enabled="1" script="/premium/exevo con gran.lua">
+<instant prem="1" name="boltUE" words="exevo con gran" lvl="53" maglv="1" mana="340"  enabled="1" script="/premium/exevo con gran.lua">
 <vocation name="Scout" />
 <vocation name="Hunter" />
 <vocation name="Paladin" />
@@ -717,49 +717,49 @@
 <vocation name="Warrior" />
 </conjure>
 
-<instant prem="1" name="Berserk" words="exori gran mas" lvl="70" maglv="1" mana="340" exhaustion="1"  enabled="1" script="/premium/exori gran mas.lua">
+<instant prem="1" name="Berserk" words="exori gran mas" lvl="70" maglv="1" mana="340"  enabled="1" script="/premium/exori gran mas.lua">
 <vocation name="Knight"/>
 <vocation name="Soldier" />
 <vocation name="Warrior" />
 </instant>
 
-<instant prem="1" name="Strong Haste" words="exina gran hur" aggressive="0" lvl="20" maglv="1" mana="150" exhaustion="1"  enabled="1" script="/premium/exina_gran_hur.lua">
+<instant prem="1" name="Strong Haste" words="exina gran hur" aggressive="0" lvl="20" maglv="1" mana="150"  enabled="1" script="/premium/exina_gran_hur.lua">
 <vocation name="Sorcerer"/>
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="1" name="Berserk" words="exori hur vis gran" lvl="25" maglv="1" mana="60" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="/premium/exori hur vis gran.lua">
+<instant prem="1" name="Berserk" words="exori hur vis gran" lvl="25" maglv="1" mana="60" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="/premium/exori hur vis gran.lua">
 <vocation name="Soldier" />
 <vocation name="Warrior" />
 </instant>
 
-<instant prem="1" name="Berserk" words="exori hur gran" lvl="25" maglv="1" mana="60" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="/premium/exori hur gran.lua">
+<instant prem="1" name="Berserk" words="exori hur gran" lvl="25" maglv="1" mana="60" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="/premium/exori hur gran.lua">
 <vocation name="Knight"/>
 <vocation name="Soldier" />
 <vocation name="Warrior" />
 </instant>
 
-<instant prem="1" name="Berserk" words="exori hur mas" lvl="38" maglv="1" mana="80" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="/premium/exori hur mas.lua">
+<instant prem="1" name="Berserk" words="exori hur mas" lvl="38" maglv="1" mana="80" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="/premium/exori hur mas.lua">
 <vocation name="Knight"/>
 <vocation name="Soldier" />
 <vocation name="Warrior" />
 </instant>
 
-<instant prem="1" name="Berserk spear" words="exori con mas" lvl="25" maglv="1" mana="45" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="/premium/exori con mas.lua">
+<instant prem="1" name="Berserk spear" words="exori con mas" lvl="25" maglv="1" mana="45" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="/premium/exori con mas.lua">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </instant>
 
-<instant prem="1" name="Berserk spear" words="exori con gran" lvl="25" maglv="1" mana="55" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="/premium/exori con gran.lua">
+<instant prem="1" name="Berserk spear" words="exori con gran" lvl="25" maglv="1" mana="55" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="/premium/exori con gran.lua">
 <vocation name="Scout" />
 </instant>
 
 
 
-<instant prem="1" name="Berserk" words="exori bin" lvl="35" maglv="1" mana="70" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="/premium/exori bin.lua">
+<instant prem="1" name="Berserk" words="exori bin" lvl="35" maglv="1" mana="70" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="/premium/exori bin.lua">
 <vocation name="Knight"/>
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
@@ -768,14 +768,14 @@
 <vocation name="Soldier" />
 </instant>
 
-<instant prem="1" name="Force Strike" words="exori wall" direction="1" lvl="32" maglv="1" mana="62" exhaustion="1"  enabled="1" script="premium/exori wall.lua">
+<instant prem="1" name="Force Strike" words="exori wall" direction="1" lvl="32" maglv="1" mana="62"  enabled="1" script="premium/exori wall.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Shaman" />
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="1" name="invisibleall" words="utana vid gran" selftarget="1" aggressive="0" lvl="38" maglv="1" mana="420" exhaustion="1"  enabled="1" script="premium/utana vid gran.lua">
+<instant prem="1" name="invisibleall" words="utana vid gran" selftarget="1" aggressive="0" lvl="38" maglv="1" mana="420"  enabled="1" script="premium/utana vid gran.lua">
 <vocation name="Druid" />
 <vocation name="Sorcerer"/>
 <vocation name="Paladin"/>
@@ -785,21 +785,21 @@
 <vocation name="Scout" />
 </instant>
 
-<instant prem="1" name="Fire Area" words="exevo flam" lvl="27" maglv="1" mana="50" exhaustion="1"  enabled="1" script="premium/exevo flam.lua">
+<instant prem="1" name="Fire Area" words="exevo flam" lvl="27" maglv="1" mana="50"  enabled="1" script="premium/exevo flam.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </instant>
 
-<instant prem="1" name="Strong Haste" words="utani gran hur mas" selftarget="1" aggressive="0" lvl="20" maglv="1" mana="130" exhaustion="1"  enabled="1" script="premium/utani gran hur mas.lua">
+<instant prem="1" name="Strong Haste" words="utani gran hur mas" selftarget="1" aggressive="0" lvl="20" maglv="1" mana="130"  enabled="1" script="premium/utani gran hur mas.lua">
 <vocation name="Druid" />
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </instant>
 
-<instant prem="1" name="Haste" words="utani hur mas" selftarget="1" aggressive="0" lvl="20" maglv="1" mana="80" exhaustion="1"  enabled="1" script="premium/utani hur mas.lua">
+<instant prem="1" name="Haste" words="utani hur mas" selftarget="1" aggressive="0" lvl="20" maglv="1" mana="80"  enabled="1" script="premium/utani hur mas.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Paladin"/>
@@ -812,12 +812,12 @@
 <vocation name="Warrior" />
 </instant>
 
-<instant prem="1" name="Wall Spell" words="exevo hur" lvl="27" maglv="1" mana="250" aggressive="1" direction="0"  exhaustion="1"  enabled="1" script="premium/exevo hur.lua">
+<instant prem="1" name="Wall Spell" words="exevo hur" lvl="27" maglv="1" mana="250" aggressive="1" direction="0"   enabled="1" script="premium/exevo hur.lua">
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </instant>
 
-<instant prem="1" name="Light Healing" words="exura mas" aggressive="0" lvl="9" maglv="1" mana="30" exhaustion="1"  enabled="1" script="premium/exura mas.lua">
+<instant prem="1" name="Light Healing" words="exura mas" aggressive="0" lvl="9" maglv="1" mana="30"  enabled="1" script="premium/exura mas.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Paladin"/>
@@ -830,12 +830,12 @@
 <vocation name="Soldier" />
 </instant>
 
-<instant prem="1" name="Ultimate fire" words="exevo gran mas bin" lvl="50" maglv="1" mana="900" exhaustion="1"  enabled="1" script="/premium/exevo gran mas bin.lua">
+<instant prem="1" name="Ultimate fire" words="exevo gran mas bin" lvl="50" maglv="1" mana="900"  enabled="1" script="/premium/exevo gran mas bin.lua">
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="1" name="Poison Storm" words="exevo mas pox" lvl="40" maglv="1" mana="250" exhaustion="1"  enabled="1" script="/premium/exevo mas pox.lua">
+<instant prem="1" name="Poison Storm" words="exevo mas pox" lvl="40" maglv="1" mana="250"  enabled="1" script="/premium/exevo mas pox.lua">
 <vocation name="Druid"/>
 <vocation name="Paladin"/>
 <vocation name="Shaman" />
@@ -843,7 +843,7 @@
 <vocation name="Scout" />
 </instant>
 
-<instant prem="1" name="Energy Storm" words="exevo mas mort" lvl="50" maglv="1" mana="300" exhaustion="1"  enabled="1" script="/premium/exevo mas mort.lua">
+<instant prem="1" name="Energy Storm" words="exevo mas mort" lvl="50" maglv="1" mana="300"  enabled="1" script="/premium/exevo mas mort.lua">
 <vocation name="Druid"/>
 <vocation name="Paladin"/>
 <vocation name="Shaman" />
@@ -851,7 +851,7 @@
 <vocation name="Scout" />
 </instant>
 
-<instant prem="1" name="Antidote fire" words="exana flam" lvl="10" maglv="1" mana="30"  aggressive="0" selftarget="1" needtarget="0" params="0" direction="0" blocking="0" exhaustion="1" enabled="1" script="/premium/exana flam.lua">
+<instant prem="1" name="Antidote fire" words="exana flam" lvl="10" maglv="1" mana="30"  aggressive="0" selftarget="1" needtarget="0" params="0" direction="0" blocking="0" enabled="1" script="/premium/exana flam.lua">
 <vocation name="Sorcerer" />
 <vocation name="Druid" />
 <vocation name="Paladin"/>
@@ -864,14 +864,14 @@
 <vocation name="Soldier" />
 </instant>
 
-<instant prem="1" name="Mana Friend" words="mana sio" aggressive="0" params="1" needtarget="1" lvl="20" maglv="1" mana="110" exhaustion="1"  enabled="1" script="/premium/manafriend.lua">
+<instant prem="1" name="Mana Friend" words="mana sio" aggressive="0" params="1" needtarget="1" lvl="20" maglv="1" mana="110"  enabled="1" script="/premium/manafriend.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer" />
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </instant>
 
-<instant prem="1" name="Antidote energy" words="exana vis" lvl="10" maglv="1" mana="30"  aggressive="0" selftarget="1" needtarget="0" params="0" direction="0" blocking="0" exhaustion="1" enabled="1" script="/premium/exana vis.lua">
+<instant prem="1" name="Antidote energy" words="exana vis" lvl="10" maglv="1" mana="30"  aggressive="0" selftarget="1" needtarget="0" params="0" direction="0" blocking="0" enabled="1" script="/premium/exana vis.lua">
 <vocation name="Sorcerer" />
 <vocation name="Druid" />
 <vocation name="Paladin"/>
@@ -884,31 +884,31 @@
 <vocation name="Soldier" />
 </instant>
 
-<conjure prem="1" name="Conjure sniper arrow" words="exevo con hur mas" lvl="24" conjureId="7364" conjureCount="25" aggressive="0" maglv="1" mana="45" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="1" name="Conjure sniper arrow" words="exevo con hur mas" lvl="24" conjureId="7364" conjureCount="25" aggressive="0" maglv="1" mana="45" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="1" name="Conjure onyx arrow" words="exevo con mas gran" lvl="55" conjureId="7365" conjureCount="25" aggressive="0" maglv="1" mana="180" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="1" name="Conjure onyx arrow" words="exevo con mas gran" lvl="55" conjureId="7365" conjureCount="25" aggressive="0" maglv="1" mana="180" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="1" name="Conjure piercing bolt" words="exevo con grav mas" lvl="33" conjureId="7363" conjureCount="25" aggressive="0" maglv="1" mana="85" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="1" name="Conjure piercing bolt" words="exevo con grav mas" lvl="33" conjureId="7363" conjureCount="25" aggressive="0" maglv="1" mana="85" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
 <!--//Premium SPELLS CREATE ITEM\\-->
-<conjure prem="1" name="Conjure Bolt" words="exevo con mort mas" lvl="17" conjureId="2543" conjureCount="25" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="1" name="Conjure Bolt" words="exevo con mort mas" lvl="17" conjureId="2543" conjureCount="25" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
 
-<conjure prem="1" name="Conjure infernal Bolt" words="exevo con vis mort mas" lvl="60" conjureId="6529" conjureCount="25" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="1" name="Conjure infernal Bolt" words="exevo con vis mort mas" lvl="60" conjureId="6529" conjureCount="25" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
@@ -922,22 +922,22 @@
 <vocation name="Shaman" />
 </conjure>
 --scout
-<conjure prem="1" name="Conjure Bolt" words="exina con mort mas" lvl="17" conjureId="2543" conjureCount="35" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="1" name="Conjure Bolt" words="exina con mort mas" lvl="17" conjureId="2543" conjureCount="35" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="1" name="Conjure Arrow" words="exina con mas" lvl="13" conjureId="2544" conjureCount="35" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="1" name="Conjure Arrow" words="exina con mas" lvl="13" conjureId="2544" conjureCount="35" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="1" name="Conjure Poison Arrow" words="exina con pox mas" lvl="16" conjureId="2545" conjureCount="35" aggressive="0" maglv="1" mana="70" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="1" name="Conjure Poison Arrow" words="exina con pox mas" lvl="16" conjureId="2545" conjureCount="35" aggressive="0" maglv="1" mana="70" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="1" name="Conjure Explosion Arrow" words="exina con flam mas" lvl="25" conjureId="2546" conjureCount="35" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="1" name="Conjure Explosion Arrow" words="exina con flam mas" lvl="25" conjureId="2546" conjureCount="35" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="1" name="Conjure Power Bolt" words="exina con vis mas" lvl="59" conjureId="2547" conjureCount="35" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="1" name="Conjure Power Bolt" words="exina con vis mas" lvl="59" conjureId="2547" conjureCount="35" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="1" name="Conjure infernal Bolt" words="exina con vis mort mas" lvl="60" conjureId="6529" conjureCount="35" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" exhaustion="1" function="conjureItem">
+<conjure prem="1" name="Conjure infernal Bolt" words="exina con vis mort mas" lvl="60" conjureId="6529" conjureCount="35" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
 
@@ -950,13 +950,13 @@
 
 --PREMIUN UPDATE 8.1
 
-<instant prem="1" name="Wound Cleansing" words="exana mort" aggressive="0" lvl="15" maglv="1" mana="45" exhaustion="1"  enabled="1" script="premium/exana mort.lua">
+<instant prem="1" name="Wound Cleansing" words="exana mort" aggressive="0" lvl="15" maglv="1" mana="45"  enabled="1" script="premium/exana mort.lua">
 <vocation name="Knight" />
 <vocation name="Soldier" />
 <vocation name="Warrior" />
 </instant>
 
-<instant prem="1" name="Great Ultimate healing" words="exura san" aggressive="0" lvl="25" maglv="1" mana="105" exhaustion="1"  enabled="1" script="premium/exura san.lua">
+<instant prem="1" name="Great Ultimate healing" words="exura san" aggressive="0" lvl="25" maglv="1" mana="105"  enabled="1" script="premium/exura san.lua">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
@@ -979,43 +979,43 @@
 <instant name="House Kick" words="alana sio" params="1" enabled="1" function="houseKick"></instant> 
 
 --Spells UPDATE 81--
-<instant prem="0" name="Earth Strike" words="exori tera" lvl="13" maglv="1" mana="20" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="81/exori tera.lua">
+<instant prem="0" name="Earth Strike" words="exori tera" lvl="13" maglv="1" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="81/exori tera.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Shaman" />
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="0" name="Ice Strike" words="exori frigo" lvl="18" maglv="1" mana="25" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="81/exori frigo.lua">
+<instant prem="0" name="Ice Strike" words="exori frigo" lvl="18" maglv="1" mana="25" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="81/exori frigo.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Shaman" />
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="0" name="Ice Strike" words="exevo frigo hur" direction="1" lvl="18" maglv="1" mana="25" exhaustion="1"  enabled="1" script="81/exevo frigo hur.lua">
+<instant prem="0" name="Ice Strike" words="exevo frigo hur" direction="1" lvl="18" maglv="1" mana="25"  enabled="1" script="81/exevo frigo hur.lua">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </instant>
 
-<instant prem="0" name="Ice Strike" words="exevo tera hur" direction="1" lvl="38" maglv="1" mana="125" exhaustion="1"  enabled="1" script="81/exevo tera hur.lua">
+<instant prem="0" name="Ice Strike" words="exevo tera hur" direction="1" lvl="38" maglv="1" mana="125"  enabled="1" script="81/exevo tera hur.lua">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </instant>
 
-<instant prem="0" name="Divine Caldera" words="exevo mas san" lvl="50" maglv="1" mana="180" exhaustion="1"  enabled="1" script="81/exevo mas san.lua">
+<instant prem="0" name="Divine Caldera" words="exevo mas san" lvl="50" maglv="1" mana="180"  enabled="1" script="81/exevo mas san.lua">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </instant>
 
-<instant prem="0" name="Earth Strike" words="exori san" lvl="40" maglv="1" mana="20" needtarget="1" allowfaruse="1" blockwalls="1" exhaustion="1"  enabled="1" script="81/exori san.lua">
+<instant prem="0" name="Earth Strike" words="exori san" lvl="40" maglv="1" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="81/exori san.lua">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </instant>
 
-<instant prem="0" name="Eternal Winter" words="exevo gran mas frigo" lvl="60" maglv="1" mana="800" exhaustion="1"  enabled="1" script="81/exevo gran mas frigo.lua">
+<instant prem="0" name="Eternal Winter" words="exevo gran mas frigo" lvl="60" maglv="1" mana="800"  enabled="1" script="81/exevo gran mas frigo.lua">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </instant>
