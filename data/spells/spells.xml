@@ -120,7 +120,7 @@
 </instant>
 
 <!--//SPELL BY VOCATIONS\\-->
-<instant prem="0" name="Summon Creature" words="utevo res" lvl="25" maglv="1" mana="0"  aggressive="1" selftarget="1" needtarget="0" params="1" direction="0" blocking="0" exhaustion="1" enabled="1" function="summonMonster">
+<instant name="Summon Creature" words="utevo res" lvl="25" maglv="1" params="1" function="summonMonster">
 <vocation name="Sorcerer" />
 <vocation name="Druid" />
 <vocation name="Shaman" />
