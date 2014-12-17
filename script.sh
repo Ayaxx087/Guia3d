@@ -1,2 +1,2 @@
-while true; do ./tfs; done
+while true; do ./otserv; done
 exit
