@@ -11,7 +11,7 @@ npos = {x=frompos.x-2, y=frompos.y, z=frompos.z}
 
 	end
                 doTeleportThing(cid,npos)
-                doPlayerSay(cid,"YOU ARE DEATH!",16)
+                doCreatureSay(cid,"YOU ARE DEATH!",16)
                 doPlayerSendTextMessage(cid,22,"Select the right exit or you will die.")
 
                 doSendMagicEffect(npos,12)

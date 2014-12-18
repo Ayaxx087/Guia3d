@@ -10,7 +10,7 @@ npos = {x=119, y=64, z=7}
 
 	end
                 doTeleportThing(cid,npos)
-                doPlayerSay(cid,"You retorn to dangerous jungle!",16)
+                doCreatureSay(cid,"You retorn to dangerous jungle!",16)
                 doSendMagicEffect(npos,12)
 else
 		doPlayerSendCancel(cid, "Sorry you are under lvl 30.")

@@ -10,7 +10,7 @@ npos = {x=frompos.x+6, y=frompos.y, z=frompos.z}
 	 	doTransformItem(item.uid,1945)
 	end
                 doTeleportThing(cid,npos)
-                doPlayerSay(cid,"You are joining on the sport area!",16)
+                doCreatureSay(cid,"You are joining on the sport area!",16)
                 doSendMagicEffect(npos,12)
 else
 		doPlayerSendCancel(cid, "You dont have enough money, you need 10 gp to join.")

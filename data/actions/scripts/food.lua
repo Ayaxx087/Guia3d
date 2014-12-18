@@ -304,7 +304,7 @@ end
 if item.itemid ~= 6280 then
 doPlayerFeed(cid, food)
 doRemoveItem(item.uid,1)
-doPlayerSay(cid, som, 19)
+doCreatureSay(cid, som, 19)
 end
 return true
 end 

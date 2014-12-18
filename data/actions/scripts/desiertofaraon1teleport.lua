@@ -11,7 +11,7 @@ npos = {x=frompos.x, y=frompos.y-1, z=frompos.z}
 
 	end
                 doTeleportThing(cid,npos)
-                doPlayerSay(cid,"YOU ARE DEATH!",16)
+                doCreatureSay(cid,"YOU ARE DEATH!",16)
                 doPlayerSendTextMessage(cid,22,"Welcome to Thalas room or Osiris place.")
                 doSendMagicEffect(npos,12)
 else

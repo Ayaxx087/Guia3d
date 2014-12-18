@@ -11,7 +11,7 @@ npos = {x=330, y=368, z=7}
 
 	end
                 doTeleportThing(cid,npos)
-                doPlayerSay(cid,"Sayonara Baby!",16)
+                doCreatureSay(cid,"Sayonara Baby!",16)
 
                 doSendMagicEffect(npos,12)
 

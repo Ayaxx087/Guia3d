@@ -11,7 +11,7 @@ npos = {x=frompos.x, y=frompos.y-3, z=frompos.z}
 
 	end
                 doTeleportThing(cid,npos)
-                doPlayerSay(cid,"You are joining on the Magic area!",16)
+                doCreatureSay(cid,"You are joining on the Magic area!",16)
 
                 doSendMagicEffect(npos,12)
 else
