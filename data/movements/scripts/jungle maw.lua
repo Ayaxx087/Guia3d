@@ -10,12 +10,12 @@ function onStepIn(cid, item, pos)
 			doTransformItem(item.uid, item.itemid - 1)
 
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end
 
 function onStepOut(cid, item, pos)
 	doTransformItem(item.uid, item.itemid - 1)
-	return 1
+	return true
 end

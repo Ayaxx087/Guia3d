@@ -37,7 +37,7 @@ function getRail(pos)
   repeat
     pos.stackpos = stack
     rail = getThingfromPos(pos)
-    if (rail.itemid == false) then break end   
+    if (rail.itemid == FALSE) then break end   
     for i, r in ipairs(RAILS) do
       if (rail.itemid == r.id) then
         found = 1

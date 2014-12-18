@@ -1,17 +1,17 @@
 
 function onStepIn(cid, item, pos)
-	if item.itemid == 0 then
-		return 0
+	if item.itemid == false then
+		return false
 	end	
 
 	if item.itemid == 670 then
 		doTransformItem(item.uid,6602)
 
 	else
-		return 0
+		return false
 	end
 
       doDecayItem(item.uid)
 	
-	return 1
+	return true
 end

@@ -13,5 +13,5 @@ function onStepOut(cid, item, pos)
 		end
 	end
 	doTransformItem(item.uid, item.itemid - 1)
-	return 1
+	return true
 end

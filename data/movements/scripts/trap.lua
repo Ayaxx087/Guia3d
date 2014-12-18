@@ -1,6 +1,6 @@
 function onStepIn(cid, item, pos)
 	if isPlayer(cid) ~= TRUE then
-		return 1
+		return true
 	end
 	if isInArray(TRAP_OFF, item.itemid) == TRUE then
 
@@ -24,12 +24,12 @@ function onStepIn(cid, item, pos)
 			doTransformItem(item.uid, item.itemid + 1)
                   end
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end
 
 function onStepOut(cid, item, pos)
 	doTransformItem(item.uid, item.itemid - 1)
-	return 1
+	return true
 end

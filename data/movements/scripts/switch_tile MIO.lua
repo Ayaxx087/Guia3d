@@ -1,7 +1,7 @@
 
 function onStepIn(cid, item, pos)
 	if isPlayer(cid) ~= TRUE then
-		return 1
+		return true
 	end
 
 	if item.itemid == 416 then
@@ -23,9 +23,9 @@ end
 		doPlayerSendTextMessage(cid, 20, "Wellcome to the depot!")
 
 	else 
-		return 0
+		return false
 	end
-	return 1
+	return true
 end
 
 function onStepOut(cid, item, pos)
@@ -45,7 +45,7 @@ function onStepOut(cid, item, pos)
 		doTransformItem(item.uid,3216)
 
 	else 
-		return 0
+		return false
 	end
-	return 1
+	return true
 end

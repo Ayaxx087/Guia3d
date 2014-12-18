@@ -4,7 +4,7 @@ npos = {x=93, y=1186, z=6}
  if getPlayerLevel(cid) < 35 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 35. plz return when you are lvl 35+ to go to Main island, and you cant return To Rookgaard if you join into the blue.")
                 doTeleportThing(cid,npos)
-		return 1
+		return true
 	end
 
           if item.actionid == 50000 then
@@ -17,11 +17,11 @@ npos = {x=93, y=1186, z=6}
 		end
 
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end
 
 function onStepOut(cid, item, pos)
-	return 1
+	return true
 end

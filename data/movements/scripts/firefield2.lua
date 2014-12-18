@@ -28,7 +28,7 @@ function onStepIn(cid, item, pos)
 	elseif isInArray(ENERGY_FIELD, item.itemid) == TRUE then
 		doTargetCombatCondition(0, cid, energy, CONST_ME_NONE)
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end

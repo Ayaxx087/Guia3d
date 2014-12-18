@@ -10,5 +10,5 @@ if item.itemid == 425 then
 
      end
 end
-return 1
+return true
 end

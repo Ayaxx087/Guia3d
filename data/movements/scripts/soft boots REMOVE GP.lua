@@ -1,7 +1,7 @@
 
 function onStepIn(cid, item, pos)
 	if isPlayer(cid) ~= TRUE then
-		return 1
+		return true
 	end
 --npos = {x=pos.x, y=pos.y+1, z=pos.z}
 newpos = {x=pos.x, y=pos.y+1, z=pos.z}
@@ -19,7 +19,7 @@ else
                 --doMoveCreature(cid, 0)
 end
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end

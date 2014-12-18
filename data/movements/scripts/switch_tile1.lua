@@ -1,6 +1,6 @@
 function onStepIn(cid, item, pos)
 	if isPlayer(cid) ~= TRUE then
-		return 1
+		return true
 	end
 	if item.actionid == 100 then
 		doTransformSwitchTile(item)
@@ -12,12 +12,12 @@ function onStepIn(cid, item, pos)
 		end
 		doTransformSwitchTile(item)
 	end
-	return 1
+	return true
 end
 
 function onStepOut(cid, item, pos)
 	doTransformSwitchTile(item)
-	return 1
+	return true
 end
 
 function doTransformSwitchTile(item)

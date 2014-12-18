@@ -188,11 +188,11 @@ function onStepIn(cid, item, pos)
 		end
 
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end
 
 function onStepOut(cid, item, pos)
-	return 1
+	return true
 end

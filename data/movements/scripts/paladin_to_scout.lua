@@ -4,12 +4,12 @@ function onStepIn(cid, item, pos)
 
  if getPlayerLevel(cid) < 50 then
 		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 50.")
-		return 1
+		return true
 	end
 
 if getPlayerVocation(cid) > 3 or getPlayerVocation(cid) < 3 then
 		doPlayerSendTextMessage(cid,22,"Sorry, only Paladin are allowed.")
-		return 1
+		return true
 	end
 	if item.actionid == 906 then
 	npos = {x=pos.x, y=pos.y-3, z=pos.z}
@@ -37,7 +37,7 @@ if getPlayerVocation(cid) > 3 or getPlayerVocation(cid) < 3 then
 		end
 
 	else
-		return 0
+		return false
 	end
-	return 1
+	return true
 end

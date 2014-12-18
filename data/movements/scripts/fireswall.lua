@@ -4,5 +4,5 @@ local condition = createConditionObject(CONDITION_FIRE)
 
 function onStepIn(cid, item, pos)
 	doTargetCombatCondition(0, cid, condition, CONST_ME_HITBYFIRE)
-	return 1
+	return true
 end
