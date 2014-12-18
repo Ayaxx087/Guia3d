@@ -21,7 +21,7 @@
 <action itemid="6570" script="surprise bag.lua"/>
 <action itemid="6571" script="surprise bag.lua"/> 
 --action actionid="6969" script="llaveannik.lua" /> -- key annik quest - randon rare items
-<action itemid="6558" script="concblood.lua"   /> -- Concentrated Blood System
+--action itemid="6558" script="concblood.lua"   /> -- Concentrated Blood System
 <action itemid="6576" script="fireworks2.lua" />
 <action itemid="5865" script="fruit.lua" />
 <action itemid="2175" script="spellbook.lua" /> --spell book for vocation
@@ -339,30 +339,30 @@
 
 <action itemid="2120" script="rope.lua" />
 
-<action itemid="1775" script="fluids.lua" />
-<action itemid="2562" script="fluids.lua" />
+--action itemid="1775" script="fluids.lua" />
+--action itemid="2562" script="fluids.lua" />
 <action itemid="2006" exhaustion="1" script="fluids.lua" />
-<action itemid="2034" script="fluids.lua" />
-<action itemid="2574" script="fluids.lua" />
-<action itemid="2575" script="fluids.lua" />
-<action itemid="2576" script="fluids.lua" />
-<action itemid="2577" script="fluids.lua" />
-<action itemid="2005" script="fluids.lua" />
+--action itemid="2034" script="fluids.lua" />
+--action itemid="2574" script="fluids.lua" />
+--action itemid="2575" script="fluids.lua" />
+--action itemid="2576" script="fluids.lua" />
+--action itemid="2577" script="fluids.lua" />
+--action itemid="2005" script="fluids.lua" />
 <action itemid="2007" script="fluids.lua" />
-<action itemid="2008" script="fluids.lua" />
-<action itemid="2009" script="fluids.lua" />
-<action itemid="2011" script="fluids.lua" />
-<action itemid="2012" script="fluids.lua" />
-<action itemid="2013" script="fluids.lua" />
+--action itemid="2008" script="fluids.lua" />
+--action itemid="2009" script="fluids.lua" />
+--action itemid="2011" script="fluids.lua" />
+--action itemid="2012" script="fluids.lua" />
+--action itemid="2013" script="fluids.lua" />
 <action itemid="2014" script="fluids.lua" />
-<action itemid="2015" script="fluids.lua" />
-<action itemid="2023" script="fluids.lua" />
+--action itemid="2015" script="fluids.lua" />
+--action itemid="2023" script="fluids.lua" />
 <action itemid="2031" script="fluids.lua" />
-<action itemid="2032" script="fluids.lua" />
-<action itemid="2033" script="fluids.lua" />
+--action itemid="2032" script="fluids.lua" />
+--action itemid="2033" script="fluids.lua" />
 
-<action itemid="3941" script="fluids.lua" />
-<action itemid="3942" script="fluids.lua" />
+--action itemid="3941" script="fluids.lua" />
+--action itemid="3942" script="fluids.lua" />
 
 --action itemid="6106" script="fluids.lua" --pirate update
 
@@ -372,7 +372,7 @@
 <action itemid="5805" script="fluids.lua" /> --golden goblet
 <action itemid="5806" script="fluids.lua" /> --silver goblet
 <action itemid="5807" script="fluids.lua" /> --bronce goblet
-<action itemid="5553" script="fluids.lua" /> --rum flask
+--action itemid="5553" script="fluids.lua" /> --rum flask
 <action itemid="6390" script="fluids.lua" /> --fontain
 
 --action itemid="1947" script="rwitems.lua" />
@@ -1821,10 +1821,10 @@
 <action actionid="9024" script="x100.lua" />
 
 
-<action itemid="7588" script="item81/strong Health Potion.lua" /> --
-<action itemid="7589" script="item81/strong mana Potion.lua" /> --
-<action itemid="7590" script="item81/great mana Potion.lua" /> --
-<action itemid="7591" script="item81/great Health Potion.lua" /> --
+--action itemid="7588" script="item81/strong Health Potion.lua" /> --
+--action itemid="7589" script="item81/strong mana Potion.lua" /> --
+--action itemid="7590" script="item81/great mana Potion.lua" /> --
+--action itemid="7591" script="item81/great Health Potion.lua" /> --
 <action itemid="7591" script="item81/great Health Potion.lua" />
 
 <action itemid="2146" script="item81/small enchanted sapphire.lua" /> --encantar perlas
@@ -1860,4 +1860,47 @@
 --801 -2 veces -Posible duplicada en 2 quest
 --804
 --901
+
+	<!-- TATUY :: Liquids -->
+	<action itemid="1775" script="tatuy/liquids/containers.lua"/>
+	<action itemid="2005" script="tatuy/liquids/containers.lua"/>
+
+	<action itemid="2008" script="tatuy/liquids/containers.lua"/>
+	<action itemid="2009" script="tatuy/liquids/containers.lua"/>
+	<action itemid="2011" script="tatuy/liquids/containers.lua"/>
+	<action itemid="2012" script="tatuy/liquids/containers.lua"/>
+	<action itemid="2013" script="tatuy/liquids/containers.lua"/>
+	<action itemid="2015" script="tatuy/liquids/containers.lua"/>
+	<action itemid="2023" script="tatuy/liquids/containers.lua"/>
+
+	<action itemid="2032" script="tatuy/liquids/containers.lua"/>
+	<action itemid="2033" script="tatuy/liquids/containers.lua"/>
+	<action itemid="2034" script="tatuy/liquids/containers.lua"/>
+	<action itemid="2562" script="tatuy/liquids/containers.lua"/>
+	<action itemid="2574" script="tatuy/liquids/containers.lua"/>
+	<action itemid="2575" script="tatuy/liquids/containers.lua"/>
+	<action itemid="2576" script="tatuy/liquids/containers.lua"/>
+	<action itemid="2577" script="tatuy/liquids/containers.lua"/>
+	<action itemid="3941" script="tatuy/liquids/containers.lua"/>
+	<action itemid="3942" script="tatuy/liquids/containers.lua"/>
+	<action itemid="5553" script="tatuy/liquids/containers.lua"/>
+	<action itemid="10150" script="tatuy/liquids/containers.lua"/>
+	<action itemid="11396" script="tatuy/liquids/containers.lua"/>
+	<action itemid="11397" script="tatuy/liquids/containers.lua"/>
+	<action itemid="11398" script="tatuy/liquids/containers.lua"/>
+	<action itemid="11399" script="tatuy/liquids/containers.lua"/>
+	<action itemid="6558" script="tatuy/liquids/demonic_blood.lua"/>
+	
+	<!-- TATUY :: Potions -->
+	<action itemid="7439" script="tatuy/liquids/berserk_potion.lua"/>
+	<action itemid="7440" script="tatuy/liquids/mastermind_potion.lua"/>
+	<action itemid="7443" script="tatuy/liquids/bullseye_potion.lua"/>
+	<action itemid="7588" script="tatuy/liquids/strong_health.lua"/>
+	<action itemid="7589" script="tatuy/liquids/strong_mana.lua"/>
+	<action itemid="7590" script="tatuy/liquids/great_mana.lua"/>
+	<action itemid="7591" script="tatuy/liquids/great_health.lua"/>
+	<action itemid="7618" script="tatuy/liquids/health_potion.lua"/>
+	<action itemid="7620" script="tatuy/liquids/mana_potion.lua"/>
+	<action itemid="8472" script="tatuy/liquids/great_spirit.lua"/>
+	<action itemid="8473" script="tatuy/liquids/ultimate_health.lua"/>
 </actions>
