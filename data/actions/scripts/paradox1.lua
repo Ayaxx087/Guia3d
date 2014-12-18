@@ -3,7 +3,7 @@ function onUse(cid, item, frompos, item2, topos)
 npos = {x=613, y=496, z=7}
 		if getPlayerLevel(cid) >= 45 then
                 doTeleportThing(cid,npos)
-                doCreatureSay(cid,"Congratulation! you avance to second floor",16)
+                doCreatureSay(cid,"Congratulation! you avance to second floor",19)
 
                 doSendMagicEffect(npos,12)
 

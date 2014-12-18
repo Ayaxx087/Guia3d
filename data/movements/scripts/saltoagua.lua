@@ -11,7 +11,7 @@ newpos = {x=709, y=788, z=7}
 		if itemhelmet.itemid == 5461 then --helmet of the deep
 
                 doTeleportThing(cid,npos)
-                doCreatureSay(cid,"Glup! Glup! Glup!",16)
+                doCreatureSay(cid,"Glup! Glup! Glup!",19)
                 doSendMagicEffect(npos,1)
                 doSendMagicEffect(newpos,1)
 			return true

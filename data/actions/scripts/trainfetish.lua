@@ -11,7 +11,7 @@ function onUse(cid, item, frompos, item2, topos)
 		end
 	elseif item.actionid == 8517 then
 
-                  --doCreatureSay(cid,"You have a Wooden train! and destroyed the Parchment! this has 5000 HP!",16)
+                  --doCreatureSay(cid,"You have a Wooden train! and destroyed the Parchment! this has 5000 HP!",19)
 	          --doSummonCreature("atrain5000hp", frompos)
 		  doPlayerAddItem(cid, 2152, 5)
                   doPlayerSendTextMessage(cid,22,"You destroyed the Parchment, and recive your 500 gp.")

@@ -9,42 +9,42 @@ function onUse(cid, item, frompos, item2, topos)
 			if item2.uid == cid then
 				doChangeTypeItem(item.uid,0)
 				if item.type == 2 then
-					doCreatureSay(cid,"it was blood....",16)
+					doCreatureSay(cid,"it was blood....",19)
 				elseif item.type == 4 then
-					doCreatureSay(cid,"it was slime!!",16)
+					doCreatureSay(cid,"it was slime!!",19)
                                         doSendMagicEffect(topos,8)
 				elseif item.type == 3 then
-					doCreatureSay(cid,"hit! hit! fresh beer!!",16)
+					doCreatureSay(cid,"hit! hit! fresh beer!!",19)
 				elseif item.type == 5 then
-					doCreatureSay(cid,"it was fresh lemonade!!",16)
+					doCreatureSay(cid,"it was fresh lemonade!!",19)
 				elseif item.type == 11 then
-					doCreatureSay(cid,"arrg is oil!!",16)
+					doCreatureSay(cid,"arrg is oil!!",19)
 				elseif item.type == 15 then
-					doCreatureSay(cid,"hit! hit! is wine",16)
+					doCreatureSay(cid,"hit! hit! is wine",19)
 				elseif item.type == 6 then
-					doCreatureSay(cid,"ohh is milk!",16)
+					doCreatureSay(cid,"ohh is milk!",19)
 				elseif item.type == 10 then
 					doPlayerAddHealth(cid,30)
                                         doSendMagicEffect(topos,12)
 				elseif item.type == 13 then
-					doCreatureSay(cid,"arrg is urine!",16)
+					doCreatureSay(cid,"arrg is urine!",19)
 				elseif item.type == 7 then
 					doPlayerAddMana(cid,50)
                                         doSendMagicEffect(topos,12)
-					doCreatureSay(cid,"Aaaaah...",1)
+					doCreatureSay(cid,"Aaaaah...",19)
                                         doRemoveItem(item.uid,1)
 				elseif item.type == 19 then
-					doCreatureSay(cid,"arrg is mud!",16)
+					doCreatureSay(cid,"arrg is mud!",19)
 				elseif item.type == 26 then
-					doCreatureSay(cid,"arrg hot on my mouth!",16)
+					doCreatureSay(cid,"arrg hot on my mouth!",19)
                                         doSendMagicEffect(topos,6)
 				elseif item.type == 28 then
-					doCreatureSay(cid,"arrg swamp water!",16)
+					doCreatureSay(cid,"arrg swamp water!",19)
                                         doSendMagicEffect(topos,8)
 				elseif item.type == 27 then
-					doCreatureSay(cid,"rum! rum! the bottle of rum!!",16)
+					doCreatureSay(cid,"rum! rum! the bottle of rum!!",19)
 				else
-					doCreatureSay(cid,"Gulp.",1)
+					doCreatureSay(cid,"Gulp.",19)
 				end
 			else
 				doChangeTypeItem(item.uid,0)

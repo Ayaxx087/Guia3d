@@ -12,7 +12,7 @@ npos = {x=frompos.x, y=frompos.y-2, z=frompos.z}
                 doTeleportThing(cid,npos)
                 train1pos = {x=260, y=209, z=7}
                 doSummonCreature("amaster", train1pos)
-                doCreatureSay(cid,"You buy a Wooden train for 1000 gp! Buy max 5 wooden! this has 10000 HP!",16)
+                doCreatureSay(cid,"You buy a Wooden train for 1000 gp! Buy max 5 wooden! this has 10000 HP!",19)
                 doSendMagicEffect(topos,12)
 else
 		doPlayerSendCancel(cid, "You dont have enough money, you need 1000 gp.")

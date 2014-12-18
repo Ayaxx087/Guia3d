@@ -4,7 +4,7 @@ npos = {x=724, y=759, z=8}
 newpos = {x=710, y=788, z=7}
 		if getPlayerLevel(cid) >= 30 then
                 doTeleportThing(cid,npos)
-                doCreatureSay(cid,"Glup! Glup! Glup!",16)
+                doCreatureSay(cid,"Glup! Glup! Glup!",19)
                 doSendMagicEffect(npos,1)
                 doSendMagicEffect(newpos,1)
 
