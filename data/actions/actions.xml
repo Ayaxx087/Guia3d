@@ -7,7 +7,7 @@
 --actionid="6997" script="movement/remnadar.lua --Reservado
 --### Player storage 15000, para outfit players###
 <action itemid="2342" script="fullhelmet.lua" /> -- ruby + helmet
-<action uniqueid="9999999" script="00playerson.lua"/> --players online 
+-------action uniqueid="9999999" script="00playerson.lua"/> --players online 
 --action uniqueid="9999997" script="00Monsterson.lua"/> --monster online 
 --action uniqueid="9999996" script="00playerslist.lua"/> --players list 
 --reservado 9999998 para Blessed. setPlayerStorageValue(cid, 9999998, 1)
