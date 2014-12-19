@@ -4,6 +4,12 @@ function onSay(cid, words, param, channel)
 		return false
 	end
 
-	doTatuyBroadcastMessage(param)
-	return true
+	local t = string.explode(param, ";", 1)
+	if(not t[2] or MESSAGE_TYPES[t[1]] == nil) then
+		broadcastMessage(param)
+	else
+		broadcastMessage(t[2], MESSAGE_TYPES[t[1]])
+	end
+
+	return false
 end
