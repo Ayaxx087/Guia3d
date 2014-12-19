@@ -10,7 +10,7 @@ setCombatParam(combat, COMBAT_PARAM_AGGRESSIVE, false)
 setCombatFormula(combat, COMBAT_FORMULA_DAMAGE, MIN, 0, MAX, 0)
 
 local exhaust = createConditionObject(CONDITION_EXHAUST_POTION)
-setConditionParam(exhaust, CONDITION_PARAM_TICKS, 2000)
+setConditionParam(exhaust, CONDITION_PARAM_TICKS, 1500)
 
 function onUse(cid, item, frompos, item2, topos)
 	if(isPlayer(item2.uid) == false)then
