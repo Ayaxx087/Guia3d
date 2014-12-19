@@ -69,8 +69,8 @@ function onUse(cid, item, frompos, item2, topos)
 		giveItemToPlayer(cid, 2666, 5, 15, topos)
 	elseif item.actionid == 2327 then ------------SHOVEL
 		giveItemToPlayer(cid, 2554, 1, 150, topos)
-	elseif item.actionid == 2328 then ------------MANA FLUID
-		giveItemToPlayer(cid, 2006, 7, 150, topos)
+	elseif item.actionid == 2328 then ------------MANA POTION
+		giveItemToPlayer(cid, 7620, 1, 50, topos)
 	elseif item.actionid == 2329 then  ------------ROPE
 		giveItemToPlayer(cid, 2120, 1, 100, topos)
 	elseif item.actionid == 2330 then ------------FISHING ROAD
@@ -179,6 +179,8 @@ function onUse(cid, item, frompos, item2, topos)
 		giveItemToPlayer(cid, 8844, 10, 30, topos)
 	elseif item.actionid == 2377 then ------------beetroot
 		giveItemToPlayer(cid, 8845, 10, 30, topos)
+	elseif item.actionid == 2378 then ------------healthpotion
+		giveItemToPlayer(cid, 7618, 1, 50, topos)		
 
 	end	
 	return true

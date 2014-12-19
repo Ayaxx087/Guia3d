@@ -956,6 +956,8 @@
 <action actionid="2376" script="service.lua" /> --jalapeno
 <action actionid="2377" script="service.lua" /> --beetroot
 
+<action actionid="2378" script="service.lua" /> --Tatuy::health potion
+
 
 -----END AUTOSERVICIO--------
 -----INICIO QUEST------
