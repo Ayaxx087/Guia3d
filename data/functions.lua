@@ -1014,7 +1014,7 @@ end
 
 function doTatuyBroadcastMessage(message)
 	for i, cid in ipairs(getPlayersOnlineList()) do
-		doPlayerSendTextMessage(cid, MESSAGE_STATUS_WARNING, message)
+		doPlayerSendTextMessage(cid, 21, message)
 	end
 	return true
 end

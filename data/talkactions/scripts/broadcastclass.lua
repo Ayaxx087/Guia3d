@@ -4,15 +4,6 @@ function onSay(cid, words, param, channel)
 		return false
 	end
 
-	if (doTatuyBroadcastMessage(param) == true) then
-		return true
-	end
-	--local t = string.explode(param, ";", 1)
-	--if(not t[2] or MESSAGE_TYPES[t[1]] == nil) then
-		--broadcastMessage(param)
-	--else
-		--broadcastMessage(t[2], MESSAGE_TYPES[t[1]])
-	--end
-
-	return false
+	doTatuyBroadcastMessage(param)
+	return true
 end
