@@ -1011,3 +1011,10 @@ end
 function doPlayerBuyItemContainer(cid, containerid, itemid, count, cost, charges)
 	return doPlayerRemoveMoney(cid, cost) and doPlayerGiveItemContainer(cid, containerid, itemid, count, charges)
 end
+
+function doTatuyBroadcastMessage(message)
+	for i, cid in ipairs(getPlayersOnlineList()) do
+		doPlayerSendTextMessage(cid, MESSAGE_STATUS_WARNING, message)
+	end
+	return true
+end
