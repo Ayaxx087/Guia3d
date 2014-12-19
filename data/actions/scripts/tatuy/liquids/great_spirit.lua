@@ -17,7 +17,7 @@ setCombatParam(combatMana, COMBAT_PARAM_AGGRESSIVE, false)
 setCombatFormula(combatMana, COMBAT_FORMULA_DAMAGE, MANA_REGEN[1], 0, MANA_REGEN[2], 0)
 
 local exhaust = createConditionObject(CONDITION_EXHAUST_POTION)
-setConditionParam(exhaust, CONDITION_PARAM_TICKS, getConfigInfo('minactionexinterval'))
+setConditionParam(exhaust, CONDITION_PARAM_TICKS, 2000)
 
 function onUse(cid, item, frompos, item2, topos)
 	if(isPlayer(item2.uid) == false)then
@@ -30,7 +30,7 @@ function onUse(cid, item, frompos, item2, topos)
 	end
 
 	if (not(isPaladin(cid)) or (getPlayerLevel(cid) < 80)) and not(getPlayerAccess(cid) > 0) then
-		doCreatureSay(cid, "Only paladins of level 80 or above may drink this fluid.", TALKTYPE_ORANGE_1)
+		doCreatureSay(cid, "Only paladins of level 80 or above may drink this fluid.", 19)
 		return true
 	end
 
@@ -40,8 +40,8 @@ function onUse(cid, item, frompos, item2, topos)
 	end
 
 	doAddCondition(cid, exhaust)
-	doCreatureSay(item2.uid, "Aaaah...", TALKTYPE_ORANGE_1)
+	doCreatureSay(item2.uid, "Aaaah...", 19)
 	doRemoveItem(item.uid, 1)
-	doPlayerAddItem(cid, EMPTY_POTION, 1)
+	--oPlayerAddItem(cid, EMPTY_POTION, 1)
 	return true
 end

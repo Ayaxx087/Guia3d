@@ -10,7 +10,7 @@ setCombatParam(combat, COMBAT_PARAM_AGGRESSIVE, false)
 setCombatFormula(combat, COMBAT_FORMULA_DAMAGE, MIN, 0, MAX, 0)
 
 local exhaust = createConditionObject(CONDITION_EXHAUST_POTION)
-setConditionParam(exhaust, CONDITION_PARAM_TICKS, getConfigInfo('minactionexinterval'))
+setConditionParam(exhaust, CONDITION_PARAM_TICKS, 2000)
 
 function onUse(cid, item, frompos, item2, topos)
 	if(isPlayer(item2.uid) == false)then
@@ -18,7 +18,7 @@ function onUse(cid, item, frompos, item2, topos)
 	end
 
 	if not(isSorcerer(cid) or isDruid(cid)) or (getPlayerLevel(cid) < 80) and not(getPlayerAccess(cid) > 0) then
-		doCreatureSay(cid, "Only sorcerers and druids of level 80 or above may drink this fluid.", TALKTYPE_ORANGE_1)
+		doCreatureSay(cid, "Only sorcerers and druids of level 80 or above may drink this fluid.", 19)
 		return true
 	end
 
@@ -32,8 +32,8 @@ function onUse(cid, item, frompos, item2, topos)
 	end
 
 	doAddCondition(cid, exhaust)
-	doCreatureSay(item2.uid, "Aaaah...", TALKTYPE_ORANGE_1)
+	doCreatureSay(item2.uid, "Aaaah...", 19)
 	doRemoveItem(item.uid, 1)
-	doPlayerAddItem(cid, EMPTY_POTION, 1)
+	--oPlayerAddItem(cid, EMPTY_POTION, 1)
 	return true
 end

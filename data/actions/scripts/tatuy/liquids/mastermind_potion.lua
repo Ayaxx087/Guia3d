@@ -5,7 +5,7 @@ setConditionParam(condition, CONDITION_PARAM_SKILL_SHIELD, -10)
 
 function onUse(cid, item, frompos, item2, topos)
 	if not(isSorcerer(cid) or isDruid(cid)) then
-		doCreatureSay(cid, "Only sorcerers and druids may drink this fluid.", TALKTYPE_ORANGE_1)
+		doCreatureSay(cid, "Only sorcerers and druids may drink this fluid.", 19)
 		return true
 	end
 
@@ -13,7 +13,7 @@ function onUse(cid, item, frompos, item2, topos)
 		return false
 	end
 
-	doCreatureSay(cid, "You feel smarter.", TALKTYPE_ORANGE_1)
+	doCreatureSay(cid, "You feel smarter.", 19)
 	doRemoveItem(item.uid)
 	return true
 end
