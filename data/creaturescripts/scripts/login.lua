@@ -21,8 +21,8 @@ function onLogin(cid)
 		--registerCreatureEvent(cid, "RemoveBless")
 		
 		--No perder skills
-		--doPlayerSetLossPercent(cid, PLAYERLOSS_SKILL, 0)
-		--doPlayerSetLossPercent(cid, PLAYERLOSS_MANA, 0)
+		doPlayerSetLossPercent(cid, PLAYERLOSS_SKILL, 0)
+		doPlayerSetLossPercent(cid, PLAYERLOSS_MANA, 0)
 		
 		--Perder BP e items al morir
 		--doPlayerSetLossPercent(cid, PLAYERLOSS_ITEMS, 10)

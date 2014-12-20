@@ -2717,7 +2717,8 @@ void Player::preSave()
 		#endif
 			health = healthMax;
 			if(getZone() != ZONE_PVP){
-				mana = manaMax;
+				//Tatuy - No regenerate full mana on die
+				//mana = manaMax;
 			}
 		#ifdef __SKULLSYSTEM__
 		}
