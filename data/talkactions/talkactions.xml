@@ -37,7 +37,7 @@
 	<talkaction words="/zt" access="2" filter="first word" script="testtutorial.lua"/>
 		<!-- Guia3d -->
 		<talkaction words="/jail" access="2" filter="first word" script="guia3d/jail.lua"/>
-		<talkaction words="/unjail" access="2" filter="first word" script="guia3d/jail.lua"/>
+		<talkaction words="/unjail" access="2" filter="first word" script="guia3d/unjail.lua"/>
 
 	<!-- Tutors -->
 	<talkaction words="/serverinfo" access="1" script="serverinfo.lua"/>

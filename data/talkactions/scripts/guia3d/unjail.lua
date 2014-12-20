@@ -10,7 +10,7 @@ function onSay(cid, words, param)
 	if player ~= LUA_NULL then
 		doTeleportThing(player,pos)
 		doRemoveCreature(player)
-		str = "Player has been jailed."
+		str = "Player has been unjailed."
 	else
 		str = "Player not found."
 	end
