@@ -1,4 +1,64 @@
 function onLogin(cid)
+	--Guia3d
+		--Hi All!
+		doPlayerSay(cid, "Hi all!", 1)
+		--Register the kill message
+		registerCreatureEvent(cid, "KILLMESSAGES")
+		
+		--Free bless low levels
+		--if getPlayerLevel(cid) < 41 and getPlayerStorageValue(cid,9999998) == -1 then
+		--setPlayerStorageValue(cid,9999998,1)
+		--end
+		
+		--Sistema de loss level
+		--if getPlayerStorageValue(cid, 9999998) >= 1 then
+		--doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, 0)
+		--else
+		--doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, 10)
+		--end
+		
+		--Register the remover bless
+		--registerCreatureEvent(cid, "RemoveBless")
+		
+		--No perder skills
+		--doPlayerSetLossPercent(cid, PLAYERLOSS_SKILL, 0)
+		--doPlayerSetLossPercent(cid, PLAYERLOSS_MANA, 0)
+		
+		--Perder BP e items al morir
+		--doPlayerSetLossPercent(cid, PLAYERLOSS_ITEMS, 10)
+		--doPlayerSetLossPercent(cid, PLAYERLOSS_CONTAINERS, 100)
+		
+		--Free premium para todos
+		--[[
+		if (isPremium(cid) == false) then
+				local name = getCreatureName(cid)
+				local player = getPlayerByName(name)
+				doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You have received 30 days of premium account. Please login again.")
+				doPlayerAddPremiumDays(cid, player, 30)
+		end
+		]]
+		
+		--Remover privilegio de premia city
+		--if (isPremium(cid) == false and getPlayerTown(cid) == 21 or getPlayerTown(cid) == 22) then
+		--doPlayerSetTown(cid,2) --Thalia temple
+		--end
+		
+		--Register pk red kill
+		--registerCreatureEvent(cid, "PKRedKill")
+		
+		--Remove promotion
+		--local isPromo = (getPlayerVocation(cid) > 10 and getPlayerVocation(cid) < 21 and isPremium(cid) == false)
+		--if(isPromo) then
+			--doPlayerSetVocation(cid, getPlayerVocation(cid)-10)
+		--end
+		--Add promotion
+		--local isNotPromo = (getPlayerVocation(cid) > 0 and getPlayerVocation(cid) < 11 and isPremium(cid) == true)
+		--if(isNotPromo) then
+			--doPlayerSetVocation(cid, getPlayerVocation(cid)+10)
+		--end
+		
+	--End Guia3d
+	
 	--registerCreatureEvent(cid, "PlayerLook")
 
 	--Register the kill/die event

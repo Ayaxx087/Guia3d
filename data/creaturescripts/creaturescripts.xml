@@ -6,4 +6,9 @@
 	<event name="Give_Bag_After_Death" type="die" script="give_bag_after_death.lua"/>
 	<event name="ExpStage" type="advance" script="exp_stage.lua"/>
 	<!--event name="PlayerLook" type="look" script="look.lua"/-->
+	
+	<!-- Guia3d -->
+	<event type="kill" name="KILLMESSAGES" script="kill.lua" />	
+	<!-- End Guia3d -->
+	
 </creaturescripts>
