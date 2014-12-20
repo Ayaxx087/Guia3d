@@ -1,3 +1,5 @@
 ### Carpeta original de otserv.
 - Se ha removido la duracion de los items slits, blades, strange holes, spikes para que funcionen como en Guia3d.
 - Se ha configurado crystal arrow para que funcione como en Guia3d.
+- Se ha cambiado el nombre de Santa's mailbox para poner mailbox y que funcione como buzon, tambien se puso el nombre de la manarune.
+- Se pusieron todos los fields y magic wall like guia3d.

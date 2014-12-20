@@ -386,6 +386,8 @@ house_level = 40
 -- PS: This info is going to be shown just if house has no owner
 show_house_prices = true
 
+-- max packets per second to elemeniate spamming of packets to server 
+-- 0 disabled
 max_packets_per_second = 50
 
 
