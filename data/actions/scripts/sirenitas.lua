@@ -1,6 +1,6 @@
 function onUse(cid, item, frompos, item2, topos)
  if getPlayerLevel(cid) < 25 then
-		doPlayerSendTextMessage(cid,26,'Sorry, ' ..getPlayerName(cid).. ' you are a little knight, try again with lvl 25+ :)')
+		doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Sorry, ' ..getPlayerName(cid).. ' you are a little knight, try again with lvl 25+ :)')
 		return true
 	end
 
@@ -15,7 +15,7 @@ addOutfit(cid, OUTFIT_CITIZEN, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9101,1)
 
 		else
-                           doPlayerSendTextMessage(cid,26,'Celestina: hello ' ..getPlayerName(cid).. ' can you give me 50 turtle shell? \nand...did you talk to my other sisters?')
+                           doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Celestina: hello ' ..getPlayerName(cid).. ' can you give me 50 turtle shell? \nand...did you talk to my other sisters?')
                            doSendMagicEffect(topos,1)
 		end
               end
@@ -31,7 +31,7 @@ addOutfit(cid, OUTFIT_HUNTER, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9102,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Betty: hello ' ..getPlayerName(cid).. ' can you give me 100 lizard scales? \nand...did you talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Betty: hello ' ..getPlayerName(cid).. ' can you give me 100 lizard scales? \nand...did you talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -47,7 +47,7 @@ addOutfit(cid, OUTFIT_MAGE, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9103,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Melany: hello ' ..getPlayerName(cid).. ' can you give me 100 green dragon scales? \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Melany: hello ' ..getPlayerName(cid).. ' can you give me 100 green dragon scales? \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -63,7 +63,7 @@ addOutfit(cid, OUTFIT_KNIGHT, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9104,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Tifani: hello ' ..getPlayerName(cid).. ' can you give me 10 demon horns? \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Tifani: hello ' ..getPlayerName(cid).. ' can you give me 10 demon horns? \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -79,7 +79,7 @@ addOutfit(cid, OUTFIT_NOBLEMAN, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9105,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Thania: hello ' ..getPlayerName(cid).. ' can you give me 30 beholder eyes?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Thania: hello ' ..getPlayerName(cid).. ' can you give me 30 beholder eyes?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -95,7 +95,7 @@ addOutfit(cid, OUTFIT_SUMMOMER, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9106,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Adriana: hello ' ..getPlayerName(cid).. ' can you give me 100 fish fins?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Adriana: hello ' ..getPlayerName(cid).. ' can you give me 100 fish fins?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -111,7 +111,7 @@ addOutfit(cid, OUTFIT_WARRIOR, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9107,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Ania: hello ' ..getPlayerName(cid).. ' can you give me 15 behemoth fangs?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Ania: hello ' ..getPlayerName(cid).. ' can you give me 15 behemoth fangs?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -129,7 +129,7 @@ addOutfit(cid, OUTFIT_BARBARIAN, 1, getPlayerSex(cid)) --ADDON 1
 			setPlayerStorageValue(cid,9108,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Victoria: hello ' ..getPlayerName(cid).. ' can you give me 50 red dragon scales?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Victoria: hello ' ..getPlayerName(cid).. ' can you give me 50 red dragon scales?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -145,7 +145,7 @@ addOutfit(cid, OUTFIT_DRUID, 1, getPlayerSex(cid)) --ADDON 1
 			setPlayerStorageValue(cid,9109,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Louisa: hello ' ..getPlayerName(cid).. ' can you give me 80 iron ores?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Louisa: hello ' ..getPlayerName(cid).. ' can you give me 80 iron ores?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -161,7 +161,7 @@ addOutfit(cid, OUTFIT_WIZARD, 1, getPlayerSex(cid)) --ADDON 1
 			setPlayerStorageValue(cid,9110,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Lourdes: hello ' ..getPlayerName(cid).. ' can you give me 100 lizard leathers?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Lourdes: hello ' ..getPlayerName(cid).. ' can you give me 100 lizard leathers?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -177,7 +177,7 @@ addOutfit(cid, OUTFIT_ORIENTAL, 1, getPlayerSex(cid)) --ADDON 1
 			setPlayerStorageValue(cid,9111,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Penelope: hello ' ..getPlayerName(cid).. ' can you give me 100 lizard leathers?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Penelope: hello ' ..getPlayerName(cid).. ' can you give me 100 lizard leathers?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -193,7 +193,7 @@ addOutfit(cid, OUTFIT_PIRATE, 1, getPlayerSex(cid)) --ADDON 1
 			setPlayerStorageValue(cid,9112,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Melany: hello ' ..getPlayerName(cid).. ' can you give me 50 green dragon leathers?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Melany: hello ' ..getPlayerName(cid).. ' can you give me 50 green dragon leathers?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -209,7 +209,7 @@ addOutfit(cid, OUTFIT_ASSASIN, 1, getPlayerSex(cid)) --ADDON 1
 			setPlayerStorageValue(cid,9113,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Mayte: hello ' ..getPlayerName(cid).. ' can you give me 100 minotaur leathers?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Mayte: hello ' ..getPlayerName(cid).. ' can you give me 100 minotaur leathers?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -225,7 +225,7 @@ addOutfit(cid, OUTFIT_BEGAR, 1, getPlayerSex(cid)) --ADDON 1
 			setPlayerStorageValue(cid,9114,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Rebecca: hello ' ..getPlayerName(cid).. ' can you give me 70 giant spider silks?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Rebecca: hello ' ..getPlayerName(cid).. ' can you give me 70 giant spider silks?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -241,7 +241,7 @@ addOutfit(cid, OUTFIT_SHAMAN, 1, getPlayerSex(cid)) --ADDON 1
 			setPlayerStorageValue(cid,9115,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Tania: hello ' ..getPlayerName(cid).. ' can you give me 20 bear paws?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Tania: hello ' ..getPlayerName(cid).. ' can you give me 20 bear paws?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -257,7 +257,7 @@ addOutfit(cid, OUTFIT_NORSEMAN, 1, getPlayerSex(cid)) --ADDON 1
 			setPlayerStorageValue(cid,9124,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Brizna: hello ' ..getPlayerName(cid).. ' can you give me 80 blue piece of cloth?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Brizna: hello ' ..getPlayerName(cid).. ' can you give me 80 blue piece of cloth?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -275,7 +275,7 @@ addOutfit(cid, OUTFIT_BARBARIAN, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9116,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Nataly: hello ' ..getPlayerName(cid).. ' can you give me 25 bat wing?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Nataly: hello ' ..getPlayerName(cid).. ' can you give me 25 bat wing?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -291,7 +291,7 @@ addOutfit(cid, OUTFIT_DRUID, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9117,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Anastasia: hello ' ..getPlayerName(cid).. ' can you give me 50 wolf paw?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Anastasia: hello ' ..getPlayerName(cid).. ' can you give me 50 wolf paw?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -307,7 +307,7 @@ addOutfit(cid, OUTFIT_WIZARD, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9118,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Veronica: hello ' ..getPlayerName(cid).. ' can you give me 70 white piece of cloth?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Veronica: hello ' ..getPlayerName(cid).. ' can you give me 70 white piece of cloth?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -323,7 +323,7 @@ addOutfit(cid, OUTFIT_ORIENTAL, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9119,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Iris: hello ' ..getPlayerName(cid).. ' can you give me 100 red piece of cloth?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Iris: hello ' ..getPlayerName(cid).. ' can you give me 100 red piece of cloth?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -339,7 +339,7 @@ addOutfit(cid, OUTFIT_PIRATE, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9120,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Fania: hello ' ..getPlayerName(cid).. ' can you give me 70 green piece of cloth?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Fania: hello ' ..getPlayerName(cid).. ' can you give me 70 green piece of cloth?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -355,7 +355,7 @@ addOutfit(cid, OUTFIT_ASSASIN, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9121,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Miriam: hello ' ..getPlayerName(cid).. ' can you give me 50 soul orb ?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Miriam: hello ' ..getPlayerName(cid).. ' can you give me 50 soul orb ?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -371,7 +371,7 @@ addOutfit(cid, OUTFIT_BEGAR, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9122,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Sonia: hello ' ..getPlayerName(cid).. ' can you give me 80 hook?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Sonia: hello ' ..getPlayerName(cid).. ' can you give me 80 hook?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -387,7 +387,7 @@ addOutfit(cid, OUTFIT_SHAMAN, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9123,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Lucrecia: hello ' ..getPlayerName(cid).. ' can you give me 80 eye patch?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Lucrecia: hello ' ..getPlayerName(cid).. ' can you give me 80 eye patch?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -403,7 +403,7 @@ addOutfit(cid, OUTFIT_NORSEMAN, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9125,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Ivania: hello ' ..getPlayerName(cid).. ' can you give me 80 brown piece of cloth?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Ivania: hello ' ..getPlayerName(cid).. ' can you give me 80 brown piece of cloth?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -421,7 +421,7 @@ addOutfit(cid, OUTFIT_NIGHTMARE, 1, getPlayerSex(cid)) --ADDON 1
 			setPlayerStorageValue(cid,9126,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Time Machine: hello ' ..getPlayerName(cid).. ' give me 100 Talon and receive a present!')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Time Machine: hello ' ..getPlayerName(cid).. ' give me 100 Talon and receive a present!')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -437,7 +437,7 @@ addOutfit(cid, OUTFIT_NIGHTMARE, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9127,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Perla: hello ' ..getPlayerName(cid).. ' can you give me 100 yellow piece ocloth?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Perla: hello ' ..getPlayerName(cid).. ' can you give me 100 yellow piece ocloth?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -453,7 +453,7 @@ addOutfit(cid, OUTFIT_JESTER, 1, getPlayerSex(cid)) --ADDON 1
 			setPlayerStorageValue(cid,9128,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Fiona: hello ' ..getPlayerName(cid).. ' can you give me 100 Coloured egg green?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Fiona: hello ' ..getPlayerName(cid).. ' can you give me 100 Coloured egg green?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -469,7 +469,7 @@ addOutfit(cid, OUTFIT_JESTER, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9129,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Lucina: hello ' ..getPlayerName(cid).. ' can you give me 100 Small Sapphire?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Lucina: hello ' ..getPlayerName(cid).. ' can you give me 100 Small Sapphire?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -485,7 +485,7 @@ addOutfit(cid, OUTFIT_BROTHERHOOD, 1, getPlayerSex(cid)) --ADDON 1
 			setPlayerStorageValue(cid,9130,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Narnia: hello ' ..getPlayerName(cid).. ' can you give me 80 Orichalcum Pearl?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Narnia: hello ' ..getPlayerName(cid).. ' can you give me 80 Orichalcum Pearl?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -501,7 +501,7 @@ addOutfit(cid, OUTFIT_BROTHERHOOD, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9131,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Stela: hello ' ..getPlayerName(cid).. ' can you give me 80 Coloured Egg Red?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Stela: hello ' ..getPlayerName(cid).. ' can you give me 80 Coloured Egg Red?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -517,7 +517,7 @@ addOutfit(cid, OUTFIT_DEMONHUNTER, 1, getPlayerSex(cid)) --ADDON 1
 			setPlayerStorageValue(cid,9132,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Minerva: hello ' ..getPlayerName(cid).. ' can you give me 80 Coloured Egg Red?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Minerva: hello ' ..getPlayerName(cid).. ' can you give me 80 Coloured Egg Red?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -533,7 +533,7 @@ addOutfit(cid, OUTFIT_DEMONHUNTER, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9133,1)
 
 		else
-                        doPlayerSendTextMessage(cid,26,'Pecora: hello ' ..getPlayerName(cid).. ' can you give me 80 Coloured Egg Red?  \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Pecora: hello ' ..getPlayerName(cid).. ' can you give me 80 Coloured Egg Red?  \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
