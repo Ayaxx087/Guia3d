@@ -6,11 +6,10 @@ function onSay(cid, words, param)
 
 	local player = getPlayerByName(param)
 	local str = ""
-	local pos = {x=40, y=430, z=7}
+	local pos = {x=1, y=1, z=1}
 	if player ~= LUA_NULL then
-		doPlayerSendTextMessage(player,22,"Welcome to the Jail.")
 		doTeleportThing(player,pos)
-		doSendMagicEffect(pos,12)
+		doRemoveCreature(player)
 		str = "Player has been jailed."
 	else
 		str = "Player not found."
