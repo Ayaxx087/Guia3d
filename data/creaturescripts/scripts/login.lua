@@ -61,6 +61,9 @@ function onLogin(cid)
 			--doPlayerSetVocation(cid, getPlayerVocation(cid)+10)
 		--end
 		
+		--Register Premmy
+		registerCreatureEvent(cid, "Premmy")
+		
 	--End Guia3d
 	
 	--registerCreatureEvent(cid, "PlayerLook")
