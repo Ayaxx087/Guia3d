@@ -92,18 +92,3 @@ function doTransformSwitchTile(item)
 		end
 	end
 end
-function doTransformSwitchTile(item)
-	if isInArray(SWITCH_TILE_ON, item.itemid) == TRUE then
-		if item.itemid == 11062 then
-			doTransformItem(item.uid, item.itemid + 1)
-		else
-			doTransformItem(item.uid, item.itemid - 1)
-		end
-	else
-		if item.itemid == 11063 then
-			doTransformItem(item.uid, item.itemid - 1)
-		else
-			doTransformItem(item.uid, item.itemid + 1)
-		end
-	end
-end
