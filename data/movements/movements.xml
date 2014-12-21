@@ -407,15 +407,4 @@
       <vocation name="Shaman" />
    </movevent>
 <movevent event="DeEquip" itemid="8918" slot="right-hand" function="onDeEquipItem"/> --3
--- Tatuy
-	<!-- You should not be able to walk through depot tiles when it is down -->
-	<moveevent event="StepIn" itemid="417" script="tatuy/dpwalk.lua"/>
-	<moveevent event="StepIn" itemid="425" script="tatuy/dpwalk.lua"/>
-	<moveevent event="StepIn" itemid="447" script="tatuy/dpwalk.lua"/>
-	<moveevent event="StepIn" itemid="3217" script="tatuy/dpwalk.lua"/>
-	<movevent event="StepIn" itemid="416" script="tatuy/dpwalk.lua"/>
-	<movevent event="StepIn" itemid="426" script="tatuy/dpwalk.lua"/>
-	<movevent event="StepIn" itemid="446" script="tatuy/dpwalk.lua"/>
-	<movevent event="StepIn" itemid="3216" script="tatuy/dpwalk.lua"/>
--- EndTatuy
 </movements>
