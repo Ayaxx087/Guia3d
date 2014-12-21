@@ -33,7 +33,9 @@ function onUse(cid, item, frompos, item2, topos)
                         item2.itemid == 5082 or
                         item2.itemid == 5132 or --key nosferatun 6969
                         item2.itemid == 5123 or --key nosferatun 6969
-                        item2.itemid == 5084 then
+                        item2.itemid == 5084 or
+			item2.itemid == 5110 or --Tatuy::Puerta con ladrillos (enseguida del dp de thalia)
+			item2.itemid == 5101 then						
 				doTransformItem(item2.uid,item2.itemid+1)
 
 		elseif item2.itemid == 1209 or
