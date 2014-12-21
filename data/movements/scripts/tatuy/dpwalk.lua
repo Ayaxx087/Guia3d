@@ -15,15 +15,15 @@ end
 function doTransformSwitchTile(item)
 	if isInArray(SWITCH_TILE_ON, item.itemid) == TRUE then
 		if item.itemid == 425 then
-			doTransformItem(item.uid, item.itemid - 1)
-		else
 			doTransformItem(item.uid, item.itemid + 1)
+		else
+			doTransformItem(item.uid, item.itemid - 1)
 		end
 	else
 		if item.itemid == 426 then
-			doTransformItem(item.uid, item.itemid + 1)
-		else
 			doTransformItem(item.uid, item.itemid - 1)
+		else
+			doTransformItem(item.uid, item.itemid + 1)
 		end
 	end
 end
@@ -31,15 +31,15 @@ end
 function doTransformSwitchTile(item)
 	if isInArray(SWITCH_TILE_ON, item.itemid) == TRUE then
 		if item.itemid == 416 then
-			doTransformItem(item.uid, item.itemid - 1)
-		else
 			doTransformItem(item.uid, item.itemid + 1)
+		else
+			doTransformItem(item.uid, item.itemid - 1)
 		end
 	else
 		if item.itemid == 417 then
-			doTransformItem(item.uid, item.itemid + 1)
-		else
 			doTransformItem(item.uid, item.itemid - 1)
+		else
+			doTransformItem(item.uid, item.itemid + 1)
 		end
 	end
 end
@@ -47,15 +47,15 @@ end
 function doTransformSwitchTile(item)
 	if isInArray(SWITCH_TILE_ON, item.itemid) == TRUE then
 		if item.itemid == 446 then
-			doTransformItem(item.uid, item.itemid - 1)
-		else
 			doTransformItem(item.uid, item.itemid + 1)
+		else
+			doTransformItem(item.uid, item.itemid - 1)
 		end
 	else
 		if item.itemid == 447 then
-			doTransformItem(item.uid, item.itemid + 1)
-		else
 			doTransformItem(item.uid, item.itemid - 1)
+		else
+			doTransformItem(item.uid, item.itemid + 1)
 		end
 	end
 end
@@ -63,15 +63,15 @@ end
 function doTransformSwitchTile(item)
 	if isInArray(SWITCH_TILE_ON, item.itemid) == TRUE then
 		if item.itemid == 3216 then
-			doTransformItem(item.uid, item.itemid - 1)
-		else
 			doTransformItem(item.uid, item.itemid + 1)
+		else
+			doTransformItem(item.uid, item.itemid - 1)
 		end
 	else
 		if item.itemid == 3217 then
-			doTransformItem(item.uid, item.itemid + 1)
-		else
 			doTransformItem(item.uid, item.itemid - 1)
+		else
+			doTransformItem(item.uid, item.itemid + 1)
 		end
 	end
 end
