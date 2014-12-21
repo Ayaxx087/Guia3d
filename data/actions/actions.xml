@@ -852,7 +852,7 @@
 
 <action actionid="2011" script="deporte_thalia.lua" /> --deportes pvp arena thalia
 
-<action uniqueid="9999" script="annikquest.lua" /> -- annikilator quest
+--action uniqueid="9999" script="annikquest.lua" /> -- annikilator quest
 <action uniqueid="3000" script="annikquest.lua" />
 <action uniqueid="3001" script="annikquest.lua" />
 <action uniqueid="3002" script="annikquest.lua" />
@@ -1905,4 +1905,7 @@
 	<action itemid="7620" script="tatuy/liquids/mana_potion.lua"/>
 	<action itemid="8472" script="tatuy/liquids/great_spirit.lua"/>
 	<action itemid="8473" script="tatuy/liquids/ultimate_health.lua"/>
+	
+	<!-- TATUY :: Annihilator Level -->
+	<action uniqueid="9999" script="tatuy/annihilator_level.lua" />
 </actions>
