@@ -6,9 +6,14 @@ function onStepIn(cid, item, pos, frompos)
 			end
 
 			doTransformSwitchTile(item) --Revertir el aplastamiento del depot tile
-			doTeleportThing(cid, frompos)
+			--doTeleportThing(cid, frompos)
 		--end
 	end
+	return true
+end
+
+function onStepOut(cid, item, pos)
+	doTransformSwitchTile(item)
 	return true
 end
 

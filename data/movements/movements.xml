@@ -413,5 +413,9 @@
 	<moveevent event="StepIn" itemid="425" script="tatuy/dpwalk.lua"/>
 	<moveevent event="StepIn" itemid="447" script="tatuy/dpwalk.lua"/>
 	<moveevent event="StepIn" itemid="3217" script="tatuy/dpwalk.lua"/>
+	<movevent event="StepOut" itemid="416" script="tatuy/dpwalk.lua"/>
+	<movevent event="StepOut" itemid="426" script="tatuy/dpwalk.lua"/>
+	<movevent event="StepOut" itemid="446" script="tatuy/dpwalk.lua"/>
+	<movevent event="StepOut" itemid="3216" script="tatuy/dpwalk.lua"/>
 -- EndTatuy
 </movements>
