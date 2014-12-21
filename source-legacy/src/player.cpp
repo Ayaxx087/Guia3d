@@ -273,9 +273,9 @@ std::string Player::getDescription(int32_t lookDistance) const
 
 		if(hasFlag(PlayerFlag_ShowGroupInsteadOfVocation))
 			s << " You are " << getGroupName() << ".";
-		else if(getVocationId() != VOCATION_NONE && player->isPremium())
+		else if(getVocationId() != VOCATION_NONE && isPremium())
 			s << " You are " << vocation->getPremiumDescription() << ".";
-		else if(getVocationId() != VOCATION_NONE && !player->isPremium())
+		else if(getVocationId() != VOCATION_NONE && !isPremium())
 			s << " You are " << vocation->getDescription() << ".";
 		else
 			s << " You have no vocation.";
@@ -287,9 +287,9 @@ std::string Player::getDescription(int32_t lookDistance) const
 
 		if(hasFlag(PlayerFlag_ShowGroupInsteadOfVocation))
 			s << " is " << getGroupName() << ".";
-		else if(getVocationId() != VOCATION_NONE && player->isPremium())
+		else if(getVocationId() != VOCATION_NONE && isPremium())
 			s << " is " << vocation->getPremiumDescription() << ".";
-		else if(getVocationId() != VOCATION_NONE && !player->isPremium())
+		else if(getVocationId() != VOCATION_NONE && !isPremium())
 			s << " is " << vocation->getDescription() << ".";
 		else
 			s << " has no vocation.";
