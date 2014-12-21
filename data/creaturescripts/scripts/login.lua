@@ -6,9 +6,9 @@ function onLogin(cid)
 		registerCreatureEvent(cid, "KILLMESSAGES")
 		
 		--Free bless low levels
-		--if getPlayerLevel(cid) < 41 and getPlayerStorageValue(cid,9999998) == -1 then
-		--setPlayerStorageValue(cid,9999998,1)
-		--end
+		if getPlayerLevel(cid) < 36 and getPlayerStorageValue(cid,9999998) == -1 then
+		setPlayerStorageValue(cid,9999998,1)
+		end
 		
 		--Sistema de loss level
 		if getPlayerStorageValue(cid, 9999998) >= 1 then
@@ -18,15 +18,15 @@ function onLogin(cid)
 		end
 		
 		--Register the remover bless
-		--registerCreatureEvent(cid, "RemoveBless")
+		registerCreatureEvent(cid, "RemoveBless")
 		
 		--No perder skills
 		doPlayerSetLossPercent(cid, PLAYERLOSS_SKILL, 0)
 		doPlayerSetLossPercent(cid, PLAYERLOSS_MANA, 0)
 		
 		--Perder BP e items al morir
-		--doPlayerSetLossPercent(cid, PLAYERLOSS_ITEMS, 10)
-		--doPlayerSetLossPercent(cid, PLAYERLOSS_CONTAINERS, 100)
+		doPlayerSetLossPercent(cid, PLAYERLOSS_ITEMS, 10)
+		doPlayerSetLossPercent(cid, PLAYERLOSS_CONTAINERS, 100)
 		
 		
 		--[[ Free premium para todos los nivel 60+ ]]
@@ -39,12 +39,16 @@ function onLogin(cid)
 		
 		
 		--Remover privilegio de premia city
-		--if (isPremium(cid) == false and getPlayerTown(cid) == 21 or getPlayerTown(cid) == 22) then
-		--doPlayerSetTown(cid,2) --Thalia temple
-		--end
+		if (isPremium(cid) == false and getPlayerTown(cid) == 21 or getPlayerTown(cid) == 22) then
+			local pos = {x=269, y=241, z=7}
+			doPlayerSetTown(cid,2) --Thalia temple
+			doTeleportThing(cid,pos)
+			doPlayerSendTextMessage(cid,22,"You can't live in Premia city while you are free account.")
+			doSendMagicEffect(pos,12)
+		end
 		
 		--Register pk red kill
-		--registerCreatureEvent(cid, "PKRedKill")
+		registerCreatureEvent(cid, "PKRedKill")
 		
 		--Remove promotion
 		--local isPromo = (getPlayerVocation(cid) > 10 and getPlayerVocation(cid) < 21 and isPremium(cid) == false)
