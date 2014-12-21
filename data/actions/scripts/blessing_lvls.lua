@@ -1,6 +1,6 @@
 function onUse(cid, item, frompos, item2, topos)
 
-	if getPlayerStorageValue(cid,9999998) == true then
+	if getPlayerStorageValue(cid,9999998) == 1 then
 		doPlayerSendTextMessage(cid,22,"You already possess this blessing.")
 	else
            if getPlayerLevel(cid) >= 1 and getPlayerLevel(cid) <= 50 then
