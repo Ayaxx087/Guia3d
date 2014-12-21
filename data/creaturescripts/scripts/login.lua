@@ -11,11 +11,11 @@ function onLogin(cid)
 		--end
 		
 		--Sistema de loss level
-		--if getPlayerStorageValue(cid, 9999998) >= 1 then
-		--doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, 0)
-		--else
-		--doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, 10)
-		--end
+		if getPlayerStorageValue(cid, 9999998) >= 1 then
+		doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, 0)
+		else
+		doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, 5)
+		end
 		
 		--Register the remover bless
 		--registerCreatureEvent(cid, "RemoveBless")

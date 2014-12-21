@@ -8,7 +8,9 @@
 	<!--event name="PlayerLook" type="look" script="look.lua"/-->
 	
 	<!-- Guia3d -->
-	<event type="kill" name="KILLMESSAGES" script="kill.lua" />	
+	<event type="kill" name="KILLMESSAGES" script="guia3d/kill.lua" />	
+	<event type="kill" name="PKRedKill" script="guia3d/killpkred.lua" />
+	<event name="RemoveBless" type="die" script="guia3d/removebless.lua"/>	
 	<!-- End Guia3d -->
 	
 </creaturescripts>
