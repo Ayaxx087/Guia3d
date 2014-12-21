@@ -407,4 +407,8 @@
       <vocation name="Shaman" />
    </movevent>
 <movevent event="DeEquip" itemid="8918" slot="right-hand" function="onDeEquipItem"/> --3
+--Tatuy
+-- New switch tiles
+<movevent event="StepIn" itemid="11062" script="switch_tile.lua" /> --glowing switch
+<movevent event="StepOut" itemid="11063" script="switch_tile.lua" /> --glowing switch
 </movements>
