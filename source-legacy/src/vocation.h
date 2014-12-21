@@ -34,6 +34,7 @@ public:
 
 	const std::string& getName() const {return name;}
 	const std::string& getDescription() const {return description;}
+	const std::string& getPremiumDescription() const {return premium;}
 
 	uint64_t getReqSkillTries(int32_t skill, int32_t level);
 	uint64_t getReqMana(int32_t magLevel);
@@ -77,6 +78,7 @@ protected:
 
 	std::string name;
 	std::string description;
+	std::string premium;
 
 	uint32_t gainHealthTicks;
 	uint32_t gainHealthAmount;

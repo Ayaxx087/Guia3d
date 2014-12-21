@@ -72,6 +72,9 @@ bool Vocations::loadFromXml(const std::string& datadir)
 					if(readXMLString(p, "description", str)){
 						voc->description = str;
 					}
+					if(readXMLString(p, "premium", str)){
+						voc->premium = str;
+					}
 					if(readXMLInteger(p, "gaincap", intVal)){
 						voc->gainCap = intVal;
 					}
