@@ -4,7 +4,7 @@ function onUse(cid, item, frompos, item2, topos)
 
              if item.actionid == 9698 then
 		--i--f --getPlayerVocation(cid) > 4 then
-		if isPremium(cid) > 0 then
+		if isPremium(cid) == true then
 		newpos = {x=711, y=149, z=6}
 		doPlayerSendTextMessage(cid,22,"Welcome to Premia city.")
 		doTeleportThing(cid,newpos)
