@@ -89,16 +89,16 @@ function onLogin(cid)
 	end
 
 	--Remove blesses if necessary
-	if getPlayerStorageValue(cid, STORAGE_REMOVE_BLESSES) == 1 then
+	--[[if getPlayerStorageValue(cid, STORAGE_REMOVE_BLESSES) == 1 then
 		local i = 0
 		while i < 5 do
 			doPlayerRemoveBless(cid, i)
 			i = i + 1
 		end
 		setPlayerStorageValue(cid, STORAGE_REMOVE_BLESSES, -1)
-	end
+	end]]
 
-	--Promotes player if necessary
+	--[[--Promotes player if necessary
 	if(isPremium(cid) ) then
 		if(getPlayerStorageValue(cid, STORAGE_PROMOTION) == 1 and getPlayerVocation(cid) <= 4) then
 			doPlayerSetVocation(cid, getPlayerVocation(cid)+4)
@@ -109,11 +109,11 @@ function onLogin(cid)
 			setPlayerStorageValue(cid, STORAGE_PREMIUM_ACCOUNT, -1)
 		end
 		return true
-	end
+	end]]
 
 	--Player is not premium - remove premium privileges
 	--Change outfit
-	if(getPlayerStorageValue(cid, STORAGE_PREMIUM_ACCOUNT) == -1) then
+	--[[if(getPlayerStorageValue(cid, STORAGE_PREMIUM_ACCOUNT) == -1) then
 		local lookType = 128
 		if(getPlayerSex(cid) == 0) then
 			lookType = 136
@@ -124,7 +124,7 @@ function onLogin(cid)
 		end
 		doCreatureChangeOutfit(cid, {lookType = lookType, lookHead = 78, lookBody = 69, lookLegs = 97, lookFeet = 95, lookAddons = 0})
 		setPlayerStorageValue(cid, STORAGE_PREMIUM_ACCOUNT, 1)
-	end
+	end]]
 
 
 
@@ -136,12 +136,12 @@ function onLogin(cid)
 	]]-- Hoster's premium towns changes according to the map
 
 	--Remove promotion
-	local isPromo = (getPlayerVocation(cid) > 4 and isPremium(cid) == false)
+	--[[local isPromo = (getPlayerVocation(cid) > 4 and isPremium(cid) == false)
 	if(isPromo) then
 		doPlayerSetVocation(cid, getPlayerVocation(cid)-4)
 		doPlayerRemoveSkillLossPercent(cid, -30)
 		setPlayerStorageValue(cid, STORAGE_PROMOTION, 1)
-	end
+	end]]
 
 	return true
 end

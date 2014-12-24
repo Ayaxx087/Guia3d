@@ -71,7 +71,7 @@ exhausted = 30000
 fightexhausted = 2000
 
 -- exhausted time in ms (1000 = 1 second) for none-aggressive spells
-healexhausted = 2000
+healexhausted = 1000
 
 -- exhausted time in ms (1000 = 1 second) for floor changing
 stairhop_exhausted = 1000
@@ -80,7 +80,7 @@ stairhop_exhausted = 1000
 exhaustedadd = 0
 
 -- how long does the player has to stay out of fight to get pz unlocked in ms (1000 = 1 second)
-in_fight_duration = 180000
+in_fight_duration = 30000
 
 -- how long a field belongs to a player before it no longer causes PZ lock for the owner
 field_ownership_duration = 5000
@@ -117,21 +117,21 @@ red_skull_duration = 7*24*60*60
 black_skull_duration = 15*24*60*60
 
 -- White skull duration, how long a player will get pz locked/white skull
-unjust_skull_duration = 15*60*1000
+unjust_skull_duration = 10*60*1000
 
 -- Enable this and players will get pzlocked regardless of being the aggressor or not (<8.5 this was set to true)
 defensive_pz_lock = true
 
 -- How many players you need to kill to gain a red skull per day/week/month
 -- Set 0 to disable
-kills_per_day_red_skull = 3
-kills_per_week_red_skull = 5
+kills_per_day_red_skull = 6
+kills_per_week_red_skull = 10
 kills_per_month_red_skull = 0
 
 -- How many players you need to kill to gain a black skull per day/week/month
 -- Set 0 to disable
-kills_per_day_black_skull = 5
-kills_per_week_black_skull = 8
+kills_per_day_black_skull = 10
+kills_per_week_black_skull = 16
 kills_per_month_black_skull = 0
 
 -- Broadcast violation window banishments
@@ -147,7 +147,7 @@ final_banishment_length = 30*86400 --seconds
 ip_banishment_length = 86400 --seconds
 
 -- Extra experience % per player when sharing experience
-party_exp_mul = 25
+party_exp_mul = 40
 
 -- Anti-MageBomb system
 -- This system works as in Tibia, time in milliseconds
