@@ -6,7 +6,7 @@
 	<talkaction words="/n" access="3" filter="first word" script="createitembyname.lua"/>
 	<talkaction words="/nfr" access="3" filter="first word" script="createitembynamefront.lua"/>
 	<talkaction words="/a" access="3" filter="first word" script="teleportntiles.lua"/>
-	<talkaction words="/goto" access="3" filter="first word" script="teleportto.lua"/>
+	
 	<talkaction words="/owner" access="3" filter="first word" script="sethouseowner.lua"/>
 	<talkaction words="/save" access="3" script="saveserver.lua"/>
 	<talkaction words="/cleanhouses" access="3" filter="first word" script="housecleaning.lua"/>
@@ -35,6 +35,7 @@
 	<talkaction words="/info" access="2" filter="first word" script="getinfo.lua"/>
 	<talkaction words="/z" access="2" filter="first word" script="testeffect.lua"/> 	 
 	<talkaction words="/zt" access="2" filter="first word" script="testtutorial.lua"/>
+	<talkaction words="/goto" access="2" filter="first word" script="teleportto.lua"/>
 		<!-- Guia3d -->
 		<talkaction words="/jail" access="2" filter="first word" script="guia3d/jail.lua"/>
 		<talkaction words="/unjail" access="2" filter="first word" script="guia3d/unjail.lua"/>
