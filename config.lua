@@ -217,7 +217,7 @@ stamina_extra_experience_onlyprem = false
 hunting_kill_duration = pzlocked
 
 -- Should the level requirements on runes be used [default: true]
-use_rune_level_requirements = false
+use_rune_level_requirements = true
 
 -- Remove ammunition
 -- If false, ammunition will not be removed when using distance weapons
