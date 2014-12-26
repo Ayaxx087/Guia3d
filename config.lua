@@ -80,7 +80,7 @@ stairhop_exhausted = 1000
 exhaustedadd = 0
 
 -- how long does the player has to stay out of fight to get pz unlocked in ms (1000 = 1 second)
-in_fight_duration = 30000
+in_fight_duration = 60000
 
 -- how long a field belongs to a player before it no longer causes PZ lock for the owner
 field_ownership_duration = 5000
@@ -117,7 +117,7 @@ red_skull_duration = 7*24*60*60
 black_skull_duration = 15*24*60*60
 
 -- White skull duration, how long a player will get pz locked/white skull
-unjust_skull_duration = 10*60*1000
+unjust_skull_duration = 15*60*1000
 
 -- Enable this and players will get pzlocked regardless of being the aggressor or not (<8.5 this was set to true)
 defensive_pz_lock = true
@@ -170,7 +170,7 @@ rate_exp = 1
 rate_exp_pvp = 0
 rate_skill = 6
 rate_mag = 2
-rate_loot = 1.5
+rate_loot = 2
 rate_spawn = 1
 
 --Displays the skill advanced to when advancing in skills (melee) [default: "no"]
@@ -297,7 +297,7 @@ can_pass_through = true
 magic_wall_disappear_on_walk = true
 
 --players with a level smaller than this number can't be attacked by other players. Set it to to 0 to disable
-min_pvp_level = 50
+min_pvp_level = 35
 
 --how much % of the total damage players actually receive when attacked by other players?
 pvp_damage = 80
