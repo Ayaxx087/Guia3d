@@ -1256,7 +1256,7 @@
 	<item id="1498" article="a" name="magic wall" editorsuffix=" (Not decaying)">
 		<attribute key="type" value="magicfield"/>
 		<attribute key="decayTo" value="0"/>
-		<attribute key="duration" value="20"/>
+		<attribute key="duration" value="60"/>
 	</item>
 	<item id="1499" article="a" name="rush wood">
 		<attribute key="type" value="magicfield"/>
