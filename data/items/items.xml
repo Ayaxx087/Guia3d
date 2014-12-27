@@ -3899,9 +3899,9 @@
 		<attribute key="duration" value="86400"/>
 	</item>
 	<item id="2352" article="a" name="crystal arrow">
-		<attribute key="description" value="The Magic arrow for ordinary bows. The train arrow with low damage, Attack 5."/>
+		<attribute key="description" value="The Magic arrow for ordinary bows. The train arrow with low damage, Attack 2."/>
 		<attribute key="weight" value="100"/>
-		<attribute key="attack" value="5"/>
+		<attribute key="attack" value="2"/>
 		<attribute key="weaponType" value="ammunition"/>
 		<attribute key="ammoType" value="arrow"/>
 		<attribute key="shootType" value="arrow"/>
