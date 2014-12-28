@@ -5,7 +5,7 @@ stages = {
 	{minLevel = 25, maxLevel = 35, multiplier = 6},
 	{minLevel = 36, maxLevel = 49, multiplier = 5},
 	{minLevel = 50, maxLevel = 59, multiplier = 4},
-	{minLevel = 60, maxLevel = 99, multiplier = 3},
-	{minLevel = 100, maxLevel = 200, multiplier = 2},
-	{minLevel = 201, maxLevel = 400, multiplier = 1}
+	{minLevel = 60, maxLevel = 79, multiplier = 3},
+	{minLevel = 80, maxLevel = 199, multiplier = 2},
+	{minLevel = 200, maxLevel = 400, multiplier = 1}
 }
