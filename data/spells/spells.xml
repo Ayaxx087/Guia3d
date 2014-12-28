@@ -284,7 +284,7 @@
 <vocation name="Shaman" />
 </instant>
 
-<instant prem="0" name="Berserk" words="exori" lvl="35" maglv="1" mana="200"  enabled="1" script="exori.lua">
+<instant prem="0" name="Berserk" words="exori" lvl="41" maglv="1" mana="200"  enabled="1" script="exori.lua">
 <vocation name="Knight"/>
 <vocation name="Soldier" />
 <vocation name="Warrior" />
