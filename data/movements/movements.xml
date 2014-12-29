@@ -258,14 +258,14 @@
 <movevent event="StepOut" itemid="6262" script="level_quest_door.lua" />
 
 -- Switch Tiles
-<movevent event="StepIn" itemid="416" script="switch_tile.lua" /> --egipt tile
-<movevent event="StepOut" itemid="417" script="switch_tile.lua" /> --egip tile
-<movevent event="StepOut" itemid="425" script="switch_tile.lua" /> --grey tile
-<movevent event="StepIn" itemid="426" script="switch_tile.lua" />  --grey tile
-<movevent event="StepIn" itemid="446" script="switch_tile.lua" /> --wooden tile
-<movevent event="StepOut" itemid="447" script="switch_tile.lua" /> --wooden tile
-<movevent event="StepIn" itemid="3216" script="switch_tile.lua" /> --wooden tile2
-<movevent event="StepOut" itemid="3217" script="switch_tile.lua" /> --wooden tile2
+--ovevent event="StepIn" itemid="416" script="switch_tile.lua" /> --egipt tile
+--ovevent event="StepOut" itemid="417" script="switch_tile.lua" /> --egip tile
+--ovevent event="StepOut" itemid="425" script="switch_tile.lua" /> --grey tile
+--ovevent event="StepIn" itemid="426" script="switch_tile.lua" />  --grey tile
+--ovevent event="StepIn" itemid="446" script="switch_tile.lua" /> --wooden tile
+--ovevent event="StepOut" itemid="447" script="switch_tile.lua" /> --wooden tile
+--ovevent event="StepIn" itemid="3216" script="switch_tile.lua" /> --wooden tile2
+--ovevent event="StepOut" itemid="3217" script="switch_tile.lua" /> --wooden tile2
 
 <movevent event="StepIn" actionid="900" script="apocalypse_quest.lua" /> --uniqueid 1400
 <movevent event="StepOut" actionid="900" script="apocalypse_quest1.lua" /> --uniqueid 1400
@@ -407,8 +407,18 @@
       <vocation name="Shaman" />
    </movevent>
 <movevent event="DeEquip" itemid="8918" slot="right-hand" function="onDeEquipItem"/> --3
+
 --Tatuy
--- New switch tiles
-<movevent event="StepIn" itemid="11062" script="switch_tile.lua" /> --glowing switch
-<movevent event="StepOut" itemid="11063" script="switch_tile.lua" /> --glowing switch
+	<!-- Switch Tiles -->
+	<moveevent event="StepIn" itemid="416" script="legacy/switch_tile.lua" />
+	<moveevent event="StepOut" itemid="417" script="legacy/switch_tile.lua" />
+	<moveevent event="StepOut" itemid="425" script="legacy/switch_tile.lua" />
+	<moveevent event="StepIn" itemid="426" script="legacy/switch_tile.lua" />
+	<moveevent event="StepIn" itemid="446" script="legacy/switch_tile.lua" />
+	<moveevent event="StepOut" itemid="447" script="legacy/switch_tile.lua" />
+	<moveevent event="StepIn" itemid="3216" script="legacy/switch_tile.lua" />
+	<moveevent event="StepOut" itemid="3217" script="legacy/switch_tile.lua" />
+	<moveevent event="StepIn" itemid="11062" script="legacy/switch_tile.lua" /> 
+	<moveevent event="StepOut" itemid="11063" script="legacy/switch_tile.lua" /> 
+
 </movements>
