@@ -4077,7 +4077,7 @@
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="shootType" value="spear"/>
 		<attribute key="range" value="3"/>
-		<attribute key="breakChance" value="3"/>
+		<attribute key="breakChance" value="5"/>
 		<attribute key="ammoAction" value="moveback"/>
 	</item>
 	<item id="2390" article="a" name="magic longsword">
@@ -16242,7 +16242,7 @@
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="shootType" value="enchantedspear"/>
 		<attribute key="range" value="4"/>
-		<attribute key="breakChance" value="1"/>
+		<attribute key="breakChance" value="5"/>
 		<attribute key="ammoAction" value="moveback"/>
 	</item>
 	<item id="7368" article="an" name="assassin star" plural="assassin stars">
@@ -16291,7 +16291,7 @@
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="shootType" value="royalspear"/>
 		<attribute key="range" value="5"/>
-		<attribute key="breakChance" value="2"/>
+		<attribute key="breakChance" value="5"/>
 		<attribute key="ammoAction" value="moveback"/>
 	</item>
 	<item id="7379" name="brutetamer's staff">
