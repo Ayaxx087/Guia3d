@@ -181,7 +181,7 @@ function isPaladin(cid)
 		return false
 	end
 
-	return (isInArray({3,7}, getPlayerVocation(cid)) == true)
+	return (isInArray({3,7,8}, getPlayerVocation(cid)) == true)
 end
 
 function isKnight(cid)
@@ -190,7 +190,7 @@ function isKnight(cid)
 		return false
 	end
 
-	return (isInArray({4,8}, getPlayerVocation(cid)) == true)
+	return (isInArray({4,9,10}, getPlayerVocation(cid)) == true)
 end
 
 function copyRawTable(t)
