@@ -3,7 +3,8 @@ setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_DRAWBLOOD)
 --etCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -1.9, 30, -2.5, 0)
 --etCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.2, 30, -2.8, 0)
-setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.5, 30, -3.1, 0)
+--etCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.5, 30, -3.1, 0)
+setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.8, 30, -3.4, 0)
 
 local arr = {
 {1, 1, 1},
