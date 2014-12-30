@@ -17555,7 +17555,7 @@
 		<attribute key="attack" value="27"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="extradef" value="7"/>
-	        <attribute key="duration" value="86400"/> --1 dias 86400
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2383"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17566,7 +17566,7 @@
 		<attribute key="attack" value="45"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="extradef" value="6"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7383"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17577,7 +17577,7 @@
 		<attribute key="attack" value="47"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="extradef" value="7"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7384"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17589,7 +17589,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="extradef" value="5"/>
 		<attribute key="slotType" value="two-handed"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7406"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17601,7 +17601,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="extradef" value="5"/>
 		<attribute key="slotType" value="two-handed"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7402"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17612,7 +17612,7 @@
 		<attribute key="attack" value="31"/>
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="extradef" value="6"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2429"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17623,7 +17623,7 @@
 		<attribute key="attack" value="36"/>
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="extradef" value="6"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2430"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17634,7 +17634,7 @@
 		<attribute key="attack" value="47"/>
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="extradef" value="6"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7389"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17646,7 +17646,7 @@
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="extradef" value="5"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7380"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17658,7 +17658,7 @@
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="extradef" value="5"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2454"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17669,7 +17669,7 @@
 		<attribute key="attack" value="31"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="extradef" value="5"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2423"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17680,7 +17680,7 @@
 		<attribute key="attack" value="41"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="extradef" value="5"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2445"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17691,7 +17691,7 @@
 		<attribute key="attack" value="47"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="extradef" value="1"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7415"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17703,7 +17703,7 @@
 		<attribute key="weaponType" value="club"/>
 		<attribute key="extradef" value="5"/>
 		<attribute key="slotType" value="two-handed"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7392"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17715,7 +17715,7 @@
 		<attribute key="weaponType" value="club"/>
 		<attribute key="extradef" value="5"/>
 		<attribute key="slotType" value="two-handed"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2391"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementFire" value="3"/>
 	</item>
@@ -17739,7 +17739,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="extradef" value="2"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2383"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -17751,7 +17751,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="extradef" value="1"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7383"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -17763,7 +17763,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="extradef" value="2"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7384"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -17775,7 +17775,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="slotType" value="two-handed"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7406"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -17787,7 +17787,7 @@
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="slotType" value="two-handed"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7402"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -17799,7 +17799,7 @@
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="extradef" value="1"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2429"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -17811,7 +17811,7 @@
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="extradef" value="1"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2430"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -17823,7 +17823,7 @@
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="extradef" value="1"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7389"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -17835,7 +17835,7 @@
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="weaponType" value="axe"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7380"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -17847,7 +17847,7 @@
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="slotType" value="two-handed"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2454"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -17858,7 +17858,7 @@
 		<attribute key="attack" value="31"/>
 		<attribute key="weaponType" value="club"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2423"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -17869,7 +17869,7 @@
 		<attribute key="attack" value="41"/>
 		<attribute key="weaponType" value="club"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2445"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -17881,7 +17881,7 @@
 		<attribute key="weaponType" value="club"/>
 		<attribute key="extradef" value="-2"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7415"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -17893,7 +17893,7 @@
 		<attribute key="weaponType" value="club"/>
 		<attribute key="slotType" value="two-handed"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7392"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -17905,7 +17905,7 @@
 		<attribute key="weaponType" value="club"/>
 		<attribute key="slotType" value="two-handed"/>
                 <attribute key="speed" value="20"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2391"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementIce" value="3"/>
 	</item>
@@ -18250,7 +18250,7 @@
 		<attribute key="attack" value="29"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="extradef" value="2"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2383"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 	</item>
@@ -18261,7 +18261,7 @@
 		<attribute key="attack" value="47"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="extradef" value="1"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7383"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 	</item>
@@ -18272,7 +18272,7 @@
 		<attribute key="attack" value="49"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="extradef" value="2"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7384"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 	</item>
@@ -18283,7 +18283,7 @@
 		<attribute key="attack" value="47"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="slotType" value="two-handed"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7406"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 	</item>
@@ -18294,7 +18294,7 @@
 		<attribute key="attack" value="49"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="slotType" value="two-handed"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7402"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 	</item>
@@ -18305,7 +18305,7 @@
 		<attribute key="attack" value="33"/>
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="extradef" value="1"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2429"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 
@@ -18317,7 +18317,7 @@
 		<attribute key="attack" value="38"/>
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="extradef" value="1"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2430"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 	</item>
@@ -18328,7 +18328,7 @@
 		<attribute key="attack" value="49"/>
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="extradef" value="1"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7389"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 	</item>
@@ -18339,7 +18339,7 @@
 		<attribute key="attack" value="47"/>
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="weaponType" value="axe"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7380"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 	</item>
@@ -18350,7 +18350,7 @@
 		<attribute key="attack" value="53"/>
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="slotType" value="two-handed"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2454"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 	</item>
@@ -18360,7 +18360,7 @@
 		<attribute key="defense" value="15"/>
 		<attribute key="attack" value="33"/>
 		<attribute key="weaponType" value="club"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2423"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 	</item>
@@ -18370,7 +18370,7 @@
 		<attribute key="defense" value="16"/>
 		<attribute key="attack" value="43"/>
 		<attribute key="weaponType" value="club"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2445"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 	</item>
@@ -18381,7 +18381,7 @@
 		<attribute key="attack" value="49"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="extradef" value="-2"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7415"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 	</item>
@@ -18392,7 +18392,7 @@
 		<attribute key="attack" value="47"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="slotType" value="two-handed"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7392"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 	</item>
@@ -18403,7 +18403,7 @@
 		<attribute key="attack" value="50"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="slotType" value="two-handed"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2391"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEarth" value="3"/>
 	</item>
@@ -18414,7 +18414,7 @@
 		<attribute key="attack" value="24"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="extradef" value="2"/>
-		<attribute key="duration" value="86400"/> --1 dias
+		<attribute key="duration" value="86400"/>
 		<attribute key="decayTo" value="2383"/>
 		<attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
@@ -18425,7 +18425,7 @@
 		<attribute key="attack" value="42"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="extradef" value="1"/>
-		<attribute key="duration" value="86400"/> --1 dias
+		<attribute key="duration" value="86400"/>
 		<attribute key="decayTo" value="7383"/>
 		<attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
@@ -18436,7 +18436,7 @@
 		<attribute key="attack" value="44"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="extradef" value="2"/>
-		<attribute key="duration" value="86400"/> --1 dias
+		<attribute key="duration" value="86400"/>
 		<attribute key="decayTo" value="7384"/>
 		<attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
@@ -18447,7 +18447,7 @@
 		<attribute key="attack" value="42"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="slotType" value="two-handed"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7406"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
@@ -18458,7 +18458,7 @@
 		<attribute key="attack" value="44"/>
 		<attribute key="weaponType" value="sword"/>
 		<attribute key="slotType" value="two-handed"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7402"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
@@ -18469,7 +18469,7 @@
 		<attribute key="attack" value="28"/>
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="extradef" value="1"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2429"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
@@ -18480,7 +18480,7 @@
 		<attribute key="attack" value="33"/>
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="extradef" value="1"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2430"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
@@ -18491,7 +18491,7 @@
 		<attribute key="attack" value="44"/>
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="extradef" value="1"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7389"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
@@ -18502,7 +18502,7 @@
 		<attribute key="attack" value="42"/>
 		<attribute key="slotType" value="two-handed"/>
 		<attribute key="weaponType" value="axe"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7380"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
@@ -18513,7 +18513,7 @@
 		<attribute key="attack" value="48"/>
 		<attribute key="weaponType" value="axe"/>
 		<attribute key="slotType" value="two-handed"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2454"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
@@ -18523,7 +18523,7 @@
 		<attribute key="defense" value="25"/>
 		<attribute key="attack" value="28"/>
 		<attribute key="weaponType" value="club"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2423"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
@@ -18533,7 +18533,7 @@
 		<attribute key="defense" value="26"/>
 		<attribute key="attack" value="38"/>
 		<attribute key="weaponType" value="club"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2445"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
@@ -18544,7 +18544,7 @@
 		<attribute key="attack" value="44"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="extradef" value="-2"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7415"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
@@ -18555,7 +18555,7 @@
 		<attribute key="attack" value="42"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="slotType" value="two-handed"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="7392"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
@@ -18566,7 +18566,7 @@
 		<attribute key="attack" value="45"/>
 		<attribute key="weaponType" value="club"/>
 		<attribute key="slotType" value="two-handed"/>
-	        <attribute key="duration" value="86400"/> --1 dias
+	        <attribute key="duration" value="86400"/>
 	        <attribute key="decayTo" value="2391"/>
                 <attribute key="showduration" value="1"/> <attribute key="elementEnergy" value="3"/>
 	</item>
