@@ -300,7 +300,7 @@ magic_wall_disappear_on_walk = true
 min_pvp_level = 35
 
 --how much % of the total damage players actually receive when attacked by other players?
-pvp_damage = 80
+pvp_damage = 50
 
 --how much % of the total damage black skulled players actually receive when attacked by other players?
 pvp_damage_at_black_skulls = 150
