@@ -2818,6 +2818,7 @@
 	</item>
 	<item id="2127" article="an" name="emerald bangle">
 		<attribute key="weight" value="170"/>
+		<attribute key="slotType" value="ring"/>		
 	</item>
 	<item id="2128" article="a" name="crown">
 		<attribute key="weight" value="1500"/>
@@ -4442,7 +4443,6 @@
 		<attribute key="defense" value="15"/>
 		<attribute key="attack" value="39"/>
 		<attribute key="weaponType" value="axe"/>
-		<attribute key="slotType" value="two-handed"/>
 	</item>
 	<item id="2442" article="a" name="heavy machete">
 		<attribute key="weight" value="1840"/>
@@ -17505,9 +17505,11 @@
 	<item id="7734" article="a" name="watering can">
 		<attribute key="weight" value="850"/>
 	</item>
-	<item id="7735" article="a" name="spellwand">
-		<attribute key="description" value="It might have some strange effects."/>
-		<attribute key="weight" value="200"/>
+	<item id="7735" article="a" name="merlin staff">
+		<attribute key="description" value="the fun staff."/>
+		<attribute key="weight" value="725"/>
+		<attribute key="weaponType" value="wand"/>
+		<attribute key="range" value="4"/>		
 	</item>
 	<item id="7736" article="a" name="rotten heart of a tree" editorsuffix=" (Secret Service Quest)">
 		<attribute key="weight" value="4500"/>
@@ -18887,7 +18889,10 @@
 		<attribute key="slotType" value="head"/>
 	</item>
 	<item id="7958" article="a" name="jester staff">
+		<attribute key="description" value="the fun staff."/>
+		<attribute key="weaponType" value="wand"/>		
 		<attribute key="weight" value="725"/>
+		<attribute key="range" value="4"/>		
 	</item>
 	<item id="7959" name="Firlefanz">
 		<attribute key="weight" value="1000"/>
