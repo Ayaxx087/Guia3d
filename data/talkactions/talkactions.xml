@@ -16,11 +16,10 @@
 	<talkaction words="/closeserver" access="3" filter="first word" script="closeserver.lua"/>
 	<talkaction words="/shutdown" access="3" filter="first word" script="shutdown.lua"/>
 	<talkaction words="/serverdiag" access="3" filter="first word" function="serverDiagnostic"/>
-	<talkaction words="/c" access="3" filter="first word" script="teleporthere.lua"/>
-	<talkaction words="/m" access="3" filter="first word" script="placemonster.lua"/>
 	<talkaction words="/r" access="3" filter="first word" script="removething.lua"/>
 	<talkaction words="/reload" access="3" filter="first word" script="reload.lua"/>
-	<talkaction words="/ban" access="3" filter="first word" script="banmanager.lua"/>
+	<talkaction words="/c" access="3" filter="first word" script="teleporthere.lua"/>
+	<talkaction words="/m" access="3" filter="first word" script="placemonster.lua"/>
 	
 	<!-- Gamemasters -->
 	<talkaction words="/up" access="2" filter="first word" script="floorchange.lua"/>
@@ -36,6 +35,10 @@
 	<talkaction words="/zt" access="2" filter="first word" script="testtutorial.lua"/>
 	<talkaction words="/goto" access="2" filter="first word" script="teleportto.lua"/>
 	<talkaction words="/kick" access="2" filter="first word" script="kickplayer.lua"/>
+	<talkaction words="/ban" access="3" filter="first word" script="banmanager.lua"/>
+	
+		
+	
 		<!-- Guia3d -->
 		<talkaction words="/jail" access="2" filter="first word" script="guia3d/jail.lua"/>
 		<talkaction words="/unjail" access="2" filter="first word" script="guia3d/unjail.lua"/>
