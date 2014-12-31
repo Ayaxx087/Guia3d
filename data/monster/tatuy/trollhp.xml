@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="troll" nameDescription="a troll" race="blood" experience="90" speed="126" manacost="290">
+  <health now="9000" max="9000"/>
+  <look type="15" head="20" body="30" legs="40" feet="50" corpse="5960"/>
+  <targetchange interval="5000" chance="50"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="2"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="15" attack="7"/>
+	<attack name="lifedrain" interval="2000" range = "1" max="-35"/>
+	<attack name="lifedrain" interval="8000" range = "1" min="-35" max="-70"/>
+	<attack name="lifedrain" interval="32000" range = "1" min="-70" max="-140"/>
+	<attack name="lifedrain" interval="64000" range = "1" min="-140" max="-210"/>
+	<attack name="lifedrain" interval="120000" range = "1" min="-210" max="-280"/>
+	<attack name="manadrain" interval="1900" range = "1" min ="-5" max="-5"/>
+  </attacks>
+
+  <defenses armor="1" defense="2">
+    <defense name="healing" interval="2000" chance="25" min="5000" max="6000">
+    </defense>
+	<defense name="invisible" interval="96000" duration="12000">
+	<attribute key="areaEffect" value="poff"/>
+	</defense>
+  </defenses>
+
+  <immunities>
+    <immunity physical="1"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+    <immunity ice="1"/>
+    <immunity holy="1"/>
+    <immunity death="1"/>
+    <immunity earth="1"/>
+  </immunities>
+
+	<voices interval="5000" chance="10">
+	<voice sentence="Don't waste your time with me, human."/>
+	<voice sentence="I am here for another proposals."/>
+	<voice sentence="Leave me alone, and I won't disturb you."/>
+	<voice sentence="LaLaLaLaLaLa EaE LaLaLaLaLaLaLa"/>
+	</voices>
+  
+</monster>

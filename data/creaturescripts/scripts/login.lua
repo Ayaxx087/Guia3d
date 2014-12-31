@@ -14,7 +14,7 @@ function onLogin(cid)
 		if getPlayerStorageValue(cid, 9999998) >= 1 then
 		doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, 0)
 		else
-		doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, 10)
+		doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, 35)
 		end
 		
 		--Register the remover bless
