@@ -8,7 +8,7 @@ setCombatParam(combat, COMBAT_PARAM_DISPEL, CONDITION_PARALYZE)
 
 function onGetFormulaValues(cid, level, maglevel)
 	min = (level * 2 + maglevel * 3) * 2
-	max = (level * 2 + maglevel * 3) * 2.8
+	max = (level * 2 + maglevel * 3) * 2.6
 	if min < 250 then
 		min = 250
 	end
