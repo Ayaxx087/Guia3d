@@ -6,6 +6,7 @@ function onUse(cid, item, frompos, item2, topos)
 
 		if doPlayerRemoveMoney(cid, 10000) == true then
 			setPlayerStorageValue(cid,9999998,1)
+			doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, 0)
 			doPlayerSendTextMessage(cid,22,"You have received one blessing of the life.")
                 n = math.random(0, 2)
 		doSendMagicEffect(getPlayerPosition(cid), 28 + n)
