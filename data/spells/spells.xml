@@ -177,7 +177,7 @@
 <vocation name="Wizard"/>
 </instant>
 
-<instant prem="0" name="Challenge" words="exeta res" lvl="4" maglv="1" mana="90"  enabled="1" script="challenge.lua">
+<instant prem="0" name="Challenge" words="exeta res" lvl="4" aggressive="0" selftarget="1" maglv="1" mana="90"  enabled="1" script="challenge.lua">
 <vocation name="Knight"/>
 <vocation name="Warrior" />
 <vocation name="Soldier" />

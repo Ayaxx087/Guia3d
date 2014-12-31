@@ -1,292 +1,392 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <weapons>
---GM SPRITE WAND--RANGE-10
-<wand id="2453" level="50" mana="50000" enabled="1" exhaustion="0" script="sprite wand.lua">
-	<vocation name="GM" />
-</wand>
-<wand id="7958" level="33" mana="20" enabled="1" exhaustion="0" script="jester staff.lua">
+	<!-- Rods -->
+	<wand id="2182" level="7" mana="2" min="8" max="18" type="earth" function="default"> <!-- Snakebit Rod -->
+		<vocation name="Druid"/>
+		<vocation name="Shaman" showInDescription="0"/>
+	</wand>
+	<wand id="2186" level="13" mana="3" min="13" max="25" type="ice" function="default"> <!-- Moonlight Rod -->
+		<vocation name="Druid"/>
+		<vocation name="Shaman" showInDescription="0"/>
+	</wand>
+	<wand id="2185" level="19" mana="5" min="27" max="33" type="death" function="default"> <!-- Necrotic Rod -->
+		<vocation name="Druid"/>
+		<vocation name="Shaman" showInDescription="0"/>
+	</wand>
+	<wand id="8911" level="22" mana="5" min="27" max="33" type="ice" function="default"> <!-- Northwind Rod -->
+		<vocation name="Druid"/>
+		<vocation name="Shaman" showInDescription="0"/>
+	</wand>
+	<wand id="2181" level="26" mana="8" min="42" max="48" type="earth" function="default"> <!-- Terra Rod -->
+		<vocation name="Druid"/>
+		<vocation name="Shaman" showInDescription="0"/>
+	</wand>
+	<wand id="2183" level="33" mana="13" min="55" max="75" type="ice" function="default"> <!-- Hailstorm Rod -->
+		<vocation name="Druid"/>
+		<vocation name="Shaman" showInDescription="0"/>
+	</wand>
+	<wand id="8912" level="37" mana="13" min="55" max="75" type="earth" function="default"> <!-- Springsprout Rod -->
+		<vocation name="Druid"/>
+		<vocation name="Shaman" showInDescription="0"/>
+	</wand>
+	<wand id="8910" level="42" mana="13" min="55" max="75" type="death" function="default"> <!-- Underworld Rod -->
+		<vocation name="Druid"/>
+		<vocation name="Shaman" showInDescription="0"/>
+	</wand>
 
-</wand>
+	<!-- Wands -->
+	<wand id="2190" level="7" mana="2" min="8" max="18" type="energy" function="default"> <!-- Wand of Vortex -->
+		<vocation name="Sorcerer"/>
+		<vocation name="Wizard" showInDescription="0"/>
+	</wand>
+	<wand id="2191" level="13" mana="3" min="13" max="25" type="fire" function="default"> <!-- Wand of Dragonbreath -->
+		<vocation name="Sorcerer"/>
+		<vocation name="Wizard" showInDescription="0"/>
+	</wand>
+	<wand id="2188" level="19" mana="5" min="27" max="33" type="death" function="default"> <!-- Wand of Decay -->
+		<vocation name="Sorcerer"/>
+		<vocation name="Wizard" showInDescription="0"/>
+	</wand>
+	<wand id="8921" level="22" mana="5" min="27" max="33" type="fire" function="default"> <!-- Wand of Draconia -->
+		<vocation name="Sorcerer"/>
+		<vocation name="Wizard" showInDescription="0"/>
+	</wand>
+	<wand id="2189" level="26" mana="8" min="42" max="48" type="energy" function="default"> <!-- Wand of Cosmic Energy -->
+		<vocation name="Sorcerer"/>
+		<vocation name="Wizard" showInDescription="0"/>
+	</wand>
+	<wand id="2187" level="33" mana="13" min="55" max="75" type="fire" function="default"> <!-- Wand of Inferno -->
+		<vocation name="Sorcerer"/>
+		<vocation name="Wizard" showInDescription="0"/>
+	</wand>
+	<wand id="8920" level="37" mana="13" min="55" max="75" type="energy" function="default"> <!-- Wand of Starmstorm -->
+		<vocation name="Sorcerer"/>
+		<vocation name="Wizard" showInDescription="0"/>
+	</wand>
+	<wand id="8922" level="42" mana="13" min="55" max="75" type="death" function="default"> <!-- Wand of Voodoo -->
+		<vocation name="Sorcerer"/>
+		<vocation name="Wizard" showInDescription="0"/>
+	</wand>
 
-<wand id="7735" level="33" mana="20" enabled="1" exhaustion="0" script="merlin staff.lua">
-</wand>
+<!-- Swords -->
+	<melee id="2390" unproperly="1" function="default">
+	</melee>
+	<melee id="2392" unproperly="1" function="default"/>
+	<melee id="2393" unproperly="1" function="default">
+	</melee>
+	<melee id="2396" function="default"/>
+	<melee id="2400" unproperly="1" function="default"/>
+	<melee id="2407" unproperly="1" function="default"/>
+	<melee id="2408" unproperly="1" function="default">
+	</melee>
+	<melee id="2413" unproperly="1" function="default">
+	</melee>
+	<melee id="2438" unproperly="1" function="default"/>
+	<melee id="2446" unproperly="1" function="default"/>
+	<melee id="2451" unproperly="1" function="default"/>
+	<melee id="2377" unproperly="1" function="default"/>
+	<melee id="6528" unproperly="1" function="default">
+	</melee>
+	<melee id="7382" unproperly="1" function="default">
+	</melee>
+	<melee id="7383" unproperly="1" function="default"/>
+	<melee id="7384" unproperly="1" function="default">
+	</melee>
+	<melee id="7385" unproperly="1" function="default"/>
+	<melee id="7386" unproperly="1" function="default">
+	</melee>
+	<melee id="7390" unproperly="1" function="default"/>
+	<melee id="7391" unproperly="1" function="default">
+	</melee>
+	<melee id="7403" unproperly="1" function="default">
+	</melee>
+	<melee id="7402" unproperly="1" function="default">
+	</melee>
+	<melee id="7404" unproperly="1" function="default"/>
+	<melee id="7405" unproperly="1" function="default"/>
+	<melee id="7406" unproperly="1" function="default">
+	</melee>
+	<melee id="7407" unproperly="1" function="default">
+	</melee>
+	<melee id="7408" unproperly="1" function="default"/>
+	<melee id="7416" unproperly="1" function="default"/>
+	<melee id="7417" unproperly="1" function="default">
+	</melee>
+	<melee id="7418" unproperly="1" function="default"/>
+	<melee id="7421" unproperly="1" function="default"/>
+	<melee id="7449" unproperly="1" function="default">
+	</melee>
+ 
+	<melee id="8930" unproperly="1" function="default"/>
+	<melee id="8931" unproperly="1" function="default"/>
+	<melee id="8932" unproperly="1" function="default"/>
+ 
+	<melee id="11306" unproperly="1" function="default">
+	</melee>
+	<melee id="11307" unproperly="1" function="default"/>
+	<melee id="11309" unproperly="1" function="default">
+	</melee>
+	<melee id="12613" unproperly="1" function="default">
+	</melee>
+	<melee id="12649" unproperly="1" function="default">
+	</melee>
+ 
+		<!-- Fire -->
+	<melee id="7744" function="default"/>
+	<melee id="7745" unproperly="1" function="default"/>
+	<melee id="7746" unproperly="1" function="default"/>
+	<melee id="7747" unproperly="1" function="default">
+	</melee>
+	<melee id="7748" unproperly="1" function="default">
+	</melee>
+		<!-- Ice -->
+	<melee id="7763" function="default"/>
+	<melee id="7764" unproperly="1" function="default"/>
+	<melee id="7765" unproperly="1" function="default"/>
+	<melee id="7766" unproperly="1" function="default">
+	</melee>
+	<melee id="7767" unproperly="1" function="default">
+	</melee>
+		<!-- Earth -->
+	<melee id="7854" function="default"/>
+	<melee id="7855" unproperly="1" function="default"/>
+	<melee id="7856" unproperly="1" function="default"/>
+	<melee id="7857" unproperly="1" function="default">
+	</melee>
+	<melee id="7858" unproperly="1" function="default">
+	</melee>
+		<!-- Energy -->
+	<melee id="7869" function="default"/>
+	<melee id="7870" unproperly="1" function="default"/>
+	<melee id="7871" unproperly="1" function="default"/>
+	<melee id="7872" unproperly="1" function="default">
+	</melee>
+	<melee id="7873" unproperly="1" function="default">
+	</melee>
+ 
+	<!-- Axes -->
+	<melee id="2378" unproperly="1" function="default">
+	</melee>
+	<melee id="2381" unproperly="1" function="default"/>
+	<melee id="2387" unproperly="1" function="default">
+	</melee>
+	<melee id="2414" unproperly="1" function="default"/>
+	<melee id="2415" unproperly="1" function="default">
+	</melee>
+	<melee id="2425" unproperly="1" function="default"/>
+	<melee id="2426" unproperly="1" function="default"/>
+	<melee id="2427" unproperly="1" function="default"/>
+	<melee id="2429" unproperly="1" function="default"/>
+	<melee id="2430" unproperly="1" function="default"/>
+	<melee id="2431" unproperly="1" function="default"/>
+	<melee id="2432" unproperly="1" function="default"/>
+	<melee id="2435" unproperly="1" function="default"/>
+	<melee id="2440" unproperly="1" function="default">
+	</melee>
+	<melee id="2443" unproperly="1" function="default"/>
+	<melee id="2447" unproperly="1" function="default">
+	</melee>
+	<melee id="2454" unproperly="1" function="default">
+	</melee>
+	<melee id="3962" unproperly="1" function="default"/>
+	<melee id="6553" unproperly="1" function="default">
+	</melee>
+ 
+	<melee id="7380" unproperly="1" function="default">
+	</melee>
+	<melee id="7388" unproperly="1" function="default"/>
+	<melee id="7389" unproperly="1" function="default"/>
+	<melee id="7411" unproperly="1" function="default"/>
+	<melee id="7412" unproperly="1" function="default"/>
+	<melee id="7413" unproperly="1" function="default">
+	</melee>
+	<melee id="7419" unproperly="1" function="default"/>
+	<melee id="7420" unproperly="1" function="default"/>
+	<melee id="7433" unproperly="1" function="default"/>
+	<melee id="7434" unproperly="1" function="default"/>
+	<melee id="7435" unproperly="1" function="default"/>
+	<melee id="7453" unproperly="1" function="default">
+	</melee>
+	<melee id="7454" unproperly="1" function="default">
+	</melee>
+	<melee id="7455" unproperly="1" function="default"/>
+	<melee id="7456" unproperly="1" function="default"/>
+	<melee id="8924" unproperly="1" function="default"/>
+	<melee id="8925" unproperly="1" function="default"/>
+	<melee id="8926" unproperly="1" function="default">
+	</melee>
+ 
+	<melee id="11305" unproperly="1" function="default"/>
+	<melee id="11323" unproperly="1" function="default"/>
+ 
+	<!-- Fire -->
+	<melee id="7749" function="default"/>
+	<melee id="7750" unproperly="1" function="default"/>
+	<melee id="7751" unproperly="1" function="default"/>
+	<melee id="7752" unproperly="1" function="default">
+	</melee>
+	<melee id="7753" unproperly="1" function="default">
+	</melee>
+		<!-- Ice -->
+	<melee id="7768" function="default"/>
+	<melee id="7769" unproperly="1" function="default"/>
+	<melee id="7770" unproperly="1" function="default"/>
+	<melee id="7771" unproperly="1" function="default">
+	</melee>
+	<melee id="7772" unproperly="1" function="default">
+	</melee>
+		<!-- Earth -->
+	<melee id="7859" function="default"/>
+	<melee id="7860" unproperly="1" function="default"/>
+	<melee id="7861" unproperly="1" function="default"/>
+	<melee id="7862" unproperly="1" function="default">
+	</melee>
+	<melee id="7863" unproperly="1" function="default">
+	</melee>
+		<!-- Energy -->
+	<melee id="7874" function="default"/>
+	<melee id="7875" unproperly="1" function="default"/>
+	<melee id="7876" unproperly="1" function="default"/>
+	<melee id="7877" unproperly="1" function="default">
+	</melee>
+	<melee id="7878" unproperly="1" function="default">
+	</melee>
+ 
+	<!--Clubs -->
+	<melee id="2391" unproperly="1" function="default">
+	</melee>
+	<melee id="2421" unproperly="1" function="default"/>
+	<melee id="2423" unproperly="1" function="default"/>
+	<melee id="2424" unproperly="1" function="default"/>
+	<melee id="2434" unproperly="1" function="default"/>
+	<melee id="2436" unproperly="1" function="default"/>
+	<melee id="2437" unproperly="1" function="default"/>
+	<melee id="2444" unproperly="1" function="default">
+	</melee>
+	<melee id="2445" unproperly="1" function="default"/>
+	<melee id="2452" unproperly="1" function="default"/>
+	<melee id="2453" unproperly="1" function="default"/>
+	<melee id="3961" unproperly="1" function="default"/>
+	<melee id="7379" unproperly="1" function="default"/>
+	<melee id="7381" unproperly="1" function="default"/>
+	<melee id="7387" unproperly="1" function="default"/>
+	<melee id="7392" unproperly="1" function="default"/>
+	<melee id="7410" unproperly="1" function="default"/>
+	<melee id="7414" unproperly="1" function="default">
+	</melee>
+	<melee id="7415" unproperly="1" function="default"/>
+	<melee id="7422" unproperly="1" function="default"/>
+	<melee id="7423" unproperly="1" function="default">
+	</melee>
+	<melee id="7424" unproperly="1" function="default"/>
+	<melee id="7425" unproperly="1" function="default"/>
+	<melee id="7426" unproperly="1" function="default"/>
+	<melee id="7427" unproperly="1" function="default"/>
+	<melee id="7428" unproperly="1" function="default">
+	</melee>
+	<melee id="7429" unproperly="1" function="default"/>
+	<melee id="7430" unproperly="1" function="default"/>
+	<melee id="7431" unproperly="1" function="default"/>
+	<melee id="7432" unproperly="1" function="default"/>
+	<melee id="7437" unproperly="1" function="default"/>
+	<melee id="7451" unproperly="1" function="default"/>
+	<melee id="7452" unproperly="1" function="default">
+	</melee>
+ 
+	<melee id="8927" unproperly="1" function="default"/>
+	<melee id="8928" unproperly="1" function="default"/>
+	<melee id="8929" unproperly="1" function="default">
+	</melee>
+	<melee id="11308" unproperly="1" function="default">
+	</melee>
+ 
+	<!-- Fire -->
+	<melee id="7754" unproperly="1" function="default"/>
+	<melee id="7755" unproperly="1" function="default"/>
+	<melee id="7756" unproperly="1" function="default"/>
+	<melee id="7757" unproperly="1" function="default"/>
+	<melee id="7758" unproperly="1" function="default">
+	</melee>
+		<!-- Ice -->
+	<melee id="7773" unproperly="1" function="default"/>
+	<melee id="7774" unproperly="1" function="default"/>
+	<melee id="7775" unproperly="1" function="default"/>
+	<melee id="7776" unproperly="1" function="default"/>
+	<melee id="7777" unproperly="1" function="default">
+	</melee>
+		<!-- Earth -->
+	<melee id="7864" unproperly="1" function="default"/>
+	<melee id="7865" unproperly="1" function="default"/>
+	<melee id="7866" unproperly="1" function="default"/>
+	<melee id="7867" unproperly="1" function="default"/>
+	<melee id="7868" unproperly="1" function="default">
+	</melee>
+		<!-- Energy -->
+	<melee id="7879" unproperly="1" function="default"/>
+	<melee id="7880" unproperly="1" function="default"/>
+	<melee id="7881" unproperly="1" function="default"/>
+	<melee id="7882" unproperly="1" function="default"/>
+	<melee id="7883" unproperly="1" function="default">
+	</melee>
 
-  -- Rods Druids--RANGE-1
-<wand id="2183" level="33" mana="13" enabled="1" exhaustion="0" script="tempest rod.lua">
-	<vocation name="Druid" />
-	<vocation name="Elder Druid" />
-	<vocation name="Shaman" />
-	<vocation name="Elder Shaman" />
-</wand>
---RANGE-2
-<wand id="2181" level="26" mana="8" enabled="1" exhaustion="0" script="quagmire rod.lua">
-	<vocation name="Druid" />
-	<vocation name="Elder Druid" />
-	<vocation name="Shaman" />
-	<vocation name="Elder Shaman" />
-</wand>
---RANGE-3
-<wand id="2185" level="19" mana="5" enabled="1" exhaustion="0" script="Volcanic Rod.lua">
-	<vocation name="Druid" />
-	<vocation name="Elder Druid" />
-	<vocation name="Shaman" />
-	<vocation name="Elder Shaman" />
-</wand>
---RANGE-3
-<wand id="2186" level="13" mana="3" enabled="1" exhaustion="0" script="Moonlight Rod.lua">
-	<vocation name="Druid" />
-	<vocation name="Elder Druid" />
-	<vocation name="Shaman" />
-	<vocation name="Elder Shaman" />
-</wand>
---RANGE-4
-<wand id="2182" level="7" mana="2" enabled="1" exhaustion="0" script="Snakebite Rod.lua">
-	<vocation name="Druid" />
-	<vocation name="Elder Druid" />
-	<vocation name="Shaman" />
-	<vocation name="Elder Shaman" />
-</wand>
+	<!-- Bows and Crossbows -->
+	<distance id="8849" unproperly="1" function="default"> <!-- Modified Crossbow -->
+	</distance>
+	<distance id="8850" unproperly="1" function="default"> <!-- Chain Bolter -->
+	</distance>
+	<distance id="8853" unproperly="1" function="default"> <!-- Ironworker -->
+	</distance>
+	<distance id="8852" unproperly="1" function="default"> <!-- Devileye -->
+	</distance>
+	<distance id="8851" unproperly="1" function="default"> <!-- Royal Crossbow -->
+	</distance>
+	<distance id="8857" unproperly="1" function="default"> <!-- Silkweaver Bow -->
+	</distance>
+	<distance id="8855" unproperly="1" function="default"> <!-- Composite Hornbow -->
+	</distance>
+	<distance id="8856" unproperly="1" function="default"> <!-- Yol's Bow -->
+	</distance>
+	<distance id="8858" unproperly="1" function="default"> <!-- Elethriel's Elemental Bow -->
+	</distance>
+	<distance id="8854" unproperly="1" function="default"> <!-- Warsinger Bow -->
+	</distance>
+	<distance id="2455" function="default"/> <!-- Crossbow -->
+	<distance id="2456" function="default"/> <!-- Bow -->
+	<distance id="7438" function="default"/> <!-- Elvish Bow -->
 
-  -- Wands Sorcerer--RANGE-2
-<wand id="2187" level="33" mana="13" enabled="1" exhaustion="0" script="Wand of Inferno.lua">
-	<vocation name="Sorcerer" />
-	<vocation name="Master Sorcerer" />
-	<vocation name="Wizard" />
-	<vocation name="Master Wizard" />
-</wand>
---RANGE-1
-<wand id="2189" level="26" mana="8" enabled="1" exhaustion="0" script="Wand of Cosmic Energy.lua">
-	<vocation name="Sorcerer" />
-	<vocation name="Master Sorcerer" />
-	<vocation name="Wizard" />
-	<vocation name="Master Wizard" />
-</wand>
---RANGE-2
-<wand id="2188" level="19" mana="5" enabled="1" exhaustion="0" script="Wand of Plague.lua">
-	<vocation name="Sorcerer" />
-	<vocation name="Master Sorcerer" />
-	<vocation name="Wizard" />
-	<vocation name="Master Wizard" />
-</wand>
---RANGE-3
-<wand id="2191" level="13" mana="3" enabled="1" exhaustion="0" script="Wand of Dragonbreath.lua">
-	<vocation name="Sorcerer" />
-	<vocation name="Master Sorcerer" />
-	<vocation name="Wizard" />
-	<vocation name="Master Wizard" />
-</wand>
---RANGE-4
-<wand id="2190" level="7" mana="2" enabled="1" exhaustion="0" script="Wand of Vortex.lua">
-	<vocation name="Sorcerer" />
-	<vocation name="Master Sorcerer" />
-	<vocation name="Wizard" />
-	<vocation name="Master Wizard" />
-</wand>
-
---Spear--2% attack 25
-<distance id="2389" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---Royal spear--7% attack 35
-<distance id="7378" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---small stone--7% attack 5
-<distance id="1294" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---hunting spear--7% attack 32
-<distance id="3965" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---enchanted spear--30% attack 38 --MANA 90 SOUL 3
-<distance id="7367" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---throwing knife--10% attack 25
-<distance id="2410" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---viper star 20% attack 28
-<distance id="7366" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---throwing star--25% attack 30
-<distance id="2399" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---arrow--70% attack 25 mana 40 Soul 1
-<distance id="2544" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---sniper arrow--70% attack 26 --MANA 45 SOUL 1
-<distance id="7364" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---onyx arrow--70% attack 38 --MANA 180 SOUL 3
-<distance id="7365" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---Bolt--70% attack 30 --mana 75 soul 2
-<distance id="2543" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---piercing bolt--70% attack 33--MANA 85 SOUL 2
-<distance id="7363" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---power bolt --75% attack 40 --mana 200 soul 3
-<distance id="2547" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---infernal bolt--80% attack 50 --mana 280 soul 3
-<distance id="6529" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---assassin star--100% attack 65
-<distance id="7368" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---energy arrow
-<distance id="7838" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
---ice arrow
-<distance id="7839" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
---flame arrow
-<distance id="7840" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
---earth arrow
-<distance id="7850" enabled="1" unproperly="1" function="internalLoadWeapon">
-<vocation name="royal paladin"/>
-<vocation name="paladin"/>
-<vocation name="Scout"/>
-<vocation name="Royal Scout"/>
-<vocation name="Hunter"/>
-<vocation name="Royal Hunter"/>
-</distance>
-
---RANGE-6 hitchance= 80
-<distance id="2545" enabled="1" exhaustion="0" script="poison arrow.lua">
-</distance>
---RANGE-6 hitchance= 80
-<distance id="2546" enabled="1" exhaustion="0" script="explosive arrow.lua">
-</distance>
---attribute key="ammoAction" value="moveback"/>
---attribute key="ammoAction" value="move"/>
---attribute key="ammoAction" value="removecount"/>
+ 	<!-- Ammunition -->
+	<distance id="2545" function="script" script="poison_arrow.lua"/>
+	<!--<distance id="2546" function="script" script="explosive_arrow.lua"/>-->
+	<distance id="7366" function="script" script="viper_star.lua"/>
+	<distance id="7838" type="energy" function="default"/>
+	<distance id="7839" type="ice" function="default"/>
+	<distance id="7840" type="fire" function="default"/>
+	<distance id="7850" type="earth" function="default"/>
+	<distance id="3965" function="default"/> <!-- Hunting Spear -->
+	<distance id="7378" function="default"/> <!-- Royal Spear -->
+	<distance id="7367" function="default"/> <!-- Enchanted Spear -->
+	<distance id="7368" function="default"/> <!-- Assassin Star -->
+	<distance id="7364" function="default"/> <!-- Sniper Arrow -->
+	<distance id="7365" function="default"/> <!-- Onyx Arrow -->
+	<distance id="7363" function="default"/> <!-- Piercing Bolt -->
+	<distance id="2547" function="default"/> <!-- Power Bolt -->
+	<distance id="6529" function="default"/> <!-- Infernal Bolt -->
+	<distance id="2543" function="default"/> <!-- Bolt -->
+	<distance id="2544" function="default"/> <!-- Arrow -->
+	
+	<!-- Guia3d -->
+	<distance id="2546" function="script" script="guia3d/explosive arrow.lua"/>
+	<wand id="7958" level="33" mana="20" function="script" script="guia3d/jester staff.lua">
+		<vocation name="Druid"/>
+		<vocation name="Shaman" showInDescription="0"/>
+		<vocation name="Sorcerer"/>
+		<vocation name="Wizard" showInDescription="0"/>	
+	</wand>
+	<wand id="7735" level="33" mana="20" function="script" script="guia3d/merlin staff.lua">
+		<vocation name="Druid"/>
+		<vocation name="Shaman" showInDescription="0"/>
+		<vocation name="Sorcerer"/>
+		<vocation name="Wizard" showInDescription="0"/>	
+	</wand>
+	
 </weapons>

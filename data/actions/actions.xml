@@ -1908,4 +1908,27 @@
 	
 	<!-- TATUY :: Annihilator Level -->
 	<action uniqueid="9999" script="tatuy/annihilator_level.lua" />
+	
+	<!-- TATUY :: SHOP en skillroom -->
+	<action actionid="65000" script="tatuy/lvl.lua" />
+	<action actionid="65001" script="tatuy/magic.lua" />
+	<action actionid="65002" script="tatuy/sword.lua" />
+	<action actionid="65003" script="tatuy/club.lua" />
+	<action actionid="65004" script="tatuy/axe.lua" />
+	<action actionid="65005" script="tatuy/distance.lua" />
+	<action actionid="65006" script="tatuy/shielding.lua" />
+	<action actionid="65007" script="tatuy/premium30.lua" />
+	<action actionid="65008" script="tatuy/premium90.lua" />
+	<action actionid="65009" script="tatuy/premium180.lua" />
+	<action actionid="65010" script="tatuy/sex.lua" />
+	<action actionid="65011" script="tatuy/red.lua" />
+	<action actionid="65012" script="tatuy/lookt.lua" />
+
+	<action actionid="65013" script="tatuy/premium30item.lua" />
+	<action actionid="65014" script="tatuy/premium90item.lua" />
+	<action actionid="65015" script="tatuy/premium180item.lua" />
+	<action actionid="65016" script="tatuy/sexitem.lua" />
+	<action actionid="65017" script="tatuy/reditem.lua" />
+	<action actionid="65018" script="tatuy/looktitem.lua" />
+	
 </actions>

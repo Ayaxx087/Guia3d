@@ -125,13 +125,13 @@ defensive_pz_lock = true
 -- How many players you need to kill to gain a red skull per day/week/month
 -- Set 0 to disable
 kills_per_day_red_skull = 6
-kills_per_week_red_skull = 15
+kills_per_week_red_skull = 25
 kills_per_month_red_skull = 0
 
 -- How many players you need to kill to gain a black skull per day/week/month
 -- Set 0 to disable
 kills_per_day_black_skull = 10
-kills_per_week_black_skull = 21
+kills_per_week_black_skull = 31
 kills_per_month_black_skull = 0
 
 -- Broadcast violation window banishments
@@ -300,7 +300,7 @@ magic_wall_disappear_on_walk = true
 min_pvp_level = 35
 
 --how much % of the total damage players actually receive when attacked by other players?
-pvp_damage = 80
+pvp_damage = 50
 
 --how much % of the total damage black skulled players actually receive when attacked by other players?
 pvp_damage_at_black_skulls = 150
