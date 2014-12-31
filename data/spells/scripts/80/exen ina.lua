@@ -1,5 +1,6 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_STUN)
+setCombatParam(combat, COMBAT_PARAM_AGGRESSIVE, false)
 
 local condition = createConditionObject(CONDITION_OUTFIT)
 setConditionParam(condition, CONDITION_PARAM_TICKS, 60000)
