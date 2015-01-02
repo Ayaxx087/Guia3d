@@ -8562,7 +8562,7 @@
   </spawn>
   <spawn centerx="665" centery="65" centerz="9" radius="10">
     <monster name="Dwarf Soldier" x="-5" y="3" z="9" spawntime="180"/>
-    <monster name="Dwarf Soldier" x="-4" y="3" z="9" spawntime="180"/>
+    <monster name="Dwarfhp" x="-4" y="3" z="9" spawntime="180"/>
     <monster name="Dwarf Soldier" x="9" y="3" z="9" spawntime="180"/>
     <monster name="Dwarf Guard" x="7" y="4" z="9" spawntime="180"/>
     <monster name="Dwarf Guard" x="8" y="4" z="9" spawntime="180"/>
@@ -9413,6 +9413,7 @@
   <spawn centerx="392" centery="300" centerz="9" radius="15"/>
   <spawn centerx="621" centery="300" centerz="9" radius="17">
     <monster name="Dwarf Guard" x="-1" y="-5" z="9" spawntime="240"/>
+	<monster name="Dwarfhp" x="0" y="-4" z="9" spawntime="240"/>
     <monster name="Dwarf Guard" x="12" y="1" z="9" spawntime="240"/>
     <monster name="Dwarf Guard" x="13" y="1" z="9" spawntime="240"/>
     <monster name="Dwarf Guard" x="-11" y="5" z="9" spawntime="240"/>

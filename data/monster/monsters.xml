@@ -328,4 +328,5 @@
 <monster name="rotwormhp" file="tatuy/rotwormhp.xml" />
 <monster name="trollhp" file="tatuy/trollhp.xml" />
 <monster name="dragonhp" file="tatuy/dragonhp.xml" />
+<monster name="dwarfhp" file="tatuy/dwarfhp.xml" />
 </monsters>
