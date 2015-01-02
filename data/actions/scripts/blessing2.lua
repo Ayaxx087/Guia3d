@@ -5,6 +5,7 @@ function onUse(cid, item, frompos, item2, topos)
 	else
 	       if doPlayerRemoveItem(cid, 6103, 1) == true then --libro blessing
 			setPlayerStorageValue(cid,9999998,1)
+			doPlayerSetLossPercent(cid, PLAYERLOSS_EXPERIENCE, 0)
 			doPlayerSendTextMessage(cid,22,"You have received one blessing of the life.")
 			doSendMagicEffect(getPlayerPosition(cid), 12)
 		else
