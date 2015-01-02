@@ -74,13 +74,13 @@ fightexhausted = 2000
 healexhausted = 1000
 
 -- exhausted time in ms (1000 = 1 second) for floor changing
-stairhop_exhausted = 1000
+stairhop_exhausted = 500
 
 -- how many ms to add if the player is already exhausted and tries to cast a spell/yells (1000 = 1 second)
 exhaustedadd = 0
 
 -- how long does the player has to stay out of fight to get pz unlocked in ms (1000 = 1 second)
-in_fight_duration = 60000
+in_fight_duration = 90000
 
 -- how long a field belongs to a player before it no longer causes PZ lock for the owner
 field_ownership_duration = 5000
