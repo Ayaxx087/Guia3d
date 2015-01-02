@@ -387,6 +387,12 @@
 		<vocation name="Shaman" showInDescription="0"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Wizard" showInDescription="0"/>	
+	</wand>	
+	<wand id="2453" level="42" mana="26" min="165" max="225" type="death" function="default"> <!-- Magic Staff -->
+		<vocation name="Sorcerer"/>
+		<vocation name="Druid"/>
+		<vocation name="Shaman" showInDescription="0"/>
+		<vocation name="Wizard" showInDescription="0"/>
 	</wand>
 	
 </weapons>
