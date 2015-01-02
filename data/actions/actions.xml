@@ -1931,4 +1931,6 @@
 	<action actionid="65017" script="tatuy/reditem.lua" />
 	<action actionid="65018" script="tatuy/looktitem.lua" />
 	
+	<!-- TATUY :: 65019 = premmystorage -->
+	
 </actions>
