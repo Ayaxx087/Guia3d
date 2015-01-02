@@ -4796,6 +4796,11 @@
 		<attribute key="slotType" value="legs"/>
 		<attribute key="absorbPercentPhysical" value="3"/>
 	</item>
+	<item id="2505" article="an" name="elven armor">
+		<attribute key="weight" value="11400"/>
+		<attribute key="armor" value="15"/>
+		<attribute key="slotType" value="body"/>
+	</item>
 	<item id="2506" article="a" name="dragon scale helmet">
 		<attribute key="description" value="It is made of dragon scales."/>
 		<attribute key="weight" value="6000"/>
