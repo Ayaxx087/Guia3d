@@ -1,10 +1,8 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_DRAWBLOOD)
---etCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -1.9, 30, -2.5, 0)
+setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -3.9, 30, -4.5, 0)
 --etCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.2, 30, -2.8, 0)
---etCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.5, 30, -3.1, 0)
-setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -4.8, 30, -5.4, 0)
 
 local arr = {
 {1, 1, 1},
