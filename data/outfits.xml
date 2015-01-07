@@ -34,70 +34,70 @@
 		<list type="female" looktype="142" addons="1" name="Warrior"/>
 		<list type="male" looktype="134" addons="1" name="Warrior"/>
 	</outfit>
-
+	
 	<outfit id="8" premium="0" default="0">
-		<list type="female" looktype="147" addons="1" name="Barbarian"/>
-		<list type="male" looktype="143" addons="1" name="Barbarian"/>
+		<list type="female" looktype="147" name="Barbarian"/>
+		<list type="male" looktype="143" name="Barbarian"/>
 	</outfit>
 
 	<outfit id="9" premium="0" default="0">
-		<list type="female" looktype="148" addons="1" name="Druid"/>
-		<list type="male" looktype="144" addons="1" name="Druid"/>
+		<list type="female" looktype="148" name="Druid"/>
+		<list type="male" looktype="144" name="Druid"/>
 	</outfit>
 
 	<outfit id="10" premium="0" default="0">
-		<list type="female" looktype="149" addons="1" name="Wizard"/>
-		<list type="male" looktype="145" addons="1" name="Wizard"/>
+		<list type="female" looktype="149" name="Wizard"/>
+		<list type="male" looktype="145" name="Wizard"/>
 	</outfit>
 
 	<outfit id="11" premium="0" default="0">
-		<list type="female" looktype="150" addons="1" name="Oriental"/>
-		<list type="male" looktype="146" addons="1" name="Oriental"/>
+		<list type="female" looktype="150" name="Oriental"/>
+		<list type="male" looktype="146" name="Oriental"/>
 	</outfit>
 
 	<outfit id="12" premium="0" default="0">
-		<list type="female" looktype="155" addons="1" name="Pirate"/>
-		<list type="male" looktype="151" addons="1" name="Pirate"/>
+		<list type="female" looktype="155" name="Pirate"/>
+		<list type="male" looktype="151" name="Pirate"/>
 	</outfit>
 
 	<outfit id="13" premium="0" default="0">
-		<list type="female" looktype="156" addons="1" name="Assassin"/>
-		<list type="male" looktype="152" addons="1" name="Assassin"/>
+		<list type="female" looktype="156" name="Assassin"/>
+		<list type="male" looktype="152" name="Assassin"/>
 	</outfit>
 
 	<outfit id="14" premium="0" default="0">
-		<list type="female" looktype="157" addons="1" name="Beggar"/>
-		<list type="male" looktype="153" addons="1" name="Beggar"/>
+		<list type="female" looktype="157" name="Beggar"/>
+		<list type="male" looktype="153" name="Beggar"/>
 	</outfit>
 
 	<outfit id="15" premium="0" default="0">
-		<list type="female" looktype="158" addons="1" name="Shaman"/>
-		<list type="male" looktype="154" addons="1" name="Shaman"/>
+		<list type="female" looktype="158" name="Shaman"/>
+		<list type="male" looktype="154" name="Shaman"/>
 	</outfit>
 
 	<outfit id="16" premium="0" default="0">
-		<list type="female" looktype="252" addons="1" name="Norsewoman"/>
-		<list type="male" looktype="251" addons="1" name="Norseman"/>
+		<list type="female" looktype="252" name="Norsewoman"/>
+		<list type="male" looktype="251" name="Norseman"/>
 	</outfit>
 
 	<outfit id="17" premium="0" default="0">
-		<list type="female" looktype="269" addons="1" name="Nightmare"/>
-		<list type="male" looktype="268" addons="1" name="Nightmare"/>
+		<list type="female" looktype="269" name="Nightmare"/>
+		<list type="male" looktype="268" name="Nightmare"/>
 	</outfit>
 
 	<outfit id="18" premium="0" default="0">
-		<list type="female" looktype="270" addons="1" name="Jester"/>
-		<list type="male" looktype="273" addons="1" name="Jester"/>
+		<list type="female" looktype="270" name="Jester"/>
+		<list type="male" looktype="273" name="Jester"/>
 	</outfit>
 
 	<outfit id="19" premium="0" default="0">
-		<list type="female" looktype="279" addons="1" name="Brotherhood"/>
-		<list type="male" looktype="278" addons="1" name="Brotherhood"/>
+		<list type="female" looktype="279" name="Brotherhood"/>
+		<list type="male" looktype="278" name="Brotherhood"/>
 	</outfit>
 
 	<outfit id="20" premium="0" default="0">
-		<list type="female" looktype="288" addons="1" name="Demonhunter"/>
-		<list type="male" looktype="289" addons="1" name="Demonhunter"/>
+		<list type="female" looktype="288" name="Demonhunter"/>
+		<list type="male" looktype="289" name="Demonhunter"/>
 	</outfit>
 
 	<outfit id="21" premium="0" default="0">
@@ -147,12 +147,12 @@
 	</outfit>
 	
 	<outfit id="29">
-		<list type="female" looktype="160" addons="1" name="Dwarf"/>
-		<list type="male" looktype="160" addons="1" name="Dwarf"/>
+		<list type="female" looktype="160" name="Dwarf"/>
+		<list type="male" looktype="160" name="Dwarf"/>
 	</outfit>
 	
 	<outfit id="30">
-		<list type="female" looktype="264" addons="1" name="Brutetamer"/>
-		<list type="male" looktype="264" addons="1" name="Brutetamer"/>
+		<list type="female" looktype="264" name="Brutetamer"/>
+		<list type="male" looktype="264" name="Brutetamer"/>
 	</outfit>
 </outfits>
