@@ -7,7 +7,7 @@ function onUse(cid, item, frompos, item2, topos)
 		return true
 	end
 
- if getPlayerVocation(cid) == 1 or getPlayerVocation(cid) == 2 or getPlayerVocation(cid) == 4 or getPlayerVocation(cid) == 5 or getPlayerVocation(cid) == 6 or getPlayerVocation(cid) == 8 then
+ if isSorcerer(cid) == true or isDruid(cid) == true or isKnight(cid) == true then
 		doPlayerSendTextMessage(cid,22,"Sorry, you vocation is no correct.")
 		return true
 	end
@@ -15,11 +15,9 @@ function onUse(cid, item, frompos, item2, topos)
 
 		queststatus = getPlayerStorageValue(cid,2194)
 		if queststatus == -1 or queststatus == 0 then
-			doPlayerSendTextMessage(cid,22,"You have found 300 power bolt.")
+			doPlayerSendTextMessage(cid,22,"You have found a golden rune emblem.")
                         doSendMagicEffect(topos,12)
-			doPlayerAddItem(cid,2547,100)
-			doPlayerAddItem(cid,2547,100)
-			doPlayerAddItem(cid,2547,100)
+			doPlayerAddItem(cid,12582,1)
 			setPlayerStorageValue(cid,2194,1)
 
 		else

@@ -9,9 +9,9 @@ function onUse(cid, item, frompos, item2, topos)
 	if item.uid == 2109 then
 		queststatus = getPlayerStorageValue(cid,2109)
 		if queststatus == -1 or queststatus == 0 then
-			doPlayerSendTextMessage(cid,22,"You have found a sudden death rune x10.")
+			doPlayerSendTextMessage(cid,22,"You have found an adorned sudden death rune.")
                         doSendMagicEffect(topos,12)
-			doPlayerAddItem(cid,2268,10) --SD rune
+			doPlayerAddItem(cid,12565,1) --SD rune
 			setPlayerStorageValue(cid,2109,1)
 		else
 			doPlayerSendTextMessage(cid,22,"Sorry, you cant make the quest again.")

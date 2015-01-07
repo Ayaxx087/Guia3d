@@ -8,9 +8,9 @@ function onUse(cid, item, frompos, item2, topos)
 	if item.uid == 2111 then
 		queststatus = getPlayerStorageValue(cid,2111)
 		if queststatus == -1 or queststatus == 0 then
-			doPlayerSendTextMessage(cid,22,"You have found a ultimate healing rune x10.")
+			doPlayerSendTextMessage(cid,22,"You have found an adorned ultimate healing rune.")
                         doSendMagicEffect(topos,12)
-			doPlayerAddItem(cid,2273,10)
+			doPlayerAddItem(cid,12559,1)
 			setPlayerStorageValue(cid,2111,1)
 
 		else

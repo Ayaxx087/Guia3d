@@ -8,9 +8,9 @@ function onUse(cid, item, frompos, item2, topos)
 	if item.uid == 2141 then
 		queststatus = getPlayerStorageValue(cid,2141)
 		if queststatus == -1 or queststatus == 0 then
-			doPlayerSendTextMessage(cid,22,"You have found a Great Fireball rune x10.")
+			doPlayerSendTextMessage(cid,22,"You have found an adorned great fireball rune.")
                         doSendMagicEffect(topos,12)
-			doPlayerAddItem(cid,2304,10)
+			doPlayerAddItem(cid,12571,1)
 			setPlayerStorageValue(cid,2141,1)
 
 		else

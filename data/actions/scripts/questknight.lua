@@ -7,7 +7,7 @@ function onUse(cid, item, frompos, item2, topos)
 		return true
 	end
 
- if getPlayerVocation(cid) == 1 or getPlayerVocation(cid) == 2 or getPlayerVocation(cid) == 3 or getPlayerVocation(cid) == 5 or getPlayerVocation(cid) == 6 or getPlayerVocation(cid) == 7 then
+  if isSorcerer(cid) == true or isDruid(cid) == true or isPaladin(cid) == true then
 		doPlayerSendTextMessage(cid,22,"Sorry, you vocation is no correct.")
 		return true
 	end
@@ -15,9 +15,9 @@ function onUse(cid, item, frompos, item2, topos)
 
 		queststatus = getPlayerStorageValue(cid,2195)
 		if queststatus == -1 or queststatus == 0 then
-			doPlayerSendTextMessage(cid,22,"You have found an ultimate healing x20.")
+			doPlayerSendTextMessage(cid,22,"You have found an adorned explosion rune.")
                         doSendMagicEffect(topos,12)
-			doPlayerAddItem(cid,2273,20)
+			doPlayerAddItem(cid,12564,1)
 			setPlayerStorageValue(cid,2195,1)
 
 		else

@@ -51,9 +51,9 @@ function onUse(cid, item, frompos, item2, topos)
 	elseif item.uid == 2021 then
 		queststatus = getPlayerStorageValue(cid,2100)
 		if queststatus == 4 then
-			doPlayerSendTextMessage(cid,22,"You have found a Explosion rune x5.")
+			doPlayerSendTextMessage(cid,22,"You have found an adorned explosion rune.")
                         doSendMagicEffect(topos,12)
-			doPlayerAddItem(cid,2313,5)
+			doPlayerAddItem(cid,12563,1)
 			setPlayerStorageValue(cid,2100,5)
 
 		else
