@@ -336,7 +336,7 @@
 <movevent event="StepIn" itemid="5067" script="fireswall.lua" />
 
 --
-<movevent event="Equip" itemid="8900" slot="right-hand" level="20"  function="onEquipItem"> --1
+<movevent event="Equip" itemid="8900" slot="hand" level="20"  function="onEquipItem"> --1
       <vocation name="Sorcerer"/>
       <vocation name="Master Sorcerer" showInDescription="0"/>
       <vocation name="Druid"/>
@@ -350,9 +350,9 @@
       <vocation name="Scout" />
       <vocation name="Paladin"/>
    </movevent>
-<movevent event="DeEquip" itemid="8900" slot="right-hand" function="onDeEquipItem"/> --1
+<movevent event="DeEquip" itemid="8900" slot="hand" function="onDeEquipItem"/> --1
 --
-<movevent event="Equip" itemid="8901" slot="right-hand" level="20"  function="onEquipItem"> --1
+<movevent event="Equip" itemid="8901" slot="hand" level="20"  function="onEquipItem"> --1
       <vocation name="Sorcerer"/>
       <vocation name="Master Sorcerer" showInDescription="0"/>
       <vocation name="Druid"/>
@@ -366,9 +366,9 @@
       <vocation name="Scout" />
       <vocation name="Paladin"/>
    </movevent>
-<movevent event="DeEquip" itemid="8901" slot="right-hand" function="onDeEquipItem"/> --1
+<movevent event="DeEquip" itemid="8901" slot="hand" function="onDeEquipItem"/> --1
 --
-<movevent event="Equip" itemid="8902" slot="right-hand" level="20"  function="onEquipItem"> --2
+<movevent event="Equip" itemid="8902" slot="hand" level="20"  function="onEquipItem"> --2
       <vocation name="Sorcerer"/>
       <vocation name="Master Sorcerer" showInDescription="0"/>
       <vocation name="Druid"/>
@@ -376,9 +376,9 @@
       <vocation name="Wizard"/>
       <vocation name="Shaman" />
    </movevent>
-<movevent event="DeEquip" itemid="8902" slot="right-hand" function="onDeEquipItem"/> --2
+<movevent event="DeEquip" itemid="8902" slot="hand" function="onDeEquipItem"/> --2
 --
-<movevent event="Equip" itemid="8903" slot="right-hand" level="20"  function="onEquipItem"> --2
+<movevent event="Equip" itemid="8903" slot="hand" level="20"  function="onEquipItem"> --2
       <vocation name="Sorcerer"/>
       <vocation name="Master Sorcerer" showInDescription="0"/>
       <vocation name="Druid"/>
@@ -386,9 +386,9 @@
       <vocation name="Wizard"/>
       <vocation name="Shaman" />
    </movevent>
-<movevent event="DeEquip" itemid="8903" slot="right-hand" function="onDeEquipItem"/> --2
+<movevent event="DeEquip" itemid="8903" slot="hand" function="onDeEquipItem"/> --2
 --
-<movevent event="Equip" itemid="8904" slot="right-hand" level="20"  function="onEquipItem"> --3
+<movevent event="Equip" itemid="8904" slot="hand" level="20"  function="onEquipItem"> --3
       <vocation name="Sorcerer"/>
       <vocation name="Master Sorcerer" showInDescription="0"/>
       <vocation name="Druid"/>
@@ -396,9 +396,9 @@
       <vocation name="Wizard"/>
       <vocation name="Shaman" />
    </movevent>
-<movevent event="DeEquip" itemid="8904" slot="right-hand" function="onDeEquipItem"/> --3
+<movevent event="DeEquip" itemid="8904" slot="hand" function="onDeEquipItem"/> --3
 --
-<movevent event="Equip" itemid="8918" slot="right-hand" level="20"  function="onEquipItem"> --3
+<movevent event="Equip" itemid="8918" slot="hand" level="20"  function="onEquipItem"> --3
       <vocation name="Sorcerer"/>
       <vocation name="Master Sorcerer" showInDescription="0"/>
       <vocation name="Druid"/>
@@ -406,7 +406,7 @@
       <vocation name="Wizard"/>
       <vocation name="Shaman" />
    </movevent>
-<movevent event="DeEquip" itemid="8918" slot="right-hand" function="onDeEquipItem"/> --3
+<movevent event="DeEquip" itemid="8918" slot="hand" function="onDeEquipItem"/> --3
 
 --Tatuy
 	<!-- Switch Tiles -->
