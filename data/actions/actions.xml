@@ -957,6 +957,21 @@
 <action actionid="2377" script="service.lua" /> --beetroot
 
 <action actionid="2378" script="service.lua" /> --Tatuy::health potion
+<action actionid="2379" script="service.lua" />
+<action actionid="2380" script="service.lua" />
+<action actionid="2381" script="service.lua" />
+<action actionid="2382" script="service.lua" />
+<action actionid="2383" script="service.lua" />
+<action actionid="2384" script="service.lua" />
+<action actionid="2385" script="service.lua" />
+<action actionid="2386" script="service.lua" />
+<action actionid="2387" script="service.lua" />
+<action actionid="2388" script="service.lua" />
+<action actionid="2389" script="service.lua" />
+<action actionid="2390" script="service.lua" />
+<action actionid="2391" script="service.lua" />
+<action actionid="2392" script="service.lua" />
+<action actionid="2393" script="service.lua" />
 
 
 -----END AUTOSERVICIO--------

@@ -180,7 +180,37 @@ function onUse(cid, item, frompos, item2, topos)
 	elseif item.actionid == 2377 then ------------beetroot
 		giveItemToPlayer(cid, 8845, 10, 30, topos)
 	elseif item.actionid == 2378 then ------------healthpotion
-		giveItemToPlayer(cid, 7618, 1, 50, topos)		
+		giveItemToPlayer(cid, 7618, 1, 50, topos)
+	elseif item.actionid == 2379 then ------------strong healthpotion
+		giveItemToPlayer(cid, 7588, 1, 100, topos)
+	elseif item.actionid == 2380 then ------------strong manapotion
+		giveItemToPlayer(cid, 7589, 1, 100, topos)
+	elseif item.actionid == 2381 then ------------royalspear
+		giveItemToPlayer(cid, 7378, 1, 40, topos)
+	elseif item.actionid == 2382 then ------------wand of cosmic energy
+		giveItemToPlayer(cid, 2189, 1, 10000, topos)
+	elseif item.actionid == 2383 then ------------necrotic rod
+		giveItemToPlayer(cid, 2185, 1, 5000, topos)
+	elseif item.actionid == 2384 then ------------terra rod
+		giveItemToPlayer(cid, 2181, 1, 10000, topos)
+	elseif item.actionid == 2385 then ------------hailstorm rod
+		giveItemToPlayer(cid, 2183, 1, 15000, topos)
+	elseif item.actionid == 2386 then ------------wand of inferno
+		giveItemToPlayer(cid, 2187, 1, 10000, topos)
+	elseif item.actionid == 2387 then ------------wand of decay
+		giveItemToPlayer(cid, 2188, 1, 5000, topos)
+	elseif item.actionid == 2388 then ------------northwind rod
+		giveItemToPlayer(cid, 8911, 1, 7500, topos)
+	elseif item.actionid == 2389 then ------------underworld rod
+		giveItemToPlayer(cid, 8910, 1, 22000, topos)
+	elseif item.actionid == 2390 then ------------springsprout rod
+		giveItemToPlayer(cid, 8912, 1, 18000, topos)
+	elseif item.actionid == 2391 then ------------wand of starstorm
+		giveItemToPlayer(cid, 8920, 1, 18000, topos)
+	elseif item.actionid == 2392 then ------------wand of draconia
+		giveItemToPlayer(cid, 8921, 1, 7500, topos)
+	elseif item.actionid == 2393 then ------------wand of voodoo
+		giveItemToPlayer(cid, 8922, 1, 22000, topos)
 
 	end	
 	return true
