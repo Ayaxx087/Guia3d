@@ -14832,6 +14832,9 @@
 		<attribute key="armor" value="1"/>
 		<attribute key="slotType" value="head"/>
 	</item>
+	<item id="6579" article="a" name="uatibia doll">
+		<attribute key="weight" value="750"/>
+	</item>
 	<item id="6580" name="snow"/>
 	<item id="6581" name="snow"/>
 	<item id="6582" name="snow"/>
