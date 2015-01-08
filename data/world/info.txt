@@ -1,1 +1,9 @@
 ### Carpeta original de guia3d.
+- Se remodelo thalia (se removieron las houses que estaban a un lado del dp).
+- Se remodelo rookgaard.
+- Se remodelo nova.
+- Se agrego vulcano like shamynjhonzam (sin spawn y sin houses).
+- Se agrego new city (sin spawn y sin houses).
+- Se randomizaron los tiles.
+- Se agregó el pasto nuevo por todo el map.
+- Se cambiaron los holes por "algo brillante".
