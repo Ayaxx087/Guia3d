@@ -3,7 +3,7 @@ function onUse(cid, item, frompos, item2, topos)
 
 newpos = {x=frompos.x, y=frompos.y+2, z=frompos.z}
 	if item.actionid == 21280 then 
-		if doPlayerRemoveItem(cid, 6530, 1) == true then --rapair soft boots
+		if doPlayerRemoveItem(cid, 10021, 1) == true then --rapair soft boots
 		        doPlayerSendTextMessage(cid,22,"You've repaired your boots!.")
 			doPlayerAddItem(cid, 6132, 1) 
                         doTeleportThing(cid,newpos) 
