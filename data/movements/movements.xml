@@ -295,7 +295,7 @@
 <movevent event="StepIn" actionid="914" script="knight_to_soldier end.lua" />
 <movevent event="StepIn" actionid="915" script="knight_to_soldier end.lua" />
 
-<movevent event="StepIn" itemid="670" script="snow.lua" />
+--movevent event="StepIn" itemid="670" script="snow.lua" />
 
 <movevent event="StepIn" actionid="916" script="silencio.lua" /> --no pueden hablar
 <movevent event="StepIn" actionid="917" script="remove_silencio.lua" /> --ya pueden hablar
@@ -421,4 +421,20 @@
 	<moveevent event="StepIn" itemid="11062" script="legacy/switch_tile.lua" /> 
 	<moveevent event="StepOut" itemid="11063" script="legacy/switch_tile.lua" /> 
 
+		<!-- Footprint -->
+	<moveevent event="StepIn" itemid="670" script="legacy/footprint.lua" />
+	<moveevent event="StepIn" itemid="6580" script="legacy/footprint.lua" />
+	<moveevent event="StepIn" itemid="6581" script="legacy/footprint.lua" />
+	<moveevent event="StepIn" itemid="6582" script="legacy/footprint.lua" />
+	<moveevent event="StepIn" itemid="6583" script="legacy/footprint.lua" />
+	<moveevent event="StepIn" itemid="6584" script="legacy/footprint.lua" />
+	<moveevent event="StepIn" itemid="6585" script="legacy/footprint.lua" />
+	<moveevent event="StepIn" itemid="6586" script="legacy/footprint.lua" />
+	<moveevent event="StepIn" itemid="6587" script="legacy/footprint.lua" />
+	<moveevent event="StepIn" itemid="6588" script="legacy/footprint.lua" />
+	<moveevent event="StepIn" itemid="6589" script="legacy/footprint.lua" />
+	<moveevent event="StepIn" itemid="6590" script="legacy/footprint.lua" />
+	<moveevent event="StepIn" itemid="6591" script="legacy/footprint.lua" />
+	<moveevent event="StepIn" itemid="6592" script="legacy/footprint.lua" />
+	<moveevent event="StepIn" itemid="6593" script="legacy/footprint.lua" />
 </movements>

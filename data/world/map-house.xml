@@ -616,21 +616,21 @@
   <house name="Costa Apartments, 46" houseid="614" entryx="388" entryy="817" entryz="6" rent="600" townid="15" size="18"/>
   <house name="Costa Apartments, 47" houseid="615" entryx="379" entryy="832" entryz="6" rent="550" townid="15" size="14"/>
   <house name="Costa Apartments, 48" houseid="616" entryx="385" entryy="832" entryz="6" rent="800" townid="15" size="22"/>
-  <house name="" houseid="617" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="14"/>
-  <house name="" houseid="618" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="14"/>
-  <house name="" houseid="619" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="14"/>
-  <house name="" houseid="620" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="39"/>
-  <house name="" houseid="621" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="14"/>
-  <house name="" houseid="622" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="34"/>
-  <house name="" houseid="623" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="27"/>
-  <house name="" houseid="624" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="28"/>
-  <house name="Virgin Apartments, Flat 09" houseid="625" entryx="261" entryy="208" entryz="8" rent="400" townid="2" size="48"/>
-  <house name="Virgin Apartments, Flat 10" houseid="626" entryx="257" entryy="207" entryz="8" rent="600" townid="2" size="49"/>
-  <house name="Virgin Apartments, Flat 11" houseid="627" entryx="252" entryy="207" entryz="8" rent="600" townid="2" size="44"/>
-  <house name="Virgin Apartments, Flat 12" houseid="628" entryx="247" entryy="207" entryz="8" rent="750" townid="2" size="57"/>
-  <house name="Virgin Apartments, Flat 13" houseid="629" entryx="246" entryy="208" entryz="8" rent="200" townid="2" size="28"/>
-  <house name="Virgin Apartments, Flat 14" houseid="630" entryx="251" entryy="208" entryz="8" rent="200" townid="2" size="44"/>
-  <house name="Virgin Apartments, Flat 15" houseid="631" entryx="256" entryy="208" entryz="8" rent="250" townid="2" size="30"/>
+  <house name="Vulcano Hell Houses, Flat 12" houseid="617" entryx="1013" entryy="583" entryz="7" rent="1500" townid="28" size="14"/>
+  <house name="Vulcano Hell Houses, Flat 11" houseid="618" entryx="1017" entryy="588" entryz="7" rent="1500" townid="28" size="14"/>
+  <house name="Vulcano Hell Houses, Flat 10" houseid="619" entryx="1012" entryy="588" entryz="7" rent="1500" townid="28" size="14"/>
+  <house name="Vulcano Hell Houses, Flat 06" houseid="620" entryx="1007" entryy="591" entryz="7" rent="1500" townid="28" size="39"/>
+  <house name="Vulcano Hell Houses, Flat 08" houseid="621" entryx="1011" entryy="584" entryz="7" rent="1500" townid="28" size="14"/>
+  <house name="Vulcano Hell Houses, Flat 09" houseid="622" entryx="1006" entryy="577" entryz="7" rent="1500" townid="28" size="34"/>
+  <house name="Vulcano Hell Houses, Flat 07" houseid="623" entryx="1002" entryy="579" entryz="7" rent="1500" townid="28" size="27"/>
+  <house name="Vulcano Hell Houses, Flat 05" houseid="624" entryx="998" entryy="587" entryz="7" rent="1500" townid="28" size="28"/>
+  <house name="Vulcano Hell Houses, Flat 04" houseid="625" entryx="993" entryy="579" entryz="7" rent="1500" townid="28" size="48"/>
+  <house name="Vulcano Hell Houses, Flat 02" houseid="626" entryx="989" entryy="577" entryz="7" rent="1500" townid="28" size="49"/>
+  <house name="Vulcano Hell Houses, Flat 01" houseid="627" entryx="989" entryy="569" entryz="7" rent="1500" townid="28" size="44"/>
+  <house name="Vulcano Hell Houses, Flat 03" houseid="628" entryx="999" entryy="573" entryz="7" rent="1500" townid="28" size="57"/>
+  <house name="Vulcano Hell Houses, Flat 17" houseid="629" entryx="1019" entryy="574" entryz="6" rent="1500" townid="28" size="28"/>
+  <house name="Vulcano Hell Houses, Flat 18" houseid="630" entryx="1019" entryy="581" entryz="6" rent="1500" townid="28" size="44"/>
+  <house name="Vulcano Hell Houses, Flat 15" houseid="631" entryx="1014" entryy="576" entryz="6" rent="1500" townid="28" size="30"/>
   <house name="Vincent Houses, Flat 01" houseid="632" entryx="224" entryy="331" entryz="7" rent="250" townid="4" size="7"/>
   <house name="Vincent Houses, Flat 02" houseid="633" entryx="224" entryy="336" entryz="7" rent="350" townid="4" size="10"/>
   <house name="Vincent Houses, Flat 03" houseid="634" entryx="224" entryy="341" entryz="7" rent="350" townid="4" size="10"/>
@@ -1027,7 +1027,7 @@
   <house name="Thais Shop, flat 4" houseid="1025" entryx="282" entryy="203" entryz="6" rent="400" townid="2" size="10"/>
   <house name="Thais Shop, flat 5" houseid="1026" entryx="276" entryy="205" entryz="6" rent="700" townid="2" size="18"/>
   <house name="Thais Shop, flat 6" houseid="1027" entryx="282" entryy="205" entryz="6" rent="500" townid="2" size="14"/>
-  <house name="Virgin Apartments, Flat 16" houseid="1028" entryx="257" entryy="195" entryz="6" rent="800" townid="2" size="52"/>
+  <house name="Vulcano Hell Houses, Flat 21" houseid="1028" entryx="1014" entryy="585" entryz="6" rent="1500" townid="28" size="52"/>
   <house name="Virgin Apartments, Flat 17" houseid="1029" entryx="262" entryy="195" entryz="6" rent="900" townid="2" size="38"/>
   <house name="Training house, flat 7" houseid="1030" entryx="306" entryy="202" entryz="6" rent="550" townid="2" size="18"/>
   <house name="Training house, flat 8" houseid="1031" entryx="300" entryy="195" entryz="6" rent="550" townid="2" size="18"/>
@@ -1043,28 +1043,26 @@
   <house name="Atila Flats, Flat 4" houseid="1041" entryx="319" entryy="205" entryz="6" rent="450" townid="2" size="33"/>
   <house name="Atila Flats, Flat 5" houseid="1042" entryx="318" entryy="202" entryz="6" rent="450" townid="2" size="29"/>
   <house name="Atila Flats, Flat 6" houseid="1043" entryx="318" entryy="200" entryz="6" rent="450" townid="2" size="28"/>
-  <house name="" houseid="1044" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="50"/>
+  <house name="Vulcano Hell Houses, Flat 20" houseid="1044" entryx="1007" entryy="585" entryz="6" rent="1500" townid="28" size="50"/>
   <house name="The Guardian boat" houseid="1045" entryx="198" entryy="221" entryz="7" rent="1500" townid="2" size="186"/>
   <house name="The Black Pearl" houseid="1046" entryx="699" entryy="157" entryz="7" rent="1500" townid="21" size="283"/>
-  <house name="Vulcano flag 01" houseid="1047" entryx="1013" entryy="578" entryz="7" rent="300" townid="28" size="14"/>
-  <house name="" houseid="1048" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="28"/>
-  <house name="" houseid="1049" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="26"/>
-  <house name="" houseid="1050" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="41"/>
-  <house name="" houseid="1051" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="18"/>
-  <house name="" houseid="1052" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="15"/>
-  <house name="" houseid="1053" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="26"/>
-  <house name="" houseid="1054" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="26"/>
-  <house name="" houseid="1055" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="30"/>
-  <house name="" houseid="1056" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
-  <house name="" houseid="1057" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="28"/>
-  <house name="" houseid="1058" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="30"/>
-  <house name="" houseid="1059" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="25"/>
-  <house name="" houseid="1060" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="32"/>
-  <house name="" houseid="1061" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="36"/>
-  <house name="" houseid="1062" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="36"/>
-  <house name="" houseid="1063" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="26"/>
-  <house name="" houseid="1064" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="28"/>
-  <house name="" houseid="1065" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="28"/>
-  <house name="" houseid="1067" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="30"/>
-  <house name="" houseid="1068" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="162"/>
+  <house name="Vulcano Hell Houses, Flat 13" houseid="1047" entryx="1013" entryy="578" entryz="7" rent="1500" townid="28" size="14"/>
+  <house name="Vulcano Hell Houses, Flat 19" houseid="1048" entryx="998" entryy="587" entryz="6" rent="1500" townid="28" size="28"/>
+  <house name="Vulcano Hell Houses, Flat 16" houseid="1049" entryx="1011" entryy="579" entryz="6" rent="1500" townid="28" size="26"/>
+  <house name="Vulcano Hell Houses, Flat 14" houseid="1050" entryx="1003" entryy="571" entryz="6" rent="1500" townid="28" size="41"/>
+  <house name="Vulcano Hell Houses, Flat 28" houseid="1051" entryx="1045" entryy="562" entryz="7" rent="1500" townid="28" size="18"/>
+  <house name="Vulcano Hell Houses, Flat 29" houseid="1052" entryx="1045" entryy="560" entryz="7" rent="1500" townid="28" size="15"/>
+  <house name="Vulcano Hell Houses, Flat 33" houseid="1053" entryx="1048" entryy="559" entryz="6" rent="1500" townid="28" size="26"/>
+  <house name="Vulcano Hell Houses, Flat 34" houseid="1054" entryx="1054" entryy="557" entryz="6" rent="1500" townid="28" size="26"/>
+  <house name="Vulcano Hell Houses, Flat 35" houseid="1055" entryx="1058" entryy="558" entryz="6" rent="1500" townid="28" size="30"/>
+  <house name="Vulcano Hell Houses, Flat 36" houseid="1056" entryx="1058" entryy="563" entryz="6" rent="1500" townid="28" size="22"/>
+  <house name="Vulcano Hell Houses, Flat 30" houseid="1057" entryx="1053" entryy="558" entryz="7" rent="1500" townid="28" size="28"/>
+  <house name="Vulcano Hell Houses, Flat 31" houseid="1058" entryx="1059" entryy="558" entryz="7" rent="1500" townid="28" size="30"/>
+  <house name="Vulcano Hell Houses, Flat 32" houseid="1059" entryx="1057" entryy="563" entryz="7" rent="1500" townid="28" size="25"/>
+  <house name="Vulcano Hell Houses, Flat 27" houseid="1060" entryx="1039" entryy="602" entryz="7" rent="1500" townid="28" size="32"/>
+  <house name="Vulcano Hell Houses, Flat 26" houseid="1061" entryx="1033" entryy="602" entryz="7" rent="1500" townid="28" size="36"/>
+  <house name="Vulcano Hell Houses, Flat 25" houseid="1062" entryx="1027" entryy="602" entryz="7" rent="1500" townid="28" size="36"/>
+  <house name="Vulcano Hell Houses, Flat 24" houseid="1063" entryx="1039" entryy="602" entryz="6" rent="1500" townid="28" size="26"/>
+  <house name="Vulcano Hell Houses, Flat 23" houseid="1064" entryx="1033" entryy="602" entryz="6" rent="1500" townid="28" size="28"/>
+  <house name="Vulcano Hell Houses, Flat 22" houseid="1065" entryx="1027" entryy="602" entryz="6" rent="1500" townid="28" size="28"/>
 </houses>
