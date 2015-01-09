@@ -16,7 +16,7 @@ end
 local function secondServerSaveWarning()
         doTatuyBroadcastMessage("Server is saving game in one minute. Please go to a safe place.")
 		if doSaveServer(true) then
-			doTatuyBroadcastMessage("Saving data... The server will open again in a moment.")
+			doTatuyBroadcastMessage("The server will be open again in a moment. Please pick up all of your items.")
 		else
 			doTatuyBroadcastMessage("Server could not be saved. Please report this to an GM.")
 		end
