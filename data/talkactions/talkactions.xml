@@ -5,7 +5,6 @@
 	<talkaction words="/ifr" access="3" filter="first word" script="createitembyidfront.lua"/>
 	<talkaction words="/n" access="3" filter="first word" script="createitembyname.lua"/>
 	<talkaction words="/nfr" access="3" filter="first word" script="createitembynamefront.lua"/>
-	
 	<talkaction words="/owner" access="3" filter="first word" script="sethouseowner.lua"/>
 	<talkaction words="/save" access="3" script="saveserver.lua"/>
 	<talkaction words="/cleanhouses" access="3" filter="first word" script="housecleaning.lua"/>
@@ -19,14 +18,14 @@
 	<talkaction words="/m" access="3" filter="first word" script="placemonster.lua"/>
 	<talkaction words="/r" access="3" filter="first word" script="removething.lua"/>
 	<talkaction words="/reload" access="3" filter="first word" script="reload.lua"/>
+	<talkaction words="/summon" access="3" filter="first word" script="placesummon.lua"/>
+	<talkaction words="/refreshmap" access="3" filter="first word" script="refreshmap.lua"/>
 	
 	<!-- Gamemasters -->
 	<talkaction words="/up" access="2" filter="first word" script="floorchange.lua"/>
 	<talkaction words="/down" access="2" filter="first word" script="floorchange.lua"/>
 	<talkaction words="/t" access="2" script="teleportmasterpos.lua"/>
 	<talkaction words="/town" access="2" filter="first word" script="teleporttotown.lua"/>
-	<talkaction words="/summon" access="2" filter="first word" script="placesummon.lua"/>
-	<talkaction words="/refreshmap" access="2" filter="first word" script="refreshmap.lua"/>
 	<talkaction words="/bc" access="2" filter="first word" script="broadcastclass.lua"/>
 	<talkaction words="/invisible" access="2" filter="first word" script="gminvisible.lua"/>
 	<talkaction words="/info" access="2" filter="first word" script="getinfo.lua"/>
@@ -44,7 +43,6 @@
 	<talkaction words="/serverinfo" access="1" script="serverinfo.lua"/>
 	<talkaction words="/getonline" access="1" filter="first word" script="accessonlinelist.lua"/>
 	<talkaction words="/gethouse" access="1" filter="first word" script="gethouse.lua"/>
-	
 	<talkaction words="!online" access="1" script="onlinelist.lua"/>
 
 	<!-- Players -->
@@ -52,8 +50,7 @@
 	<talkaction words="!buyhouse" access="0" script="buyhouse.lua"/>
 	<talkaction words="!leavehouse" access="0" script="leavehouse.lua"/>
 	<talkaction words="!houseinfo" access="0" script="houseinfo.lua"/>
-
 	<talkaction words="!frags" access="0" script="frags.lua"/>
-			<!-- Guia3d -->
+		<!-- Guia3d -->
 		<talkaction words="!bless" access="0" script="guia3d/bless.lua"/>
 </talkactions>
