@@ -6,7 +6,7 @@
 --actionid="6996" script="movement/nadar.lua --Reservado
 --actionid="6997" script="movement/remnadar.lua --Reservado
 --### Player storage 15000, para outfit players###
-<action itemid="2342" script="fullhelmet.lua" /> -- ruby + helmet
+--action itemid="2342" script="fullhelmet.lua" /> -- ruby + helmet
 -------action uniqueid="9999999" script="00playerson.lua"/> --players online 
 --action uniqueid="9999997" script="00Monsterson.lua"/> --monster online 
 --action uniqueid="9999996" script="00playerslist.lua"/> --players list 
@@ -1209,7 +1209,7 @@
 
 <action actionid="21208" script="questbehetorun.lua" />  --parte del ancient helmet
 
-<action actionid="21214" script="questbehetorun.lua" />  --transform in helmet with all parts
+<action actionid="21214" script="tatuy/ancienthelmet.lua" />  --transform in helmet with all parts
 ---end spinm---
 
 <action uniqueid="21215" script="genovadradon.lua" /> --3 dragon lorg in Genova

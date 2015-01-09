@@ -16,6 +16,13 @@ function onUse(cid, item, frompos, item2, topos)
 		else
 			doPlayerSendTextMessage(cid,22,"Sorry, Sorcerer and Wizard can enchanted this object..")
 		end
+		
+	elseif item2.itemid == 2342 then
+		doPlayerSendTextMessage(cid,22,"You substituted the precious stone of the helmet.")
+		doPlayerAddItem(cid,2343,1)
+		doRemoveItem(item.uid,1)
+		doRemoveItem(item2.uid,1)
+		doSendMagicEffect(topos,12)
 
 
 	else

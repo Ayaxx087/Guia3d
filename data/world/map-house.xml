@@ -141,11 +141,11 @@
   <house name="Alameda home, flat 4" houseid="139" entryx="444" entryy="448" entryz="7" rent="300" townid="1" size="8"/>
   <house name="Alameda home, flat 5" houseid="140" entryx="442" entryy="451" entryz="6" rent="450" townid="1" size="13"/>
   <house name="Alameda home, flat 6" houseid="141" entryx="442" entryy="447" entryz="6" rent="250" townid="1" size="8"/>
-  <house name="Alameda home, flat 7" houseid="142" entryx="442" entryy="444" entryz="6" rent="550" townid="1" size="17"/>
+  <house name="Alameda home, flat 7" houseid="142" entryx="442" entryy="444" entryz="6" rent="550" townid="1" size="16"/>
   <house name="Royal house, flat 1" houseid="143" entryx="404" entryy="435" entryz="7" rent="500" townid="1" size="14"/>
   <house name="Royal house, flat 2" houseid="144" entryx="404" entryy="431" entryz="7" rent="250" townid="1" size="6"/>
   <house name="Royal house, flat 3" houseid="145" entryx="404" entryy="428" entryz="7" rent="250" townid="1" size="6"/>
-  <house name="Royal house, flat 4" houseid="146" entryx="405" entryy="432" entryz="6" rent="1150" townid="1" size="35"/>
+  <house name="Royal house, flat 4" houseid="146" entryx="405" entryy="432" entryz="6" rent="1150" townid="1" size="34"/>
   <house name="Royal house, flat 5" houseid="147" entryx="405" entryy="436" entryz="6" rent="450" townid="1" size="13"/>
   <house name="Liberty Flats, flat 1" houseid="148" entryx="391" entryy="450" entryz="6" rent="500" townid="1" size="13"/>
   <house name="Liberty Flats, flat 2" houseid="149" entryx="391" entryy="446" entryz="6" rent="300" townid="1" size="8"/>
@@ -616,13 +616,21 @@
   <house name="Costa Apartments, 46" houseid="614" entryx="388" entryy="817" entryz="6" rent="600" townid="15" size="18"/>
   <house name="Costa Apartments, 47" houseid="615" entryx="379" entryy="832" entryz="6" rent="550" townid="15" size="14"/>
   <house name="Costa Apartments, 48" houseid="616" entryx="385" entryy="832" entryz="6" rent="800" townid="15" size="22"/>
-  <house name="Virgin Apartments, Flat 09" houseid="625" entryx="261" entryy="208" entryz="8" rent="400" townid="2" size="13"/>
-  <house name="Virgin Apartments, Flat 10" houseid="626" entryx="257" entryy="207" entryz="8" rent="600" townid="2" size="18"/>
-  <house name="Virgin Apartments, Flat 11" houseid="627" entryx="252" entryy="207" entryz="8" rent="600" townid="2" size="18"/>
-  <house name="Virgin Apartments, Flat 12" houseid="628" entryx="247" entryy="207" entryz="8" rent="750" townid="2" size="23"/>
-  <house name="Virgin Apartments, Flat 13" houseid="629" entryx="246" entryy="208" entryz="8" rent="200" townid="2" size="6"/>
-  <house name="Virgin Apartments, Flat 14" houseid="630" entryx="251" entryy="208" entryz="8" rent="200" townid="2" size="6"/>
-  <house name="Virgin Apartments, Flat 15" houseid="631" entryx="256" entryy="208" entryz="8" rent="250" townid="2" size="8"/>
+  <house name="" houseid="617" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="14"/>
+  <house name="" houseid="618" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="14"/>
+  <house name="" houseid="619" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="14"/>
+  <house name="" houseid="620" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="39"/>
+  <house name="" houseid="621" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="14"/>
+  <house name="" houseid="622" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="34"/>
+  <house name="" houseid="623" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="27"/>
+  <house name="" houseid="624" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="28"/>
+  <house name="Virgin Apartments, Flat 09" houseid="625" entryx="261" entryy="208" entryz="8" rent="400" townid="2" size="48"/>
+  <house name="Virgin Apartments, Flat 10" houseid="626" entryx="257" entryy="207" entryz="8" rent="600" townid="2" size="49"/>
+  <house name="Virgin Apartments, Flat 11" houseid="627" entryx="252" entryy="207" entryz="8" rent="600" townid="2" size="44"/>
+  <house name="Virgin Apartments, Flat 12" houseid="628" entryx="247" entryy="207" entryz="8" rent="750" townid="2" size="57"/>
+  <house name="Virgin Apartments, Flat 13" houseid="629" entryx="246" entryy="208" entryz="8" rent="200" townid="2" size="28"/>
+  <house name="Virgin Apartments, Flat 14" houseid="630" entryx="251" entryy="208" entryz="8" rent="200" townid="2" size="44"/>
+  <house name="Virgin Apartments, Flat 15" houseid="631" entryx="256" entryy="208" entryz="8" rent="250" townid="2" size="30"/>
   <house name="Vincent Houses, Flat 01" houseid="632" entryx="224" entryy="331" entryz="7" rent="250" townid="4" size="7"/>
   <house name="Vincent Houses, Flat 02" houseid="633" entryx="224" entryy="336" entryz="7" rent="350" townid="4" size="10"/>
   <house name="Vincent Houses, Flat 03" houseid="634" entryx="224" entryy="341" entryz="7" rent="350" townid="4" size="10"/>
@@ -885,7 +893,7 @@
   <house name="Team House 03" houseid="891" entryx="905" entryy="135" entryz="7" rent="1750" townid="21" size="54"/>
   <house name="Team House 04" houseid="892" entryx="904" entryy="137" entryz="7" rent="2050" townid="21" size="59"/>
   <house name="The Swan Castle" houseid="893" entryx="392" entryy="776" entryz="7" rent="3000" townid="15" size="677"/>
-  <house name="The Great Big Foot House" houseid="894" entryx="259" entryy="180" entryz="7" rent="3000" townid="2" size="399"/>
+  <house name="The Great Big Foot House" houseid="894" entryx="259" entryy="180" entryz="7" rent="3000" townid="2" size="417"/>
   <house name="NovaWold flat 01" houseid="895" entryx="383" entryy="414" entryz="7" rent="300" townid="1" size="7"/>
   <house name="Leopol flats 01" houseid="896" entryx="182" entryy="792" entryz="7" rent="850" townid="23" size="23"/>
   <house name="Leopol flats 02" houseid="897" entryx="182" entryy="787" entryz="7" rent="1000" townid="23" size="26"/>
@@ -1019,7 +1027,7 @@
   <house name="Thais Shop, flat 4" houseid="1025" entryx="282" entryy="203" entryz="6" rent="400" townid="2" size="10"/>
   <house name="Thais Shop, flat 5" houseid="1026" entryx="276" entryy="205" entryz="6" rent="700" townid="2" size="18"/>
   <house name="Thais Shop, flat 6" houseid="1027" entryx="282" entryy="205" entryz="6" rent="500" townid="2" size="14"/>
-  <house name="Virgin Apartments, Flat 16" houseid="1028" entryx="257" entryy="195" entryz="6" rent="800" townid="2" size="30"/>
+  <house name="Virgin Apartments, Flat 16" houseid="1028" entryx="257" entryy="195" entryz="6" rent="800" townid="2" size="52"/>
   <house name="Virgin Apartments, Flat 17" houseid="1029" entryx="262" entryy="195" entryz="6" rent="900" townid="2" size="38"/>
   <house name="Training house, flat 7" houseid="1030" entryx="306" entryy="202" entryz="6" rent="550" townid="2" size="18"/>
   <house name="Training house, flat 8" houseid="1031" entryx="300" entryy="195" entryz="6" rent="550" townid="2" size="18"/>
@@ -1035,7 +1043,28 @@
   <house name="Atila Flats, Flat 4" houseid="1041" entryx="319" entryy="205" entryz="6" rent="450" townid="2" size="33"/>
   <house name="Atila Flats, Flat 5" houseid="1042" entryx="318" entryy="202" entryz="6" rent="450" townid="2" size="29"/>
   <house name="Atila Flats, Flat 6" houseid="1043" entryx="318" entryy="200" entryz="6" rent="450" townid="2" size="28"/>
+  <house name="" houseid="1044" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="50"/>
   <house name="The Guardian boat" houseid="1045" entryx="198" entryy="221" entryz="7" rent="1500" townid="2" size="186"/>
   <house name="The Black Pearl" houseid="1046" entryx="699" entryy="157" entryz="7" rent="1500" townid="21" size="283"/>
   <house name="Vulcano flag 01" houseid="1047" entryx="1013" entryy="578" entryz="7" rent="300" townid="28" size="14"/>
+  <house name="" houseid="1048" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="28"/>
+  <house name="" houseid="1049" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="26"/>
+  <house name="" houseid="1050" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="41"/>
+  <house name="" houseid="1051" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="18"/>
+  <house name="" houseid="1052" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="15"/>
+  <house name="" houseid="1053" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="26"/>
+  <house name="" houseid="1054" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="26"/>
+  <house name="" houseid="1055" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="30"/>
+  <house name="" houseid="1056" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="22"/>
+  <house name="" houseid="1057" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="28"/>
+  <house name="" houseid="1058" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="30"/>
+  <house name="" houseid="1059" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="25"/>
+  <house name="" houseid="1060" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="32"/>
+  <house name="" houseid="1061" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="36"/>
+  <house name="" houseid="1062" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="36"/>
+  <house name="" houseid="1063" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="26"/>
+  <house name="" houseid="1064" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="28"/>
+  <house name="" houseid="1065" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="28"/>
+  <house name="" houseid="1067" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="30"/>
+  <house name="" houseid="1068" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="162"/>
 </houses>
