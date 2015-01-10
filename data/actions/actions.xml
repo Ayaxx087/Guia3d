@@ -2000,4 +2000,14 @@
 	<action itemid="10791" script="tatuy/newpuertas/doors/questdoor_closed.lua"/>
 	<action itemid="10792" script="tatuy/newpuertas/doors/door_open_vertical.lua"/>
 	
+	<action itemid="10264" script="tatuy/newpuertas/doors/window_open.lua"/>
+	<action itemid="10265" script="tatuy/newpuertas/doors/window_open.lua"/>
+	<action itemid="10266" script="tatuy/newpuertas/doors/window_close.lua"/>
+	<action itemid="10267" script="tatuy/newpuertas/doors/window_close.lua"/>
+	
+	<action itemid="10488" script="tatuy/newpuertas/doors/window_open.lua"/>
+	<action itemid="10489" script="tatuy/newpuertas/doors/window_open.lua"/>
+	<action itemid="10490" script="tatuy/newpuertas/doors/window_close.lua"/>
+	<action itemid="10491" script="tatuy/newpuertas/doors/window_close.lua"/>
+	
 </actions>
