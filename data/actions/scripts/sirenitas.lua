@@ -544,8 +544,11 @@ addOutfit(cid, OUTFIT_DEMONHUNTER, 2, getPlayerSex(cid)) --ADDON 2
 		queststatus = getPlayerStorageValue(cid,9134)
 		if queststatus == -1 or queststatus == 0 then
                      if doPlayerRemoveItem(cid, 6101, 1) == true then -- 1 ron the rippers
-			doPlayerAddOutfit(cid, 324, 3) --ADDON COMPLETO
-			doPlayerAddOutfit(cid, 325, 3)
+						if getPlayerSex(cid) == 0 then
+							doPlayerAddOutfit(cid, 324, 3) --ADDON COMPLETO
+						else
+							doPlayerAddOutfit(cid, 325, 3)
+						end
 			doPlayerSendTextMessage(cid,22,"Congratulation! you receive a new outfit.")
 			doSendMagicEffect(topos,12)
 			setPlayerStorageValue(cid,9134,1)
