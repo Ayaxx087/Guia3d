@@ -537,6 +537,23 @@ addOutfit(cid, OUTFIT_DEMONHUNTER, 2, getPlayerSex(cid)) --ADDON 2
                         doSendMagicEffect(topos,1)
 		end
               end
+			  
+--OUTFIT 840			  
+	elseif item.actionid == 9134 then
+
+		queststatus = getPlayerStorageValue(cid,9134)
+		if queststatus == -1 or queststatus == 0 then
+                     if doPlayerRemoveItem(cid, 6101, 1) == true then -- 1 ron the rippers
+			addOutfit(cid, OUTFIT_YALAHARIAN, 3, getPlayerSex(cid)) --ADDON COMPLETO
+			doPlayerSendTextMessage(cid,22,"Congratulation! you receive a new outfit.")
+			doSendMagicEffect(topos,12)
+			setPlayerStorageValue(cid,9134,1)
+
+		else
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Atolon Statue: hello ' ..getPlayerName(cid).. ' can you give me The Ron Rippers?  \nis a item quest of the new island')
+                        doSendMagicEffect(topos,1)
+		end
+              end			  
 --------------------
 
 	else

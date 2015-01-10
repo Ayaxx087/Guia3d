@@ -46,6 +46,7 @@ OUTFIT_NORSEMAN = 16
 OUTFIT_NIGHTMARE = 17
 OUTFIT_JESTER = 18
 OUTFIT_BROTHERHOOD = 19
+OUFIT_YALAHARIAN = 21
 
 function addOutfit(cid, outfitid, addons, sex)
 
@@ -91,6 +92,8 @@ function addOutfit(cid, outfitid, addons, sex)
 			looktype = 279
 		elseif outfitid == OUTFIT_DEMONHUNTER then
 			looktype = 288
+		elseif outfitid == OUTFIT_YALAHARIAN then
+			looktype = 324			
 		else
 			debugPrint("addOutfit unk female oufitid:"..outfitid)
 			return false
@@ -136,6 +139,8 @@ function addOutfit(cid, outfitid, addons, sex)
 			looktype = 278
 		elseif outfitid == OUTFIT_DEMONHUNTER then
 			looktype = 289
+		elseif outfitid == OUTFIT_YALAHARIAN then
+			looktype = 325			
 		else
 			debugPrint("addOutfit unk male oufitid:"..outfitid)
 			return false

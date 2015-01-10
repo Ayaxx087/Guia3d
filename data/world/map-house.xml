@@ -1065,4 +1065,5 @@
   <house name="Vulcano Hell Houses, Flat 24" houseid="1063" entryx="1039" entryy="602" entryz="6" rent="1500" townid="28" size="26"/>
   <house name="Vulcano Hell Houses, Flat 23" houseid="1064" entryx="1033" entryy="602" entryz="6" rent="1500" townid="28" size="28"/>
   <house name="Vulcano Hell Houses, Flat 22" houseid="1065" entryx="1027" entryy="602" entryz="6" rent="1500" townid="28" size="28"/>
+  <house name="Guia3d Staff House 666" houseid="1066" entryx="255" entryy="289" entryz="6" rent="100000" townid="2" size="176"/>
 </houses>
