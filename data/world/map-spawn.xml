@@ -43,6 +43,9 @@
     <monster name="Dragon Lord" x="-3" y="-1" z="3" spawntime="360"/>
     <monster name="Dragon" x="0" y="3" z="3" spawntime="240"/>
   </spawn>
+  <spawn centerx="259" centery="170" centerz="3" radius="1">
+    <monster name="Azerus" x="-1" y="0" z="3" spawntime="60"/>
+  </spawn>
   <spawn centerx="432" centery="184" centerz="3" radius="20">
     <monster name="Novice Of The Cult" x="0" y="-13" z="3" spawntime="180"/>
     <monster name="Enlightened of the Cult" x="10" y="-13" z="3" spawntime="300"/>
