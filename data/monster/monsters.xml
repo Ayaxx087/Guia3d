@@ -329,4 +329,33 @@
 <monster name="trollhp" file="tatuy/trollhp.xml" />
 <monster name="dragonhp" file="tatuy/dragonhp.xml" />
 <monster name="dwarfhp" file="tatuy/dwarfhp.xml" />
+
+--8.4 Monsters
+<monster name="Acid Blob" file="8.4/Acid Blob.xml"/>
+<monster name="Azerus" file="8.4/Azerus.xml"/>
+<monster name="Crazed Beggar" file="8.4/Crazed Beggar.xml"/>
+<monster name="Damaged Worker Golem" file="8.4/Damaged Worker Golem.xml"/>
+<monster name="Death Blob" file="8.4/Death Blob.xml"/>
+<monster name="Gang Member" file="8.4/Gang Member.xml"/>
+<monster name="Gladiator" file="8.4/Gladiator.xml"/>
+<monster name="Gozzler" file="8.4/Gozzler.xml"/>
+<monster name="Haunted Treeling" file="8.4/Haunted Treeling.xml"/>
+<monster name="Mad Scientist" file="8.4/Mad Scientist.xml"/>
+<monster name="Mercury Blob" file="8.4/Mercury Blob.xml"/>
+<monster name="Mutated Bat" file="8.4/Mutated Bat.xml"/>
+<monster name="Mutated Human" file="8.4/Mutated Human.xml"/>
+<monster name="Mutated Rat" file="8.4/Mutated Rat.xml"/>
+<monster name="Mutated Tiger" file="8.4/Mutated Tiger.xml"/>
+<monster name="Nightmare Scion" file="8.4/Nightmare Scion.xml"/>
+<monster name="Nightstalker" file="8.4/Nightstalker.xml"/>
+<monster name="Undead Gladiator" file="8.4/Undead Gladiator.xml"/>
+<monster name="Vampire Bride" file="8.4/Vampire Bride.xml"/>
+<monster name="War Golem" file="8.4/War Golem.xml"/>
+<monster name="Werewolf" file="8.4/Werewolf.xml"/>
+<monster name="Worker Golem" file="8.4/Worker Golem.xml"/>
+<monster name="Zombie" file="8.4/Zombie.xml"/>
+
+--rares
+<monster name="Mr. Punish" file="rares/Mr. Punish.xml"/>
+<monster name="Massive Energy Elemental" file="8.22/Massive Energy Elemental.xml"/>
 </monsters>

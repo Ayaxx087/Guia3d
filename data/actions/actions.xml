@@ -1949,4 +1949,6 @@
 	<!-- TATUY :: 65019 = premmystorage -->
 	<action actionid="65020" script="tatuy/blessbook.lua" />
 	
+	<action actionid="65021" script="tatuy/sabreatolon.lua" />
+	
 </actions>

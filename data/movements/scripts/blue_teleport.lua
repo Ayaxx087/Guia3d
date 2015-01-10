@@ -186,6 +186,15 @@ function onStepIn(cid, item, pos)
 		doSendMagicEffect(newpos,12)
                 doPlayerSetTown(cid,26) --THALIA PVP ARENA TEMPLE
 		end
+		
+		elseif item.actionid == 50028 then
+		if isPlayer(cid) == TRUE then
+		newpos = {x=1014, y=564, z=6}
+		doPlayerSendTextMessage(cid,22,"Now you are a citizen of Vulcano.")
+		doTeleportThing(cid,newpos)
+		doSendMagicEffect(newpos,12)
+                doPlayerSetTown(cid,28) --Vulcano
+		end
 
 	else
 		return false
