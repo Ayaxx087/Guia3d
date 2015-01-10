@@ -1,5 +1,5 @@
 function onUse(cid, item, frompos, item2, topos)
-	if item.actionid == 21280 then 
+	if item.actionid == 65022 then 
 		if getPlayerItemCount(cid,10021) >= 1 then --rapair soft boots
 			if doPlayerRemoveMoney(cid, 10000) == true then
 		        doPlayerSendTextMessage(cid,22,"You've repaired your boots!.")
