@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<?xml version="1.0"?>
 
 <actions>
 <action fromid="7131" toid="7132" script="mrusa/RollerCoaster.lua"/>
