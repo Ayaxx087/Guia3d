@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+<?xml version="1.0"?>
 
 <actions>
 <action fromid="7131" toid="7132" script="mrusa/RollerCoaster.lua"/>
@@ -1950,5 +1951,54 @@
 	<action actionid="65020" script="tatuy/blessbook.lua" />
 	
 	<action actionid="65021" script="tatuy/sabreatolon.lua" />
+	
+	<action actionid="9134" script="sirenitas.lua" /> -- quest sirenitas --new outfit full
+	
+	<action itemid="10268" script="tatuy/newpuertas/doors/door_locked.lua"/>
+	<action itemid="10269" script="tatuy/newpuertas/increment.lua"/>
+	<action itemid="10270" script="tatuy/newpuertas/doors/door_open_vertical.lua"/> 
+	<action itemid="10271" script="tatuy/newpuertas/doors/door_locked.lua"/>
+	<action itemid="10272" script="tatuy/newpuertas/increment.lua"/>
+	<action itemid="10273" script="tatuy/newpuertas/doors/door_open_horizontal.lua"/>
+	
+	<action itemid="10274" script="tatuy/newpuertas/increment.lua"/>
+	<action itemid="10275" script="tatuy/newpuertas/doors/door_open_vertical.lua"/>
+	<action itemid="10276" script="tatuy/newpuertas/increment.lua"/>
+	<action itemid="10277" script="tatuy/newpuertas/doors/door_open_horizontal.lua"/>
+	
+	<action itemid="10278" script="tatuy/newpuertas/doors/questdoor_closed.lua"/>
+	<action itemid="10279" script="tatuy/newpuertas/doors/door_open_vertical.lua"/>
+	<action itemid="10280" script="tatuy/newpuertas/doors/gateofexp_closed.lua"/>
+	<action itemid="10281" script="tatuy/newpuertas/doors/door_open_horizontal.lua"/>
+	
+	<action itemid="10282" script="tatuy/newpuertas/doors/gateofexp_closed.lua"/>
+	<action itemid="10283" script="tatuy/newpuertas/doors/door_open_vertical.lua"/>
+	<action itemid="10284" script="tatuy/newpuertas/doors/gateofexp_closed.lua"/>
+	<action itemid="10285" script="tatuy/newpuertas/doors/door_open_horizontal.lua"/>
+	
+	<action itemid="10468" script="tatuy/newpuertas/doors/door_locked.lua"/>
+	<action itemid="10469" script="tatuy/newpuertas/increment.lua"/>
+	<action itemid="10470" script="tatuy/newpuertas/doors/door_open_vertical.lua"/>
+	<action itemid="10471" script="tatuy/newpuertas/increment.lua"/>
+	<action itemid="10472" script="tatuy/newpuertas/doors/door_open_vertical.lua"/>
+	
+	<action itemid="10473" script="tatuy/newpuertas/doors/gateofexp_closed.lua"/>
+	<action itemid="10474" script="tatuy/newpuertas/doors/door_open_vertical.lua"/>
+	<action itemid="10475" script="tatuy/newpuertas/doors/questdoor_closed.lua"/>
+	<action itemid="10476" script="tatuy/newpuertas/doors/door_open_vertical.lua"/>
+	
+	<action itemid="10477" script="tatuy/newpuertas/doors/door_locked.lua"/>
+	<action itemid="10478" script="tatuy/newpuertas/increment.lua"/>
+	<action itemid="10479" script="tatuy/newpuertas/doors/door_open_horizontal.lua"/>
+	<action itemid="10480" script="tatuy/newpuertas/increment.lua"/>
+	<action itemid="10481" script="tatuy/newpuertas/doors/door_open_horizontal.lua"/>
+	
+	<action itemid="10482" script="tatuy/newpuertas/doors/gateofexp_closed.lua"/>
+	<action itemid="10483" script="tatuy/newpuertas/doors/door_open_horizontal.lua"/>
+	<action itemid="10484" script="tatuy/newpuertas/doors/questdoor_closed.lua"/>
+	<action itemid="10485" script="tatuy/newpuertas/doors/door_open_vertical.lua"/>
+	
+	<action itemid="10791" script="tatuy/newpuertas/doors/questdoor_closed.lua"/>
+	<action itemid="10792" script="tatuy/newpuertas/doors/door_open_vertical.lua"/>
 	
 </actions>

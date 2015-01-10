@@ -25056,7 +25056,8 @@
 		<attribute key="weight" value="250"/>
 		<attribute key="description" value="Only a single word is scribbled on the sheet: SOLOSARASATIQUARIUM."/>
 	</item>
- 
+ 	<item id="12397" article="a" name="mystic book">
+	</item>
 	<item id="12399" article="a" name="girlish hair decoration">
 		<attribute key="weight" value="50"/>
 	</item>
