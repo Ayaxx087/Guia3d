@@ -211,6 +211,22 @@ function onUse(cid, item, frompos, item2, topos)
 		giveItemToPlayer(cid, 8921, 1, 7500, topos)
 	elseif item.actionid == 2393 then ------------wand of voodoo
 		giveItemToPlayer(cid, 8922, 1, 22000, topos)
+	elseif item.actionid == 2394 then ------------healthpotionx20
+		giveItemToPlayer(cid, 7618, 20, 1000, topos)
+	elseif item.actionid == 2395 then ------------manapotionx20
+		giveItemToPlayer(cid, 7620, 20, 1000, topos)
+	elseif item.actionid == 2396 then ------------stronghealthpotionx20
+		giveItemToPlayer(cid, 7588, 20, 2000, topos)
+	elseif item.actionid == 2397 then ------------greathealthpotionx20
+		giveItemToPlayer(cid, 7591, 20, 3800, topos)
+	elseif item.actionid == 2398 then ------------ultimatehealthpotionx20
+		giveItemToPlayer(cid, 8473, 20, 6200, topos)
+	elseif item.actionid == 2399 then ------------strongmanapotionx20
+		giveItemToPlayer(cid, 7589, 20, 2000, topos)
+	elseif item.actionid == 2400 then ------------greatmanapotionx20
+		giveItemToPlayer(cid, 7590, 20, 2400, topos)
+	elseif item.actionid == 2401 then ------------greatspiritpotionx20
+		giveItemToPlayer(cid, 8472, 20, 3800, topos)
 
 	end	
 	return true

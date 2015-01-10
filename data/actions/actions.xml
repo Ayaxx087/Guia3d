@@ -972,6 +972,14 @@
 <action actionid="2391" script="service.lua" />
 <action actionid="2392" script="service.lua" />
 <action actionid="2393" script="service.lua" />
+<action actionid="2394" script="service.lua" />
+<action actionid="2395" script="service.lua" />
+<action actionid="2396" script="service.lua" />
+<action actionid="2397" script="service.lua" />
+<action actionid="2398" script="service.lua" />
+<action actionid="2399" script="service.lua" />
+<action actionid="2400" script="service.lua" />
+<action actionid="2401" script="service.lua" />
 
 
 -----END AUTOSERVICIO--------
@@ -2009,5 +2017,7 @@
 	<action itemid="10489" script="tatuy/newpuertas/doors/window_open.lua"/>
 	<action itemid="10490" script="tatuy/newpuertas/doors/window_close.lua"/>
 	<action itemid="10491" script="tatuy/newpuertas/doors/window_close.lua"/>
+	
+	<action actionid="65022" script="tatuy/repairsoftboots.lua" />
 	
 </actions>
