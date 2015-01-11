@@ -287,7 +287,7 @@ despawnrange = 2
 despawnradius = 50
 
 --should players be able to hit invisible creatures using not AOE runes? (default: false)
-can_attack_invisible = false
+can_attack_invisible = true
 
 --should players be able to pass through each other if they can't attack each other (non-pvp servers/tiles or levels too low for PvP)?
 --this option also controls if they can pass through magic wall/wild growth casted by players with those restrictions
