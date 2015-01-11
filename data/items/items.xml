@@ -3900,9 +3900,9 @@
 		<attribute key="duration" value="86400"/>
 	</item>
 	<item id="2352" article="a" name="crystal arrow">
-		<attribute key="description" value="The Magic arrow for ordinary bows. The train arrow with low damage, Attack 2."/>
+		<attribute key="description" value="The Magic arrow for ordinary bows. The train arrow with low damage, Attack 1."/>
 		<attribute key="weight" value="100"/>
-		<attribute key="attack" value="2"/>
+		<attribute key="attack" value="1"/>
 		<attribute key="weaponType" value="ammunition"/>
 		<attribute key="ammoType" value="arrow"/>
 		<attribute key="shootType" value="arrow"/>
@@ -16248,7 +16248,7 @@
 		<attribute key="weaponType" value="distance"/>
 		<attribute key="shootType" value="enchantedspear"/>
 		<attribute key="range" value="4"/>
-		<attribute key="breakChance" value="5"/>
+		<attribute key="breakChance" value="1"/>
 		<attribute key="ammoAction" value="moveback"/>
 	</item>
 	<item id="7368" article="an" name="assassin star" plural="assassin stars">
@@ -20217,6 +20217,7 @@
 	<item id="8791" article="a" name="branch"/>
 	<item id="8792" article="a" name="tree"/>
 	<item id="8793" article="a" name="tree"/>
+	<item id="8795" article="a" name="tree"/>
 	<item id="8797" article="a" name="tree"/>
 	<item id="8798" article="a" name="tree"/>
 	<item id="8799" article="a" name="tree"/>
