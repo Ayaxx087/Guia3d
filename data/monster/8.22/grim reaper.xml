@@ -72,7 +72,7 @@
     <item id="8795" chance="1500"/>			-- skullcracker armor
     <item id="7418" chance="3000"/>			-- nightmare blade
     <item id="7589" chance="5000"/>			-- strong mana potion
-    <item id="8816" chance="3333"/>			-- underworld rod
+    <item id="8910" chance="3333"/>			-- underworld rod
     <item id="7591" chance="3333"/>			-- ultimate health potion
 		</inside>
     	</item>
