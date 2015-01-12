@@ -2020,4 +2020,9 @@
 	
 	<action actionid="65022" script="tatuy/repairsoftboots.lua" />
 	
+	<action itemid="5942" script="tatuy/tools/blessed_wooden_stake.lua"/>
+	<action itemid="5908" script="tatuy/tools/obsidian_knife.lua"/>
+	
+	<action actionid="65023" script="tatuy/convertwoodenstake.lua" />
+	
 </actions>

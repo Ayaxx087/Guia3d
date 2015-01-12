@@ -3506,7 +3506,7 @@
 	<item id="2273" article="an" name="ultimate healing rune">
 		<attribute key="type" value="rune"/>
 		<attribute key="runeSpellName" value="adura vita"/>
-		<attribute key="weight" value="120"/>
+		<attribute key="weight" value="240"/>
 		<attribute key="charges" value="1"/>
 	</item>
 	<item id="2274" article="an" name="avalanche rune">
@@ -12542,11 +12542,14 @@
 		<attribute key="slotType" value="necklace"/>
 	</item>
 	<item id="5941" article="a" name="wooden stake">
-		<attribute key="description" value="It is a simple wooden stake."/>
+		<attribute key="description" value="Distance Stake. The ring for distance attack."/>
 		<attribute key="weight" value="500"/>
+		<attribute key="slotType" value="ring"/>
+		<attribute key="skillDist" value="2"/>
 	</item>
 	<item id="5942" article="a" name="blessed wooden stake">
-		<attribute key="description" value="Many mighty priests of Tibia have blessed this stake."/>
+		<attribute key="description" value="Many mighty priests of UATibia have blessed this stake."/>
+		<attribute key="slotType" value="ring"/>		
 		<attribute key="weight" value="500"/>
 	</item>
 	<item id="5943" article="the" name="Morgaroth's heart">
