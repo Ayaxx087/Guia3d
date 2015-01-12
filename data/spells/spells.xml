@@ -48,7 +48,12 @@
 -- Support Runes
 <rune name="Chameleon" id="2291" selftarget="1" charges="1" maglv="4" mana="0" aggressive="0" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" function="chameleon"></rune>
 <rune name="Magic Wall" id="2293" charges="3" maglv="9" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" blocktype="all" enabled="1" script="magic_wall.lua"></rune>
-<rune name="Paralyze" id="2278" charges="1" maglv="18" mana="1400" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="paralyze.lua"></rune>
+<rune name="Paralyze" id="2278" charges="1" maglv="18" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="paralyze.lua">
+	<vocation name="Sorcerer" />
+	<vocation name="Druid" />
+	<vocation name="Shaman" />
+	<vocation name="Wizard" />
+</rune>
 <rune name="Drunkness" id="2267" charges="3" needtarget="1" lvl="10" maglv="2" mana="0"  enabled="1" allowfaruse="1" script="drunk.lua"></rune>
 --GM Runes
 <rune name="2hpDAMAGE" id="2300" charges="1" maglv="4000" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="gmrune2hp.lua"></rune>
@@ -127,7 +132,7 @@
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="0" name="Wild Growth" words="exevo grav vita" lvl="27" maglv="1" mana="200" aggressive="1" direction="1" blocktype="all"  enabled="1" script="wild growth.lua">
+<instant prem="0" name="Wild Growth" words="exevo grav vita" lvl="27" maglv="1" mana="62" aggressive="1" direction="1" blocktype="all"  enabled="1" script="wild growth.lua">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </instant>
@@ -768,7 +773,7 @@
 <vocation name="Soldier" />
 </instant>
 
-<instant prem="1" name="Force Strike" words="exori wall" direction="1" lvl="32" maglv="1" mana="62"  enabled="1" script="premium/exori wall.lua">
+<instant prem="1" name="Force Strike" words="exori wall" direction="1" lvl="32" maglv="1" mana="62"  enabled="1" exhaustion="2000" script="premium/exori wall.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Shaman" />
@@ -1046,5 +1051,13 @@
 	<vocation name="Hunter" />
 	<vocation name="Scout" />
 </instant>
+<rune name="Wild Growth" id="2269" allowfaruse="1" charges="2" lvl="27" maglv="8" exhaustion="2000" blocktype="all" script="tatuy/support/wild_growth.lua">
+	<vocation name="Druid"/>
+	<vocation name="Shaman"/>
+</rune>
+<conjure name="Wild Growth" words="adevo grav vita" lvl="27" mana="200" soul="0" prem="0" reagentId="2260" conjureId="2269" conjureCount="4" needlearn="0" function="conjureRune">
+	<vocation name="Druid"/>
+	<vocation name="Shaman"/>
+</conjure>
 
 </spells>

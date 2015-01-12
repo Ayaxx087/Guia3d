@@ -5,7 +5,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doPlayerSendTextMessage(cid,22,"You buy 60 adura vita.")
                         doSendMagicEffect(topos,12)
 			
-			doPlayerAddItem(cid,2273,100)
+			doPlayerAddItem(cid,2273,60)
 	else
 		doPlayerSendCancel(cid, "You dont have enough money, you need 3000 gp.")
 
@@ -26,14 +26,14 @@ function onUse(cid, item, frompos, item2, topos)
 
 
 	elseif item.actionid == 2802 then
-	 if doPlayerRemoveMoney(cid, 2500) == true then --GFB
+	 if doPlayerRemoveMoney(cid, 3500) == true then --GFB
 	                doPlayerSendTextMessage(cid,22,"You buy 60 adori gran flam.")
                         doSendMagicEffect(topos,12)
 			
 			doPlayerAddItem(cid,2304,60)
 
 	else
-		doPlayerSendCancel(cid, "You dont have enough money, you need 2500 gp.")
+		doPlayerSendCancel(cid, "You dont have enough money, you need 3500 gp.")
 
 	end
 
