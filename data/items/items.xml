@@ -4639,6 +4639,7 @@
 		<attribute key="description" value="It is the Helmet of Hermes."/>
 		<attribute key="weight" value="1200"/>
 		<attribute key="armor" value="10"/>
+		<attribute key="speed" value="20"/>
 		<attribute key="slotType" value="head"/>
 	</item>
 	<item id="2475" article="a" name="warrior helmet">
