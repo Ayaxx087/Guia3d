@@ -193,6 +193,7 @@
 <movevent event="DeEquip" itemid="6301" slot="ring" function="onDeEquipItem" />
 
 <movevent event="Equip" itemid="5941" slot="ring" function="onEquipItem" /> --distand stake ring
+<movevent event="DeEquip" itemid="5941" slot="ring" function="onDeEquipItem" />
 <movevent event="Equip" itemid="5942" slot="ring" function="onEquipItem" />
 <movevent event="DeEquip" itemid="5942" slot="ring" function="onDeEquipItem" />
 
