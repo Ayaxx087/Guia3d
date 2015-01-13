@@ -14,22 +14,23 @@ local function serverSave()
 end
 
 local function secondServerSaveWarning()
-        doTatuyBroadcastMessage("Server is saving game in one minute. Please go to a safe place.")
+        doTatuyBroadcastMessage("Server is saving game. The server will be open again in a moment.")
+		doSetGameState(GAME_STATE_CLOSED)
 		if doSaveServer(true) then
-			doTatuyBroadcastMessage("The server will be open again in a moment. Please pick up all of your items.")
+			doTatuyBroadcastMessage("SAVED! the server will close in 20 seconds...")
 		else
 			doTatuyBroadcastMessage("Server could not be saved. Please report this to an GM.")
 		end
-        addEvent(serverSave, 60000)
+        addEvent(serverSave, 20000)
 end
 
 local function firstServerSaveWarning()
-        doTatuyBroadcastMessage("Server is saving game in 3 minutes. Please go to a safe place.")
+        doTatuyBroadcastMessage("Server is saving game in 2 minutes. Please go to a safe place.")
         addEvent(secondServerSaveWarning, 120000)
 end
 
 function onTime(interval)
-        doTatuyBroadcastMessage("Server is saving game in 5 minutes. Please go to a safe place.")
+        doTatuyBroadcastMessage("Server is saving game in 4 minutes. Please go to a safe place.")
         doSetGameState(GAME_STATE_STARTUP)
         addEvent(firstServerSaveWarning, 120000)
         return not shutdownAtServerSave
