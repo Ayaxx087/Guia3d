@@ -198,7 +198,7 @@ function onStepIn(cid, item, pos)
 		
 		elseif item.actionid == 50029 then
 		if isPlayer(cid) == TRUE then
-		newpos = {x=29, y=593, z=6}
+		newpos = {x=29, y=592, z=5}
 		doPlayerSendTextMessage(cid,22,"Now you are a citizen of Paradise Island.")
 		doTeleportThing(cid,newpos)
 		doSendMagicEffect(newpos,12)

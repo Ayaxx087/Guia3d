@@ -5,11 +5,11 @@
   <announce delay="60000" type="Event" message="Thalia is under attack!" />
 
 	<areaspawn delay="1000" fromx="219" fromy="189" fromz="7" tox="327" toy="265" toz="7">
-		<monster name="Orc Shaman" amount="10" />
-		<monster name="Orc" amount="40" />
-		<monster name="Orc Rider" amount="6" />
-		<monster name="Orc Berserker" amount="6" />
-		<monster name="Orc Warlord" amount="1" />
+		<monster name="Orc Shaman" amount="20" />
+		<monster name="Orc" amount="80" />
+		<monster name="Orc Rider" amount="12" />
+		<monster name="Orc Berserker" amount="12" />
+		<monster name="Orc Warlord" amount="2" />
 	</areaspawn>
 
 
