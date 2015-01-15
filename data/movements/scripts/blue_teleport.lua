@@ -195,6 +195,15 @@ function onStepIn(cid, item, pos)
 		doSendMagicEffect(newpos,12)
                 doPlayerSetTown(cid,28) --Vulcano
 		end
+		
+		elseif item.actionid == 50029 then
+		if isPlayer(cid) == TRUE then
+		newpos = {x=29, y=593, z=6}
+		doPlayerSendTextMessage(cid,22,"Now you are a citizen of Paradise Island.")
+		doTeleportThing(cid,newpos)
+		doSendMagicEffect(newpos,12)
+                doPlayerSetTown(cid,29) --Paradise Island
+		end
 
 	else
 		return false

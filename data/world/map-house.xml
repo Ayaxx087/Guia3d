@@ -1067,4 +1067,10 @@
   <house name="Vulcano Hell Houses, Flat 22" houseid="1065" entryx="1027" entryy="602" entryz="6" rent="1500" townid="28" size="28"/>
   <house name="Guia3d Staff House 666" houseid="1066" entryx="255" entryy="289" entryz="6" rent="100000" townid="2" size="176"/>
   <house name="Virgins Apartmen, Flat 18" houseid="1067" entryx="257" entryy="195" entryz="6" rent="1500" townid="2" size="29"/>
+  <house name="Paradise Island Sky Houses, Flat 1" houseid="1068" entryx="98" entryy="597" entryz="7" rent="1500" townid="29" size="16"/>
+  <house name="Paradise Island Sky Houses, Flat 2" houseid="1069" entryx="101" entryy="604" entryz="7" rent="1500" townid="29" size="18"/>
+  <house name="Paradise Island Sky Houses, Flat 3" houseid="1070" entryx="92" entryy="607" entryz="7" rent="1500" townid="29" size="21"/>
+  <house name="Paradise Island Sky Houses, Flat 4" houseid="1071" entryx="77" entryy="610" entryz="7" rent="1500" townid="29" size="45"/>
+  <house name="Paradise Island Sky Houses, Flat 5" houseid="1072" entryx="98" entryy="609" entryz="7" rent="1500" townid="29" size="15"/>
+  <house name="Paradise Island Sky Houses, Flat 6" houseid="1073" entryx="51" entryy="615" entryz="7" rent="1500" townid="29" size="23"/>
 </houses>

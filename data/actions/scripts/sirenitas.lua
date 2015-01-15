@@ -557,7 +557,68 @@ addOutfit(cid, OUTFIT_DEMONHUNTER, 2, getPlayerSex(cid)) --ADDON 2
                         doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Atolon Statue: hello ' ..getPlayerName(cid).. ' can you give me The Ron Rippers?  \nis a item quest of the new island')
                         doSendMagicEffect(topos,1)
 		end
-              end			  
+              end
+
+
+	elseif item.actionid == 9135 then
+
+		queststatus = getPlayerStorageValue(cid,9135)
+		if queststatus == -1 or queststatus == 0 then
+                     if doPlayerRemoveItem(cid, 2121, 1) == true then -- 1 wedding ring
+						if getPlayerSex(cid) == 0 then
+							doPlayerAddOutfit(cid, 329, 3) --ADDON COMPLETO
+						else
+							doPlayerAddOutfit(cid, 328, 3)
+						end
+			doPlayerSendTextMessage(cid,22,"Congratulation! you receive a new outfit.")
+			doSendMagicEffect(topos,12)
+			setPlayerStorageValue(cid,9135,1)
+
+		else
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Lili: hello ' ..getPlayerName(cid).. ' can you give me 1 wedding ring? \nand...did you already talk to my other sisters?')
+                        doSendMagicEffect(topos,1)
+		end
+              end
+			  
+	elseif item.actionid == 9136 then
+
+		queststatus = getPlayerStorageValue(cid,9136)
+		if queststatus == -1 or queststatus == 0 then
+                     if doPlayerRemoveItem(cid, 2322, 2) == true then -- 2 little king voodoo doll
+						if getPlayerSex(cid) == 0 then
+							doPlayerAddOutfit(cid, 336, 1) --ADDON 1
+						else
+							doPlayerAddOutfit(cid, 335, 1)
+						end
+			doPlayerSendTextMessage(cid,22,"Congratulation! you receive a new outfit.")
+			doSendMagicEffect(topos,12)
+			setPlayerStorageValue(cid,9136,1)
+
+		else
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Celia: hello ' ..getPlayerName(cid).. ' can you give me 2 little kings voodoo dolls? \nand...did you already talk to my other sisters?')
+                        doSendMagicEffect(topos,1)
+		end
+              end
+
+	elseif item.actionid == 9137 then
+
+		queststatus = getPlayerStorageValue(cid,9137)
+		if queststatus == -1 or queststatus == 0 then
+                     if doPlayerRemoveItem(cid, 2071, 3) == true then -- 3 lyres
+						if getPlayerSex(cid) == 0 then
+							doPlayerAddOutfit(cid, 366, 1) --ADDON 1
+						else
+							doPlayerAddOutfit(cid, 367, 1)
+						end
+			doPlayerSendTextMessage(cid,22,"Congratulation! you receive a new outfit.")
+			doSendMagicEffect(topos,12)
+			setPlayerStorageValue(cid,9137,1)
+
+		else
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Celia: hello ' ..getPlayerName(cid).. ' can you give me 3 lyre? \nand...did you already talk to my other sisters?')
+                        doSendMagicEffect(topos,1)
+		end
+              end				  
 --------------------
 
 	else

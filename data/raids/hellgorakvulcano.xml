@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+    <!--
+	// Raid System by 5mok3
+	// DO NOT CHANGE INTERVAL UNLESS YOU ARE SURE WHAT YOU ARE DOING!!
+	-->
+
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="The seals on Hellgorak old cidatel are glowing. Prepare for HIS return mortals in vulcano island." />
+  <announce delay="50000" type="Event" message="Hellgorak return from the hell. The Vincent Academy calls for Heroes to fight that evil." />
+  <announce delay="60000" type="Event" message="Hellgorak has returned to his citadel once more. Stop him before its too late." />
+  <!--Single Spawns-->
+  <singlespawn delay="60000" name="Hellgorak" x="977" y="594" z="9" />
+</raid>

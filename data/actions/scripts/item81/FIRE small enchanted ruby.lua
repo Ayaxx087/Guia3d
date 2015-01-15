@@ -108,6 +108,13 @@ function onUse(cid, item, frompos, item2, topos)
                         doRemoveItem(item.uid,1)
                         doRemoveItem(item2.uid,1)
                         doSendMagicEffect(topos,12)
+						
+	elseif item2.itemid == 8905 then
+			doPlayerSendTextMessage(cid,22,"You make an enchanted over you shield.")
+			doPlayerAddItem(cid,8906,1)
+                        doRemoveItem(item2.uid,1)
+                        doRemoveItem(item.uid,1)
+                        doSendMagicEffect(topos,12)						
 
 
 	else

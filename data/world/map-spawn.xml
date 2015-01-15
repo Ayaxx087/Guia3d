@@ -337,6 +337,10 @@
     <monster name="Beholder" x="1" y="1" z="4" spawntime="200"/>
     <monster name="Beholder" x="4" y="2" z="4" spawntime="200"/>
   </spawn>
+  <spawn centerx="29" centery="624" centerz="4" radius="5">
+    <monster name="Lizard Chosen" x="-1" y="-2" z="4" spawntime="60"/>
+    <monster name="Lizard Chosen" x="1" y="-1" z="4" spawntime="60"/>
+  </spawn>
   <spawn centerx="380" centery="692" centerz="4" radius="11">
     <monster name="Fire Elemental" x="2" y="-8" z="4" spawntime="210"/>
     <monster name="Demon Skeleton" x="4" y="-3" z="4" spawntime="200"/>
@@ -718,12 +722,29 @@
     <monster name="Knight Gold" x="2" y="2" z="5" spawntime="360"/>
     <monster name="Knight Gold" x="11" y="2" z="5" spawntime="360"/>
   </spawn>
+  <spawn centerx="127" centery="611" centerz="5" radius="6">
+    <monster name="Black Sheep" x="-5" y="-5" z="5" spawntime="60"/>
+    <monster name="Black Sheep" x="2" y="-5" z="5" spawntime="60"/>
+    <monster name="Train" x="1" y="-1" z="5" spawntime="60"/>
+    <monster name="Red Butterfly" x="-5" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="46" centery="622" centerz="5" radius="5">
+    <monster name="Lizard Dragon Priest" x="-1" y="-1" z="5" spawntime="60"/>
+    <monster name="Lizard Legionnaire" x="-2" y="1" z="5" spawntime="60"/>
+  </spawn>
   <spawn centerx="302" centery="630" centerz="5" radius="11">
     <monster name="Dragon" x="4" y="-2" z="5" spawntime="240"/>
     <monster name="Yeti" x="-8" y="2" z="5" spawntime="360"/>
   </spawn>
+  <spawn centerx="27" centery="632" centerz="5" radius="5">
+    <monster name="Lizard Chosen" x="-1" y="-2" z="5" spawntime="60"/>
+    <monster name="Lizard Zaogun" x="1" y="-2" z="5" spawntime="60"/>
+  </spawn>
   <spawn centerx="233" centery="641" centerz="5" radius="6">
     <monster name="Undead Dragon" x="-3" y="2" z="5" spawntime="360"/>
+  </spawn>
+  <spawn centerx="30" centery="644" centerz="5" radius="5">
+    <monster name="Lizard Chosen" x="2" y="-1" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="381" centery="691" centerz="5" radius="11">
     <monster name="Ghost" x="2" y="-7" z="5" spawntime="180"/>
@@ -1416,11 +1437,26 @@
     <monster name="Knight Soldier" x="10" y="0" z="6" spawntime="300"/>
     <monster name="Knight Soldier" x="10" y="1" z="6" spawntime="300"/>
   </spawn>
+  <spawn centerx="49" centery="620" centerz="6" radius="5">
+    <monster name="Lizard Legionnaire" x="1" y="0" z="6" spawntime="60"/>
+    <monster name="Lizard Legionnaire" x="-4" y="5" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="85" centery="624" centerz="6" radius="6">
+    <monster name="Rabbit" x="1" y="0" z="6" spawntime="60"/>
+    <monster name="Rabbit" x="2" y="0" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="302" centery="629" centerz="6" radius="10">
     <monster name="Cyclops" x="7" y="-2" z="6" spawntime="180"/>
     <monster name="Cyclops" x="-2" y="0" z="6" spawntime="180"/>
     <monster name="Cyclops" x="-1" y="0" z="6" spawntime="180"/>
     <monster name="Cyclops" x="5" y="4" z="6" spawntime="180"/>
+  </spawn>
+  <spawn centerx="41" centery="635" centerz="6" radius="5">
+    <monster name="Lizard High Guard" x="5" y="-5" z="6" spawntime="60"/>
+    <monster name="Lizard High Guard" x="-4" y="-3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="29" centery="637" centerz="6" radius="5">
+    <monster name="Lizard Zaogun" x="-3" y="2" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="234" centery="642" centerz="6" radius="6">
     <monster name="Yeti" x="1" y="1" z="6" spawntime="360"/>
@@ -4501,6 +4537,18 @@
     <monster name="Crab" x="2" y="16" z="7" spawntime="180"/>
     <monster name="Tarantula" x="7" y="24" z="7" spawntime="210"/>
   </spawn>
+  <spawn centerx="40" centery="588" centerz="7" radius="5">
+    <monster name="Blue Butterfly" x="-4" y="-5" z="7" spawntime="60"/>
+    <monster name="Dog" x="-5" y="5" z="7" spawntime="60"/>
+    <monster name="Blue Butterfly" x="5" y="5" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="53" centery="589" centerz="7" radius="5">
+    <monster name="Cockroach" x="-4" y="-4" z="7" spawntime="60"/>
+    <monster name="Cockroach" x="3" y="-4" z="7" spawntime="60"/>
+    <monster name="Cockroach" x="5" y="-1" z="7" spawntime="60"/>
+    <monster name="Cockroach" x="-4" y="0" z="7" spawntime="60"/>
+    <monster name="Cockroach" x="2" y="3" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="1112" centery="590" centerz="7" radius="15">
     <monster name="Betrayed Wraith" x="4" y="-8" z="7" spawntime="60"/>
     <monster name="Betrayed Wraith" x="7" y="-3" z="7" spawntime="60"/>
@@ -4523,6 +4571,16 @@
     <monster name="Carniphila" x="-2" y="10" z="7" spawntime="200"/>
     <monster name="Centipede" x="10" y="10" z="7" spawntime="180"/>
   </spawn>
+  <spawn centerx="114" centery="600" centerz="7" radius="6">
+    <monster name="Bear" x="-5" y="-4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="66" centery="607" centerz="7" radius="5">
+    <monster name="Deer" x="-3" y="-5" z="7" spawntime="60"/>
+    <monster name="Deer" x="5" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="90" centery="613" centerz="7" radius="5">
+    <monster name="Deer" x="1" y="4" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="305" centery="619" centerz="7" radius="12">
     <monster name="bone beast" x="-6" y="-4" z="7" spawntime="210"/>
     <monster name="bone beast" x="1" y="-2" z="7" spawntime="210"/>
@@ -4535,6 +4593,18 @@
     <monster name="Tarantula" x="9" y="0" z="7" spawntime="210"/>
     <monster name="Tarantula" x="10" y="0" z="7" spawntime="210"/>
   </spawn>
+  <spawn centerx="38" centery="624" centerz="7" radius="5">
+    <monster name="Lizard Legionnaire" x="0" y="-5" z="7" spawntime="60"/>
+    <monster name="Lizard Legionnaire" x="2" y="1" z="7" spawntime="60"/>
+    <monster name="Lizard Zaogun" x="3" y="3" z="7" spawntime="60"/>
+    <monster name="Lizard Dragon Priest" x="-1" y="4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="54" centery="624" centerz="7" radius="5">
+    <monster name="Deer" x="4" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="100" centery="626" centerz="7" radius="6">
+    <monster name="Wisp" x="3" y="-5" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="805" centery="628" centerz="7" radius="5">
     <monster name="Demodras" x="-2" y="0" z="7" spawntime="480"/>
     <monster name="Demodras" x="-1" y="0" z="7" spawntime="480"/>
@@ -4546,6 +4616,13 @@
     <monster name="Tarantula" x="-1" y="0" z="7" spawntime="210"/>
     <monster name="Tarantula" x="9" y="7" z="7" spawntime="210"/>
     <monster name="Tarantula" x="-2" y="10" z="7" spawntime="210"/>
+  </spawn>
+  <spawn centerx="63" centery="639" centerz="7" radius="6">
+    <monster name="Toad" x="4" y="-6" z="7" spawntime="60"/>
+    <monster name="Swamp Troll" x="-4" y="-4" z="7" spawntime="60"/>
+    <monster name="Swamp Troll" x="5" y="2" z="7" spawntime="60"/>
+    <monster name="Yellow Butterfly" x="2" y="5" z="7" spawntime="60"/>
+    <monster name="Swamp Troll" x="-5" y="6" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="264" centery="639" centerz="7" radius="20">
     <monster name="War Wolf" x="-14" y="-12" z="7" spawntime="180"/>
@@ -4566,6 +4643,9 @@
     <monster name="Frost Troll" x="-3" y="0" z="7" spawntime="180"/>
     <monster name="Frost Troll" x="-2" y="0" z="7" spawntime="180"/>
     <monster name="bone beast" x="5" y="3" z="7" spawntime="200"/>
+  </spawn>
+  <spawn centerx="47" centery="642" centerz="7" radius="5">
+    <monster name="Deer" x="-3" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="475" centery="643" centerz="7" radius="30">
     <monster name="Scarab" x="1" y="-16" z="7" spawntime="200"/>
@@ -7996,6 +8076,9 @@
     <monster name="Defiler" x="1" y="-1" z="8" spawntime="360"/>
     <monster name="Juggernaut" x="5" y="8" z="8" spawntime="480"/>
   </spawn>
+  <spawn centerx="121" centery="616" centerz="8" radius="6">
+    <monster name="Behemoth" x="2" y="2" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="561" centery="616" centerz="8" radius="20">
     <monster name="Spectre" x="9" y="-1" z="8" spawntime="240"/>
     <monster name="Phantasm" x="14" y="-1" z="8" spawntime="240"/>
@@ -8038,9 +8121,17 @@
     <monster name="Carrion Worm" x="0" y="19" z="8" spawntime="180"/>
     <monster name="Carrion Worm" x="1" y="19" z="8" spawntime="180"/>
   </spawn>
+  <spawn centerx="122" centery="642" centerz="8" radius="6">
+    <monster name="Behemoth" x="-2" y="1" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="258" centery="648" centerz="8" radius="10">
     <monster name="War Wolf" x="0" y="-3" z="8" spawntime="180"/>
     <monster name="War Wolf" x="-1" y="0" z="8" spawntime="180"/>
+  </spawn>
+  <spawn centerx="49" centery="652" centerz="8" radius="17">
+    <monster name="Undead Dragon" x="1" y="3" z="8" spawntime="360"/>
+    <monster name="Demon" x="-17" y="4" z="8" spawntime="420"/>
+    <monster name="Demon" x="-14" y="10" z="8" spawntime="420"/>
   </spawn>
   <spawn centerx="276" centery="654" centerz="8" radius="10">
     <monster name="Cyclops" x="2" y="-6" z="8" spawntime="180"/>
@@ -8054,6 +8145,14 @@
     <monster name="Pirate Corsair" x="-9" y="1" z="8" spawntime="200"/>
     <monster name="Pirate Corsair" x="-3" y="2" z="8" spawntime="200"/>
     <monster name="The Old Widow" x="11" y="12" z="8" spawntime="360"/>
+  </spawn>
+  <spawn centerx="37" centery="662" centerz="8" radius="8">
+    <monster name="Demon" x="-8" y="5" z="8" spawntime="420"/>
+  </spawn>
+  <spawn centerx="68" centery="662" centerz="8" radius="11">
+    <monster name="Undead Dragon" x="4" y="-1" z="8" spawntime="360"/>
+    <monster name="infernal" x="11" y="0" z="8" spawntime="420"/>
+    <monster name="Undead Dragon" x="4" y="2" z="8" spawntime="360"/>
   </spawn>
   <spawn centerx="714" centery="666" centerz="8" radius="10">
     <monster name="Giant Spider" x="2" y="3" z="8" spawntime="300"/>
@@ -8071,6 +8170,17 @@
   </spawn>
   <spawn centerx="281" centery="671" centerz="8" radius="10">
     <monster name="bone beast" x="3" y="-1" z="8" spawntime="200"/>
+  </spawn>
+  <spawn centerx="50" centery="684" centerz="8" radius="15">
+    <monster name="Undead Dragon" x="0" y="-10" z="8" spawntime="360"/>
+    <monster name="Hellfire Fighter" x="-1" y="-2" z="8" spawntime="300"/>
+    <monster name="Hellfire Fighter" x="0" y="-2" z="8" spawntime="300"/>
+    <monster name="Demon" x="-15" y="3" z="8" spawntime="420"/>
+    <monster name="Behemoth" x="14" y="3" z="8" spawntime="420"/>
+    <monster name="Demon" x="-15" y="6" z="8" spawntime="420"/>
+    <monster name="Behemoth" x="14" y="6" z="8" spawntime="420"/>
+    <monster name="Demon" x="-1" y="8" z="8" spawntime="420"/>
+    <monster name="Orshabaal" x="3" y="14" z="8" spawntime="480"/>
   </spawn>
   <spawn centerx="254" centery="688" centerz="8" radius="12">
     <monster name="Cyclops" x="-8" y="-2" z="8" spawntime="180"/>
@@ -10148,8 +10258,14 @@
     <monster name="Knight Gold" x="7" y="14" z="9" spawntime="60"/>
     <monster name="Knight Gold" x="15" y="14" z="9" spawntime="60"/>
   </spawn>
+  <spawn centerx="86" centery="611" centerz="9" radius="6">
+    <monster name="Behemoth" x="-3" y="0" z="9" spawntime="60"/>
+  </spawn>
   <spawn centerx="1158" centery="611" centerz="9" radius="1">
     <monster name="Plaguethrower" x="-1" y="-1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="119" centery="614" centerz="9" radius="6">
+    <monster name="Behemoth" x="3" y="-2" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="1211" centery="614" centerz="9" radius="8">
     <monster name="Warlock" x="-8" y="0" z="9" spawntime="60"/>
@@ -10161,6 +10277,9 @@
     <monster name="Warlock" x="6" y="0" z="9" spawntime="60"/>
     <monster name="Werewolf" x="4" y="1" z="9" spawntime="60"/>
   </spawn>
+  <spawn centerx="150" centery="615" centerz="9" radius="6">
+    <monster name="Behemoth" x="-1" y="-4" z="9" spawntime="60"/>
+  </spawn>
   <spawn centerx="281" centery="618" centerz="9" radius="8">
     <monster name="Dragon Lord" x="3" y="-7" z="9" spawntime="300"/>
     <monster name="Demon Skeleton" x="-2" y="2" z="9" spawntime="200"/>
@@ -10168,6 +10287,12 @@
   </spawn>
   <spawn centerx="1159" centery="621" centerz="9" radius="1">
     <monster name="Demon" x="-1" y="1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="139" centery="634" centerz="9" radius="6">
+    <monster name="Behemoth" x="0" y="3" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="94" centery="635" centerz="9" radius="6">
+    <monster name="Behemoth" x="-1" y="3" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="1223" centery="642" centerz="9" radius="20">
     <monster name="Werewolf" x="-1" y="-17" z="9" spawntime="60"/>
@@ -10186,6 +10311,9 @@
     <monster name="Warlock" x="-9" y="13" z="9" spawntime="60"/>
     <monster name="Grim Reaper" x="-2" y="13" z="9" spawntime="60"/>
     <monster name="Grim Reaper" x="15" y="14" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="152" centery="644" centerz="9" radius="6">
+    <monster name="torun" x="2" y="-2" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="234" centery="644" centerz="9" radius="15">
     <monster name="Dragon" x="1" y="-5" z="9" spawntime="240"/>
@@ -10225,6 +10353,12 @@
     <monster name="Giant Spider" x="8" y="17" z="9" spawntime="360"/>
     <monster name="Giant Spider" x="15" y="17" z="9" spawntime="360"/>
   </spawn>
+  <spawn centerx="93" centery="656" centerz="9" radius="6">
+    <monster name="Behemoth" x="3" y="2" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="121" centery="656" centerz="9" radius="6">
+    <monster name="Behemoth" x="0" y="-3" z="9" spawntime="60"/>
+  </spawn>
   <spawn centerx="695" centery="656" centerz="9" radius="7"/>
   <spawn centerx="259" centery="659" centerz="9" radius="10">
     <monster name="Dragon" x="-6" y="8" z="9" spawntime="240"/>
@@ -10241,6 +10375,12 @@
     <monster name="Demodras" x="-14" y="-4" z="9" spawntime="420"/>
     <monster name="Dragon Lord" x="1" y="-4" z="9" spawntime="360"/>
     <monster name="Dragon Lord" x="-10" y="2" z="9" spawntime="360"/>
+  </spawn>
+  <spawn centerx="141" centery="678" centerz="9" radius="6">
+    <monster name="Behemoth" x="-1" y="-5" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="117" centery="686" centerz="9" radius="6">
+    <monster name="Behemoth" x="1" y="5" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="1134" centery="690" centerz="9" radius="18">
     <monster name="Dragon" x="-8" y="-16" z="9" spawntime="60"/>
@@ -10286,6 +10426,9 @@
     <monster name="Knight Soldier" x="13" y="14" z="9" spawntime="60"/>
     <monster name="Undead Dragon" x="-11" y="15" z="9" spawntime="60"/>
     <monster name="Knight Gold" x="11" y="15" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="142" centery="704" centerz="9" radius="6">
+    <monster name="Behemoth" x="-1" y="2" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="1112" centery="731" centerz="9" radius="15">
     <monster name="Banshee" x="-3" y="-15" z="9" spawntime="60"/>
@@ -12338,6 +12481,11 @@
     <monster name="Giant Spider" x="7" y="21" z="10" spawntime="60"/>
     <monster name="Tarantula" x="-3" y="23" z="10" spawntime="60"/>
   </spawn>
+  <spawn centerx="120" centery="605" centerz="10" radius="6">
+    <monster name="torun" x="-1" y="-6" z="10" spawntime="60"/>
+    <monster name="torun" x="5" y="-2" z="10" spawntime="60"/>
+    <monster name="Behemoth" x="-5" y="4" z="10" spawntime="60"/>
+  </spawn>
   <spawn centerx="934" centery="608" centerz="10" radius="5"/>
   <spawn centerx="282" centery="613" centerz="10" radius="10">
     <monster name="Dragon Lord" x="5" y="0" z="10" spawntime="300"/>
@@ -12355,6 +12503,9 @@
     <monster name="Cyclops" x="-1" y="-5" z="10" spawntime="180"/>
     <monster name="Cyclops" x="4" y="-4" z="10" spawntime="180"/>
   </spawn>
+  <spawn centerx="93" centery="653" centerz="10" radius="6">
+    <monster name="Behemoth" x="0" y="2" z="10" spawntime="60"/>
+  </spawn>
   <spawn centerx="293" centery="662" centerz="10" radius="9">
     <monster name="Behemoth" x="-2" y="-2" z="10" spawntime="360"/>
     <monster name="Behemoth" x="-2" y="0" z="10" spawntime="360"/>
@@ -12368,6 +12519,9 @@
     <monster name="Behemoth" x="13" y="1" z="10" spawntime="360"/>
     <monster name="Cyclops" x="12" y="2" z="10" spawntime="180"/>
     <monster name="Behemoth" x="2" y="7" z="10" spawntime="360"/>
+  </spawn>
+  <spawn centerx="118" centery="666" centerz="10" radius="6">
+    <monster name="Behemoth" x="1" y="3" z="10" spawntime="60"/>
   </spawn>
   <spawn centerx="244" centery="669" centerz="10" radius="14">
     <monster name="Dragon Lord" x="4" y="-10" z="10" spawntime="360"/>
@@ -12399,6 +12553,12 @@
     <monster name="Cyclops" x="6" y="8" z="10" spawntime="180"/>
     <monster name="Behemoth" x="3" y="10" z="10" spawntime="360"/>
   </spawn>
+  <spawn centerx="117" centery="693" centerz="10" radius="6">
+    <monster name="Behemoth" x="-2" y="4" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="151" centery="699" centerz="10" radius="6">
+    <monster name="Behemoth" x="6" y="3" z="10" spawntime="60"/>
+  </spawn>
   <spawn centerx="691" centery="702" centerz="10" radius="15">
     <monster name="Undead Dragon" x="0" y="-10" z="10" spawntime="360"/>
     <monster name="Hellfire Fighter" x="-1" y="-2" z="10" spawntime="300"/>
@@ -12409,6 +12569,9 @@
     <monster name="Behemoth" x="14" y="6" z="10" spawntime="420"/>
     <monster name="Demon" x="-1" y="8" z="10" spawntime="420"/>
     <monster name="Orshabaal" x="3" y="14" z="10" spawntime="480"/>
+  </spawn>
+  <spawn centerx="145" centery="715" centerz="10" radius="6">
+    <monster name="Behemoth" x="1" y="-1" z="10" spawntime="60"/>
   </spawn>
   <spawn centerx="851" centery="745" centerz="10" radius="20">
     <monster name="Dragon" x="1" y="1" z="10" spawntime="240"/>
@@ -13512,6 +13675,10 @@
   </spawn>
   <spawn centerx="214" centery="602" centerz="11" radius="15">
     <monster name="Blue Djinn" x="-3" y="-3" z="11" spawntime="300"/>
+  </spawn>
+  <spawn centerx="117" centery="646" centerz="11" radius="6">
+    <monster name="Azerus" x="-1" y="-6" z="11" spawntime="60"/>
+    <monster name="torun" x="5" y="5" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="284" centery="659" centerz="11" radius="9">
     <monster name="torun" x="-1" y="-6" z="11" spawntime="480"/>

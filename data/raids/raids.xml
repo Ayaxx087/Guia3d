@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <raids>
-<!-- executed on average once every 2 minutes -->
---raid name="evento1" file="orc.xml" interval2="2" margin="0" />
-
+	<!-- Nova -->
+	<raid name="RatsThalia" file="ratsthalia.xml" interval2="250" margin="60"/>
+	<raid name="OrcsThalia" file="orcsthalia.xml" interval2="250" margin="60"/>
+	
+	<!-- Bosses -->
+	<raid name="HellgorakVulcano" file="hellgorakvulcano.xml" interval2="1440" margin="60"/>
 </raids>

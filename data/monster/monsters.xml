@@ -358,4 +358,18 @@
 --rares
 <monster name="Mr. Punish" file="rares/Mr. Punish.xml"/>
 <monster name="Massive Energy Elemental" file="8.22/Massive Energy Elemental.xml"/>
+
+--newmonsters
+	<!-- Lizards -->
+	<monster name="Lizard Chosen" file="tatuy/new/Lizards/lizard chosen.xml"/>
+	<monster name="Lizard Dragon Priest" file="tatuy/new/Lizards/lizard dragon priest.xml"/>
+	<monster name="Lizard High Guard" file="tatuy/new/Lizards/lizard high guard.xml"/>
+	<monster name="Lizard Zaogun" file="tatuy/new/Lizards/lizard zaogun.xml"/>
+	<monster name="Lizard Legionnaire" file="tatuy/new/Lizards/lizard legionnaire.xml"/>
+	
+	<!-- Animals -->
+	<monster name="Cockroach" file="tatuy/new/cockroach.xml"/>
+	
+	<!-- Bosses -->
+	<monster name="Hellgorak" file="tatuy/new/hellgorak.xml"/>
 </monsters>
