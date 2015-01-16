@@ -584,9 +584,9 @@ addOutfit(cid, OUTFIT_DEMONHUNTER, 2, getPlayerSex(cid)) --ADDON 2
 
 		queststatus = getPlayerStorageValue(cid,9136)
 		if queststatus == -1 or queststatus == 0 then
-                     if doPlayerRemoveItem(cid, 2322, 2) == true then -- 2 little king voodoo doll
+                     if doPlayerRemoveItem(cid, 11330, 5) == true then -- 5 zaogun flags
 						if getPlayerSex(cid) == 0 then
-							doPlayerAddOutfit(cid, 336, 1) --ADDON 1
+							doPlayerAddOutfit(cid, 336, 1) --Warmaster ADDON 1
 						else
 							doPlayerAddOutfit(cid, 335, 1)
 						end
@@ -595,7 +595,7 @@ addOutfit(cid, OUTFIT_DEMONHUNTER, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9136,1)
 
 		else
-                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Celia: hello ' ..getPlayerName(cid).. ' can you give me 2 little kings voodoo dolls? \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Celia: hello ' ..getPlayerName(cid).. ' can you give me 5 zaogun flags? \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -604,9 +604,9 @@ addOutfit(cid, OUTFIT_DEMONHUNTER, 2, getPlayerSex(cid)) --ADDON 2
 
 		queststatus = getPlayerStorageValue(cid,9137)
 		if queststatus == -1 or queststatus == 0 then
-                     if doPlayerRemoveItem(cid, 2071, 3) == true then -- 3 lyres
+                     if doPlayerRemoveItem(cid, 2149, 50) == true then -- 50 small emeralds
 						if getPlayerSex(cid) == 0 then
-							doPlayerAddOutfit(cid, 366, 1) --ADDON 1
+							doPlayerAddOutfit(cid, 366, 1) --Wayfarer ADDON 1
 						else
 							doPlayerAddOutfit(cid, 367, 1)
 						end
@@ -615,7 +615,7 @@ addOutfit(cid, OUTFIT_DEMONHUNTER, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9137,1)
 
 		else
-                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Celia: hello ' ..getPlayerName(cid).. ' can you give me 3 lyre? \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Celia: hello ' ..getPlayerName(cid).. ' can you give me 50 small emeralds? \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end				  
