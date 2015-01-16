@@ -2030,7 +2030,7 @@
 	<action actionid="65027" script="tatuy/zaoanshoesquest.lua" />
 	<action actionid="65028" script="tatuy/2kquest.lua" />
 	<action actionid="65029" script="tatuy/zaoanswordquest.lua" />
-	<action actionid="65030" script="tatuy/shieldofcorruptionquest.lua" />
+	<action actionid="65030" script="tatuy/rainbowshieldquest.lua" />
 	
 	<action actionid="9135" script="sirenitas.lua" /> -- quest sirenitas
 	<action actionid="9136" script="sirenitas.lua" /> -- quest sirenitas

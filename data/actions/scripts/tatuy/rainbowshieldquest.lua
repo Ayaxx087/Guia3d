@@ -8,7 +8,7 @@ function onUse(cid, item, frompos, item2, topos)
 		if queststatus == -1 or queststatus == 0 then
 			doPlayerSendTextMessage(cid,22,"You have found a treasure inside.")
                         doSendMagicEffect(topos,12)
-			doPlayerAddItem(cid,12644,1)
+			doPlayerAddItem(cid,8905,1)
 			setPlayerStorageValue(cid,65030,1)
 
 		else

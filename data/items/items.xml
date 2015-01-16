@@ -20262,6 +20262,7 @@
 		<attribute key="absorbPercentHoly" value="-2"/>
 		<attribute key="slotType" value="body"/>
 	</item>
+	<item id="8823" article="a" name="toolbox"/>
 	<item id="8824" name="sparkling gems"/>
 	<item id="8825" name="sparkling gems"/>
 	<item id="8826" name="sparkling gems"/>

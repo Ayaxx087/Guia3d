@@ -119,97 +119,98 @@
  	</inside>
  	</item>
 	
-		<item id="1995" chance="100000"><!-- blue bag -->
+	<item id="1995" chance="100000"><!-- blue bag -->
 		<inside>
-			<item id="9971" countmax="4" chance="500" /><!-- gold ingot -->
-			<item id="2470" chance="500" /><!-- golden legs -->
-			<item id="2148" countmax="100" chance="500" /><!-- gold coin -->
-			<item id="2148" countmax="84" chance="500" /><!-- gold coin -->
-			<item id="8918" chance="500" /><!-- spellbook of dark mysteries -->
-			<item id="2146" countmax="92" chance="500" /><!-- small sapphire -->
-			<item id="7382" chance="500" /><!-- demonrage sword -->
-			<item id="8926" chance="500" /><!-- demonwing axe -->
-			<item id="8868" chance="500" /><!-- velvet mantle -->
-			<item id="2542" chance="500" /><!-- tempest shield -->
-			<item id="5903" chance="500" /><!-- ferumbras' hat -->
-			<item id="1986" chance="500" /><!-- red tome -->
-			<item id="8904" chance="500" /><!-- spellscroll of prophecies -->
-			<item id="5944" countmax="8" chance="500" /><!-- soul orb -->
-			<item id="7422" chance="500" /><!-- jade hammer -->
-			<item id="7423" chance="500" /><!-- skullcrusher -->
-			<item id="7403" chance="500" /><!-- berserker -->
-			<item id="2514" chance="500" /><!-- mastermind shield -->
-			<item id="8902" chance="500" /><!-- spellbook of mind control -->
-			<item id="9970" countmax="86" chance="500" /><!-- small topaz -->
-			<item id="7896" chance="500" /><!-- glacier kilt -->
+			<item id="9971" countmax="4" chance="250" /><!-- gold ingot -->
+			<item id="2470" chance="250" /><!-- golden legs -->
+			<item id="2148" countmax="100" chance="250" /><!-- gold coin -->
+			<item id="2148" countmax="84" chance="250" /><!-- gold coin -->
+			<item id="8918" chance="250" /><!-- spellbook of dark mysteries -->
+			<item id="2146" countmax="92" chance="250" /><!-- small sapphire -->
+			<item id="7382" chance="250" /><!-- demonrage sword -->
+			<item id="8926" chance="250" /><!-- demonwing axe -->
+			<item id="8868" chance="250" /><!-- velvet mantle -->
+			<item id="2542" chance="250" /><!-- tempest shield -->
+			<item id="5903" chance="250" /><!-- ferumbras' hat -->
+			<item id="1986" chance="250" /><!-- red tome -->
+			<item id="8904" chance="250" /><!-- spellscroll of prophecies -->
+			<item id="5944" countmax="8" chance="250" /><!-- soul orb -->
+			<item id="7422" chance="250" /><!-- jade hammer -->
+			<item id="7423" chance="250" /><!-- skullcrusher -->
+			<item id="7403" chance="250" /><!-- berserker -->
+			<item id="2514" chance="250" /><!-- mastermind shield -->
+			<item id="8902" chance="250" /><!-- spellbook of mind control -->
+			<item id="9970" countmax="86" chance="250" /><!-- small topaz -->
+			<item id="7896" chance="250" /><!-- glacier kilt -->
 		</inside>
     </item>
     <item id="1992" chance="100000"><!-- yellow bag -->
         <inside>
-            <item id="7417" chance="500" /><!-- runed sword -->
-            <item id="7405" chance="500" /><!-- havoc blade -->
-            <item id="2522" chance="500" /><!-- great shield -->
-            <item id="2147" countmax="96" chance="500" /><!-- small ruby -->
-            <item id="7414" chance="500" /><!-- abyss hammer -->
-            <item id="2143" countmax="99" chance="500" /><!-- white pearl -->
-            <item id="7388" chance="500" /><!-- vile axe -->
-            <item id="7894" chance="500" /><!-- magma legs -->
-            <item id="2150" countmax="76" chance="500" /><!-- small amethyst -->
-            <item id="8903" chance="500" /><!-- spellbook of lost souls -->
-            <item id="7435" chance="500" /><!-- impaler -->
-            <item id="7427" chance="500" /><!-- chaos mace -->
-            <item id="7885" chance="500" /><!-- terra legs -->
-            <item id="7632" countmax="10" chance="500" /><!-- giant shimmering pearl -->
-            <item id="8928" chance="500" /><!-- obsidian truncheon -->
-            <item id="2466" chance="500" /><!-- golden armor -->
-            <item id="8924" chance="500" /><!-- hellforged axe -->
-            <item id="7410" chance="500" /><!-- queen's sceptre -->
-            <item id="2127" chance="500" /><!-- emerald bangle -->
-            <item id="2472" chance="500" /><!-- magic plate armor -->
-            <item id="8885" chance="500" /><!-- divine plate -->
-            <item id="7411" chance="500" /><!-- ornamented axe -->
-            <item id="7895" chance="500" /><!-- lightning legs -->
-            <item id="2145" countmax="90" chance="500" /><!-- small diamond -->
-            <item id="2387" chance="500" /><!-- double axe -->
-            <item id="2402" chance="500" /><!-- silver dagger -->
-            <item id="2377" chance="500" /><!-- two handed sword -->
-            <item id="2178" chance="500" /><!-- mind stone -->
-            <item id="2539" chance="500" /><!-- phoenix shield -->
-            <item id="8869" chance="500" /><!-- greenwood coat -->
-            <item id="8930" chance="500" /><!-- emerald sword -->
-            <item id="2144" countmax="96" chance="500" /><!-- black pearl -->
-            <item id="2149" countmax="99" chance="500" /><!-- small emerald -->
-            <item id="7451" chance="500" /><!-- shadow sceptre -->
-            <item id="2415" chance="500" /><!-- great axe -->
-            <item id="7416" chance="500" /><!-- bloody edge -->
-            <item id="2152" countmax="43" chance="500" /><!-- platinum coin -->
-            <item id="7418" chance="500" /><!-- nightmare blade -->
-            <item id="2520" chance="500" /><!-- demon shield -->
-            <item id="7433" chance="500" /><!-- ravenwing -->
-            <item id="7407" chance="500" /><!-- haunted blade -->
+            <item id="7417" chance="250" /><!-- runed sword -->
+            <item id="7405" chance="250" /><!-- havoc blade -->
+            <item id="2522" chance="250" /><!-- great shield -->
+            <item id="2147" countmax="96" chance="250" /><!-- small ruby -->
+            <item id="7414" chance="250" /><!-- abyss hammer -->
+            <item id="2143" countmax="99" chance="250" /><!-- white pearl -->
+            <item id="7388" chance="250" /><!-- vile axe -->
+            <item id="7894" chance="250" /><!-- magma legs -->
+            <item id="2150" countmax="76" chance="250" /><!-- small amethyst -->
+            <item id="8903" chance="250" /><!-- spellbook of lost souls -->
+            <item id="7435" chance="250" /><!-- impaler -->
+            <item id="7427" chance="250" /><!-- chaos mace -->
+            <item id="7885" chance="250" /><!-- terra legs -->
+            <item id="7632" countmax="10" chance="250" /><!-- giant shimmering pearl -->
+            <item id="8928" chance="250" /><!-- obsidian truncheon -->
+            <item id="2466" chance="250" /><!-- golden armor -->
+            <item id="8924" chance="250" /><!-- hellforged axe -->
+            <item id="7410" chance="250" /><!-- queen's sceptre -->
+            <item id="2127" chance="250" /><!-- emerald bangle -->
+            <item id="2472" chance="250" /><!-- magic plate armor -->
+            <item id="8885" chance="250" /><!-- divine plate -->
+            <item id="7411" chance="250" /><!-- ornamented axe -->
+            <item id="7895" chance="250" /><!-- lightning legs -->
+            <item id="2145" countmax="90" chance="250" /><!-- small diamond -->
+            <item id="2387" chance="250" /><!-- double axe -->
+            <item id="2402" chance="250" /><!-- silver dagger -->
+            <item id="2377" chance="250" /><!-- two handed sword -->
+            <item id="2178" chance="250" /><!-- mind stone -->
+            <item id="2539" chance="250" /><!-- phoenix shield -->
+            <item id="8869" chance="250" /><!-- greenwood coat -->
+            <item id="8930" chance="250" /><!-- emerald sword -->
+            <item id="2144" countmax="96" chance="250" /><!-- black pearl -->
+            <item id="2149" countmax="99" chance="250" /><!-- small emerald -->
+            <item id="7451" chance="250" /><!-- shadow sceptre -->
+            <item id="2415" chance="250" /><!-- great axe -->
+            <item id="7416" chance="250" /><!-- bloody edge -->
+            <item id="2152" countmax="43" chance="250" /><!-- platinum coin -->
+            <item id="7418" chance="250" /><!-- nightmare blade -->
+            <item id="2520" chance="250" /><!-- demon shield -->
+            <item id="7433" chance="250" /><!-- ravenwing -->
+            <item id="7407" chance="250" /><!-- haunted blade -->
         </inside>
     </item>
 	
 	<item id="1993" chance="100000"><!-- red bag -->
         <inside>
-            <item id="8884" chance="500" /><!-- oceanborn leviathan armor -->
-			<item id="8883" chance="500" /><!-- windborn colossus armor -->
-			<item id="8882" chance="500" /><!-- earthborn titan armor -->
-			<item id="8881" chance="500" /><!-- fireborn giant armor -->
-			<item id="8879" chance="500" /><!-- voltage armor -->
-			<item id="8878" chance="500" /><!-- crystalline armor -->
-			<item id="8877" chance="500" /><!-- avos armor -->			
-			<item id="8888" chance="500" /><!-- master archer's armor -->
-			<item id="8887" chance="500" /><!-- frozen plate -->
-			<item id="8890" chance="500" /><!-- robe of the underworld -->
-			<item id="8891" chance="500" /><!-- paladin armor -->
-			<item id="8892" chance="500" /><!-- ethno coat  -->
-			<item id="7405" chance="500" /><!-- havoc blade -->
-			<item id="8925" chance="500" /><!-- solar axe -->
-			<item id="12649" chance="500" /><!-- blade of corruption -->
-			<item id="7431" chance="500" /><!-- demonbone -->
-			<item id="12647" chance="500" /><!-- snake god's wristguard -->
-			<item id="8905" chance="500" /><!-- Rainbow Shield -->
+            <item id="8884" chance="250" /><!-- oceanborn leviathan armor -->
+			<item id="8883" chance="250" /><!-- windborn colossus armor -->
+			<item id="8882" chance="250" /><!-- earthborn titan armor -->
+			<item id="8881" chance="250" /><!-- fireborn giant armor -->
+			<item id="8879" chance="250" /><!-- voltage armor -->
+			<item id="8878" chance="250" /><!-- crystalline armor -->
+			<item id="8877" chance="250" /><!-- avos armor -->			
+			<item id="8888" chance="250" /><!-- master archer's armor -->
+			<item id="8887" chance="250" /><!-- frozen plate -->
+			<item id="8890" chance="250" /><!-- robe of the underworld -->
+			<item id="8891" chance="250" /><!-- paladin armor -->
+			<item id="8892" chance="250" /><!-- ethno coat  -->
+			<item id="7405" chance="250" /><!-- havoc blade -->
+			<item id="8925" chance="250" /><!-- solar axe -->
+			<item id="12649" chance="250" /><!-- blade of corruption -->
+			<item id="7431" chance="250" /><!-- demonbone -->
+			<item id="12647" chance="250" /><!-- snake god's wristguard -->
+			<item id="8905" chance="250" /><!-- Rainbow Shield -->
+			<item id="12644" chance="250" /><!-- Shield of corruption -->			
         </inside>
     </item>	
 	
