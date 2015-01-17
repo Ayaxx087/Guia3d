@@ -6970,7 +6970,7 @@
     <monster name="Rotworm" x="39" y="-4" z="8" spawntime="180"/>
     <monster name="Rotworm" x="16" y="-3" z="8" spawntime="180"/>
     <monster name="Rotworm" x="39" y="-3" z="8" spawntime="180"/>
-    <monster name="Rotwormhp" x="3" y="-2" z="8" spawntime="180"/>
+    <monster name="Rotworm" x="3" y="-2" z="8" spawntime="180"/>
     <monster name="Rotworm" x="39" y="-2" z="8" spawntime="180"/>
     <monster name="Rotworm" x="1" y="-1" z="8" spawntime="180"/>
     <monster name="Rotworm" x="2" y="-1" z="8" spawntime="180"/>
@@ -7398,7 +7398,7 @@
   </spawn>
   <spawn centerx="318" centery="319" centerz="8" radius="20">
     <monster name="Bandit" x="-6" y="-13" z="8" spawntime="200"/>
-    <monster name="Dragonhp" x="1" y="2" z="8" spawntime="240"/>
+    <monster name="Dragon" x="1" y="2" z="8" spawntime="240"/>
     <monster name="Dragon" x="13" y="3" z="8" spawntime="240"/>
     <monster name="Dragon" x="16" y="5" z="8" spawntime="240"/>
     <monster name="Dragon" x="15" y="7" z="8" spawntime="240"/>
@@ -8708,7 +8708,7 @@
     <monster name="Troll" x="6" y="2" z="8" spawntime="180"/>
   </spawn>
   <spawn centerx="33" centery="1183" centerz="8" radius="6">
-    <monster name="Trollhp" x="-3" y="0" z="8" spawntime="180"/>
+    <monster name="Troll" x="-3" y="0" z="8" spawntime="180"/>
     <monster name="Troll" x="-2" y="1" z="8" spawntime="180"/>
   </spawn>
   <spawn centerx="40" centery="1192" centerz="8" radius="6">
@@ -8762,7 +8762,7 @@
   </spawn>
   <spawn centerx="665" centery="65" centerz="9" radius="10">
     <monster name="Dwarf Soldier" x="-5" y="3" z="9" spawntime="180"/>
-    <monster name="Dwarfhp" x="-4" y="3" z="9" spawntime="180"/>
+    <monster name="Dwarf" x="-4" y="3" z="9" spawntime="180"/>
     <monster name="Dwarf Soldier" x="9" y="3" z="9" spawntime="180"/>
     <monster name="Dwarf Guard" x="7" y="4" z="9" spawntime="180"/>
     <monster name="Dwarf Guard" x="8" y="4" z="9" spawntime="180"/>
@@ -9613,7 +9613,7 @@
   <spawn centerx="392" centery="300" centerz="9" radius="15"/>
   <spawn centerx="621" centery="300" centerz="9" radius="17">
     <monster name="Dwarf Guard" x="-1" y="-5" z="9" spawntime="240"/>
-    <monster name="Dwarfhp" x="0" y="-4" z="9" spawntime="240"/>
+    <monster name="Dwarf" x="0" y="-4" z="9" spawntime="240"/>
     <monster name="Dwarf Guard" x="12" y="1" z="9" spawntime="240"/>
     <monster name="Dwarf Guard" x="13" y="1" z="9" spawntime="240"/>
     <monster name="Dwarf Guard" x="-11" y="5" z="9" spawntime="240"/>
@@ -11000,7 +11000,7 @@
     <monster name="Rotworm" x="2" y="2" z="9" spawntime="180"/>
   </spawn>
   <spawn centerx="138" centery="1142" centerz="9" radius="9">
-    <monster name="Rotwormhp" x="-2" y="-7" z="9" spawntime="180"/>
+    <monster name="Rotworm" x="-2" y="-7" z="9" spawntime="180"/>
     <monster name="Rotworm" x="-1" y="-7" z="9" spawntime="180"/>
     <monster name="Rotworm" x="6" y="-4" z="9" spawntime="180"/>
     <monster name="Rotworm" x="1" y="-1" z="9" spawntime="180"/>
@@ -11023,7 +11023,7 @@
     <monster name="Rotworm" x="0" y="-2" z="9" spawntime="180"/>
   </spawn>
   <spawn centerx="88" centery="1144" centerz="9" radius="5">
-    <monster name="Rotwormhp" x="-1" y="0" z="9" spawntime="180"/>
+    <monster name="Rotworm" x="-1" y="0" z="9" spawntime="180"/>
     <monster name="Rotworm" x="1" y="0" z="9" spawntime="180"/>
     <monster name="Rotworm" x="-1" y="1" z="9" spawntime="180"/>
     <monster name="Rotworm" x="0" y="1" z="9" spawntime="180"/>
