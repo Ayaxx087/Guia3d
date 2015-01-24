@@ -980,6 +980,10 @@
 <action actionid="2399" script="service.lua" />
 <action actionid="2400" script="service.lua" />
 <action actionid="2401" script="service.lua" />
+<action actionid="2402" script="service.lua" />
+<action actionid="2403" script="service.lua" />
+<action actionid="2404" script="service.lua" />
+<action actionid="2405" script="service.lua" />
 
 
 -----END AUTOSERVICIO--------
@@ -2035,4 +2039,7 @@
 	<action actionid="9135" script="sirenitas.lua" /> -- quest sirenitas
 	<action actionid="9136" script="sirenitas.lua" /> -- quest sirenitas
 	<action actionid="9137" script="sirenitas.lua" /> -- quest sirenitas
+	
+	<action itemid="12466" script="tatuy/premmy15days.lua" />
+	
 </actions>
