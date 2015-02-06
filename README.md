@@ -6,4 +6,5 @@ Guia3d is a free and open-source MMORPG server emulator written in C++. It is a 
 ### Getting more inforamcion
 
 * This project aims to recreate the Guia3d World with Tibia version 8.6.
-* Project owner: [Tatuy](mailto:uatibia@gmail.com).
+* Project owner: [Tatuy](mailto:rafael.zuniga.castro@gmail.com).
+* The web system is: [Guia3dWeb](https://github.com/Tatuy/Guia3dWeb).
