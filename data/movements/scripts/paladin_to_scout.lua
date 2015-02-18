@@ -7,7 +7,7 @@ function onStepIn(cid, item, pos)
 		return true
 	end
 
-if getPlayerVocation(cid) > 3 or getPlayerVocation(cid) < 3 then
+if isPaladin(cid) then
 		doPlayerSendTextMessage(cid,22,"Sorry, only Paladin are allowed.")
 		return true
 	end

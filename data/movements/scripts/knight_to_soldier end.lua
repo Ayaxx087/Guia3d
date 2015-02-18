@@ -7,7 +7,7 @@ function onStepIn(cid, item, pos)
 		return true
 	end
 
-if getPlayerVocation(cid) > 4 or getPlayerVocation(cid) < 4 then
+if isKnight(cid) then
 		doPlayerSendTextMessage(cid,22,"Sorry, only Knight are allowed.")
 		return true
 	end

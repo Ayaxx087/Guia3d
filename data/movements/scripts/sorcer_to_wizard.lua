@@ -7,7 +7,7 @@ function onStepIn(cid, item, pos)
 		return true
 	end
 
-if getPlayerVocation(cid) > 2 or getPlayerVocation(cid) < 1 then
+if isSorcerer(cid) or isDruid(cid) then
 		doPlayerSendTextMessage(cid,22,"Sorry, only Sorcerer and Druid are allowed.")
 		return true
 	end
