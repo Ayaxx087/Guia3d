@@ -21865,6 +21865,7 @@
 	<item id="9568" name="small gems"/>
 	<item id="9569" name="wooden floor"/>
 	<item id="9570" name="wooden floor"/>
+	<item id="9572" article="a" name="hand statue"/>
 	<item id="9573" name="corkscrew stairs">
 		<attribute key="floorchange" value="north"/>
 	</item>

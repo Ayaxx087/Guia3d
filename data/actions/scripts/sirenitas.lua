@@ -655,7 +655,7 @@ addOutfit(cid, OUTFIT_DEMONHUNTER, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9139,1)
 
 		else
-                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Paulina: hello ' ..getPlayerName(cid).. ' can you give me 100 demonic essences? \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Enchanted hand statue: hello ' ..getPlayerName(cid).. ' can you give me 100 demonic essences? \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end
@@ -675,7 +675,7 @@ addOutfit(cid, OUTFIT_DEMONHUNTER, 2, getPlayerSex(cid)) --ADDON 2
 			setPlayerStorageValue(cid,9140,1)
 
 		else
-                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Paulina: hello ' ..getPlayerName(cid).. ' can you give me 100 small topazs? \nand...did you already talk to my other sisters?')
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Enchanted fighter statue: hello ' ..getPlayerName(cid).. ' can you give me 100 small topazs? \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
               end

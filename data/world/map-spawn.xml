@@ -10144,7 +10144,7 @@
     <monster name="Black Knight" x="17" y="-6" z="9" spawntime="60"/>
     <monster name="Dragon lord Hatchling" x="-7" y="-1" z="9" spawntime="60"/>
     <monster name="Knight Soldier" x="5" y="-1" z="9" spawntime="60"/>
-    <monster name="Hellhound" x="16" y="-1" z="9" spawntime="60"/>
+    <monster name="Hellhound" x="15" y="-1" z="9" spawntime="60"/>
     <monster name="Knight Gold" x="-9" y="0" z="9" spawntime="60"/>
     <monster name="Wyrm" x="-14" y="2" z="9" spawntime="60"/>
     <monster name="Mr. Punish" x="-15" y="5" z="9" spawntime="60"/>
