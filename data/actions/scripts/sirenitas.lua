@@ -618,6 +618,86 @@ addOutfit(cid, OUTFIT_DEMONHUNTER, 2, getPlayerSex(cid)) --ADDON 2
                         doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Celia: hello ' ..getPlayerName(cid).. ' can you give me 50 small emeralds? \nand...did you already talk to my other sisters?')
                         doSendMagicEffect(topos,1)
 		end
+              end
+
+	elseif item.actionid == 9138 then
+
+		queststatus = getPlayerStorageValue(cid,9138)
+		if queststatus == -1 or queststatus == 0 then
+                     if doPlayerRemoveItem(cid, 5954, 100) == true then -- 100 demon horns
+						if getPlayerSex(cid) == 0 then
+							doPlayerAddOutfit(cid, 288, 1) --Demonhunter ADDON 1
+						else
+							doPlayerAddOutfit(cid, 289, 1)
+						end
+			doPlayerSendTextMessage(cid,22,"Congratulation! you receive a new outfit.")
+			doSendMagicEffect(topos,12)
+			setPlayerStorageValue(cid,9138,1)
+
+		else
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Martha: hello ' ..getPlayerName(cid).. ' can you give me 100 demon horns? \nand...did you already talk to my other sisters?')
+                        doSendMagicEffect(topos,1)
+		end
+              end
+			  
+	elseif item.actionid == 9139 then
+
+		queststatus = getPlayerStorageValue(cid,9139)
+		if queststatus == -1 or queststatus == 0 then
+                     if doPlayerRemoveItem(cid, 6500, 100) == true then -- 100 demonic essences
+						if getPlayerSex(cid) == 0 then
+							doPlayerAddOutfit(cid, 288, 2) --Demonhunter ADDON 2
+						else
+							doPlayerAddOutfit(cid, 289, 2)
+						end
+			doPlayerSendTextMessage(cid,22,"Congratulation! you receive a new outfit.")
+			doSendMagicEffect(topos,12)
+			setPlayerStorageValue(cid,9139,1)
+
+		else
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Paulina: hello ' ..getPlayerName(cid).. ' can you give me 100 demonic essences? \nand...did you already talk to my other sisters?')
+                        doSendMagicEffect(topos,1)
+		end
+              end
+
+	elseif item.actionid == 9140 then
+
+		queststatus = getPlayerStorageValue(cid,9140)
+		if queststatus == -1 or queststatus == 0 then
+                     if doPlayerRemoveItem(cid, 9970, 100) == true then -- 100 small topazs
+						if getPlayerSex(cid) == 0 then
+							doPlayerAddOutfit(cid, 336, 2) --Warmaster ADDON 2
+						else
+							doPlayerAddOutfit(cid, 335, 2)
+						end
+			doPlayerSendTextMessage(cid,22,"Congratulation! you receive a new outfit.")
+			doSendMagicEffect(topos,12)
+			setPlayerStorageValue(cid,9140,1)
+
+		else
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Paulina: hello ' ..getPlayerName(cid).. ' can you give me 100 small topazs? \nand...did you already talk to my other sisters?')
+                        doSendMagicEffect(topos,1)
+		end
+              end
+
+	elseif item.actionid == 9141 then
+
+		queststatus = getPlayerStorageValue(cid,9141)
+		if queststatus == -1 or queststatus == 0 then
+                     if doPlayerRemoveItem(cid, 7249, 1) == true then -- 1 Purple Kiss Blossom
+						if getPlayerSex(cid) == 0 then
+							doPlayerAddOutfit(cid, 366, 2) --Wayfarer ADDON 2
+						else
+							doPlayerAddOutfit(cid, 367, 2)
+						end
+			doPlayerSendTextMessage(cid,22,"Congratulation! you receive a new outfit.")
+			doSendMagicEffect(topos,12)
+			setPlayerStorageValue(cid,9141,1)
+
+		else
+                        doPlayerSendTextMessage(cid,MESSAGE_STATUS_CONSOLE_BLUE,'Pacheco: hello ' ..getPlayerName(cid).. ' can you give me a Purple Kiss Blossom? \nand...did you already talk to my other sisters?')
+                        doSendMagicEffect(topos,1)
+		end
               end				  
 --------------------
 

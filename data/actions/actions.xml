@@ -2039,6 +2039,10 @@
 	<action actionid="9135" script="sirenitas.lua" /> -- quest sirenitas
 	<action actionid="9136" script="sirenitas.lua" /> -- quest sirenitas
 	<action actionid="9137" script="sirenitas.lua" /> -- quest sirenitas
+	<action actionid="9138" script="sirenitas.lua" /> -- quest sirenitas
+	<action actionid="9139" script="sirenitas.lua" /> -- quest sirenitas
+	<action actionid="9140" script="sirenitas.lua" /> -- quest sirenitas
+	<action actionid="9141" script="sirenitas.lua" /> -- quest sirenitas
 	
 	<action itemid="12466" script="tatuy/premmy15days.lua" />
 	
