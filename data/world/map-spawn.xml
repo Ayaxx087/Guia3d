@@ -5295,10 +5295,10 @@
     <monster name="Carniphila" x="-5" y="2" z="7" spawntime="180"/>
   </spawn>
   <spawn centerx="862" centery="825" centerz="7" radius="12">
-    <monster name="Demon Skeleton" x="-3" y="-6" z="7" spawntime="240"/>
-    <monster name="Demon Skeleton" x="-2" y="-6" z="7" spawntime="240"/>
     <monster name="Demon Skeleton" x="-8" y="-3" z="7" spawntime="240"/>
     <monster name="Demon Skeleton" x="-7" y="-3" z="7" spawntime="240"/>
+    <monster name="Demon Skeleton" x="2" y="1" z="7" spawntime="240"/>
+    <monster name="Demon Skeleton" x="3" y="1" z="7" spawntime="240"/>
   </spawn>
   <spawn centerx="319" centery="827" centerz="7" radius="15">
     <monster name="Frost Scout" x="-2" y="0" z="7" spawntime="180"/>

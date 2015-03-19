@@ -2046,4 +2046,7 @@
 	
 	<action itemid="12466" script="tatuy/premmy15days.lua" />
 	
+	<action actionid="65031" script="tatuy/avengerswordquest.lua" />
+	<action actionid="65032" script="tatuy/enteravengerswordquest.lua" />
+	
 </actions>
