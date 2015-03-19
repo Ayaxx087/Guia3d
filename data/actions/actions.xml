@@ -2048,5 +2048,9 @@
 	
 	<action actionid="65031" script="tatuy/avengerswordquest.lua" />
 	<action actionid="65032" script="tatuy/enteravengerswordquest.lua" />
+	<action actionid="65033" script="tatuy/purpplekissquest.lua" />
+	<action actionid="65034" script="tatuy/yalaharsetquest.lua" />
+	<action actionid="65035" script="tatuy/25ccquest.lua.lua" />
+	<action actionid="65036" script="tatuy/wardlordswordquest.lua" />
 	
 </actions>
