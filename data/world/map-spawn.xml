@@ -10659,7 +10659,9 @@
   </spawn>
   <spawn centerx="1374" centery="721" centerz="9" radius="7">
     <monster name="Ghazbaran" x="5" y="-3" z="9" spawntime="60"/>
+    <monster name="Ghazbaran" x="7" y="-3" z="9" spawntime="60"/>
     <monster name="Apocalypse" x="6" y="0" z="9" spawntime="60"/>
+    <monster name="Apocalypse" x="-6" y="3" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="1112" centery="731" centerz="9" radius="15">
     <monster name="Banshee" x="-3" y="-15" z="9" spawntime="60"/>
@@ -10683,6 +10685,7 @@
     <monster name="Satanic" x="0" y="13" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="1369" centery="735" centerz="9" radius="7">
+    <monster name="Deathslicer" x="1" y="-6" z="9" spawntime="60"/>
     <monster name="Ice Dragon Slayer" x="0" y="-4" z="9" spawntime="60"/>
     <monster name="Ice Dragon Slayer" x="-4" y="-1" z="9" spawntime="60"/>
     <monster name="Ice Dragon Slayer" x="3" y="-1" z="9" spawntime="60"/>
@@ -10768,12 +10771,15 @@
   <spawn centerx="1361" centery="787" centerz="9" radius="7">
     <monster name="torun" x="0" y="-6" z="9" spawntime="60"/>
     <monster name="Cyclops Smith" x="0" y="-3" z="9" spawntime="60"/>
+    <monster name="Deathslicer" x="0" y="-2" z="9" spawntime="60"/>
     <monster name="torun" x="0" y="4" z="9" spawntime="60"/>
     <monster name="torun" x="1" y="4" z="9" spawntime="768"/>
     <monster name="Cyclops Smith" x="3" y="6" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="1394" centery="795" centerz="9" radius="7">
+    <monster name="Deathslicer" x="-3" y="-5" z="9" spawntime="60"/>
     <monster name="torun" x="-4" y="-3" z="9" spawntime="60"/>
+    <monster name="Deathslicer" x="-3" y="-1" z="9" spawntime="60"/>
     <monster name="torun" x="-2" y="1" z="9" spawntime="60"/>
     <monster name="torun" x="4" y="5" z="9" spawntime="60"/>
     <monster name="torun" x="6" y="6" z="9" spawntime="60"/>
@@ -10811,6 +10817,7 @@
     <monster name="Cyclops Smith" x="-1" y="-6" z="9" spawntime="60"/>
     <monster name="torun" x="-6" y="-5" z="9" spawntime="60"/>
     <monster name="Cyclops Drone" x="-3" y="-4" z="9" spawntime="60"/>
+    <monster name="Deathslicer" x="-4" y="-2" z="9" spawntime="60"/>
     <monster name="torun" x="5" y="-1" z="9" spawntime="60"/>
     <monster name="torun" x="5" y="4" z="9" spawntime="60"/>
   </spawn>
