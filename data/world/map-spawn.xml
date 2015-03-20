@@ -10659,9 +10659,8 @@
   </spawn>
   <spawn centerx="1374" centery="721" centerz="9" radius="7">
     <monster name="Ghazbaran" x="5" y="-3" z="9" spawntime="60"/>
-    <monster name="Ghazbaran" x="7" y="-3" z="9" spawntime="60"/>
-    <monster name="Apocalypse" x="6" y="0" z="9" spawntime="60"/>
-    <monster name="Apocalypse" x="-6" y="3" z="9" spawntime="60"/>
+    <monster name="Apocalypse" x="6" y="-3" z="9" spawntime="60"/>
+    <monster name="Apocalypse" x="-7" y="5" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="1112" centery="731" centerz="9" radius="15">
     <monster name="Banshee" x="-3" y="-15" z="9" spawntime="60"/>
