@@ -388,7 +388,7 @@ show_house_prices = true
 
 -- max packets per second to elemeniate spamming of packets to server 
 -- 0 disabled
-max_packets_per_second = 50
+max_packets_per_second = 40
 
 
 -- SQL type
