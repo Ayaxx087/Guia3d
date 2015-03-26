@@ -26,7 +26,7 @@ servername = "UATibia"
 location = "USA"
 
 -- server ip (the ip that server listens on)
-ip = "104.131.81.137"
+ip = "45.55.167.216"
 
 -- login server port
 -- This should be the port used for connecting with IP changers etc.
@@ -388,7 +388,7 @@ show_house_prices = true
 
 -- max packets per second to elemeniate spamming of packets to server 
 -- 0 disabled
-max_packets_per_second = 50
+max_packets_per_second = 0
 
 
 -- SQL type
