@@ -2053,4 +2053,6 @@
 	<action actionid="65035" script="tatuy/25ccquest.lua" />
 	<action actionid="65036" script="tatuy/wardlordswordquest.lua" />
 	
+	<action actionid="65037" script="tatuy/asgardtravelkey.lua" />
+	
 </actions>
