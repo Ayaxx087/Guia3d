@@ -859,8 +859,23 @@
     <monster name="Orc Warrior" x="0" y="-2" z="5" spawntime="180"/>
     <monster name="Orc" x="1" y="-2" z="5" spawntime="180"/>
   </spawn>
+  <spawn centerx="440" centery="1224" centerz="5" radius="5">
+    <monster name="Hydra" x="2" y="-2" z="5" spawntime="60"/>
+    <monster name="Hydra" x="-3" y="0" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="463" centery="1224" centerz="5" radius="5">
+    <monster name="Hydra" x="-1" y="-2" z="5" spawntime="60"/>
+    <monster name="Hydra" x="0" y="3" z="5" spawntime="60"/>
+  </spawn>
   <spawn centerx="219" centery="1232" centerz="5" radius="5">
     <monster name="Dragon Lord" x="2" y="-1" z="5" spawntime="360"/>
+  </spawn>
+  <spawn centerx="460" centery="1244" centerz="5" radius="5">
+    <monster name="Hydra" x="-1" y="-3" z="5" spawntime="60"/>
+    <monster name="Hydra" x="3" y="3" z="5" spawntime="60"/>
+  </spawn>
+  <spawn centerx="382" centery="1279" centerz="5" radius="5">
+    <monster name="Darth Vader" x="2" y="2" z="5" spawntime="60"/>
   </spawn>
   <spawn centerx="32" centery="28" centerz="6" radius="6">
     <monster name="Rat" x="-5" y="0" z="6" spawntime="180"/>
@@ -1693,8 +1708,32 @@
     <monster name="Orc" x="-1" y="1" z="6" spawntime="180"/>
     <monster name="Orc" x="0" y="1" z="6" spawntime="180"/>
   </spawn>
+  <spawn centerx="458" centery="1215" centerz="6" radius="5">
+    <monster name="Hydra" x="-2" y="-2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="437" centery="1224" centerz="6" radius="5">
+    <monster name="Hydra" x="-1" y="-2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="449" centery="1225" centerz="6" radius="5">
+    <monster name="Hydra" x="-2" y="-2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="467" centery="1231" centerz="6" radius="5">
+    <monster name="Hydra" x="2" y="1" z="6" spawntime="60"/>
+  </spawn>
   <spawn centerx="221" centery="1237" centerz="6" radius="8">
     <monster name="Cyclops" x="1" y="0" z="6" spawntime="180"/>
+  </spawn>
+  <spawn centerx="456" centery="1242" centerz="6" radius="5">
+    <monster name="Hydra" x="0" y="-3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="472" centery="1243" centerz="6" radius="5">
+    <monster name="Hydra" x="0" y="4" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="461" centery="1253" centerz="6" radius="5">
+    <monster name="Hydra" x="-3" y="2" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="411" centery="1254" centerz="6" radius="5">
+    <monster name="Serpent Spawn" x="1" y="-1" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="134" centery="1256" centerz="6" radius="12">
     <monster name="Demon Skeleton" x="-6" y="-1" z="6" spawntime="200"/>
@@ -1723,6 +1762,16 @@
     <monster name="Ghoul" x="-1" y="-1" z="6" spawntime="180"/>
     <monster name="Ghoul" x="0" y="-1" z="6" spawntime="180"/>
     <monster name="Demon Skeleton" x="1" y="0" z="6" spawntime="200"/>
+  </spawn>
+  <spawn centerx="483" centery="1299" centerz="6" radius="5">
+    <monster name="spider" x="-3" y="-5" z="6" spawntime="60"/>
+    <monster name="Poison spider" x="-2" y="-5" z="6" spawntime="60"/>
+    <monster name="Poison spider" x="-1" y="2" z="6" spawntime="60"/>
+    <monster name="spider" x="2" y="3" z="6" spawntime="60"/>
+  </spawn>
+  <spawn centerx="487" centery="1313" centerz="6" radius="5">
+    <monster name="spider" x="-1" y="2" z="6" spawntime="60"/>
+    <monster name="spider" x="2" y="5" z="6" spawntime="60"/>
   </spawn>
   <spawn centerx="473" centery="30" centerz="7" radius="12">
     <monster name="Gargoyle" x="-10" y="-1" z="7" spawntime="300"/>
@@ -6257,6 +6306,9 @@
     <monster name="Cyclops" x="1" y="0" z="7" spawntime="180"/>
     <monster name="Cyclops" x="2" y="0" z="7" spawntime="180"/>
   </spawn>
+  <spawn centerx="388" centery="1222" centerz="7" radius="5">
+    <monster name="Tortoise" x="-1" y="-3" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="112" centery="1225" centerz="7" radius="7">
     <monster name="Tarantula" x="2" y="3" z="7" spawntime="210"/>
   </spawn>
@@ -6265,6 +6317,10 @@
     <monster name="Cyclops" x="5" y="-2" z="7" spawntime="180"/>
     <monster name="Cyclops" x="1" y="1" z="7" spawntime="180"/>
     <monster name="Cyclops" x="-2" y="5" z="7" spawntime="180"/>
+  </spawn>
+  <spawn centerx="412" centery="1227" centerz="7" radius="5">
+    <monster name="Toad" x="-5" y="-5" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="2" y="-4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="84" centery="1229" centerz="7" radius="7">
     <monster name="Cyclops" x="-3" y="0" z="7" spawntime="180"/>
@@ -6289,12 +6345,21 @@
     <monster name="Dragon" x="7" y="-4" z="7" spawntime="240"/>
     <monster name="Dragon" x="3" y="5" z="7" spawntime="240"/>
   </spawn>
+  <spawn centerx="390" centery="1239" centerz="7" radius="5">
+    <monster name="Tortoise" x="-1" y="-4" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="-3" y="2" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="99" centery="1240" centerz="7" radius="7">
     <monster name="Spit Nettle" x="-1" y="-1" z="7" spawntime="200"/>
     <monster name="Terror Bird" x="1" y="4" z="7" spawntime="210"/>
   </spawn>
   <spawn centerx="158" centery="1240" centerz="7" radius="5">
     <monster name="Toad" x="-1" y="1" z="7" spawntime="180"/>
+  </spawn>
+  <spawn centerx="408" centery="1240" centerz="7" radius="5">
+    <monster name="Tortoise" x="-3" y="-4" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="3" y="-4" z="7" spawntime="60"/>
+    <monster name="Tortoise" x="5" y="5" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="122" centery="1241" centerz="7" radius="8">
     <monster name="Cyclops" x="-2" y="-4" z="7" spawntime="180"/>
@@ -6317,17 +6382,27 @@
     <monster name="Wild Warrior" x="4" y="-1" z="7" spawntime="180"/>
     <monster name="Wild Warrior" x="-1" y="1" z="7" spawntime="180"/>
   </spawn>
+  <spawn centerx="485" centery="1247" centerz="7" radius="5">
+    <monster name="Hydra" x="-1" y="3" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="39" centery="1251" centerz="7" radius="8">
     <monster name="Dragon" x="-1" y="-8" z="7" spawntime="240"/>
     <monster name="Cyclops" x="-1" y="0" z="7" spawntime="180"/>
     <monster name="Cyclops" x="1" y="0" z="7" spawntime="180"/>
     <monster name="Cyclops" x="-3" y="3" z="7" spawntime="180"/>
   </spawn>
+  <spawn centerx="422" centery="1254" centerz="7" radius="5">
+    <monster name="Wolf" x="-3" y="-2" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="195" centery="1255" centerz="7" radius="8">
     <monster name="Black Knight" x="4" y="-5" z="7" spawntime="420"/>
     <monster name="Beholder" x="-2" y="-2" z="7" spawntime="200"/>
     <monster name="Beholder" x="-1" y="-2" z="7" spawntime="200"/>
     <monster name="Beholder" x="2" y="3" z="7" spawntime="200"/>
+  </spawn>
+  <spawn centerx="498" centery="1255" centerz="7" radius="5">
+    <monster name="Hydra" x="3" y="-1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="53" centery="1256" centerz="7" radius="8">
     <monster name="Cyclops" x="0" y="-7" z="7" spawntime="180"/>
@@ -6337,10 +6412,17 @@
     <monster name="Cyclops" x="2" y="2" z="7" spawntime="180"/>
     <monster name="Cyclops" x="0" y="4" z="7" spawntime="180"/>
   </spawn>
+  <spawn centerx="358" centery="1256" centerz="7" radius="5">
+    <monster name="Wolf" x="-3" y="0" z="7" spawntime="60"/>
+    <monster name="Wolf" x="3" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="89" centery="1257" centerz="7" radius="8">
     <monster name="Beholder" x="-6" y="-1" z="7" spawntime="200"/>
     <monster name="Beholder" x="2" y="-1" z="7" spawntime="200"/>
     <monster name="Beholder" x="-4" y="6" z="7" spawntime="200"/>
+  </spawn>
+  <spawn centerx="473" centery="1260" centerz="7" radius="5">
+    <monster name="Hydra" x="-2" y="0" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="114" centery="1262" centerz="7" radius="8">
     <monster name="Cyclops" x="0" y="-3" z="7" spawntime="180"/>
@@ -6356,6 +6438,15 @@
     <monster name="Cyclops" x="-5" y="0" z="7" spawntime="180"/>
     <monster name="Cyclops" x="2" y="0" z="7" spawntime="180"/>
     <monster name="Cyclops" x="-6" y="1" z="7" spawntime="180"/>
+  </spawn>
+  <spawn centerx="438" centery="1267" centerz="7" radius="5">
+    <monster name="Wolf" x="-4" y="-3" z="7" spawntime="60"/>
+    <monster name="spider" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="spider" x="3" y="2" z="7" spawntime="60"/>
+    <monster name="spider" x="-4" y="3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="485" centery="1267" centerz="7" radius="5">
+    <monster name="Giant Spider" x="1" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="62" centery="1268" centerz="7" radius="8">
     <monster name="Cyclops" x="7" y="-4" z="7" spawntime="180"/>
@@ -6399,6 +6490,16 @@
     <monster name="Ghoul" x="-11" y="10" z="7" spawntime="180"/>
     <monster name="Priestess" x="10" y="11" z="7" spawntime="200"/>
   </spawn>
+  <spawn centerx="402" centery="1271" centerz="7" radius="5">
+    <monster name="Wolf" x="-2" y="-4" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="471" centery="1273" centerz="7" radius="5">
+    <monster name="Giant Spider" x="-3" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="503" centery="1273" centerz="7" radius="5">
+    <monster name="The Old Widow" x="3" y="-3" z="7" spawntime="60"/>
+    <monster name="Giant Spider" x="-4" y="4" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="224" centery="1277" centerz="7" radius="8">
     <monster name="Hydra" x="4" y="1" z="7" spawntime="420"/>
   </spawn>
@@ -6416,11 +6517,26 @@
     <monster name="Tortoise" x="3" y="3" z="7" spawntime="180"/>
     <monster name="Tortoise" x="-1" y="5" z="7" spawntime="180"/>
   </spawn>
+  <spawn centerx="352" centery="1279" centerz="7" radius="5">
+    <monster name="Wasp" x="-3" y="0" z="7" spawntime="60"/>
+    <monster name="The Fish one" x="-2" y="0" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="57" centery="1280" centerz="7" radius="8">
     <monster name="Cyclops" x="-3" y="-2" z="7" spawntime="180"/>
     <monster name="Cyclops" x="2" y="1" z="7" spawntime="180"/>
     <monster name="Cyclops" x="-1" y="2" z="7" spawntime="180"/>
     <monster name="Cyclops" x="6" y="2" z="7" spawntime="180"/>
+  </spawn>
+  <spawn centerx="378" centery="1281" centerz="7" radius="5">
+    <monster name="Pig" x="1" y="-2" z="7" spawntime="60"/>
+    <monster name="Pig" x="1" y="1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="401" centery="1283" centerz="7" radius="5">
+    <monster name="Parrot" x="1" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="460" centery="1283" centerz="7" radius="5">
+    <monster name="Giant Spider" x="-4" y="-4" z="7" spawntime="60"/>
+    <monster name="Giant Spider" x="4" y="3" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="210" centery="1284" centerz="7" radius="9">
     <monster name="bone beast" x="3" y="1" z="7" spawntime="210"/>
@@ -6488,6 +6604,9 @@
   <spawn centerx="170" centery="1297" centerz="7" radius="8">
     <monster name="Hydra" x="7" y="-2" z="7" spawntime="420"/>
   </spawn>
+  <spawn centerx="471" centery="1298" centerz="7" radius="5">
+    <monster name="Giant Spider" x="0" y="2" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="187" centery="1302" centerz="7" radius="6">
     <monster name="Dragon" x="4" y="-5" z="7" spawntime="240"/>
     <monster name="Demon Skeleton" x="1" y="0" z="7" spawntime="210"/>
@@ -6497,12 +6616,19 @@
     <monster name="Cyclops" x="-4" y="5" z="7" spawntime="180"/>
     <monster name="Cyclops" x="-3" y="7" z="7" spawntime="180"/>
   </spawn>
+  <spawn centerx="410" centery="1305" centerz="7" radius="5">
+    <monster name="Deer" x="4" y="-2" z="7" spawntime="60"/>
+    <monster name="Deer" x="3" y="1" z="7" spawntime="60"/>
+  </spawn>
   <spawn centerx="54" centery="1306" centerz="7" radius="8">
     <monster name="Cyclops" x="-1" y="-1" z="7" spawntime="180"/>
     <monster name="Cyclops" x="0" y="-1" z="7" spawntime="180"/>
     <monster name="Cyclops" x="8" y="1" z="7" spawntime="180"/>
     <monster name="Cyclops" x="8" y="2" z="7" spawntime="180"/>
     <monster name="Cyclops" x="-6" y="8" z="7" spawntime="180"/>
+  </spawn>
+  <spawn centerx="361" centery="1307" centerz="7" radius="5">
+    <monster name="Cat" x="3" y="-2" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="154" centery="1310" centerz="7" radius="8">
     <monster name="Cyclops" x="0" y="-1" z="7" spawntime="180"/>
@@ -6521,6 +6647,9 @@
   <spawn centerx="183" centery="1310" centerz="7" radius="8">
     <monster name="Cyclops" x="5" y="0" z="7" spawntime="180"/>
     <monster name="Cyclops" x="4" y="1" z="7" spawntime="180"/>
+  </spawn>
+  <spawn centerx="455" centery="1311" centerz="7" radius="5">
+    <monster name="Giant Spider" x="-2" y="4" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="133" centery="1313" centerz="7" radius="8">
     <monster name="Cyclops" x="-6" y="-2" z="7" spawntime="180"/>
@@ -6565,6 +6694,16 @@
     <monster name="Barbarian Skullhunter" x="0" y="3" z="7" spawntime="180"/>
     <monster name="Barbarian Skullhunter" x="1" y="3" z="7" spawntime="180"/>
     <monster name="Barbarian Bloodwalker" x="2" y="4" z="7" spawntime="200"/>
+  </spawn>
+  <spawn centerx="439" centery="1335" centerz="7" radius="5">
+    <monster name="The Old Widow" x="2" y="-1" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="346" centery="1339" centerz="7" radius="5">
+    <monster name="Dog" x="4" y="-3" z="7" spawntime="60"/>
+  </spawn>
+  <spawn centerx="399" centery="1349" centerz="7" radius="5">
+    <monster name="Pink Butterfly" x="3" y="-2" z="7" spawntime="60"/>
+    <monster name="Pink Butterfly" x="-3" y="1" z="7" spawntime="60"/>
   </spawn>
   <spawn centerx="398" centery="29" centerz="8" radius="15">
     <monster name="Demon Skeleton" x="-8" y="-1" z="8" spawntime="200"/>
@@ -8956,6 +9095,21 @@
     <monster name="Troll" x="2" y="1" z="8" spawntime="180"/>
     <monster name="Troll" x="7" y="1" z="8" spawntime="180"/>
     <monster name="Troll" x="0" y="2" z="8" spawntime="180"/>
+  </spawn>
+  <spawn centerx="415" centery="1254" centerz="8" radius="5">
+    <monster name="Quara Pincher" x="-3" y="-2" z="8" spawntime="60"/>
+    <monster name="Quara Pincher" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="387" centery="1270" centerz="8" radius="5">
+    <monster name="Ancient Scarab" x="-2" y="-5" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="374" centery="1271" centerz="8" radius="5">
+    <monster name="Scarab" x="5" y="-3" z="8" spawntime="60"/>
+    <monster name="Scarab" x="-1" y="-2" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="380" centery="1283" centerz="8" radius="5">
+    <monster name="Larva" x="-4" y="0" z="8" spawntime="60"/>
+    <monster name="Larva" x="2" y="0" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="272" centery="34" centerz="9" radius="12">
     <monster name="Rat" x="0" y="-5" z="9" spawntime="240"/>
@@ -11474,6 +11628,19 @@
     <monster name="Rotworm" x="-2" y="2" z="9" spawntime="180"/>
     <monster name="Rotworm" x="-1" y="6" z="9" spawntime="180"/>
     <monster name="Rotworm" x="0" y="6" z="9" spawntime="180"/>
+  </spawn>
+  <spawn centerx="387" centery="1272" centerz="9" radius="5">
+    <monster name="Ancient Scarab" x="0" y="-3" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="390" centery="1285" centerz="9" radius="5">
+    <monster name="Ancient Scarab" x="-4" y="2" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="404" centery="1289" centerz="9" radius="5">
+    <monster name="Ancient Scarab" x="3" y="-1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="398" centery="1297" centerz="9" radius="5">
+    <monster name="Ancient Scarab" x="-3" y="0" z="9" spawntime="60"/>
+    <monster name="Ancient Scarab" x="0" y="2" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="423" centery="47" centerz="10" radius="10">
     <monster name="Ghost" x="0" y="-1" z="10" spawntime="180"/>
@@ -14151,6 +14318,44 @@
     <monster name="Warlock" x="-7" y="6" z="11" spawntime="360"/>
     <monster name="Fury" x="7" y="6" z="11" spawntime="360"/>
   </spawn>
+  <spawn centerx="367" centery="1162" centerz="11" radius="5">
+    <monster name="Young Sea Serpent" x="2" y="-2" z="11" spawntime="60"/>
+    <monster name="Young Sea Serpent" x="-2" y="-1" z="11" spawntime="60"/>
+    <monster name="Young Sea Serpent" x="-3" y="2" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="352" centery="1163" centerz="11" radius="5">
+    <monster name="Young Sea Serpent" x="-2" y="-3" z="11" spawntime="60"/>
+    <monster name="Young Sea Serpent" x="-2" y="-1" z="11" spawntime="60"/>
+    <monster name="Young Sea Serpent" x="1" y="-1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="373" centery="1175" centerz="11" radius="5">
+    <monster name="Quara Pincher Scout" x="1" y="-2" z="11" spawntime="60"/>
+    <monster name="Quara Mantassin Scout" x="-2" y="2" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="-2" y="3" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="-4" y="4" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="352" centery="1177" centerz="11" radius="5">
+    <monster name="Quara Pincher Scout" x="0" y="-2" z="11" spawntime="60"/>
+    <monster name="Quara Mantassin Scout" x="-2" y="1" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="0" y="3" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="3" y="3" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="380" centery="1189" centerz="11" radius="5">
+    <monster name="Quara Pincher Scout" x="-3" y="-1" z="11" spawntime="60"/>
+    <monster name="Quara Mantassin Scout" x="2" y="1" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="1" y="2" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="2" y="4" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="395" centery="1190" centerz="11" radius="5">
+    <monster name="Quara Pincher Scout" x="-3" y="-2" z="11" spawntime="60"/>
+    <monster name="Quara Mantassin Scout" x="2" y="1" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="2" y="4" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="352" centery="1191" centerz="11" radius="5">
+    <monster name="Quara Pincher Scout" x="3" y="-3" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="2" y="-1" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="-2" y="0" z="11" spawntime="60"/>
+  </spawn>
   <spawn centerx="139" centery="1195" centerz="11" radius="15">
     <monster name="Dragon" x="3" y="-5" z="11" spawntime="300"/>
     <monster name="Demon Skeleton" x="5" y="-4" z="11" spawntime="210"/>
@@ -14159,6 +14364,92 @@
     <monster name="Demon Skeleton" x="13" y="1" z="11" spawntime="210"/>
     <monster name="Demon Skeleton" x="-1" y="6" z="11" spawntime="210"/>
     <monster name="Demon Skeleton" x="0" y="6" z="11" spawntime="210"/>
+  </spawn>
+  <spawn centerx="417" centery="1196" centerz="11" radius="5">
+    <monster name="Quara Mantassin Scout" x="1" y="-1" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="-2" y="0" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="2" y="0" z="11" spawntime="60"/>
+    <monster name="Quara Pincher Scout" x="0" y="5" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="366" centery="1199" centerz="11" radius="5">
+    <monster name="Quara Hydromancer Scout" x="0" y="-2" z="11" spawntime="60"/>
+    <monster name="Quara Mantassin Scout" x="1" y="-2" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="0" y="1" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="0" y="2" z="11" spawntime="1024"/>
+  </spawn>
+  <spawn centerx="382" centery="1202" centerz="11" radius="5">
+    <monster name="Quara Mantassin Scout" x="1" y="-2" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="3" y="-1" z="11" spawntime="60"/>
+    <monster name="Quara Pincher Scout" x="-3" y="0" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="3" y="1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="351" centery="1203" centerz="11" radius="5">
+    <monster name="Quara Pincher Scout" x="2" y="-4" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="-3" y="-2" z="11" spawntime="60"/>
+    <monster name="Quara Mantassin Scout" x="1" y="-2" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="-2" y="-1" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="403" centery="1205" centerz="11" radius="5">
+    <monster name="Quara Hydromancer Scout" x="1" y="-3" z="11" spawntime="60"/>
+    <monster name="Quara Mantassin Scout" x="-1" y="-2" z="11" spawntime="60"/>
+    <monster name="Quara Pincher Scout" x="-3" y="0" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="423" centery="1211" centerz="11" radius="5">
+    <monster name="Quara Mantassin Scout" x="2" y="-3" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="1" y="-2" z="11" spawntime="60"/>
+    <monster name="Quara Pincher Scout" x="-4" y="1" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="-2" y="2" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="366" centery="1213" centerz="11" radius="5">
+    <monster name="Quara Pincher Scout" x="-4" y="-3" z="11" spawntime="60"/>
+    <monster name="Quara Mantassin Scout" x="-1" y="-1" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="2" y="2" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="353" centery="1218" centerz="11" radius="5">
+    <monster name="Quara Pincher Scout" x="2" y="-3" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="2" y="0" z="11" spawntime="60"/>
+    <monster name="Quara Mantassin Scout" x="1" y="2" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="0" y="4" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="399" centery="1221" centerz="11" radius="5">
+    <monster name="Quara Pincher Scout" x="-4" y="-2" z="11" spawntime="60"/>
+    <monster name="Quara Mantassin Scout" x="4" y="-1" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="-2" y="2" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="2" y="2" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="421" centery="1222" centerz="11" radius="5">
+    <monster name="Quara Pincher Scout" x="0" y="-2" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="2" y="-1" z="11" spawntime="60"/>
+    <monster name="Quara Mantassin Scout" x="4" y="0" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="2" y="3" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="375" centery="1226" centerz="11" radius="5">
+    <monster name="Quara Mantassin Scout" x="-1" y="-2" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="0" y="2" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="2" y="2" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="412" centery="1233" centerz="11" radius="5">
+    <monster name="Quara Mantassin Scout" x="3" y="-3" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="2" y="-1" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="-1" y="2" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="388" centery="1234" centerz="11" radius="5">
+    <monster name="Quara Pincher Scout" x="-5" y="-4" z="11" spawntime="60"/>
+    <monster name="Quara Mantassin Scout" x="-2" y="-1" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="3" y="1" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="-1" y="2" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="400" centery="1244" centerz="11" radius="5">
+    <monster name="Quara Pincher Scout" x="-4" y="-4" z="11" spawntime="60"/>
+    <monster name="Quara Mantassin Scout" x="1" y="-4" z="11" spawntime="60"/>
+    <monster name="Quara Predator Scout" x="-2" y="-2" z="11" spawntime="60"/>
+    <monster name="Quara Hydromancer Scout" x="-2" y="0" z="11" spawntime="60"/>
+  </spawn>
+  <spawn centerx="407" centery="1254" centerz="11" radius="5">
+    <monster name="Quara Hydromancer" x="-1" y="-4" z="11" spawntime="60"/>
+    <monster name="Quara Constrictor" x="3" y="0" z="11" spawntime="60"/>
+    <monster name="Quara Mantassin" x="-4" y="1" z="11" spawntime="60"/>
+    <monster name="Quara Pincher" x="3" y="2" z="11" spawntime="60"/>
   </spawn>
   <spawn centerx="157" centery="61" centerz="12" radius="18">
     <monster name="Ghoul" x="-14" y="-7" z="12" spawntime="180"/>
