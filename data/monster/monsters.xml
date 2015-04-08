@@ -393,4 +393,7 @@
 	<monster name="Lizard High Guard Elite" file="tatuy/edited/lizard high guard elite.xml"/>
 	<monster name="Lizard Legionnaire Elite" file="tatuy/edited/lizard legionnaire elite.xml"/>
 	<monster name="Lizard Zaogun Elite" file="tatuy/edited/lizard zaogun elite.xml"/>
+	
+	<monster name="Master Dark Magician" file="tatuy/edited/master dark magician.xml"/>
+	<monster name="MasterDark Apprentice" file="tatuy/edited/master dark apprentice.xml"/>
 </monsters>

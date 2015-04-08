@@ -53,6 +53,7 @@ function onUse(cid, item, frompos, item2, topos)
 			doPlayerAddItem(cid,9775,1)
 			doPlayerAddItem(cid,2179,1)
 			doPlayerAddItem(cid,7959,1)
+			doPlayerAddItem(cid,5792,1)
 			setPlayerStorageValue(cid,65041,1)
 
 		else
@@ -93,7 +94,21 @@ function onUse(cid, item, frompos, item2, topos)
 
 		else
 			doPlayerSendTextMessage(cid,22,"Sorry, it is empty.")
-		end		
+		end
+		
+	elseif item.actionid == 65045 then -- dark rosary, money and minotaur bp
+		queststatus = getPlayerStorageValue(cid,65045)
+		if queststatus == -1 or queststatus == 0 then
+			doPlayerSendTextMessage(cid,22,"You have found a treasure inside.")
+			doSendMagicEffect(topos,12)
+			doPlayerAddItem(cid,11220,1)
+			doPlayerAddItem(cid,2160,5)
+			doPlayerAddItem(cid,11244,1)
+			setPlayerStorageValue(cid,65045,1)
+
+		else
+			doPlayerSendTextMessage(cid,22,"Sorry, it is empty.")
+		end			
 
 		
 	else

@@ -2062,5 +2062,6 @@
 	<action actionid="65042" script="tatuy/asgardquests.lua" />
 	<action actionid="65043" script="tatuy/asgardquests.lua" />
 	<action actionid="65044" script="tatuy/asgardquests.lua" />
+	<action actionid="65045" script="tatuy/asgardquests.lua" />
 	
 </actions>

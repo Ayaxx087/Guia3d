@@ -9478,6 +9478,50 @@
   <spawn centerx="491" centery="1304" centerz="8" radius="5">
     <monster name="The Old Widow" x="1" y="-2" z="8" spawntime="60"/>
   </spawn>
+  <spawn centerx="690" centery="1308" centerz="8" radius="5">
+    <monster name="MasterDark Apprentice" x="2" y="-1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="669" centery="1315" centerz="8" radius="5"/>
+  <spawn centerx="691" centery="1322" centerz="8" radius="5">
+    <monster name="MasterDark Apprentice" x="-1" y="-3" z="8" spawntime="60"/>
+    <monster name="Master Dark Magician" x="-2" y="-2" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="660" centery="1333" centerz="8" radius="5">
+    <monster name="MasterDark Apprentice" x="-1" y="3" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="708" centery="1338" centerz="8" radius="5">
+    <monster name="MasterDark Apprentice" x="-1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="690" centery="1360" centerz="8" radius="5">
+    <monster name="MasterDark Apprentice" x="1" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="663" centery="1369" centerz="8" radius="5">
+    <monster name="Master Dark Magician" x="0" y="-2" z="8" spawntime="60"/>
+    <monster name="MasterDark Apprentice" x="2" y="-2" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="720" centery="1374" centerz="8" radius="5">
+    <monster name="MasterDark Apprentice" x="2" y="0" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="686" centery="1381" centerz="8" radius="5">
+    <monster name="MasterDark Apprentice" x="1" y="-2" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="702" centery="1383" centerz="8" radius="5">
+    <monster name="MasterDark Apprentice" x="0" y="3" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="718" centery="1392" centerz="8" radius="5">
+    <monster name="MasterDark Apprentice" x="-3" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="674" centery="1394" centerz="8" radius="5">
+    <monster name="MasterDark Apprentice" x="2" y="0" z="8" spawntime="60"/>
+    <monster name="Master Dark Magician" x="4" y="2" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="691" centery="1401" centerz="8" radius="5">
+    <monster name="MasterDark Apprentice" x="3" y="1" z="8" spawntime="60"/>
+  </spawn>
+  <spawn centerx="718" centery="1402" centerz="8" radius="5">
+    <monster name="MasterDark Apprentice" x="1" y="-2" z="8" spawntime="60"/>
+    <monster name="MasterDark Apprentice" x="3" y="-1" z="8" spawntime="60"/>
+  </spawn>
   <spawn centerx="523" centery="1463" centerz="8" radius="5">
     <monster name="Dragon Lord" x="1" y="-3" z="8" spawntime="60"/>
   </spawn>
@@ -12020,6 +12064,49 @@
   <spawn centerx="398" centery="1297" centerz="9" radius="5">
     <monster name="Ancient Scarab" x="-3" y="0" z="9" spawntime="60"/>
     <monster name="Ancient Scarab" x="0" y="2" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="696" centery="1315" centerz="9" radius="5">
+    <monster name="Master Dark Magician" x="-2" y="-4" z="9" spawntime="60"/>
+    <monster name="Master Dark Magician" x="1" y="-4" z="9" spawntime="60"/>
+    <monster name="Master Dark Magician" x="0" y="-3" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="669" centery="1334" centerz="9" radius="5">
+    <monster name="MasterDark Apprentice" x="-1" y="-2" z="9" spawntime="60"/>
+    <monster name="Master Dark Magician" x="0" y="-2" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="724" centery="1335" centerz="9" radius="5">
+    <monster name="Master Dark Magician" x="-2" y="-3" z="9" spawntime="60"/>
+    <monster name="MasterDark Apprentice" x="1" y="-3" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="694" centery="1345" centerz="9" radius="5">
+    <monster name="Master Dark Magician" x="2" y="-3" z="9" spawntime="60"/>
+    <monster name="Master Dark Magician" x="3" y="-2" z="9" spawntime="60"/>
+    <monster name="MasterDark Apprentice" x="2" y="0" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="707" centery="1356" centerz="9" radius="5">
+    <monster name="MasterDark Apprentice" x="-2" y="-1" z="9" spawntime="60"/>
+    <monster name="Master Dark Magician" x="3" y="0" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="661" centery="1358" centerz="9" radius="5">
+    <monster name="MasterDark Apprentice" x="2" y="1" z="9" spawntime="60"/>
+    <monster name="Master Dark Magician" x="3" y="2" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="718" centery="1365" centerz="9" radius="5">
+    <monster name="Master Dark Magician" x="0" y="2" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="682" centery="1372" centerz="9" radius="5">
+    <monster name="MasterDark Apprentice" x="-1" y="-1" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="719" centery="1377" centerz="9" radius="5">
+    <monster name="MasterDark Apprentice" x="-1" y="2" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="701" centery="1381" centerz="9" radius="5">
+    <monster name="Master Dark Magician" x="-1" y="0" z="9" spawntime="60"/>
+    <monster name="MasterDark Apprentice" x="-2" y="3" z="9" spawntime="60"/>
+  </spawn>
+  <spawn centerx="659" centery="1386" centerz="9" radius="5">
+    <monster name="MasterDark Apprentice" x="-1" y="-2" z="9" spawntime="60"/>
+    <monster name="MasterDark Apprentice" x="-2" y="2" z="9" spawntime="60"/>
   </spawn>
   <spawn centerx="483" centery="1466" centerz="9" radius="5">
     <monster name="Dragon Lord" x="1" y="-3" z="9" spawntime="60"/>
