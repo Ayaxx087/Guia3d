@@ -108,7 +108,23 @@ function onUse(cid, item, frompos, item2, topos)
 
 		else
 			doPlayerSendTextMessage(cid,22,"Sorry, it is empty.")
-		end			
+		end
+		
+	elseif item.actionid == 65046 then -- key to darks magicians
+		queststatus = getPlayerStorageValue(cid,65046)
+		if queststatus == -1 or queststatus == 0 then
+			doPlayerSendTextMessage(cid,22,"You have found a treasure inside.")
+			doSendMagicEffect(topos,12)
+			
+			fetish_uid = doPlayerAddItem(cid,2090,1)
+			doSetItemSpecialDescription(fetish_uid, "The magic key to the magician's cave.")
+			doSetItemActionId(fetish_uid,229)
+			
+			setPlayerStorageValue(cid,65046,1)
+
+		else
+			doPlayerSendTextMessage(cid,22,"Sorry, it is empty.")
+		end		
 
 		
 	else
