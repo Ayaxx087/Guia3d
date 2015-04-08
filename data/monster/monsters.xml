@@ -373,6 +373,9 @@
 	<!-- Bosses -->
 	<monster name="Hellgorak" file="tatuy/new/hellgorak.xml"/>
 	
+	<monster name="Energy Elemental" file="8.22/Energy Elemental.xml"/>
+	<monster name="Bonebeast" file="bone beast.xml" />
+	
 	<!-- Editeds -->
 	<monster name="Quara Hydromancer Scout" file="tatuy/edited/Quara hydromancer scout.xml"/>
 	<monster name="Quara Mantassin Scout" file="tatuy/edited/Quara mantassin scout.xml"/>

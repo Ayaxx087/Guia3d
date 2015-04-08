@@ -204,6 +204,33 @@ function onStepIn(cid, item, pos)
 		doSendMagicEffect(newpos,12)
                 doPlayerSetTown(cid,29) --Paradise Island
 		end
+		
+		elseif item.actionid == 50030 then
+		if isPlayer(cid) == TRUE then
+		newpos = {x=381, y=1320, z=6}
+		doPlayerSendTextMessage(cid,22,"Now you are a citizen of Asgard.")
+		doTeleportThing(cid,newpos)
+		doSendMagicEffect(newpos,12)
+                doPlayerSetTown(cid,30) --Asgard
+		end
+		
+		elseif item.actionid == 50031 then
+		if isPlayer(cid) == TRUE then
+		newpos = {x=614, y=1188, z=7}
+		doPlayerSendTextMessage(cid,22,"Now you are a citizen of Valhalla.")
+		doTeleportThing(cid,newpos)
+		doSendMagicEffect(newpos,12)
+                doPlayerSetTown(cid,31) --Valhalla
+		end
+		
+		elseif item.actionid == 50032 then
+		if isPlayer(cid) == TRUE then
+		newpos = {x=422, y=1431, z=6}
+		doPlayerSendTextMessage(cid,22,"Now you are a citizen of Hilan.")
+		doTeleportThing(cid,newpos)
+		doSendMagicEffect(newpos,12)
+                doPlayerSetTown(cid,32) --Hilan
+		end
 
 	else
 		return false
