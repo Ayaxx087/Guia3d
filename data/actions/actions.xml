@@ -2055,4 +2055,8 @@
 	
 	<action actionid="65037" script="tatuy/asgardtravelkey.lua" />
 	
+	<action actionid="65038" script="tatuy/asgardquests.lua" />
+	<action actionid="65039" script="tatuy/asgardquests.lua" />
+	<action actionid="65040" script="tatuy/asgardquests.lua" />
+	
 </actions>

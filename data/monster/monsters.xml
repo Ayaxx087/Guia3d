@@ -372,4 +372,22 @@
 	
 	<!-- Bosses -->
 	<monster name="Hellgorak" file="tatuy/new/hellgorak.xml"/>
+	
+	<!-- Editeds -->
+	<monster name="Quara Hydromancer Scout" file="tatuy/edited/Quara hydromancer scout.xml"/>
+	<monster name="Quara Mantassin Scout" file="tatuy/edited/Quara mantassin scout.xml"/>
+	<monster name="Quara Pincher Scout" file="tatuy/edited/Quara pincher scout.xml"/>
+	<monster name="Quara Predator Scout" file="tatuy/edited/Quara predator scout.xml"/>
+	
+	<monster name="Amenhotep I" file="tatuy/edited/Amenhotep I.xml"/>
+	<monster name="Khafra" file="tatuy/edited/Khafra.xml"/>
+	<monster name="Khufu" file="tatuy/edited/Khufu.xml"/>
+	<monster name="Thutmose III" file="tatuy/edited/Thutmose III.xml"/>
+	
+	<monster name="Earth Elemental Scout" file="tatuy/edited/earth elemental scout.xml"/>
+	<monster name="Massive Earth Elemental Scout" file="tatuy/edited/massive earth elemental scout.xml"/>
+	
+	<monster name="Lizard High Guard Elite" file="tatuy/edited/lizard high guard elite.xml"/>
+	<monster name="Lizard Legionnaire Elite" file="tatuy/edited/lizard legionnaire elite.xml"/>
+	<monster name="Lizard Zaogun Elite" file="tatuy/edited/lizard zaogun elite.xml"/>
 </monsters>
