@@ -13845,6 +13845,19 @@
     <monster name="Minotaur archer" x="-8" y="1" z="10" spawntime="180"/>
     <monster name="Minotaur guard" x="-4" y="1" z="10" spawntime="180"/>
   </spawn>
+  <spawn centerx="665" centery="1322" centerz="10" radius="5">
+    <monster name="Master Dark Magician" x="5" y="-5" z="10" spawntime="60"/>
+    <monster name="Master Dark Magician" x="-4" y="-3" z="10" spawntime="60"/>
+    <monster name="Master Dark Magician" x="5" y="0" z="10" spawntime="60"/>
+    <monster name="Master Dark Magician" x="-4" y="2" z="10" spawntime="60"/>
+    <monster name="Master Dark Magician" x="0" y="2" z="10" spawntime="60"/>
+    <monster name="MasterDark Apprentice" x="-1" y="5" z="10" spawntime="60"/>
+    <monster name="MasterDark Apprentice" x="1" y="5" z="10" spawntime="60"/>
+  </spawn>
+  <spawn centerx="667" centery="1334" centerz="10" radius="5">
+    <monster name="Master Dark Magician" x="0" y="-1" z="10" spawntime="60"/>
+    <monster name="Master Dark Magician" x="-4" y="0" z="10" spawntime="60"/>
+  </spawn>
   <spawn centerx="211" centery="54" centerz="11" radius="22">
     <monster name="Fury" x="-14" y="-13" z="11" spawntime="360"/>
     <monster name="Minishabaal" x="-16" y="-3" z="11" spawntime="360"/>
