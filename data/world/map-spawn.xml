@@ -9433,6 +9433,7 @@
     <monster name="Ancient Scarab" x="-2" y="-5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="437" centery="1270" centerz="8" radius="5">
+    <monster name="The Old Widow" x="-1" y="-1" z="8" spawntime="60"/>
     <monster name="The Old Widow" x="2" y="1" z="8" spawntime="60"/>
     <monster name="The Old Widow" x="4" y="1" z="8" spawntime="60"/>
   </spawn>
@@ -9442,6 +9443,7 @@
   </spawn>
   <spawn centerx="445" centery="1279" centerz="8" radius="5">
     <monster name="The Old Widow" x="1" y="3" z="8" spawntime="60"/>
+    <monster name="The Old Widow" x="-5" y="5" z="8" spawntime="60"/>
   </spawn>
   <spawn centerx="481" centery="1280" centerz="8" radius="5">
     <monster name="The Old Widow" x="-2" y="0" z="8" spawntime="60"/>
