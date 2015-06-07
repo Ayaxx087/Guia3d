@@ -125,14 +125,14 @@ defensive_pz_lock = true
 -- How many players you need to kill to gain a red skull per day/week/month
 -- Set 0 to disable
 kills_per_day_red_skull = 6
-kills_per_week_red_skull = 25
-kills_per_month_red_skull = 0
+kills_per_week_red_skull = 10
+kills_per_month_red_skull = 20
 
 -- How many players you need to kill to gain a black skull per day/week/month
 -- Set 0 to disable
-kills_per_day_black_skull = 10
-kills_per_week_black_skull = 31
-kills_per_month_black_skull = 0
+kills_per_day_black_skull = 12
+kills_per_week_black_skull = 20
+kills_per_month_black_skull = 40
 
 -- Broadcast violation window banishments
 broadcast_banishments = "no"
