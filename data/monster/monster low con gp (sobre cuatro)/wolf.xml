@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<monster name="spider" nameDescription="a spider" race="VENOM" experience="63" speed="152" manacost="210">
-  <health now="20" max="20"/>
-  <look type="30" head="20" body="30" legs="40" feet="50" corpse="5961"/>
+<monster name="wolf" nameDescription="a wolf" race="blood" experience="60" speed="184" manacost="255">
+  <health now="25" max="25"/>
+  <look type="27" head="20" body="30" legs="40" feet="50" corpse="5968"/>
   <targetchange interval="2000" chance="0"/>
   <strategy attack="100" defense="0"/>
   <flags>
@@ -15,17 +15,17 @@
     <flag canpushcreatures="0"/>
     <flag targetdistance="1"/>
     <flag staticattack="90"/>
-    <flag runonhealth="6"/>
+    <flag runonhealth="8"/>
   </flags>
   <attacks>
-    <attack name="melee" interval="2000" skill="19" attack="7"/>
+    <attack name="melee" interval="2000" skill="19" attack="12"/>
   </attacks>
-  <defenses armor="2" defense="2"/>
+  <defenses armor="1" defense="4"/>
   <immunities>
     <immunity physical="0"/>
     <immunity energy="0"/>
     <immunity fire="0"/>
-    <immunity poison="1"/>
+    <immunity poison="0"/>
     <immunity lifedrain="0"/>
     <immunity paralyze="0"/>
     <immunity outfit="0"/>
@@ -37,9 +37,8 @@
     <immunity earth="0"/>
   </immunities>
   <loot>
-    <item id="2148" countmax="25" chance1="100000" chancemax="0"/>
-    <item id="2148" countmax="25" chance1="100000" chancemax="0"/>
     <item id="3976" countmax="10" chance1="50000" chancemax="0"/>
-    <item id="2148" countmax="5" chance1="90000" chancemax="0"/>
+    <item id="2666" countmax="3" chance1="90000" chancemax="0"/>
+    <item id="5897" countmax="1" chance1="6666" chancemax="0"/>
   </loot>
 </monster>
