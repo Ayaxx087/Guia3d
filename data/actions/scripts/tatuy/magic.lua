@@ -5,7 +5,7 @@ function onUse(cid, item, frompos, item2, topos)
 	 	doTransformItem(item.uid,1945)
 	end
 	
-	local mana = 1000
+	local mana = 10000
 	doSendMagicEffect(topos,12)
 	doPlayerAddManaSpent(cid, mana)
 	
