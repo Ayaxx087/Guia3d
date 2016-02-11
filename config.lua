@@ -124,15 +124,15 @@ defensive_pz_lock = true
 
 -- How many players you need to kill to gain a red skull per day/week/month
 -- Set 0 to disable
-kills_per_day_red_skull = 6
-kills_per_week_red_skull = 10
-kills_per_month_red_skull = 20
+kills_per_day_red_skull = 5
+kills_per_week_red_skull = 25
+kills_per_month_red_skull = 75
 
 -- How many players you need to kill to gain a black skull per day/week/month
 -- Set 0 to disable
-kills_per_day_black_skull = 12
-kills_per_week_black_skull = 20
-kills_per_month_black_skull = 40
+kills_per_day_black_skull = 15
+kills_per_week_black_skull = 60
+kills_per_month_black_skull = 150
 
 -- Broadcast violation window banishments
 broadcast_banishments = "no"
@@ -168,9 +168,9 @@ experience_stages = true
 -- rates (experience, skill, magic level, loot and spawn)
 rate_exp = 1
 rate_exp_pvp = 0
-rate_skill = 3
-rate_mag = 1
-rate_loot = 1
+rate_skill = 20
+rate_mag = 5
+rate_loot = 2
 rate_spawn = 1
 
 --Displays the skill advanced to when advancing in skills (melee) [default: "no"]
@@ -330,8 +330,8 @@ lua_excepted_type_errors_enabled = false
 guild_wars_end_only_on_startup = true
 
 -- motd (the message box that you sometimes get before you choose characters)
-motd = "Welcome to the Ultima Alianza Tibia RPG ONLINE: \n \n www.uatibia.com \n\n Follow us in facebook www.facebook.com/uatibia and get the official \n source for news, tips and good assistance for the game. \n\n The Administration."
-motdnum = "1"
+motd = "Welcome to the Ultima Alianza Tibia RPG ONLINE: \n \n www.uatibia.com \n\n Follow us in facebook www.facebook.com/uatibia and get the official \n source for news, tips and good assistance for the game.\n\n *¡Event: extra bonus rate of experience, skills, ml and loot! \n\n The Administration."
+motdnum = "2"
 
 -- login message
 loginmsg = "Welcome to the UATibia RPG online, for get the official source for news and more info, visit: http://www.uatibia.com"
