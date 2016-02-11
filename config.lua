@@ -170,7 +170,7 @@ rate_exp = 1
 rate_exp_pvp = 0
 rate_skill = 20
 rate_mag = 5
-rate_loot = 2
+rate_loot = 1
 rate_spawn = 1
 
 --Displays the skill advanced to when advancing in skills (melee) [default: "no"]
@@ -330,8 +330,8 @@ lua_excepted_type_errors_enabled = false
 guild_wars_end_only_on_startup = true
 
 -- motd (the message box that you sometimes get before you choose characters)
-motd = "Welcome to the Ultima Alianza Tibia RPG ONLINE: \n \n www.uatibia.com \n\n Follow us in facebook www.facebook.com/uatibia and get the official \n source for news, tips and good assistance for the game.\n\n *¡Event: extra bonus rate of experience, skills, ml and loot! \n\n The Administration."
-motdnum = "2"
+motd = "Welcome to the Ultima Alianza Tibia RPG ONLINE: \n \n www.uatibia.com \n\n Follow us in facebook www.facebook.com/uatibia and get the official \n source for news, tips and good assistance for the game.\n\n *¡Event: extra bonus rate of experience and skills! \n\n The Administration."
+motdnum = "3"
 
 -- login message
 loginmsg = "Welcome to the UATibia RPG online, for get the official source for news and more info, visit: http://www.uatibia.com"

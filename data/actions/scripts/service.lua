@@ -228,7 +228,7 @@ function onUse(cid, item, frompos, item2, topos)
 	elseif item.actionid == 2401 then ------------greatspiritpotionx20
 		giveItemToPlayer(cid, 8472, 20, 3800, topos)
 	elseif item.actionid == 2402 then ------------15 days premmy scroll
-		giveItemToPlayer(cid, 12466, 1, 350000, topos)
+		giveItemToPlayer(cid, 12466, 1, 1000000, topos)
 	elseif item.actionid == 2403 then ------------assassin starsx100
 		giveItemToPlayer(cid, 7368, 100, 14000, topos)	
 	elseif item.actionid == 2404 then ------------infernal boltx100
