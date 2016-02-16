@@ -18,5 +18,106 @@
 	<globalevent name="startup" type="startup" script="startup.lua"/>
 	-->
 	
-	<globalevent name="Server Save" time="09:00:00" script="serversave.lua"/>
+	<!--<globalevent name="Server Save" time="09:00:00" script="serversave.lua"/>-->
+	<globalevent name="Server Save1" time="00:00:00" script="serversave2.lua"/>
+	<globalevent name="Server Save2" time="06:00:00" script="serversave2.lua"/>
+	<globalevent name="Server Save3" time="12:00:00" script="serversave2.lua"/>
+	<globalevent name="Server Save4" time="18:00:00" script="serversave2.lua"/>
+
+	<globalevent name="Server Save5" time="00:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save6" time="00:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save7" time="00:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save8" time="01:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save9" time="01:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save10" time="01:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save11" time="01:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save12" time="02:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save13" time="02:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save14" time="02:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save15" time="02:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save16" time="03:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save17" time="03:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save18" time="03:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save19" time="03:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save20" time="04:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save21" time="04:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save22" time="04:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save23" time="04:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save24" time="05:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save25" time="05:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save26" time="05:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save27" time="05:45:00" script="littleserversave2.lua"/>
+	
+	<globalevent name="Server Save28" time="06:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save29" time="06:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save30" time="06:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save31" time="07:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save32" time="07:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save33" time="07:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save34" time="07:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save35" time="08:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save36" time="08:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save37" time="08:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save38" time="08:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save39" time="09:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save40" time="09:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save41" time="09:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save42" time="09:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save43" time="10:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save44" time="10:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save45" time="10:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save46" time="10:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save47" time="11:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save48" time="11:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save49" time="11:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save50" time="11:45:00" script="littleserversave2.lua"/>
+
+	<globalevent name="Server Save51" time="12:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save52" time="12:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save53" time="12:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save54" time="13:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save55" time="13:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save56" time="13:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save57" time="13:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save58" time="14:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save59" time="14:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save60" time="14:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save61" time="14:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save62" time="15:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save63" time="15:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save64" time="15:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save65" time="15:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save66" time="16:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save67" time="16:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save68" time="16:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save69" time="16:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save70" time="17:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save71" time="17:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save72" time="17:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save73" time="17:45:00" script="littleserversave2.lua"/>
+
+	<globalevent name="Server Save74" time="18:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save75" time="18:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save76" time="18:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save77" time="19:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save78" time="19:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save79" time="19:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save80" time="19:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save81" time="20:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save82" time="20:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save83" time="20:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save84" time="20:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save85" time="21:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save86" time="21:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save87" time="21:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save88" time="21:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save89" time="22:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save90" time="22:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save91" time="22:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save92" time="22:45:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save93" time="23:00:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save94" time="23:15:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save95" time="23:30:00" script="littleserversave2.lua"/>
+	<globalevent name="Server Save96" time="23:45:00" script="littleserversave2.lua"/>
+
 </globalevents>
