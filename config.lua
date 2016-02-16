@@ -356,7 +356,7 @@ allowclones = false
 checkaccounts = false
 
 -- max number of players allowed
-maxplayers = "13"
+maxplayers = "890"
 
 -- save client debug assertion reports
 -- to use this option you have to create file called client_assertions.txt and make sure after client crash to change IP to otserv one then click "send".
