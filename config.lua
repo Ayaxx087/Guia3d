@@ -23,10 +23,10 @@ mapkind = "OTBM"
 servername = "UATibia"
 
 -- server location
-location = "USA"
+location = "Spain"
 
 -- server ip (the ip that server listens on)
-ip = "192.227.134.202"
+ip = "185.115.241.59"
 
 -- login server port
 -- This should be the port used for connecting with IP changers etc.
@@ -111,10 +111,10 @@ premonlybeds = false
 use_balance_house_paying = false
 
 -- How long time the red skull will last in seconds (default 30 days)
-red_skull_duration = 7*24*60*60
+red_skull_duration = 3*24*60*60
 
 -- How long time the black skull will last in seconds (default 45 days)
-black_skull_duration = 15*24*60*60
+black_skull_duration = 7*24*60*60
 
 -- White skull duration, how long a player will get pz locked/white skull
 unjust_skull_duration = 15*60*1000
@@ -124,15 +124,15 @@ defensive_pz_lock = true
 
 -- How many players you need to kill to gain a red skull per day/week/month
 -- Set 0 to disable
-kills_per_day_red_skull = 5
-kills_per_week_red_skull = 25
-kills_per_month_red_skull = 75
+kills_per_day_red_skull = 3
+kills_per_week_red_skull = 21
+kills_per_month_red_skull = 90
 
 -- How many players you need to kill to gain a black skull per day/week/month
 -- Set 0 to disable
-kills_per_day_black_skull = 15
-kills_per_week_black_skull = 60
-kills_per_month_black_skull = 150
+kills_per_day_black_skull = 6
+kills_per_week_black_skull = 42
+kills_per_month_black_skull = 180
 
 -- Broadcast violation window banishments
 broadcast_banishments = "no"
@@ -147,30 +147,30 @@ final_banishment_length = 30*86400 --seconds
 ip_banishment_length = 86400 --seconds
 
 -- Extra experience % per player when sharing experience
-party_exp_mul = 40
+party_exp_mul = 15
 
 -- Anti-MageBomb system
 -- This system works as in Tibia, time in milliseconds
-login_attack_delay = 2*1000
+login_attack_delay = 1000
 
 -- AFK Configuration (in milliseconds, but use values for minutes)
 -- Maximum time a player can stay away from keyboard before being kicked
-max_idle_time = 16*60*1000*100
+max_idle_time = 1501*60*1000
 -- Player will be warned about being kicked at this time
-max_idle_time_warning = 15*60*1000*100
+max_idle_time_warning = 1500*60*1000
 
 -- Should just premium players be able to use addons?
 addons_only_for_premium = false
 
 -- Exp Stages configuration is in /data/exp_stages.lua
-experience_stages = true
+experience_stages = false
 
 -- rates (experience, skill, magic level, loot and spawn)
-rate_exp = 1
+rate_exp = 3
 rate_exp_pvp = 0
-rate_skill = 20
-rate_mag = 5
-rate_loot = 2
+rate_skill = 6
+rate_mag = 3
+rate_loot = 1
 rate_spawn = 1
 
 --Displays the skill advanced to when advancing in skills (melee) [default: "no"]
@@ -201,10 +201,10 @@ height_minimum_for_idle = 3
 
 -- Stamina Configuration
 -- Gain stamina rate - 1 second offline = X milliseconds of stamina
-rate_stamina_gain = 1002
+rate_stamina_gain = 334
 -- Slow gain stamina rate. This is used if you are gaining stamina that gives extra experience
 -- 1 second offline = X milliseconds of stamina
-slow_rate_stamina_gain = 600
+slow_rate_stamina_gain = 100
 -- Loss stamina rate - works as other rates
 rate_stamina_loss = 1
 -- For how many milliseconds (from 42 hours) you get extra experience from monsters
@@ -278,7 +278,7 @@ fist_strength = 14
 guild_war_fee = 1000
 
 -- Allow gamemaster multiclient login to everybody?
-allow_gamemaster_multiclient = false
+allow_gamemaster_multiclient = true
 
 -- despawn configs
 -- how many floors can a monster go from his spawn before despawning
@@ -297,7 +297,7 @@ can_pass_through = true
 magic_wall_disappear_on_walk = true
 
 --players with a level smaller than this number can't be attacked by other players. Set it to to 0 to disable
-min_pvp_level = 35
+min_pvp_level = 50
 
 --how much % of the total damage players actually receive when attacked by other players?
 pvp_damage = 50
@@ -330,11 +330,11 @@ lua_excepted_type_errors_enabled = false
 guild_wars_end_only_on_startup = true
 
 -- motd (the message box that you sometimes get before you choose characters)
-motd = "Welcome to the Ultima Alianza Tibia RPG ONLINE: \n \n www.uatibia.com \n\n Follow us in facebook www.facebook.com/uatibia and get the official \n source for news, tips and good assistance for the game.\n\n *¡Event: extra bonus rate of experience, ml, skills and loot! \n\n The Administration."
-motdnum = "4"
+motd = "Welcome to Ultima Alianza Tibia Guia3d RPG ONLINE: \n \n www.uatibia.com \n\n Follow us in facebook www.facebook.com/uatibia and get the official \n source for news, tips and good assistance for the game.\n\n *Have fun! \n\n\n The Administration."
+motdnum = "1"
 
 -- login message
-loginmsg = "Welcome to the UATibia RPG online, for get the official source for news and more info, visit: http://www.uatibia.com"
+loginmsg = "Welcome to the UATibia Guia3d RPG online, for get the official source for news and more info, visit: http://www.uatibia.com"
 
 -- how many logins attempts until ip is temporary disabled
 -- set to 0 to disable
@@ -356,7 +356,7 @@ allowclones = false
 checkaccounts = false
 
 -- max number of players allowed
-maxplayers = "890"
+maxplayers = "900"
 
 -- save client debug assertion reports
 -- to use this option you have to create file called client_assertions.txt and make sure after client crash to change IP to otserv one then click "send".
@@ -388,7 +388,7 @@ show_house_prices = true
 
 -- max packets per second to elemeniate spamming of packets to server 
 -- 0 disabled
-max_packets_per_second = 0
+max_packets_per_second = 75
 
 
 -- SQL type
