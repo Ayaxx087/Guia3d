@@ -66,7 +66,7 @@ function onLogin(cid)
 		--end
 		
 		--Register Premmy
-		registerCreatureEvent(cid, "Premmy")
+		--registerCreatureEvent(cid, "Premmy")
 		
 	--End Guia3d
 	

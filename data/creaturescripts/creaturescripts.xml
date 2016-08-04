@@ -11,7 +11,7 @@
 	<event type="kill" name="KILLMESSAGES" script="guia3d/kill.lua" />	
 	<event type="kill" name="PKRedKill" script="guia3d/killpkred.lua" />
 	<event name="RemoveBless" type="die" script="guia3d/removebless.lua"/>
-	<event name="Premmy" type="advance" script="guia3d/premmy.lua"/>
+	<!--<event name="Premmy" type="advance" script="guia3d/premmy.lua"/>-->
 	<!-- End Guia3d -->
 	
 </creaturescripts>
