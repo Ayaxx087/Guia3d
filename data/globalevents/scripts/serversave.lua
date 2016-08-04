@@ -17,11 +17,11 @@ local function secondServerSaveWarning()
         doTatuyBroadcastMessage("Server is saving game. The server will be open again in a moment.")
 		doSetGameState(GAME_STATE_CLOSED)
 		if doSaveServer(true) then
-			doTatuyBroadcastMessage("SAVED! the server will close in 20 seconds...")
+			doTatuyBroadcastMessage("SAVED! the server will close in 10 seconds...")
 		else
 			doTatuyBroadcastMessage("Server could not be saved. Please report this to an GM.")
 		end
-        addEvent(serverSave, 20000)
+        addEvent(serverSave, 10000)
 end
 
 local function firstServerSaveWarning()
