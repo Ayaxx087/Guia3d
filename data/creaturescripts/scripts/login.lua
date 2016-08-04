@@ -32,6 +32,7 @@ function onLogin(cid)
 		local premmystatus = getPlayerStorageValue(cid,65019)
 		--[[ Free premium para todos los nivel 60+ ]]
 		if (premmystatus == -1 or premmystatus == 0) then
+			if (getPlayerLevel(cid) > 34) then
 				local name = getCreatureName(cid)
 				local player = getPlayerByName(name)
 				doPlayerSendTextMessage(cid, MESSAGE_STATUS_CONSOLE_BLUE, "You have received 7 days of premium account. Please login again.")
