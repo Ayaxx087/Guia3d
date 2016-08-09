@@ -18,8 +18,8 @@
 	<globalevent name="startup" type="startup" script="startup.lua"/>
 	-->
 	
-	<globalevent name="Server Save" time="09:00:00" script="serversave.lua"/>
-	<!--<globalevent name="Server Save1" time="00:00:00" script="serversave2.lua"/>
+	<!--<globalevent name="Server Save" time="09:00:00" script="serversave.lua"/>-->
+	<globalevent name="Server Save1" time="00:00:00" script="serversave2.lua"/>
 	<globalevent name="Server Save2" time="06:00:00" script="serversave2.lua"/>
 	<globalevent name="Server Save3" time="12:00:00" script="serversave2.lua"/>
 	<globalevent name="Server Save4" time="18:00:00" script="serversave2.lua"/>
@@ -118,6 +118,6 @@
 	<globalevent name="Server Save93" time="23:00:00" script="littleserversave2.lua"/>
 	<globalevent name="Server Save94" time="23:15:00" script="littleserversave2.lua"/>
 	<globalevent name="Server Save95" time="23:30:00" script="littleserversave2.lua"/>
-	<globalevent name="Server Save96" time="23:45:00" script="littleserversave2.lua"/>-->
+	<globalevent name="Server Save96" time="23:45:00" script="littleserversave2.lua"/>
 
 </globalevents>
