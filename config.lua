@@ -124,15 +124,15 @@ defensive_pz_lock = true
 
 -- How many players you need to kill to gain a red skull per day/week/month
 -- Set 0 to disable
-kills_per_day_red_skull = 3
-kills_per_week_red_skull = 21
-kills_per_month_red_skull = 90
+kills_per_day_red_skull = 4
+kills_per_week_red_skull = 28
+kills_per_month_red_skull = 120
 
 -- How many players you need to kill to gain a black skull per day/week/month
 -- Set 0 to disable
-kills_per_day_black_skull = 6
-kills_per_week_black_skull = 42
-kills_per_month_black_skull = 180
+kills_per_day_black_skull = 7
+kills_per_week_black_skull = 49
+kills_per_month_black_skull = 210
 
 -- Broadcast violation window banishments
 broadcast_banishments = "no"
@@ -170,8 +170,8 @@ rate_exp = 3
 rate_exp_pvp = 0
 rate_skill = 6
 rate_mag = 3
-rate_loot = 1
-rate_spawn = 1
+rate_loot = 2
+rate_spawn = 2
 
 --Displays the skill advanced to when advancing in skills (melee) [default: "no"]
 --Example: "You advanced to sword fighting 17. "
