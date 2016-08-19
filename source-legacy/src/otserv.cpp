@@ -223,8 +223,7 @@ int main(int argc, char** argv)
 
 #if !defined(__WINDOWS__) && !defined(__ROOT_PERMISSION__)
 	if( getuid() == 0 || geteuid() == 0 ){
-		std::cout << std::endl << "OTServ executed as root user, please login with a normal user." << std::endl;
-		return 1;
+		std::cout << std::endl << "Warning: OTServ has been executed as root user, please consider running it as a normal user.." << std::endl;
 	}
 #endif
 
