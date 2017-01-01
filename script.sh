@@ -1,2 +1,2 @@
-while true; do ./otserv; done
+while true; do ./otserv64; done
 exit
