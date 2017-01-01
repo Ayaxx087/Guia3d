@@ -26,7 +26,7 @@ servername = "UATibia"
 location = "Spain"
 
 -- server ip (the ip that server listens on)
-ip = "104.131.22.55"
+ip = "104.236.233.249"
 
 -- login server port
 -- This should be the port used for connecting with IP changers etc.
