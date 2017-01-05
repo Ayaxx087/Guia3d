@@ -201,10 +201,10 @@ height_minimum_for_idle = 3
 
 -- Stamina Configuration
 -- Gain stamina rate - 1 second offline = X milliseconds of stamina
-rate_stamina_gain = 334
+rate_stamina_gain = 1002
 -- Slow gain stamina rate. This is used if you are gaining stamina that gives extra experience
 -- 1 second offline = X milliseconds of stamina
-slow_rate_stamina_gain = 100
+slow_rate_stamina_gain = 300
 -- Loss stamina rate - works as other rates
 rate_stamina_loss = 1
 -- For how many milliseconds (from 42 hours) you get extra experience from monsters
