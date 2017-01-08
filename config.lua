@@ -310,7 +310,7 @@ pvp_damage_at_black_skulls = 150
 min_pvp_level_applies_to_summons = true
 
 -- How many milliseconds (1 sec = 1000) we should wait until the player will be pushed by another player.
-push_interval = 1000
+push_interval = 500
 
 -- How many milliseconds a player should wait until he can move another item after moving one (0 disables it)
 move_item_interval = 500
