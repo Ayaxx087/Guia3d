@@ -322,6 +322,7 @@
 --movevent event="StepIn" itemid="5024" script="blue_teleport.lua" --
 <movevent event="StepIn" actionid="50000" script="roogaard.lua" />
 <movevent event="StepIn" actionid="55001" script="tatuy/poi.lua" />
+<movevent event="StepIn" actionid="55002" script="tatuy/asgard.lua" />
 
 --movevent event="StepIn" itemid="1423" script="campfire.lua" />
 --movevent event="StepIn" itemid="1424" script="campfire.lua" />
