@@ -1762,6 +1762,7 @@
 <action actionid="40003" script="lvlsdoor30.lua" /> --Door lvls 30
 <action actionid="40004" script="lvlsdoor100.lua" /> --Door lvls 100
 <action actionid="40005" script="lvlsdoor20.lua" /> --Door lvls 20
+<action actionid="40006" script="lvlsdoor200.lua" /> --Door lvls 200
 
 
 
