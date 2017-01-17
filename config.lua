@@ -171,7 +171,7 @@ rate_exp_pvp = 0
 rate_skill = 6
 rate_mag = 3
 rate_loot = 2
-rate_spawn = 5
+rate_spawn = 6
 
 --Displays the skill advanced to when advancing in skills (melee) [default: "no"]
 --Example: "You advanced to sword fighting 17. "
