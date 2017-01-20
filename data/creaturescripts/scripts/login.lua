@@ -69,6 +69,7 @@ function onLogin(cid)
 		--registerCreatureEvent(cid, "Premmy")
 		
 	--End Guia3d
+	registerCreatureEvent(cid, "killinginthenameof")
 	
 	--registerCreatureEvent(cid, "PlayerLook")
 

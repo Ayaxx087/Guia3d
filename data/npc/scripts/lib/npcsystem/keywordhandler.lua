@@ -174,10 +174,13 @@ if(KeywordHandler == nil) then
 		local messageLower = string.lower(message)
 		for i, childNode in pairs(node.children) do
 			if(childNode:checkMessage(messageLower)) then
+				local oldLast = self.lastNode
 				self.lastNode = childNode
 				childNode.parent = node -- Make sure node is the parent of childNode (as one node can be parent to several nodes).
 				if(childNode:processMessage(cid, message)) then
 					return true
+				else
+					self.lastNode = oldLast
 				end
 			end
 		end

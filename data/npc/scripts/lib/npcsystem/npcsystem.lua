@@ -8,10 +8,10 @@
 if(NpcSystem == nil) then
 	
 	-- Loads the underlying classes of the npcsystem.
-	dofile('data/npc/scripts/lib/npcsystem/keywordhandler.lua')
-	dofile('data/npc/scripts/lib/npcsystem/queue.lua')
-	dofile('data/npc/scripts/lib/npcsystem/npchandler.lua')
-	dofile('data/npc/scripts/lib/npcsystem/modules.lua')
+	dofile(getDataDir() .. 'npc/scripts/lib/npcsystem/keywordhandler.lua')
+	dofile(getDataDir() .. 'npc/scripts/lib/npcsystem/queue.lua')
+	dofile(getDataDir() .. 'npc/scripts/lib/npcsystem/npchandler.lua')
+	dofile(getDataDir() .. 'npc/scripts/lib/npcsystem/modules.lua')
 	
 	
 	-- Global npc constants:
@@ -41,11 +41,8 @@ if(NpcSystem == nil) then
 	TAG_TOTALCOST = '|TOTALCOST|'
 	TAG_ITEMNAME = '|ITEMNAME|'
 	TAG_QUEUESIZE = '|QUEUESIZE|'
-	
-	
-	
-	
-	
+	TAG_TIBIATIME = '|TIME|'
+
 	NpcSystem = {
 			--
 		}

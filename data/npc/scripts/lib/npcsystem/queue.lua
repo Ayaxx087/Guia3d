@@ -49,7 +49,7 @@ if(Queue == nil) then
 		return self.customers[1]
 	end
 	
-	-- Returns true if htis queue is empty.
+	-- Returns true if this queue is empty.
 	function Queue:empty()
 		return(self:peek() == nil)
 	end
@@ -90,5 +90,5 @@ if(Queue == nil) then
 		end
 		return false
 	end
-	
+
 end

@@ -14,4 +14,6 @@
 	<!--<event name="Premmy" type="advance" script="guia3d/premmy.lua"/>-->
 	<!-- End Guia3d -->
 	
+	<event name="killinginthenameof" type="kill" script="killinginthenameof.lua"/>
+	
 </creaturescripts>

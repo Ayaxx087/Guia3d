@@ -15,8 +15,6 @@ if(NpcHandler == nil) then
 	-- Currently applied talkdelay behavior. TALKDELAY_ONTHINK is default.
 	NPCHANDLER_TALKDELAY = TALKDELAY_ONTHINK
 	
-	
-	
 	-- Constant indexes for defining default messages.
 	MESSAGE_GREET 		= 1 -- When the player greets the npc.
 	MESSAGE_FAREWELL 	= 2 -- When the player unGreets the npc.
@@ -52,7 +50,7 @@ if(NpcHandler == nil) then
 	TAG_TOTALCOST = '|TOTALCOST|'
 	TAG_ITEMNAME = '|ITEMNAME|'
 	TAG_QUEUESIZE = '|QUEUESIZE|'
-	
+	TAG_TIBIATIME = '|TIME|'
 	
 	NpcHandler = {
 		keywordHandler = nil,
@@ -61,12 +59,12 @@ if(NpcHandler == nil) then
 		talkStart = 0,
 		idleTime = 30,
 		talkRadius = 5,
-		talkDelayTime = 1, -- Seconds to delay outgoing messages.
+		talkDelayTime = 0.0000000000001, -- Seconds to delay outgoing messages.
 		talkDelay = nil,
 		callbackFunctions = nil,
 		modules = nil,
 		messages = {
-				-- These are the default replies of all npcs. They can/should be changed individually for each npc.
+			-- These are the default replies of all npcs. They can/should be changed individually for each npc.
 			[MESSAGE_GREET] 		= 'Welcome, |PLAYERNAME|! I have been expecting you.',
 			[MESSAGE_FAREWELL] 		= 'Good bye, |PLAYERNAME|!',
 			[MESSAGE_BUY] 			= 'Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?',
@@ -76,7 +74,7 @@ if(NpcHandler == nil) then
 			[MESSAGE_NEEDMOREMONEY] = 'You do not have enough money.',
 			[MESSAGE_NOTHAVEITEM] 	= 'You don\'t even have that item!',
 			[MESSAGE_IDLETIMEOUT] 	= 'Next please!',
-			[MESSAGE_WALKAWAY] 		= 'I hope to see you soon!',
+			[MESSAGE_WALKAWAY] 		= 'See you around!',
 			[MESSAGE_ALREADYFOCUSED]= '|PLAYERNAME|, I am already talking to you.',
 			[MESSAGE_PLACEDINQUEUE] = '|PLAYERNAME|, please wait for your turn. There are |QUEUESIZE| customers before you.',
 			[MESSAGE_DECLINE]		= 'Not good enough, is it?'
@@ -384,7 +382,10 @@ if(NpcHandler == nil) then
 			return false
 		end
 		
-		local sx, sy, sz = selfGetPosition()
+		local sx = selfGetPosition().x
+		local sy = selfGetPosition().y
+		local sz = selfGetPosition().z
+
 		local dx = math.abs(sx-playerPos.x)
 		local dy = math.abs(sy-playerPos.y)
 		local dz = math.abs(sz-playerPos.z)
@@ -418,5 +419,13 @@ if(NpcHandler == nil) then
 		self.talkDelay.time = os.time()+self.talkDelayTime
 	end
 	
+	function NpcHandler:story(msg, delay)
+		local npc = getNpcCid()
+		addEvent(NpcSayStories, delay*1000, npc, msg)
+	end	
+
+	function NpcSayStories(npc, msg)
+		doCreatureSay(npc, msg, 1)
+	end
 	
 end

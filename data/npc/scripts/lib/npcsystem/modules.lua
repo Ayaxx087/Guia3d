@@ -9,7 +9,7 @@ if(Modules == nil) then
 	
 	-- default words for greeting and ungreeting the npc. Should be a talbe containing all such words.
 	FOCUS_GREETWORDS = {'hi', 'hello'}
-	FOCUS_FAREWELLWORDS = {'bye', 'farewell', 'cya'}
+	FOCUS_FAREWELLWORDS = {'bye', 'farewell'}
 	
 	-- The word for accepting/declining an offer. CAN ONLY CONTAIN ONE FIELD! Should be a teble with a single string value.
 	SHOP_YESWORD = {'yes'}
@@ -22,7 +22,7 @@ if(Modules == nil) then
 	-- Constants used to separate buying from selling.
 	SHOPMODULE_SELL_ITEM 	= 1
 	SHOPMODULE_BUY_ITEM 	= 2
-	
+	SHOPMODULE_BUY_CONTAINER  = 3
 	
 	Modules = {
 			parseableModules = {}
@@ -32,8 +32,6 @@ if(Modules == nil) then
 	StdModule = {
 		
 		}
-	
-	
 	
 	-- These callback function must be called with parameters.npcHandler = npcHandler in the parameters table or they will not work correctly.
 	-- Notice: The members of StdModule have not yet been tested. If you find any bugs, please report them to me.
@@ -50,6 +48,7 @@ if(Modules == nil) then
 		end
 		local parseInfo = {
 				[TAG_PLAYERNAME] = getPlayerName(cid),
+				[TAG_TIBIATIME] = getTibiaTime(),
 			}
 		msgout = npcHandler:parseMessage(parameters.text or parameters.message, parseInfo)
 		npcHandler:say(msgout)
@@ -64,7 +63,7 @@ if(Modules == nil) then
 	
 	--Usage:
 		-- local node1 = keywordHandler:addKeyword({'promot'}, StdModule.say, {npcHandler = npcHandler, text = 'I can promote you for 20000 gold coins. Do you want me to promote you?'})
-		-- 		node1:addChildKeyword({'yes'}, StdModule.promotePlayer, {npcHandler = npcHandler, promotions = {[1] = 5, [2] = 6, [3] = 7, [4] = 8}, cost = 20000, level = 20}, text = 'Congratulations! You are now promoted.')
+		-- 		node1:addChildKeyword({'yes'}, StdModule.promotePlayer, {npcHandler = npcHandler, cost = 20000, level = 20}, text = 'Congratulations! You are now promoted.')
 		-- 		node1:addChildKeyword({'no'}, StdModule.say, {npcHandler = npcHandler, text = 'Allright then. Come back when you are ready.'}, reset = true)
 	function StdModule.promotePlayer(cid, message, keywords, parameters, node)
 		local npcHandler = parameters.npcHandler
@@ -74,24 +73,83 @@ if(Modules == nil) then
 		if(cid ~= npcHandler.focus) then
 			return false
 		end
-		
-		local oldVoc = getPlayerVocation(cid)
-		if(parameters.promotions[oldVoc] == oldVoc or parameters.promotions[oldVoc] == nil) then
-			npcHandler:say('You are already promoted!')
-		elseif(getPlayerLevel(cid) < parameters.level) then
-			npcHandler:say('I am sorry, but I can only promote you once you have reached level ' .. parameters.level .. '.')
-		elseif(doPlayerRemoveMoney(cid, parameters.cost) ~= TRUE) then
-			npcHandler:say('You do not have enough money!')
+
+		if(isPremium(cid) or isPlayerPremiumCallback == nil or isPlayerPremiumCallback(cid) == true or parameters.premium == false) then
+			local oldVoc = getPlayerVocation(cid)
+			if(parameters.promotions[oldVoc] == oldVoc or parameters.promotions[oldVoc] == nil) then
+				npcHandler:say('You are already promoted!')
+			elseif(getPlayerLevel(cid) < parameters.level) then
+				npcHandler:say('I am sorry, but I can only promote you once you have reached level ' .. parameters.level .. '.')
+			elseif(doPlayerRemoveMoney(cid, parameters.cost) ~= TRUE) then
+				npcHandler:say('You do not have enough money!')
+			else
+				doPlayerSetVocation(cid, parameters.promotions[oldVoc])
+				npcHandler:say(parameters.text)
+			end
 		else
-			doPlayerSetVocation(cid, parameters.promotions[oldVoc])
-			npcHandler:say(parameters.text)
+			npcHandler:say('Sorry, only premium characters are allowed to be promoted.')
 		end
 		
 		npcHandler:resetNpc()
 		return true
 		
 	end
-	
+
+	function StdModule.learnSpell(cid, message, keywords, parameters, node)
+		local npcHandler = parameters.npcHandler
+		if(npcHandler == nil) then
+			error('StdModule.buySpell called without any npcHandler instance.')
+		end
+		if(cid ~= npcHandler.focus) then
+			return false
+		end
+
+		if(isPlayerPremiumCallback == nil or isPlayerPremiumCallback(cid) == true or parameters.premium == false) then
+			if getPlayerLearnedInstantSpell(cid, parameters.spellName) == TRUE then
+				npcHandler:say('You already know this spell.', cid)
+			elseif getPlayerLevel(cid) < parameters.level then
+				npcHandler:say('You need to obtain a level of ' .. parameters.level .. ' or higher to be able to learn ' .. parameters.spellName .. '.', cid)
+			elseif getPlayerVocation(cid) ~= parameters.vocation and getPlayerVocation(cid) ~= parameters.vocation + 4 and vocation ~= 9 then
+				npcHandler:say('This spell is not for your vocation', cid)
+			elseif doPlayerRemoveMoney(cid, parameters.price) == FALSE then
+				npcHandler:say('You do not have enough money, this spell costs ' .. parameters.price .. ' gold.', cid)
+			else
+				npcHandler:say('You have learned ' .. parameters.spellName .. '.', cid)
+				playerLearnInstantSpell(cid, parameters.spellName)
+			end
+		else
+			npcHandler:say('You need a premium account in order to buy ' .. parameters.spellName .. '.', cid)
+		end
+		npcHandler:resetNpc()
+		return true
+	end
+
+	function StdModule.bless(cid, message, keywords, parameters, node)
+		local npcHandler = parameters.npcHandler
+		if(npcHandler == nil) then
+			error('StdModule.bless called without any npcHandler instance.')
+		end
+
+		if(cid ~= npcHandler.focus) then
+			return false
+		end
+
+		if(isPremium(cid) or isPlayerPremiumCallback == nil or isPlayerPremiumCallback(cid) == true or parameters.premium == false) then
+			if getPlayerBlessing(cid, parameters.bless) then
+				npcHandler:say("Gods have already blessed you with this blessing!", cid)
+			elseif doPlayerRemoveMoney(cid, parameters.cost) == FALSE then
+				npcHandler:say("You don't have enough money for blessing.", cid)
+			else
+				npcHandler:say("You have been blessed by one of the five gods!", cid)
+				doPlayerAddBlessing(cid, parameters.bless)
+			end
+		else
+			npcHandler:say('You need a premium account in order to be blessed.', cid)
+		end
+
+		npcHandler:resetNpc()
+		return true
+	end
 	
 	
 	function StdModule.travel(cid, message, keywords, parameters, node)
@@ -103,23 +161,52 @@ if(Modules == nil) then
 			return false
 		end
 		
-		if(isPlayerPremiumCallback == nil or isPlayerPremiumCallback(cid) == true or parameters.premium == false) then
-			if(parameters.level ~= nil and getPlayerLevel(cid) < parameters.level) then
-				npcHandler:say('You must reach level ' .. parameters.level .. ' before I can let you go there.')
-			elseif(doPlayerRemoveMoney(cid, parameters.cost) ~= TRUE) then
-				npcHandler:say('You do not have enough money!')
+		if isPremium(cid) or isPlayerPremiumCallback == nil or isPlayerPremiumCallback(cid) == true or parameters.premium == false then
+			if doPlayerRemoveMoney(cid, parameters.cost) == true then
+				if isPzLocked(cid) == false then
+					doTeleportThing(cid, parameters.destination)
+					doSendMagicEffect(parameters.destination, 10)
+				else
+					npcHandler:say('First get rid of those blood stains! You are not going to ruin my vehicle!')
+				end	
 			else
-				doTeleportThing(cid, parameters.destination)
-				doSendMagicEffect(parameters.destination, 10)
+				npcHandler:say('You do not have enough money!')
 			end
 		else
-			npcHandler:say('I can only allow premium players to travel with me.')
+			npcHandler:say('I\'m sorry, but you need a premium account in order to travel onboard our ships.')
 		end
 		
 		npcHandler:resetNpc()
 		return true
 	end
 	
+
+	function StdModule.bless(cid, message, keywords, parameters, node)
+		local npcHandler = parameters.npcHandler
+		if(npcHandler == nil) then
+			error('StdModule.bless called without any npcHandler instance.')
+		end
+
+		if(cid ~= npcHandler.focus) then
+			return false
+		end
+
+		if(isPremium(cid) or isPlayerPremiumCallback == nil or isPlayerPremiumCallback(cid) == true or parameters.premium == false) then
+			if getPlayerBlessing(cid, parameters.bless) then
+				npcHandler:say("Gods have already blessed you with this blessing!", cid)
+			elseif doPlayerRemoveMoney(cid, parameters.cost) == FALSE then
+				npcHandler:say("You don't have enough money for blessing.", cid)
+			else
+				npcHandler:say("You have been blessed by one of the five gods!", cid)
+				doPlayerAddBlessing(cid, parameters.bless)
+			end
+		else
+			npcHandler:say('You need a premium account in order to be blessed.', cid)
+		end
+
+		npcHandler:resetNpc()
+		return true
+	end
 	
 	
 	FocusModule = {
@@ -589,6 +676,30 @@ if(Modules == nil) then
 		return ret
 	end
 	
+	function ShopModule:buyContainer(names, container, itemid, cost, charges, realname)
+		for i, name in pairs(names) do
+			local parameters = {
+			        container = container,
+					itemid = itemid,
+					cost = cost,
+					charges = charges,
+					eventType = SHOPMODULE_BUY_CONTAINER,
+					module = self
+				}
+			if(realname ~= nil) then
+				parameters.realname = realname
+			end
+			if(isItemRune(itemid) == TRUE or isItemFluidContainer(itemid) == TRUE) then
+				parameters.charges = charges
+			end
+			keywords = {}
+			table.insert(keywords, name)
+			local node = self.npcHandler.keywordHandler:addKeyword(keywords, ShopModule.tradeItem, parameters)
+			node:addChildKeywordNode(self.yesNode)
+			node:addChildKeywordNode(self.noNode)
+		end
+	end	
+	
 	-- Adds a new buyable item. 
 	--	names = A table containing one or more strings of alternative names to this item.
 	--	itemid = the itemid of the buyable item
@@ -662,6 +773,8 @@ if(Modules == nil) then
 		local tmpName = nil
 		if(parameters.eventType == SHOPMODULE_SELL_ITEM) then
 			tmpName = node:getKeywords()[2]
+		elseif(parameters.eventType == SHOPMODULE_BUY_CONTAINER) then
+			tmpName = node:getKeywords()[3]	
 		elseif(parameters.eventType == SHOPMODULE_BUY_ITEM) then
 			tmpName = node:getKeywords()[1]
 		end
@@ -676,6 +789,10 @@ if(Modules == nil) then
 			local msg = module.npcHandler:getMessage(MESSAGE_SELL)
 			msg = module.npcHandler:parseMessage(msg, parseInfo)
 			module.npcHandler:say(msg)
+		elseif(parameters.eventType == SHOPMODULE_BUY_CONTAINER) then
+			local msg = module.npcHandler:getMessage(MESSAGE_BUY)
+			msg = module.npcHandler:parseMessage(msg, parseInfo)
+			selfSay(msg)			
 		elseif(parameters.eventType == SHOPMODULE_BUY_ITEM) then
 			local msg = module.npcHandler:getMessage(MESSAGE_BUY)
 			msg = module.npcHandler:parseMessage(msg, parseInfo)
@@ -712,6 +829,21 @@ if(Modules == nil) then
 				msg = module.npcHandler:parseMessage(msg, parseInfo)
 				module.npcHandler:say(msg)
 			end
+		elseif(parentParameters.eventType == SHOPMODULE_BUY_CONTAINER) then
+			local ret = doPlayerBuyContainer(cid, parentParameters.container, parentParameters.itemid, parentParameters.charges, parentParameters.cost*module.amount, module.amount)
+			if(ret == LUA_NO_ERROR) then
+				local msg = module.npcHandler:getMessage(MESSAGE_ONBUY)
+				msg = module.npcHandler:parseMessage(msg, parseInfo)
+				selfSay(msg)
+			elseif(ret == LUA_ERROR) then
+				local msg = module.npcHandler:getMessage(MESSAGE_NEEDMOREMONEY)
+				msg = module.npcHandler:parseMessage(msg, parseInfo)
+				selfSay(msg)
+			else
+				local msg = module.npcHandler:getMessage(MESSAGE_NEEDMORESPACE)
+				msg = module.npcHandler:parseMessage(msg, parseInfo)
+				selfSay(msg, cid)
+			end			
 		elseif(parentParameters.eventType == SHOPMODULE_BUY_ITEM) then
 			local ret = doPlayerBuyItem(cid, parentParameters.itemid, module.amount, parentParameters.cost*module.amount, parentParameters.charges)
 			if(ret == LUA_NO_ERROR) then
