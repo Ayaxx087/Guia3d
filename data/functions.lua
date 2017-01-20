@@ -1020,5 +1020,5 @@ function doTatuyBroadcastMessage(message)
 end
 
 function isSummon(cid)
-	return getCreatureMaster(cid) ~= cid
+	return (isCreature(cid) == true and (getCreatureMaster(cid) ~= cid)) and true or false
 end
