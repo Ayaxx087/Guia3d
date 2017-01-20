@@ -1018,3 +1018,7 @@ function doTatuyBroadcastMessage(message)
 	end
 	return true
 end
+
+function isSummon(cid)
+	return getCreatureMaster(cid) ~= cid
+end
