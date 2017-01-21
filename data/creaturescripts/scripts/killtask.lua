@@ -3,7 +3,9 @@ local questCreatures =
 	["troll"] = {questStarted = 1510, questStorage = 65000, creatureStorage = 15000, killsRequired = 100, raceName = "Trolls"},
 	["frost troll"] = {questStarted = 1510, questStorage = 65000, creatureStorage = 15001, killsRequired = 100, raceName = "Trolls"},
 	["swamp troll"] = {questStarted = 1510, questStorage = 65000, creatureStorage = 15002, killsRequired = 100, raceName = "Trolls"},
- 
+	["Troll champion"] = {questStarted = 1510, questStorage = 65000, creatureStorage = 15024, killsRequired = 100, raceName = "Trolls"},
+	["Island troll"] = {questStarted = 1510, questStorage = 65000, creatureStorage = 15025, killsRequired = 100, raceName = "Trolls"},
+	
 	["goblin"] = {questStarted = 1511, questStorage = 65001, creatureStorage = 15003, killsRequired = 150, raceName = "Goblins"},
  
 	["rotworm"] = {questStarted = 1512, questStorage = 65002, creatureStorage = 15004, killsRequired = 300, raceName = "Rotworms"},
