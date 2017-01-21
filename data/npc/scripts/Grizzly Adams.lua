@@ -88,7 +88,7 @@ function creatureSayCallback(cid, type, msg)
 							if isInArray({"boss", "teleport", 1}, v.rewards[i].type) then
 								doTeleportThing(cid, v.rewards[i].values)
 							elseif isInArray({"exp", "experience", 2}, v.rewards[i].type) then
-								doPlayerAddExperience(cid, v.rewards[i].values)
+								doPlayerAddExp(cid, v.rewards[i].values)
 							elseif isInArray({"item", 3}, v.rewards[i].type) then
 								doPlayerAddItem(cid, v.rewards[i].values[1], v.rewards[i].values[2])
 							elseif isInArray({"money", 4}, v.rewards[i].type) then
