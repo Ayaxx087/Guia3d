@@ -7,10 +7,16 @@ local questCreatures =
 	["Island troll"] = {questStarted = 1510, questStorage = 65000, creatureStorage = 15025, killsRequired = 100, raceName = "Trolls"},
 	
 	["goblin"] = {questStarted = 1511, questStorage = 65001, creatureStorage = 15003, killsRequired = 150, raceName = "Goblins"},
- 
+ 	["Goblin Scavenger"] = {questStarted = 1511, questStorage = 65001, creatureStorage = 15026, killsRequired = 150, raceName = "Goblins"},
+	["Goblin Assassin"] = {questStarted = 1511, questStorage = 65001, creatureStorage = 15027, killsRequired = 150, raceName = "Goblins"},
+	
 	["rotworm"] = {questStarted = 1512, questStorage = 65002, creatureStorage = 15004, killsRequired = 300, raceName = "Rotworms"},
+	["Carrion worm"] = {questStarted = 1512, questStorage = 65002, creatureStorage = 15028, killsRequired = 300, raceName = "Rotworms"},
+	["Rotworm Queen"] = {questStarted = 1512, questStorage = 65002, creatureStorage = 15029, killsRequired = 300, raceName = "Rotworms"},
  
 	["cyclops"] = {questStarted = 1513, questStorage = 65003, creatureStorage = 15005, killsRequired = 500, raceName = "Cyclops"},
+	["Cyclops Drone"] = {questStarted = 1513, questStorage = 65003, creatureStorage = 15030, killsRequired = 500, raceName = "Cyclops"},
+	["Cyclops Smith"] = {questStarted = 1513, questStorage = 65003, creatureStorage = 15031, killsRequired = 500, raceName = "Cyclops"},
  
 	["crocodile"] = {questStarted = 1514, questStorage = 65004, creatureStorage = 15006, killsRequired = 300, raceName = "Crocodiles"},
  
@@ -35,13 +41,16 @@ local questCreatures =
 	["marid"] = {questStarted = 1523, questStorage = 65013, creatureStorage = 15017, killsRequired = 500, raceName = "Blue Djinns"},
  
 	["minotaur"] = {questStarted = 1524, questStorage = 65014, creatureStorage = 15018, killsRequired = 5000, raceName = "Minotaurs"},
+	["minotaur mage"] = {questStarted = 1524, questStorage = 65014, creatureStorage = 15032, killsRequired = 5000, raceName = "Minotaurs"},
+	["minotaur guard"] = {questStarted = 1524, questStorage = 65014, creatureStorage = 15033, killsRequired = 5000, raceName = "Minotaurs"},
+	["minotaur archer"] = {questStarted = 1524, questStorage = 65014, creatureStorage = 15034, killsRequired = 5000, raceName = "Minotaurs"},
  
 	["necromancer"] = {questStarted = 1525, questStorage = 65015, creatureStorage = 15019, killsRequired = 4000, raceName = "Magicians"},
 	["priestess"] = {questStarted = 1525, questStorage = 65015, creatureStorage = 15020, killsRequired = 4000, raceName = "Magicians"},
-	["necromancer"] = {questStarted = 1525, questStorage = 65015, creatureStorage = 15021, killsRequired = 4000, raceName = "Magicians"},
-	["priestess"] = {questStarted = 1525, questStorage = 65015, creatureStorage = 15022, killsRequired = 4000, raceName = "Magicians"},
+	["warlock"] = {questStarted = 1525, questStorage = 65015, creatureStorage = 15021, killsRequired = 4000, raceName = "Magicians"},
+	["Fury"] = {questStarted = 1525, questStorage = 65015, creatureStorage = 15022, killsRequired = 4000, raceName = "Magicians"},
  
-	["demon"] = {questStarted = 1526, questStorage = 65016, creatureStorage = 15023, killsRequired = 6666, raceName = "Demons"}
+	["Demon"] = {questStarted = 1526, questStorage = 65016, creatureStorage = 15023, killsRequired = 6666, raceName = "Demons"}
 }
  
 local msgType = MESSAGE_STATUS_CONSOLE_ORANGE
