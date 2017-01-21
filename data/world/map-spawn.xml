@@ -619,6 +619,9 @@
 		<monster name="Vampire" x="-7" y="1" z="5" spawntime="240" />
 		<monster name="Vampire" x="-3" y="5" z="5" spawntime="240" />
 	</spawn>
+	<spawn centerx="493" centery="230" centerz="5" radius="1">
+		<npc name="The Oracle" x="1" y="-1" z="5" spawntime="60" />
+	</spawn>
 	<spawn centerx="593" centery="231" centerz="5" radius="22">
 		<monster name="Demon Skeleton" x="-3" y="-6" z="5" spawntime="240" />
 		<monster name="Lizard Sentinel" x="-2" y="-6" z="5" spawntime="200" />
