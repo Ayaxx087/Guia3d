@@ -16,7 +16,7 @@ local tasks =
 	[14] = {questStarted = 1523, questStorage = 65013, killsRequired = 500, raceName = "Blue Djinns", rewards = {{enable = true, type = "exp", values = 1000000}, {enable = true, type = "money", values = 500000}}},
 	[15] = {questStarted = 1524, questStorage = 65014, killsRequired = 5000, raceName = "Minotaurs", rewards = {{enable = true, type = "exp", values = 1500000}, {enable = true, type = "money", values = 1000000}}},
 	[16] = {questStarted = 1525, questStorage = 65015, killsRequired = 4000, raceName = "Magicians", rewards = {{enable = true, type = "exp", values = 2000000}, {enable = true, type = "money", values = 1500000}}},
-	[17] = {questStarted = 1526, questStorage = 65016, killsRequired = 6666, raceName = "Demons", rewards = {{enable = true, type = "exp", values = 2500000}, {enable = true, type = "money", values = 2000000}}},
+	[17] = {questStarted = 1526, questStorage = 65016, killsRequired = 6666, raceName = "Demons", rewards = {{enable = true, type = "exp", values = 2500000}, {enable = true, type = "money", values = 2000000}}}}
 }
  
 local rankStorage = 32150
