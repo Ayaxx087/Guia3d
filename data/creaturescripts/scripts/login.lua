@@ -68,8 +68,8 @@ function onLogin(cid)
 		--Register Premmy
 		--registerCreatureEvent(cid, "Premmy")
 		
+		registerCreatureEvent(cid, "KillTask")
 	--End Guia3d
-	registerCreatureEvent(cid, "killinginthenameof")
 	
 	--registerCreatureEvent(cid, "PlayerLook")
 
