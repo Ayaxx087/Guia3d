@@ -17615,9 +17615,6 @@
 		<monster name="Mutated Rat" x="0" y="0" z="5" spawntime="60" />
 		<monster name="Death Blob" x="1" y="0" z="5" spawntime="60" />
 	</spawn>
-	<spawn centerx="1903" centery="164" centerz="5" radius="1">
-		<npc name="Alesar" x="0" y="1" z="5" spawntime="60" />
-	</spawn>
 	<spawn centerx="1844" centery="168" centerz="5" radius="1">
 		<monster name="Blue Djinn" x="0" y="0" z="5" spawntime="60" />
 	</spawn>
@@ -17765,9 +17762,6 @@
 	</spawn>
 	<spawn centerx="1749" centery="327" centerz="5" radius="1">
 		<monster name="Orc Berserker" x="0" y="0" z="5" spawntime="60" />
-	</spawn>
-	<spawn centerx="1849" centery="329" centerz="5" radius="1">
-		<npc name="Karith" x="0" y="-1" z="5" spawntime="60" />
 	</spawn>
 	<spawn centerx="1731" centery="337" centerz="5" radius="5">
 		<monster name="Assassin" x="0" y="0" z="5" spawntime="60" />
@@ -19450,14 +19444,8 @@
 	<spawn centerx="1751" centery="170" centerz="7" radius="1">
 		<monster name="Slime" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
-	<spawn centerx="1841" centery="171" centerz="7" radius="1">
-		<npc name="Haroun" x="0" y="0" z="7" spawntime="60" />
-	</spawn>
 	<spawn centerx="1791" centery="172" centerz="7" radius="1">
 		<monster name="Skeleton" x="0" y="0" z="7" spawntime="60" />
-	</spawn>
-	<spawn centerx="1861" centery="172" centerz="7" radius="1">
-		<npc name="Nah'Bob" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1910" centery="172" centerz="7" radius="1">
 		<monster name="Green Djinn" x="1" y="0" z="7" spawntime="60" />
@@ -19549,9 +19537,6 @@
 	</spawn>
 	<spawn centerx="1708" centery="188" centerz="7" radius="1">
 		<monster name="Bog Raider" x="0" y="0" z="7" spawntime="60" />
-	</spawn>
-	<spawn centerx="1926" centery="189" centerz="7" radius="1">
-		<npc name="Yaman" x="0" y="-1" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1672" centery="190" centerz="7" radius="5">
 		<monster name="Bog Raider" x="0" y="0" z="7" spawntime="60" />
@@ -19712,9 +19697,6 @@
 	</spawn>
 	<spawn centerx="1729" centery="237" centerz="7" radius="1">
 		<monster name="Slime" x="0" y="0" z="7" spawntime="60" />
-	</spawn>
-	<spawn centerx="1720" centery="241" centerz="7" radius="1">
-		<npc name="Hal" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1818" centery="241" centerz="7" radius="1">
 		<monster name="Blue Butterfly" x="1" y="0" z="7" spawntime="60" />
@@ -20097,9 +20079,6 @@
 	</spawn>
 	<spawn centerx="1991" centery="307" centerz="7" radius="1">
 		<monster name="Bug" x="0" y="0" z="7" spawntime="60" />
-	</spawn>
-	<spawn centerx="1727" centery="308" centerz="7" radius="1">
-		<npc name="Tony" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1746" centery="308" centerz="7" radius="1">
 		<monster name="Orc Warrior" x="0" y="0" z="7" spawntime="60" />
@@ -20612,9 +20591,6 @@
 	</spawn>
 	<spawn centerx="1872" centery="353" centerz="7" radius="1">
 		<monster name="Gang Member" x="1" y="0" z="7" spawntime="60" />
-	</spawn>
-	<spawn centerx="1888" centery="353" centerz="7" radius="1">
-		<npc name="Peter" x="0" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1909" centery="353" centerz="7" radius="1">
 		<monster name="Dark Apprentice" x="1" y="0" z="7" spawntime="60" />
@@ -21179,9 +21155,6 @@
 	</spawn>
 	<spawn centerx="1749" centery="415" centerz="7" radius="5">
 		<monster name="Pirate Marauder" x="0" y="0" z="7" spawntime="60" />
-	</spawn>
-	<spawn centerx="1869" centery="415" centerz="7" radius="5">
-		<npc name="Harlow Vengoth" x="1" y="0" z="7" spawntime="60" />
 	</spawn>
 	<spawn centerx="1830" centery="416" centerz="7" radius="1">
 		<monster name="Gang Member" x="0" y="0" z="7" spawntime="60" />
@@ -23986,9 +23959,6 @@
 	</spawn>
 	<spawn centerx="1629" centery="587" centerz="12" radius="1">
 		<monster name="Crypt shambler" x="-1" y="-1" z="12" spawntime="30" />
-	</spawn>
-	<spawn centerx="1983" centery="181" centerz="13" radius="1">
-		<npc name="Marina" x="0" y="0" z="13" spawntime="60" />
 	</spawn>
 	<spawn centerx="1984" centery="185" centerz="13" radius="5">
 		<monster name="Quara Pincher" x="0" y="0" z="13" spawntime="60" />
