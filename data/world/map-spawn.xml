@@ -18491,9 +18491,6 @@
 	<spawn centerx="1776" centery="300" centerz="6" radius="1">
 		<monster name="Orc Berserker" x="0" y="0" z="6" spawntime="60" />
 	</spawn>
-	<spawn centerx="1854" centery="302" centerz="6" radius="1">
-		<npc name="Redward" x="1" y="0" z="6" spawntime="60" />
-	</spawn>
 	<spawn centerx="1751" centery="313" centerz="6" radius="1">
 		<monster name="Orc Warlord" x="0" y="0" z="6" spawntime="60" />
 	</spawn>
