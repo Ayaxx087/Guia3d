@@ -396,4 +396,8 @@
 	
 	<monster name="Master Dark Magician" file="tatuy/edited/master dark magician.xml"/>
 	<monster name="MasterDark Apprentice" file="tatuy/edited/master dark apprentice.xml"/>
+	
+	<monster name="Dark Apprentice" file="tatuy/yalahar/dark apprentice.xml"/>
+	<monster name="Dark Magician" file="tatuy/yalahar/dark magician.xml"/>
+	<monster name="Infernalist" file="tatuy/yalahar/infernalist.xml"/>
 </monsters>
