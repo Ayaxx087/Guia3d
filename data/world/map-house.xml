@@ -1161,23 +1161,4 @@
 	<house name="Fortune Wing 6" houseid="1174" entryx="1873" entryy="271" entryz="7" rent="0" guildhall="true" townid="33" size="147" />
 	<house name="Fortune Wing 7" houseid="1175" entryx="1869" entryy="276" entryz="7" rent="0" townid="33" size="173" />
 	<house name="Radiant Plaza 4" houseid="1176" entryx="1815" entryy="216" entryz="7" rent="0" townid="33" size="90" />
-	<house name="Yalahar Court 1" houseid="1252" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 2" houseid="1253" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 3" houseid="1254" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 4" houseid="1255" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 5" houseid="1256" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 6" houseid="1257" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 7" houseid="1258" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="117" />
-	<house name="Yalahar Court 8" houseid="1259" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 9" houseid="1260" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 10" houseid="1261" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 11" houseid="1262" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 12" houseid="1263" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 13" houseid="1264" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 14" houseid="1265" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="1" />
-	<house name="Yalahar Court 15" houseid="1266" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 16" houseid="1267" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 17" houseid="1268" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 18" houseid="1269" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
-	<house name="Yalahar Court 19" houseid="1270" entryx="0" entryy="0" entryz="0" rent="0" townid="0" size="0" />
 </houses>
