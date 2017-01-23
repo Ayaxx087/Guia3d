@@ -397,7 +397,18 @@
 	<monster name="Master Dark Magician" file="tatuy/edited/master dark magician.xml"/>
 	<monster name="MasterDark Apprentice" file="tatuy/edited/master dark apprentice.xml"/>
 	
+	<!-- Yalahar -->
 	<monster name="Dark Apprentice" file="tatuy/yalahar/dark apprentice.xml"/>
 	<monster name="Dark Magician" file="tatuy/yalahar/dark magician.xml"/>
 	<monster name="Infernalist" file="tatuy/yalahar/infernalist.xml"/>
+	<monster name="Assassin" file="tatuy/yalahar/assassin.xml"/>
+	<monster name="Demon (Goblin)" file="tatuy/yalahar/demon (goblin).xml"/>
+	<monster name="Hellspawn" file="tatuy/yalahar/hellspawn.xml"/>
+	<monster name="Nomad" file="tatuy/yalahar/nomad.xml"/>
+	<monster name="Poacher" file="tatuy/yalahar/poacher.xml"/>
+	<monster name="Rift Brood" file="tatuy/yalahar/rift brood.xml"/>
+	<monster name="Rift Scythe" file="tatuy/yalahar/rift scythe.xml"/>
+	<monster name="Rift Worm" file="tatuy/yalahar/rift worm.xml"/>
+	<monster name="Spirit of Fire" file="tatuy/yalahar/spirit of fire.xml"/>
+	<monster name="Yalahari" file="tatuy/yalahar/yalahari.xml"/>
 </monsters>
