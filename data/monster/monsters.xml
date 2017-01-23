@@ -411,4 +411,5 @@
 	<monster name="Rift Worm" file="tatuy/yalahar/rift worm.xml"/>
 	<monster name="Spirit of Fire" file="tatuy/yalahar/spirit of fire.xml"/>
 	<monster name="Yalahari" file="tatuy/yalahar/yalahari.xml"/>
+	<monster name="Quara Constrictor Scout" file="tatuy/yalahar/quara constrictor scout.xml"/>
 </monsters>
