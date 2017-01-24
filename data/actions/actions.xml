@@ -2066,4 +2066,7 @@
 	<action actionid="65045" script="tatuy/asgardquests.lua" />
 	<action actionid="65046" script="tatuy/asgardquests.lua" />	
 	
+	<action actionid="65046" script="tatuy/yalahar/yalahartpnorth1.lua" /> -- Yalahar Teleport
+	<action actionid="65047" script="tatuy/yalahar/yalahartpnorth1back.lua" /> -- Yalahar Teleport
+	
 </actions>
