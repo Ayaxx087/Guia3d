@@ -1,6 +1,6 @@
 ROPE_SPOT = {384, 418}
-OPENED_HOLE = {294, 383, 469, 470, 482, 482, 485, 489}
-CLOSED_HOLE = {468, 481, 483}
+OPENED_HOLE = {294, 383, 392, 469, 470, 482, 484, 485, 489, 7933, 7938, 8249, 8250, 8251, 8252, 8253, 8254, 8255, 8256, 8323, 8380, 8567, 8585, 8972}
+CLOSED_HOLE = {468, 481, 483, 7932, 8579}
 OPENED_TRAP = {462}
 DOWN_LADDER = {369, 370, 408, 409, 427, 428, 3135, 3136, 5545, 5763}
 WATER_WITH_FISH = {490, 4608}
@@ -198,5 +198,57 @@ function useRope(cid, item, frompos, item2, topos)
 	else
 		return false
 	end
+	return true
+end
+
+function useShovel(cid, item, frompos, item2, topos)
+local TILE_SAND 		= 	9059
+local ITEM_SCARAB_COIN 		= 	2159
+local TUMB_ENTRANCE		= 	1345
+local SCARAB_TILE		=	101
+local MUD_HOLE		=	489
+local SCARAB_COIN_TILE		= 	102
+local duration = 5 * 60000 -- 5 minutes
+
+	if (isInArray(CLOSED_HOLE, item2.itemid) ) then
+		if item2.itemid == 8579 then
+			doTransformItem(item2.uid, 8585)
+		else
+			doTransformItem(item2.uid, item2.itemid + 1)
+		end
+	elseif (item2.itemid == TILE_SAND) then
+		if (item2.actionid == TUMB_ENTRANCE) then
+			if (math.random(1, 5) == 1) then
+				doTransformItem(item2.uid, MUD_HOLE)
+				addEvent(__doTransformHole__, duration, {oldType = item2.itemid, pos = topos, oldaid = item2.actionid})
+				if item2.actionid ~= 0 then
+					doSetItemActionId(item2.uid, item2.actionid)
+				end
+			end
+		elseif (item2.actionid == SCARAB_TILE) then
+			if (math.random(1, 20) == 1) then
+				doSummonCreature("Scarab", topos)
+				doSetItemActionId(item2.uid, SCARAB_TILE + 2)
+			end
+		elseif (item2.actionid == SCARAB_COIN_TILE) then
+			if (math.random(1, 20) == 1) then
+				doCreateItem(ITEM_SCARAB_COIN, topos)
+				doSetItemActionId(item2.uid, SCARAB_COIN_TILE + 2)
+			end
+		elseif (item2.actionid == SCARAB_TILE + 2) then
+			if (math.random(1, 40) == 1) then
+				doSetItemActionId(item2.uid, SCARAB_TILE)
+			end
+		elseif (item2.actionid == SCARAB_COIN_TILE + 2) then
+			if (math.random(1, 40) == 1) then
+				doSetItemActionId(item2.uid, SCARAB_COIN_TILE)
+			end
+		end
+		doSendMagicEffect(topos, CONST_ME_POFF)
+	else
+		return false
+	end
+
+	doDecayItem(item2.uid)
 	return true
 end
