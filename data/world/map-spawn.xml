@@ -14454,6 +14454,9 @@
 		<monster name="Grim Reaper" x="16" y="-15" z="8" spawntime="60" />
 		<monster name="Dark Torturer" x="-20" y="-13" z="8" spawntime="60" />
 		<monster name="Massive Energy Elemental" x="-16" y="-13" z="8" spawntime="60" />
+		<monster name="Grim Reaper" x="11" y="-13" z="8" spawntime="60" />
+		<monster name="Grim Reaper" x="13" y="-13" z="8" spawntime="60" />
+		<monster name="Grim Reaper" x="16" y="-13" z="8" spawntime="60" />
 		<monster name="Juggernaut" x="4" y="-12" z="8" spawntime="60" />
 		<monster name="Wyrm" x="-19" y="-11" z="8" spawntime="60" />
 		<monster name="Wyrm" x="-16" y="-11" z="8" spawntime="60" />
@@ -14526,9 +14529,13 @@
 	<spawn centerx="1355" centery="756" centerz="8" radius="7">
 		<monster name="Behemoth" x="5" y="-6" z="8" spawntime="60" />
 		<monster name="Cyclops" x="1" y="-5" z="8" spawntime="60" />
+		<monster name="Behemoth" x="1" y="-4" z="8" spawntime="60" />
 		<monster name="Cyclops" x="2" y="-2" z="8" spawntime="60" />
+		<monster name="Behemoth" x="3" y="-1" z="8" spawntime="60" />
 		<monster name="Cyclops" x="1" y="2" z="8" spawntime="60" />
+		<monster name="Behemoth" x="1" y="3" z="8" spawntime="60" />
 		<monster name="Cyclops" x="-4" y="4" z="8" spawntime="60" />
+		<monster name="Behemoth" x="-4" y="5" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="1253" centery="763" centerz="8" radius="7">
 		<monster name="Hydra" x="0" y="-6" z="8" spawntime="60" />
@@ -14565,8 +14572,11 @@
 	<spawn centerx="1363" centery="771" centerz="8" radius="7">
 		<monster name="torun" x="-7" y="-3" z="8" spawntime="60" />
 		<monster name="Behemoth" x="-4" y="-3" z="8" spawntime="60" />
+		<monster name="Behemoth" x="-3" y="-3" z="8" spawntime="60" />
 		<monster name="Behemoth" x="-4" y="0" z="8" spawntime="60" />
+		<monster name="Behemoth" x="-3" y="0" z="8" spawntime="60" />
 		<monster name="Cyclops" x="3" y="2" z="8" spawntime="60" />
+		<monster name="Behemoth" x="4" y="2" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="708" centery="772" centerz="8" radius="19">
 		<monster name="Quara Constrictor" x="-10" y="-5" z="8" spawntime="240" />
@@ -14591,11 +14601,16 @@
 	</spawn>
 	<spawn centerx="1383" centery="775" centerz="8" radius="7">
 		<monster name="Cyclops" x="-4" y="0" z="8" spawntime="60" />
+		<monster name="Behemoth" x="-3" y="0" z="8" spawntime="60" />
 		<monster name="Behemoth" x="4" y="0" z="8" spawntime="60" />
+		<monster name="Behemoth" x="4" y="1" z="8" spawntime="60" />
 		<monster name="Behemoth" x="-1" y="2" z="8" spawntime="60" />
 		<monster name="Cyclops Drone" x="3" y="2" z="8" spawntime="60" />
+		<monster name="Behemoth" x="-2" y="3" z="8" spawntime="60" />
 		<monster name="Behemoth" x="0" y="3" z="8" spawntime="60" />
+		<monster name="Behemoth" x="1" y="4" z="8" spawntime="60" />
 		<monster name="Cyclops" x="3" y="4" z="8" spawntime="60" />
+		<monster name="Behemoth" x="4" y="5" z="8" spawntime="60" />
 		<monster name="torun" x="5" y="6" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="1244" centery="776" centerz="8" radius="7">
@@ -18172,6 +18187,8 @@
 		<monster name="Ice Dragon Slayer" x="3" y="-1" z="9" spawntime="60" />
 		<monster name="Ice Dragon Slayer" x="-7" y="2" z="9" spawntime="60" />
 		<monster name="Ice Dragon Slayer" x="4" y="3" z="9" spawntime="60" />
+		<monster name="Ice Dragon Slayer" x="-2" y="5" z="9" spawntime="60" />
+		<monster name="Ice Dragon Slayer" x="3" y="5" z="9" spawntime="60" />
 		<monster name="Ice Dragon Slayer" x="-4" y="6" z="9" spawntime="60" />
 		<monster name="Ice Dragon Slayer" x="1" y="6" z="9" spawntime="60" />
 		<monster name="Ice Dragon Slayer" x="6" y="7" z="9" spawntime="60" />
@@ -18199,6 +18216,7 @@
 		<monster name="Cyclops Drone" x="4" y="-3" z="9" spawntime="60" />
 		<monster name="Cyclops Smith" x="4" y="-1" z="9" spawntime="60" />
 		<monster name="infernal" x="5" y="0" z="9" spawntime="60" />
+		<monster name="Undead Dragon" x="-4" y="1" z="9" spawntime="60" />
 		<monster name="Cyclops Smith" x="-2" y="1" z="9" spawntime="60" />
 		<monster name="Cyclops Drone" x="2" y="1" z="9" spawntime="60" />
 		<monster name="Undead Dragon" x="-5" y="2" z="9" spawntime="60" />
@@ -18222,6 +18240,8 @@
 	</spawn>
 	<spawn centerx="1394" centery="779" centerz="9" radius="7">
 		<monster name="torun" x="2" y="-6" z="9" spawntime="60" />
+		<monster name="torun" x="3" y="-6" z="9" spawntime="60" />
+		<monster name="torun" x="-5" y="1" z="9" spawntime="60" />
 		<monster name="torun" x="-4" y="1" z="9" spawntime="60" />
 		<monster name="torun" x="3" y="4" z="9" spawntime="60" />
 		<monster name="Cyclops Smith" x="-2" y="6" z="9" spawntime="60" />
@@ -18296,11 +18316,14 @@
 		<monster name="Dragon" x="-1" y="5" z="9" spawntime="240" />
 	</spawn>
 	<spawn centerx="1376" centery="805" centerz="9" radius="7">
+		<monster name="Undead Dragon" x="-6" y="-7" z="9" spawntime="60" />
 		<monster name="Undead Dragon" x="-5" y="-7" z="9" spawntime="60" />
+		<monster name="Undead Dragon" x="-4" y="-7" z="9" spawntime="60" />
 		<monster name="torun" x="-2" y="-7" z="9" spawntime="60" />
 		<monster name="Cyclops Smith" x="-1" y="-6" z="9" spawntime="60" />
 		<monster name="torun" x="-6" y="-5" z="9" spawntime="60" />
 		<monster name="Cyclops Drone" x="-3" y="-4" z="9" spawntime="60" />
+		<monster name="torun" x="2" y="-3" z="9" spawntime="60" />
 		<monster name="Deathslicer" x="-4" y="-2" z="9" spawntime="60" />
 		<monster name="torun" x="5" y="-1" z="9" spawntime="60" />
 		<monster name="torun" x="5" y="4" z="9" spawntime="60" />
