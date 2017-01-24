@@ -1,7 +1,7 @@
 function onStepIn(cid, item, pos)
 npos = {x=452, y=329, z=7}
- if getPlayerLevel(cid) < 100 then
-		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 100.")
+ if getPlayerLevel(cid) < 150 then
+		doPlayerSendTextMessage(cid,22,"Sorry, you are under lvl 150.")
                 doTeleportThing(cid,npos)
 		return true
 	end
