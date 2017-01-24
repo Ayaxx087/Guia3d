@@ -2068,5 +2068,14 @@
 	
 	<action actionid="65046" script="tatuy/yalahar/yalahartpnorth1.lua" /> -- Yalahar Teleport
 	<action actionid="65047" script="tatuy/yalahar/yalahartpnorth1back.lua" /> -- Yalahar Teleport
-	
+	<action actionid="65048" script="tatuy/yalahar/yalahartpwest1.lua" /> -- Yalahar Teleport
+	<action actionid="65049" script="tatuy/yalahar/yalahartpwest1back.lua" /> -- Yalahar Teleport
+	<action actionid="65050" script="tatuy/yalahar/yalahartpnorth2.lua" /> -- Yalahar Teleport
+	<action actionid="65051" script="tatuy/yalahar/yalahartpnorth2back.lua" /> -- Yalahar Teleport
+	<action actionid="65052" script="tatuy/yalahar/yalahartpeast1.lua" /> -- Yalahar Teleport
+	<action actionid="65053" script="tatuy/yalahar/yalahartpeast1back.lua" /> -- Yalahar Teleport
+	<action actionid="65054" script="tatuy/yalahar/yalahartpsouth1.lua" /> -- Yalahar Teleport
+	<action actionid="65055" script="tatuy/yalahar/yalahartpsouth1back.lua" /> -- Yalahar Teleport
+	<action actionid="65056" script="tatuy/yalahar/yalahartpsouth2.lua" /> -- Yalahar Teleport
+	<action actionid="65057" script="tatuy/yalahar/yalahartpsouth2back.lua" /> -- Yalahar Teleport
 </actions>
