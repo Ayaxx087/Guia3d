@@ -231,6 +231,15 @@ function onStepIn(cid, item, pos)
 		doSendMagicEffect(newpos,12)
                 doPlayerSetTown(cid,32) --Hilan
 		end
+		
+		elseif item.actionid == 50033 then
+		if isPlayer(cid) == TRUE then
+		newpos = {x=1818, y=328, z=7}
+		doPlayerSendTextMessage(cid,22,"Now you are a citizen of Yalahar.")
+		doTeleportThing(cid,newpos)
+		doSendMagicEffect(newpos,12)
+                doPlayerSetTown(cid,33) --Yalahar
+		end
 
 	else
 		return false
