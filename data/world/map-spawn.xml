@@ -18133,7 +18133,9 @@
 		<monster name="Demon" x="0" y="-8" z="9" spawntime="60" />
 		<monster name="Demon" x="-2" y="10" z="9" spawntime="60" />
 	</spawn>
-	<spawn centerx="526" centery="716" centerz="9" radius="13" />
+	<spawn centerx="526" centery="716" centerz="9" radius="13">
+		<monster name="Demon" x="1" y="0" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="1374" centery="721" centerz="9" radius="7">
 		<monster name="Ghazbaran" x="5" y="-3" z="9" spawntime="60" />
 		<monster name="Apocalypse" x="6" y="-3" z="9" spawntime="60" />
