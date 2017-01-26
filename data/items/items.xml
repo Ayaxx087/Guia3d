@@ -18812,7 +18812,6 @@
 	</item>
 	<item id="7932" article="a" name="large hole">
 		<attribute key="description" value="It is loosely covered by some stones and earth."/>
-		<attribute key="floorchange" value="down"/>
 	</item>
 	<item id="7933" article="a" name="hole">
 		<attribute key="floorchange" value="down"/>
