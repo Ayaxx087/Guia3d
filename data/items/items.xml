@@ -4970,6 +4970,11 @@
 		<attribute key="defense" value="32"/>
 		<attribute key="weaponType" value="shield"/>
 	</item>
+	<item id="2538" article="an" name="eagle shield">
+		<attribute key="weight" value="6000"/>
+		<attribute key="defense" value="30"/>
+		<attribute key="weaponType" value="shield"/>
+	</item>
 	<item id="2539" article="a" name="phoenix shield">
 		<attribute key="description" value="This shield feels warm to the touch."/>
 		<attribute key="weight" value="3500"/>
