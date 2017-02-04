@@ -495,7 +495,7 @@
 		<vocation name="Hunter" />
 		<vocation name="Scout" />
 	</conjure>
-	--Scout
+	<!-- Scout\\-->
 	<conjure prem="0" name="Conjure Bolt" words="exina con mort" lvl="17" conjureId="2543" conjureCount="50" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
 		<vocation name="Scout"/>
 	</conjure>
@@ -767,7 +767,7 @@
 		<vocation name="Wizard" />
 		<vocation name="Shaman" />
 	</conjure>
---scout
+	<!--//scout\\-->
 	<conjure prem="1" name="Conjure Bolt" words="exina con mort mas" lvl="17" conjureId="2543" conjureCount="70" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
 		<vocation name="Scout"/>
 	</conjure>
@@ -786,13 +786,13 @@
 	<conjure prem="1" name="Conjure infernal Bolt" words="exina con vis mort mas" lvl="60" conjureId="6529" conjureCount="70" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
 		<vocation name="Scout"/>
 	</conjure>
---SPELL UPDATE 80 PREMIUN
+	<!--//SPELL UPDATE 80 PREMIUN\\-->
 	<conjure prem="1" name="Conjure enchanted spear" words="exeta con" lvl="45" reagentId="2389" conjureId="7367" conjureCount="2" aggressive="0" maglv="1" mana="50" soul="0" enabled="1" function="conjureRune">
 		<vocation name="Paladin"/>
 		<vocation name="Hunter" />
 		<vocation name="Scout" />
 	</conjure>
---PREMIUN UPDATE 8.1
+	<!--//PREMIUN UPDATE 8.1\\-->
 	<instant prem="1" name="Wound Cleansing" words="exana mort" aggressive="0" lvl="15" maglv="1" mana="45"  enabled="1" script="premium/exana mort.lua">
 		<vocation name="Knight" />
 		<vocation name="Soldier" />
