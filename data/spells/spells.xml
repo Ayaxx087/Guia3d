@@ -474,4 +474,10 @@
 		<vocation name="Hunter" />
 		<vocation name="Scout" />
 	</instant>
+	<conjure prem="0" name="Make rune" words="adori blank" lvl="20" conjureId="2260" conjureCount="2" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureItem">
+		<vocation name="Druid"/>
+		<vocation name="Sorcerer"/>
+		<vocation name="Wizard" />
+		<vocation name="Shaman" />
+	</conjure>
 </spells>
