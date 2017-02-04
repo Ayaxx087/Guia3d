@@ -295,7 +295,7 @@
 		<vocation name="Druid"/>    <vocation name="Shaman"/>
 	</instant>
 	<instant name="Challenge" words="exeta res" lvl="20" mana="30" prem="0" selftarget="1" aggressive="0" script="support/challenge.lua">
-		<vocation name="Soldier"/>  <vocation name="Warrior"/>
+		<vocation name="Knight"/>  <vocation name="Soldier"/>  <vocation name="Warrior"/>
 	</instant>
 	<instant name="Energy Beam" words="exevo vis lux" lvl="23" mana="40" direction="1" script="attack/energy_beam.lua">
 		<vocation name="Sorcerer"/> <vocation name="Wizard"/>
@@ -464,5 +464,14 @@
 	<instant prem="0" name="Wild Growth" words="exevo grav vita" lvl="27" maglv="1" mana="62" aggressive="1" direction="1" blocktype="all"  enabled="1" script="guia3d/wild growth.lua">
 		<vocation name="Druid"/>
 		<vocation name="Shaman" />
+	</instant>
+	<instant prem="0" name="Cancel Magic Shield" words="utamo end" selftarget="1" aggressive="0" lvl="14" maglv="1" mana="20"  enabled="1" script="guia3d/cancel_manashield.lua">
+		<vocation name="Druid"/>
+		<vocation name="Sorcerer"/>
+		<vocation name="Paladin"/>
+		<vocation name="Shaman" />
+		<vocation name="Wizard" />
+		<vocation name="Hunter" />
+		<vocation name="Scout" />
 	</instant>
 </spells>
