@@ -1,23 +1,18 @@
-local combat = createCombatObject()
-setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
-setCombatParam(combat, COMBAT_PARAM_BLOCKARMOR, true)
-setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_GROUNDSHAKER)
-setCombatParam(combat, COMBAT_PARAM_USECHARGES, true)
-
-function getSpellDamage(cid, weaponSkill, weaponAttack, attackStrength)
-	local level = getPlayerLevel(cid)
-
-	local min = (((weaponSkill+weaponAttack)/2)+(level/5))
-	local max = (((weaponSkill+weaponAttack)*1.1)+(level/5))
-
-	return -min, -max
-end
-
-setCombatCallback(combat, CALLBACK_PARAM_SKILLVALUE, "getSpellDamage")
+local combat = Combat()
+combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
+combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_GROUNDSHAKER)
+combat:setParameter(COMBAT_PARAM_USECHARGES, 1)
 
 local area = createCombatArea(AREA_CIRCLE3X3)
-setCombatArea(combat, area)
+combat:setArea(area)
 
-function onCastSpell(cid, var)
-	return doCombat(cid, combat, var)
+function onGetFormulaValues(player, skill, attack, factor)
+	local skillTotal, levelTotal = skill * attack, player:getLevel() / 5
+	return -(((skillTotal * 0.02) + 4) + (levelTotal)), -(((skillTotal * 0.03) + 6) + (levelTotal))
+end
+
+combat:setCallback(CALLBACK_PARAM_SKILLVALUE, "onGetFormulaValues")
+
+function onCastSpell(creature, var)
+	return combat:execute(creature, var)
 end
