@@ -612,7 +612,7 @@
 		<vocation name="Soldier" />
 		<vocation name="Warrior" />
 	</instant>
-	<instant prem="1" name="Berserk" words="exori hur mas" lvl="38" maglv="1" mana="80" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="guiia3d/exori hur mas.lua">
+	<instant prem="1" name="Berserk" words="exori hur mas" lvl="38" maglv="1" mana="80" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="guia3d/exori hur mas.lua">
 		<vocation name="Knight"/>
 		<vocation name="Soldier" />
 		<vocation name="Warrior" />
