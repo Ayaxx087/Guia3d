@@ -430,31 +430,31 @@
 	<instant prem="0" name="Muted Friend" words="muted sio" aggressive="0" params="1" needtarget="1" lvl="1000" maglv="400" mana="70"  enabled="1" script="guia3d/muted sio.lua">
 		<vocation name="GameMaster" />
 	</instant>
-	<instant prem="0" name="UnMuted Friend" words="muted off" aggressive="0" params="1" needtarget="1" lvl="1000" maglv="400" mana="70"  enabled="1" script="gm/muted_off.lua">
+	<instant prem="0" name="UnMuted Friend" words="muted off" aggressive="0" params="1" needtarget="1" lvl="1000" maglv="400" mana="70"  enabled="1" script="guia3d/muted_off.lua">
 		<vocation name="GameMaster" />
 	</instant>
-	<instant prem="0" name="Muted all" words="muted all" lvl="1000" maglv="400" manapercent="60" needlearn="1" soul="0"  enabled="1" script="gm/muted_all.lua">
+	<instant prem="0" name="Muted all" words="muted all" lvl="1000" maglv="400" manapercent="60" needlearn="1" soul="0"  enabled="1" script="guia3d/muted_all.lua">
 		<vocation name="GameMaster" />
 	</instant>
-	<instant prem="0" name="UnMuted all" words="unmuted all" lvl="1000" maglv="400" manapercent="60" needlearn="1" soul="0"  enabled="1" script="gm/unmuted_all.lua">
+	<instant prem="0" name="UnMuted all" words="unmuted all" lvl="1000" maglv="400" manapercent="60" needlearn="1" soul="0"  enabled="1" script="guia3d/unmuted_all.lua">
 		<vocation name="GameMaster" />
 	</instant>
-	<instant prem="0" name="Muted Distand" words="muted 1" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="gm/muted 1.lua">
+	<instant prem="0" name="Muted Distand" words="muted 1" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="guia3d/muted 1.lua">
 		<vocation name="GameMaster" />
 	</instant>
-	<instant prem="0" name="Muted Distand" words="muted 2" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="gm/muted 2.lua">
+	<instant prem="0" name="Muted Distand" words="muted 2" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="guia3d/muted 2.lua">
 		<vocation name="GameMaster" />
 	</instant>
-	<instant prem="0" name="Muted Distand" words="muted 3" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="gm/muted 3.lua">
+	<instant prem="0" name="Muted Distand" words="muted 3" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="guia3d/muted 3.lua">
 		<vocation name="GameMaster" />
 	</instant>
-	<instant prem="0" name="Muted Distand" words="muted 4" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="gm/muted 4.lua">
+	<instant prem="0" name="Muted Distand" words="muted 4" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="guia3d/muted 4.lua">
 		<vocation name="GameMaster" />
 	</instant>
-	<instant prem="0" name="Muted Distand" words="muted 5" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="gm/muted 5.lua">
+	<instant prem="0" name="Muted Distand" words="muted 5" lvl="1000" maglv="400" mana="20" needtarget="1" allowfaruse="1" blockwalls="1"  enabled="1" script="guia3d/muted 5.lua">
 		<vocation name="GameMaster" />
 	</instant>
-	<instant prem="0" name="carcel" words="jail sio" lvl="1000" maglv="400" mana="25" needtarget="1" allowfaruse="1" blockwalls="0"  enabled="1" script="81/carcel.lua">
+	<instant prem="0" name="carcel" words="jail sio" lvl="1000" maglv="400" mana="25" needtarget="1" allowfaruse="1" blockwalls="0"  enabled="1" script="guia3d/carcel.lua">
 		<vocation name="GameMaster" />
 	</instant>	
 	
