@@ -405,4 +405,7 @@
 	<instant name="Stampor Skills" exhaustion="2000" words="mons_stampor skills" selftarget="1" enabled="1" needlearn="1" script="monsterspells/stampor skills.lua" />
 	<instant name="Brutetamer Skills" exhaustion="2000" words="mons_brutetamer skills" selftarget="1" enabled="1" needlearn="1" script="monsterspells/brutetamer skills.lua" />
 	<instant name="Madareth Skills" exhaustion="2000" words="mons_madareth skills" selftarget="1" enabled="1" needlearn="1" script="monsterspells/madareth skills.lua" />
+	
+	<!-- Guia3d Spells -->
+	<rune name="imitate" id="20001" enabled="1" script="guia3d/monsters/imitate.lua"></rune>
 </spells>
