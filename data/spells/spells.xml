@@ -461,4 +461,8 @@
 	<instant prem="1" name="Apocalypse" words="exevo gran mas flam hur" lvl="70" maglv="1" manapercent="60" needlearn="0" soul="0"  enabled="1" script="guia3d/apocalypse.lua">
 		<vocation name="Wizard" />
 	</instant>
+	<instant prem="0" name="Wild Growth" words="exevo grav vita" lvl="27" maglv="1" mana="62" aggressive="1" direction="1" blocktype="all"  enabled="1" script="guia3d/wild growth.lua">
+		<vocation name="Druid"/>
+		<vocation name="Shaman" />
+	</instant>
 </spells>
