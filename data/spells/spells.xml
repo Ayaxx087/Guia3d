@@ -408,4 +408,5 @@
 	
 	<!-- Guia3d Spells -->
 	<rune name="imitate" id="20001" enabled="1" script="guia3d/monsters/imitate.lua"></rune>
+	<rune name="Mana Rune" id="2296" charges="1" maglv="1" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="guia3d/manarune.lua"></rune>
 </spells>

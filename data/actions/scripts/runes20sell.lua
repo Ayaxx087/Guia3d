@@ -93,7 +93,7 @@ function onUse(cid, item, frompos, item2, topos)
 	        doPlayerSendTextMessage(cid,22,"You buy a 60 manas runes.")
                 doSendMagicEffect(topos,12)
 		
-		doPlayerAddItem(cid,2316,60)
+		doPlayerAddItem(cid,2296,60)
 	else
 		doPlayerSendCancel(cid, "You dont have enough money, you need 3000 gp.")
 
