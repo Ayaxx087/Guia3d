@@ -1,25 +1,22 @@
-local combat = Combat()
-combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_GREEN)
-combat:setParameter(COMBAT_PARAM_AGGRESSIVE, 0)
+local conditionAttrib = createConditionObject(CONDITION_ATTRIBUTES)
+local conditionExhaustCombat = createConditionObject(CONDITION_EXHAUST_COMBAT)
+local conditionExhaustHeal = createConditionObject(CONDITION_EXHAUST_HEAL)
+local conditionPacified = createConditionObject(CONDITION_PACIFIED)
 
-local condition = Condition(CONDITION_ATTRIBUTES)
-condition:setParameter(CONDITION_PARAM_BUFF_SPELL, 1)
-condition:setParameter(CONDITION_PARAM_TICKS, 13000)
-condition:setParameter(CONDITION_PARAM_SKILL_SHIELDPERCENT, 220)
-combat:setCondition(condition)
+setConditionParam(conditionAttrib, CONDITION_PARAM_TICKS, 10000)
+setConditionParam(conditionAttrib, CONDITION_PARAM_SKILL_SHIELDPERCENT, 220)
+setConditionParam(conditionExhaustCombat, CONDITION_PARAM_TICKS, 10000)
+setConditionParam(conditionExhaustHeal, CONDITION_PARAM_TICKS, 10000)
+setConditionParam(conditionPacified, CONDITION_PARAM_TICKS, 10000)
 
-local conditionExhaustCombat = Condition(CONDITION_EXHAUST_COMBAT)
-conditionExhaustCombat:setParameter(CONDITION_PARAM_TICKS, 10000)
-combat:setCondition(conditionExhaustCombat)
-
-local conditionExhaustHeal = Condition(CONDITION_EXHAUST_HEAL)
-conditionExhaustHeal:setParameter(CONDITION_PARAM_TICKS, 10000)
-combat:setCondition(conditionExhaustHeal)
-
-local conditionPacified = Condition(CONDITION_PACIFIED)
-conditionPacified:setParameter(CONDITION_PARAM_TICKS, 10000)
-combat:setCondition(conditionPacified)
-
-function onCastSpell(creature, var)
-	return combat:execute(creature, var)
+local combat = createCombatObject()
+setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_BLUE)
+setCombatParam(combat, COMBAT_PARAM_AGGRESSIVE, 0)
+setCombatCondition(combat, conditionAttrib)
+setCombatCondition(combat, conditionExhaustCombat)
+setCombatCondition(combat, conditionExhaustHeal)
+setCombatCondition(combat, conditionPacified)
+ 
+function onCastSpell(cid, var)
+	return doCombat(cid, combat, var);
 end

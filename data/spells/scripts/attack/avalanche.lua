@@ -1,19 +1,27 @@
-local combat = Combat()
-combat:setParameter(COMBAT_PARAM_TYPE, COMBAT_ICEDAMAGE)
-combat:setParameter(COMBAT_PARAM_EFFECT, CONST_ME_ICEAREA)
-combat:setParameter(COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_ICE)
+local combat = createCombatObject()
+setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_ICEDAMAGE)
+setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_ICEAREA)
+setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_ICE)
 
-local area = createCombatArea(AREA_CIRCLE3X3)
-combat:setArea(area)
+function onGetFormulaValues(cid, level, maglevel)
+	local min = ((level/5)+(maglevel*1.4))
+	if min < 40 then
+		min = 40
+	end
 
-function onGetFormulaValues(player, level, maglevel)
-	min = -((level / 5) + (maglevel * 1.2) + 7)
-	max = -((level / 5) + (maglevel * 2.85) + 16)
-	return min, max
+	local max = ((level/5)+(maglevel*2.8))
+	if min < 70 then
+		min = 70
+	end
+
+	return -min, -max
 end
 
-combat:setCallback(CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
+setCombatCallback(combat, CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
 
-function onCastSpell(creature, var, isHotkey)
-	return combat:execute(creature, var)
+local area = createCombatArea(AREA_CIRCLE3X3)
+setCombatArea(combat, area)
+
+function onCastSpell(cid, var)
+	return doCombat(cid, combat, var)
 end
