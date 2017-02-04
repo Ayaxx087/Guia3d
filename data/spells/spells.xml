@@ -410,4 +410,21 @@
 	<rune name="imitate" id="20001" enabled="1" script="guia3d/monsters/imitate.lua"></rune>
 	<rune name="Mana Rune" id="2296" charges="1" maglv="1" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="guia3d/manarune.lua"></rune>
 	<rune name="Drunkness" id="2267" charges="3" needtarget="1" lvl="10" maglv="2" mana="0"  enabled="1" allowfaruse="1" script="guia3d/drunk.lua"></rune>
+	
+	<rune name="2hpDAMAGE" id="2300" charges="1" maglv="4000" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="guia3d/gmrune2hp.lua"></rune>
+	<instant prem="1" name="Portal Thalia" words="Exani ina thalia" lvl="1000" maglv="400" aggressive="1" mana="20000"  enabled="1" script="guia3d/blue.lua">
+		<vocation name="GameMaster" />
+	</instant>
+	<instant prem="1" name="GM spell" words="ue" lvl="1000" maglv="400" aggressive="1" mana="20000"  enabled="1" script="guia3d/ue.lua">
+		<vocation name="GameMaster" />
+	</instant>
+	<instant prem="1" name="GM spell" words="zz1" lvl="1000" maglv="400" mana="20000" aggressive="1"  direction="1" enabled="1" script="guia3d/zz.lua">
+		<vocation name="GameMaster" />
+	</instant>
+	<instant prem="1" name="GM spell" words="xx1" lvl="1000" maglv="400" mana="20000" aggressive="1"  direction="0" enabled="1" script="guia3d/xx.lua">
+		<vocation name="GameMaster" />
+	</instant>
+	<instant prem="1" name="GM spell" words="xxx1" lvl="1000" maglv="400" mana="20000" aggressive="1"  direction="0" enabled="1" script="guia3d/xxx.lua">
+		<vocation name="GameMaster" />
+	</instant>
 </spells>
