@@ -372,10 +372,10 @@
 		<vocation name="Knight"/>   <vocation name="Soldier"/>  <vocation name="Warrior"/>
 	</instant>
 		<instant name="Train Party" words="utito mas sio" lvl="32" mana="0" prem="0" aggressive="0" selftarget="1" script="support/party_knight.lua">
-				<vocation name="Knight" /> <vocation name="Elite Knight" />
+				<vocation name="Knight" /> <vocation name="Soldier"/>  <vocation name="Warrior"/>
 		</instant>
 	<instant name="Protect Party" words="utamo mas sio" lvl="32" mana="0" prem="0" aggressive="0" selftarget="1" script="support/party_paladin.lua">
-				<vocation name="Paladin" /> <vocation name="Royal Paladin" />
+				<vocation name="Paladin" /> <vocation name="Scout"/>  <vocation name="Hunter"/>
 		</instant>
 	<instant name="Heal Party" words="utura mas sio" lvl="32" mana="0" prem="0" aggressive="0" selftarget="1" script="support/party_druid.lua">
 				<vocation name="Druid" /> <vocation name="Shaman" />
