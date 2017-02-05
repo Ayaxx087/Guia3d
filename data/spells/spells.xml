@@ -96,7 +96,7 @@
 		<vocation name="Sorcerer"/> <vocation name="Wizard"/>
 	</conjure>
 	<conjure name="Enchant Staff" words="exeta vis" lvl="41" mana="80" prem="0" reagentId="2401" conjureId="2433" function="conjureItem">
-		<vocation name="Wizard"/>
+		<vocation name="Sorcerer"/> <vocation name="Wizard"/>
 	</conjure>
 	<conjure name="Energy Wall" words="adevo mas grav vis" lvl="41" mana="1000" soul="5" prem="0" reagentId="2260" conjureId="2279" conjureCount="4" function="conjureRune">
 		<vocation name="Sorcerer"/> <vocation name="Wizard"/>
@@ -200,7 +200,7 @@
 		<vocation name="Sorcerer"/> <vocation name="Wizard"/>
 	</conjure>
 	<conjure name="Wild Growth" words="adevo grav vita" lvl="27" mana="600" soul="5" prem="0" reagentId="2260" conjureId="2269" conjureCount="2" needlearn="0" function="conjureRune">
-		<vocation name="Shaman"/>
+		<vocation name="Druid"/>    <vocation name="Shaman"/>
 	</conjure>
 	<conjure name="Animate Dead" words="adana mort" lvl="27" mana="600" soul="5" prem="0" reagentId="2260" conjureId="2316" conjureCount="1" function="conjureRune">
 		<vocation name="Sorcerer"/> <vocation name="Wizard"/>
