@@ -3636,10 +3636,9 @@
 		<attribute key="charges" value="5"/>
 		<attribute key="showcharges" value="1"/>
 	</item>
-	<item id="2296" article="an" name="mana rune">
+	<item id="2296" article="a" name="spell rune">
 		<attribute key="type" value="rune"/>
 		<attribute key="weight" value="120"/>
-		<attribute key="charges" value="1"/>
 	</item>
 	<item id="2297" article="a" name="spell rune">
 		<attribute key="type" value="rune"/>
@@ -3653,9 +3652,10 @@
 		<attribute key="type" value="rune"/>
 		<attribute key="weight" value="120"/>
 	</item>
-	<item id="2300" article="a" name="spell rune">
+	<item id="2300" article="an" name="mana rune">
 		<attribute key="type" value="rune"/>
 		<attribute key="weight" value="120"/>
+		<attribute key="charges" value="1"/>
 	</item>
 	<item id="2301" article="a" name="fire field rune">
 		<attribute key="type" value="rune"/>
