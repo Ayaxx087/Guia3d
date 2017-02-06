@@ -533,34 +533,34 @@
 	<monster name="Master Dark Magician" file="Guia3d/edited/master dark magician.xml"/>
 	<monster name="MasterDark Apprentice" file="Guia3d/edited/master dark apprentice.xml"/>
 	<!-- End Editeds -->
-	<monster name="Knight Soldier" file="Bandits/assassin.xml"/>
-	<monster name="Knight Gold" file="Bandits/assassin.xml"/>
-	<monster name="Rumpelstikin" file="Bandits/assassin.xml"/>
-	<monster name="Armagedon 90" file="Bandits/assassin.xml"/>
-	<monster name="ruly the cat" file="Bandits/assassin.xml"/>
-	<monster name="the king atolon1000" file="Bandits/assassin.xml"/>
-	<monster name="The Evul Klautyo2000" file="Bandits/assassin.xml"/>
-	<monster name="poisonthrower" file="Bandits/assassin.xml"/>
-	<monster name="Train" file="Bandits/assassin.xml"/>
-	<monster name="Frost Warrior" file="Bandits/assassin.xml"/>
-	<monster name="Frost Scout" file="Bandits/assassin.xml"/>
-	<monster name="Darth Vader" file="Bandits/assassin.xml"/>
-	<monster name="fernfang" file="Bandits/assassin.xml"/>
-	<monster name="Ice Dragon Slayer" file="Bandits/assassin.xml"/>
-	<monster name="klaus cat" file="Bandits/assassin.xml"/>
-	<monster name="Elder Lich" file="Bandits/assassin.xml"/>
-	<monster name="The Fish one" file="Bandits/assassin.xml"/>
-	<monster name="fantasma" file="Bandits/assassin.xml"/>
-	<monster name="warlock Lord" file="Bandits/assassin.xml"/>
-	<monster name="Cuki" file="Bandits/assassin.xml"/>
-	<monster name="Snowblinder" file="Bandits/assassin.xml"/>
-	<monster name="torun" file="Bandits/assassin.xml"/>
-	<monster name="infernal" file="Bandits/assassin.xml"/>
-	<monster name="Imperial Troops" file="Bandits/assassin.xml"/>
-	<monster name="nosferatun" file="Bandits/assassin.xml"/>
-	<monster name="apocalypse" file="Bandits/assassin.xml"/>
-	<monster name="satanic" file="Bandits/assassin.xml"/>
-	<monster name="demonannik" file="Bandits/assassin.xml"/>
-	<monster name="Minishabaal" file="Bandits/assassin.xml"/>
-	<monster name="klaus cat gold" file="Bandits/assassin.xml"/>
+	<monster name="Knight Soldier" file="Guia3d/Knight Soldier.xml"/>
+	<monster name="Knight Gold" file="Guia3d/Knight Gold.xml" />
+	<monster name="Rumpelstikin" file="Guia3d/Rumpelstikin.xml" />
+	<monster name="Armagedon 90" file="Guia3d/armagedon 90.xml" />
+	<monster name="ruly the cat" file="Guia3d/ruly the cat.xml" />
+	<monster name="the king atolon1000" file="Guia3d/the king atolon1000.xml" />
+	<monster name="The Evul Klautyo2000" file="Guia3d/The Evul Klautyo2000.xml" />
+	<monster name="poisonthrower" file="Guia3d/poisonthrower.xml" />
+	<monster name="Train" file="Guia3d/train.xml" />
+	<monster name="Frost Warrior" file="Guia3d/Frost Warrior.xml" />
+	<monster name="Frost Scout" file="Guia3d/Frost Scout.xml"/>
+	<monster name="Darth Vader" file="Guia3d/Darth Vader.xml" />
+	<monster name="fernfang" file="Guia3d/fernfang.xml" />
+	<monster name="Ice Dragon Slayer" file="Guia3d/Ice Dragon Slayer.xml" />
+	<monster name="klaus cat" file="Guia3d/Klaus cat.xml" />
+	<monster name="Elder Lich" file="Guia3d/Elder lich.xml" />
+	<monster name="The Fish one" file="Guia3d/The Fish one.xml" />
+	<monster name="fantasma" file="Guia3d/fantasma.xml" />
+	<monster name="warlock Lord" file="Guia3d/warlock Lord.xml" />
+	<monster name="Cuki" file="Guia3d/Cuki.xml" />
+	<monster name="Snowblinder" file="Guia3d/Snowblinder.xml" />
+	<monster name="torun" file="Guia3d/torun.xml" />
+	<monster name="infernal" file="Guia3d/infernal.xml" />
+	<monster name="Imperial Troops" file="Guia3d/Imperial Troops.xml" />
+	<monster name="nosferatun" file="Guia3d/nosferatun.xml" />
+	<monster name="apocalypse" file="Guia3d/apocalypse.xml" />
+	<monster name="satanic" file="Guia3d/satanic.xml" />
+	<monster name="demonannik" file="Demons/demon.xml"/>
+	<monster name="Minishabaal" file="Guia3d/Minishabaal.xml" />
+	<monster name="klaus cat gold" file="Guia3d/Klaus cat gold.xml" />
 </monsters>
