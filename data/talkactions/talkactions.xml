@@ -51,6 +51,7 @@
 	<talkaction words="!leavehouse" access="0" script="leavehouse.lua"/>
 	<talkaction words="!houseinfo" access="0" script="houseinfo.lua"/>
 	<talkaction words="!frags" access="0" script="frags.lua"/>
+	<talkaction words="!war" access="0" filter="first word" script="war.lua"/>
 		<!-- Guia3d -->
 		<talkaction words="!bless" access="0" script="guia3d/bless.lua"/>
 </talkactions>
