@@ -3,7 +3,7 @@ setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_HITAREA)
 setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_ENCHANTEDSPEAR)
 
-function getSpellDamage(cid, weaponSkill, weaponAttack, attackStrength
+function getSpellDamage(cid, weaponSkill, weaponAttack, attackStrength)
 	local level = getPlayerLevel(cid)
 
 	local min = (((getPlayerSkill(cid,LEVEL_SKILL_DISTANCE)+25)/3)+(level/5))
