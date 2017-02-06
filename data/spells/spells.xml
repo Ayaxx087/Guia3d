@@ -474,44 +474,44 @@
 		<vocation name="Hunter" />
 		<vocation name="Scout" />
 	</instant>
-	<conjure prem="0" name="Make rune" words="adori blank" lvl="20" conjureId="2260" conjureCount="1" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureItem">
+	<conjure prem="0" name="Make rune" words="adori blank" lvl="20" conjureId="2260" conjureCount="1" aggressive="0" maglv="1" mana="200" soul="1"  enabled="1" function="conjureItem">
 		<vocation name="Druid"/>
 		<vocation name="Sorcerer"/>
 		<vocation name="Wizard" />
 		<vocation name="Shaman" />
 	</conjure>
-	<conjure prem="0" name="Conjure infernal Bolt" words="exevo con vis mort" lvl="60" conjureId="6529" conjureCount="15" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
+	<conjure prem="0" name="Conjure infernal Bolt" words="exevo con vis mort" lvl="60" conjureId="6529" conjureCount="15" aggressive="0" maglv="1" mana="280" soul="4"  enabled="1" function="conjureItem">
 		<vocation name="Paladin"/>
 		<vocation name="Hunter" />
 		<vocation name="Scout" />
 	</conjure>
-	<conjure prem="0" name="Drunk rune" words="drunk" lvl="30" reagentId="2260" conjureId="2267" conjureCount="3" aggressive="0" maglv="1" mana="100" soul="0"  enabled="1" function="conjureRune">
+	<conjure prem="0" name="Drunk rune" words="drunk" lvl="30" reagentId="2260" conjureId="2267" conjureCount="3" aggressive="0" maglv="1" mana="100" soul="2"  enabled="1" function="conjureRune">
 		<vocation name="Knight"/>
 		<vocation name="Warrior" />
 		<vocation name="Soldier" />
 	</conjure>
-	<conjure prem="0" name="Conjure onyx arrow" words="exevo con mas" lvl="55" conjureId="7365" conjureCount="15" aggressive="0" maglv="1" mana="180" soul="0"  enabled="1" function="conjureItem">
+	<conjure prem="0" name="Conjure onyx arrow" words="exevo con mas" lvl="55" conjureId="7365" conjureCount="15" aggressive="0" maglv="1" mana="180" soul="2"  enabled="1" function="conjureItem">
 		<vocation name="Paladin"/>
 		<vocation name="Hunter" />
 		<vocation name="Scout" />
 	</conjure>
 	<!-- Scout\\-->
-	<conjure prem="0" name="Conjure Bolt" words="exina con mort" lvl="17" conjureId="2543" conjureCount="25" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
+	<conjure prem="0" name="Conjure Bolt" words="exina con mort" lvl="17" conjureId="2543" conjureCount="25" aggressive="0" maglv="1" mana="75" soul="2"  enabled="1" function="conjureItem">
 		<vocation name="Scout"/>
 	</conjure>
-	<conjure prem="0" name="Conjure Arrow" words="exina con" lvl="13" conjureId="2544" conjureCount="25" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" function="conjureItem">
+	<conjure prem="0" name="Conjure Arrow" words="exina con" lvl="13" conjureId="2544" conjureCount="25" aggressive="0" maglv="1" mana="40" soul="1"  enabled="1" function="conjureItem">
 		<vocation name="Scout"/>
 	</conjure>
-	<conjure prem="0" name="Conjure Poison Arrow" words="exina con pox" lvl="16" conjureId="2545" conjureCount="25" aggressive="0" maglv="1" mana="70" soul="0"  enabled="1" function="conjureItem">
+	<conjure prem="0" name="Conjure Poison Arrow" words="exina con pox" lvl="16" conjureId="2545" conjureCount="25" aggressive="0" maglv="1" mana="70" soul="2"  enabled="1" function="conjureItem">
 		<vocation name="Scout"/>
 	</conjure>
-	<conjure prem="0" name="Conjure Explosion Arrow" words="exina con flam" lvl="25" conjureId="2546" conjureCount="25" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" function="conjureItem">
+	<conjure prem="0" name="Conjure Explosion Arrow" words="exina con flam" lvl="25" conjureId="2546" conjureCount="25" aggressive="0" maglv="1" mana="120" soul="3"  enabled="1" function="conjureItem">
 		<vocation name="Scout"/>
 	</conjure>
-	<conjure prem="0" name="Conjure Power Bolt" words="exina con vis" lvl="59" conjureId="2547" conjureCount="25" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureItem">
+	<conjure prem="0" name="Conjure Power Bolt" words="exina con vis" lvl="59" conjureId="2547" conjureCount="25" aggressive="0" maglv="1" mana="200" soul="4"  enabled="1" function="conjureItem">
 		<vocation name="Scout"/>
 	</conjure>
-	<conjure prem="0" name="Conjure infernal Bolt" words="exina con vis mort" lvl="60" conjureId="6529" conjureCount="25" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
+	<conjure prem="0" name="Conjure infernal Bolt" words="exina con vis mort" lvl="60" conjureId="6529" conjureCount="25" aggressive="0" maglv="1" mana="280" soul="4"  enabled="1" function="conjureItem">
 		<vocation name="Scout"/>
 	</conjure>
 	<instant prem="0" name="Ultimate Explosion" words="exina gran mas vis" lvl="50" maglv="1" mana="800"  enabled="1" script="guia3d/exina gran mas vis.lua">
