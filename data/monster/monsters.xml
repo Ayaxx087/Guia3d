@@ -507,4 +507,60 @@
 	<monster name="Vampire Bride" file="Undeads/vampire bride.xml"/>
 	<monster name="Wisp" file="Undeads/wisp.xml"/>
 	<monster name="Zombie" file="Undeads/zombie.xml"/>
+	
+	<!-- Guia3d -->
+	<monster name="assasin" file="Bandits/assassin.xml"/>
+	<monster name="bone beast" file="Beholders/bonelord.xml"/>
+	<monster name="Yalahari" file="Guia3d/yalahari.xml"/>
+	<!-- Editeds -->
+	<monster name="Quara Hydromancer Scout" file="Guia3d/edited/Quara hydromancer scout.xml"/>
+	<monster name="Quara Mantassin Scout" file="Guia3d/edited/Quara mantassin scout.xml"/>
+	<monster name="Quara Pincher Scout" file="Guia3d/edited/Quara pincher scout.xml"/>
+	<monster name="Quara Predator Scout" file="Guia3d/edited/Quara predator scout.xml"/>
+	
+	<monster name="Amenhotep I" file="Guia3d/edited/Amenhotep I.xml"/>
+	<monster name="Khafra" file="Guia3d/edited/Khafra.xml"/>
+	<monster name="Khufu" file="Guia3d/edited/Khufu.xml"/>
+	<monster name="Thutmose III" file="Guia3d/edited/Thutmose III.xml"/>
+	
+	<monster name="Earth Elemental Scout" file="Guia3d/edited/earth elemental scout.xml"/>
+	<monster name="Massive Earth Elemental Scout" file="Guia3d/edited/massive earth elemental scout.xml"/>
+	
+	<monster name="Lizard High Guard Elite" file="Guia3d/edited/lizard high guard elite.xml"/>
+	<monster name="Lizard Legionnaire Elite" file="Guia3d/edited/lizard legionnaire elite.xml"/>
+	<monster name="Lizard Zaogun Elite" file="Guia3d/edited/lizard zaogun elite.xml"/>
+	
+	<monster name="Master Dark Magician" file="Guia3d/edited/master dark magician.xml"/>
+	<monster name="MasterDark Apprentice" file="Guia3d/edited/master dark apprentice.xml"/>
+	<!-- End Editeds -->
+	<monster name="Knight Soldier" file="Bandits/assassin.xml"/>
+	<monster name="Knight Gold" file="Bandits/assassin.xml"/>
+	<monster name="Rumpelstikin" file="Bandits/assassin.xml"/>
+	<monster name="Armagedon 90" file="Bandits/assassin.xml"/>
+	<monster name="ruly the cat" file="Bandits/assassin.xml"/>
+	<monster name="the king atolon1000" file="Bandits/assassin.xml"/>
+	<monster name="The Evul Klautyo2000" file="Bandits/assassin.xml"/>
+	<monster name="poisonthrower" file="Bandits/assassin.xml"/>
+	<monster name="Train" file="Bandits/assassin.xml"/>
+	<monster name="Frost Warrior" file="Bandits/assassin.xml"/>
+	<monster name="Frost Scout" file="Bandits/assassin.xml"/>
+	<monster name="Darth Vader" file="Bandits/assassin.xml"/>
+	<monster name="fernfang" file="Bandits/assassin.xml"/>
+	<monster name="Ice Dragon Slayer" file="Bandits/assassin.xml"/>
+	<monster name="klaus cat" file="Bandits/assassin.xml"/>
+	<monster name="Elder Lich" file="Bandits/assassin.xml"/>
+	<monster name="The Fish one" file="Bandits/assassin.xml"/>
+	<monster name="fantasma" file="Bandits/assassin.xml"/>
+	<monster name="warlock Lord" file="Bandits/assassin.xml"/>
+	<monster name="Cuki" file="Bandits/assassin.xml"/>
+	<monster name="Snowblinder" file="Bandits/assassin.xml"/>
+	<monster name="torun" file="Bandits/assassin.xml"/>
+	<monster name="infernal" file="Bandits/assassin.xml"/>
+	<monster name="Imperial Troops" file="Bandits/assassin.xml"/>
+	<monster name="nosferatun" file="Bandits/assassin.xml"/>
+	<monster name="apocalypse" file="Bandits/assassin.xml"/>
+	<monster name="satanic" file="Bandits/assassin.xml"/>
+	<monster name="demonannik" file="Bandits/assassin.xml"/>
+	<monster name="Minishabaal" file="Bandits/assassin.xml"/>
+	<monster name="klaus cat gold" file="Bandits/assassin.xml"/>
 </monsters>
