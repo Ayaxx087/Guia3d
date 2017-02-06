@@ -1,8 +1,17 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_HITAREA)
-setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -3.9, 30, -5.5, 0)
---etCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.2, 30, -2.8, 0)
+
+function getSpellDamage(cid, weaponSkill, weaponAttack, attackStrength)
+	local level = getPlayerLevel(cid)
+
+	local min = ((weaponSkill+weaponAttack*2)*1.1+(level/5))
+	local max = ((weaponSkill+weaponAttack*2)*3+(level/5))
+
+	return -min, -max
+end
+
+setCombatCallback(combat, CALLBACK_PARAM_SKILLVALUE, "getSpellDamage")
 
 local arr = {
 {0, 1, 1, 1, 0},

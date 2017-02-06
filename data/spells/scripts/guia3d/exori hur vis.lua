@@ -1,9 +1,18 @@
-
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_GROUNDSHAKER)
 setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_WHIRLWINDSWORD)
-setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.45, 0, -2.55, 0)
+
+function getSpellDamage(cid, weaponSkill, weaponAttack, attackStrength)
+	local level = getPlayerLevel(cid)
+
+	local min = (((weaponSkill+weaponAttack)/3)+(level/5))
+	local max = ((weaponSkill+weaponAttack)+(level/5))
+
+	return -min, -max
+end
+
+setCombatCallback(combat, CALLBACK_PARAM_SKILLVALUE, "getSpellDamage")
 
 
 function onCastSpell(cid, var)
