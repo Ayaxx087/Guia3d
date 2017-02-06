@@ -68,7 +68,7 @@ function onUse(cid, item, frompos, item2, topos)
 	elseif item.actionid == 9023 then ------------crytal coin 100
 		giveItemToPlayer(cid, 2160, 100, 0, topos)
 	elseif item.actionid == 9024 then ------------mana rune
-		giveItemToPlayer(cid, 2296, 100, 0, topos)
+		giveItemToPlayer(cid, 2300, 100, 0, topos)
 
 
 	end	

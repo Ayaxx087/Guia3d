@@ -34,7 +34,7 @@
 <rune name="Thunderstorm" id="2315" charges="5" maglv="4" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="81/adori mas vis rune.lua"></rune>
 <rune name="Icicle Rune" id="2271" charges="5" maglv="1" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="81/adori frigo rune.lua"></rune>
 
-<rune name="Mana Rune" id="2316" charges="1" maglv="1" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="manarune.lua"></rune>
+<rune name="Mana Rune" id="2300" charges="1" maglv="1" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="manarune.lua"></rune>
 
 <rune name="Antidote Rune" id="2266" charges="1" maglv="0" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="antidote.lua"></rune>
 <rune name="Intense Healing Rune" id="2265" charges="1" maglv="1" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="intense_healing.lua"></rune>

@@ -147,7 +147,7 @@ function onUse(cid, item, frompos, item2, topos)
 	elseif item.actionid == 2362 then ------------CASCO BUZO
 		giveItemToPlayer(cid, 5461, 1, 500, topos)
 	elseif item.actionid == 2363 then ------------mana rune
-		giveItemToPlayer(cid, 2296, 20, 1000, topos)
+		giveItemToPlayer(cid, 2300, 20, 1000, topos)
 	elseif item.actionid == 2364 then  ------------BP ice
 		giveItemToPlayer(cid, 7342, 1, 10, topos)
 	elseif item.actionid == 2365 then  ------------Bag ice
