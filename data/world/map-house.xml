@@ -1139,26 +1139,26 @@
 	<house name="Hilan's House #1145" houseid="1145" entryx="466" entryy="1425" entryz="6" rent="500" townid="32" size="4" />
 	<house name="Hilan's House #1146" houseid="1146" entryx="388" entryy="1434" entryz="5" rent="500" townid="32" size="14" />
 	<house name="Hilan's House #1147" houseid="1147" entryx="443" entryy="1429" entryz="5" rent="500" townid="32" size="21" />
-	<house name="Aureate Court 2" houseid="1150" entryx="1800" entryy="282" entryz="7" rent="0" townid="33" size="107" />
+	<house name="Aureate Court 2" houseid="1150" entryx="1800" entryy="282" entryz="7" rent="0" townid="33" size="110" />
 	<house name="Aureate Court 3" houseid="1151" entryx="1798" entryy="275" entryz="7" rent="0" townid="33" size="112" />
-	<house name="Aureate Court 4" houseid="1152" entryx="1793" entryy="260" entryz="7" rent="0" guildhall="true" townid="33" size="449" />
+	<house name="Aureate Court 4" houseid="1152" entryx="1793" entryy="260" entryz="7" rent="0" guildhall="true" townid="33" size="480" />
 	<house name="Aureate Court 5" houseid="1154" entryx="1802" entryy="272" entryz="7" rent="0" townid="33" size="87" />
 	<house name="Aureate Court 6" houseid="1155" entryx="1804" entryy="275" entryz="7" rent="0" townid="33" size="120" />
-	<house name="Aureate Court 7" houseid="1156" entryx="1798" entryy="237" entryz="7" rent="0" townid="33" size="97" />
-	<house name="Fortune Wing 1" houseid="1157" entryx="1795" entryy="234" entryz="7" rent="0" guildhall="true" townid="33" size="79" />
-	<house name="Fortune Wing 2" houseid="1158" entryx="1801" entryy="236" entryz="7" rent="0" guildhall="true" townid="33" size="123" />
+	<house name="Aureate Court 7" houseid="1156" entryx="1798" entryy="237" entryz="7" rent="0" townid="33" size="93" />
+	<house name="Fortune Wing 1" houseid="1157" entryx="1795" entryy="234" entryz="7" rent="0" guildhall="true" townid="33" size="83" />
+	<house name="Fortune Wing 2" houseid="1158" entryx="1801" entryy="236" entryz="7" rent="0" guildhall="true" townid="33" size="125" />
 	<house name="Radiant Plaza 5" houseid="1159" entryx="1799" entryy="231" entryz="7" rent="0" townid="33" size="115" />
-	<house name="Radiant Plaza 1" houseid="1160" entryx="1808" entryy="216" entryz="7" rent="0" townid="33" size="120" />
-	<house name="Radiant Plaza 2" houseid="1165" entryx="1815" entryy="219" entryz="7" rent="0" townid="33" size="91" />
+	<house name="Radiant Plaza 1" houseid="1160" entryx="1808" entryy="216" entryz="7" rent="0" townid="33" size="129" />
+	<house name="Radiant Plaza 2" houseid="1165" entryx="1815" entryy="219" entryz="7" rent="0" townid="33" size="97" />
 	<house name="Radiant Plaza 3" houseid="1166" entryx="1853" entryy="222" entryz="7" rent="0" townid="33" size="133" />
 	<house name="Luminous Arc 1" houseid="1167" entryx="1857" entryy="222" entryz="7" rent="0" townid="33" size="128" />
 	<house name="Luminous Arc 2" houseid="1168" entryx="1850" entryy="230" entryz="7" rent="0" townid="33" size="129" />
 	<house name="Luminous Arc 3" houseid="1169" entryx="1855" entryy="231" entryz="7" rent="0" townid="33" size="235" />
 	<house name="Luminous Arc 4" houseid="1170" entryx="1876" entryy="243" entryz="7" rent="0" townid="33" size="52" />
 	<house name="Fortune Wing 3" houseid="1171" entryx="1876" entryy="247" entryz="7" rent="0" guildhall="true" townid="33" size="259" />
-	<house name="Fortune Wing 4" houseid="1172" entryx="1872" entryy="267" entryz="7" rent="0" townid="33" size="143" />
+	<house name="Fortune Wing 4" houseid="1172" entryx="1872" entryy="267" entryz="7" rent="0" townid="33" size="144" />
 	<house name="Fortune Wing 5" houseid="1173" entryx="1866" entryy="271" entryz="7" rent="0" guildhall="true" townid="33" size="120" />
 	<house name="Fortune Wing 6" houseid="1174" entryx="1874" entryy="271" entryz="7" rent="0" guildhall="true" townid="33" size="147" />
-	<house name="Fortune Wing 7" houseid="1175" entryx="1869" entryy="276" entryz="7" rent="0" townid="33" size="173" />
-	<house name="Radiant Plaza 4" houseid="1176" entryx="1815" entryy="215" entryz="7" rent="0" townid="33" size="91" />
+	<house name="Fortune Wing 7" houseid="1175" entryx="1869" entryy="276" entryz="7" rent="0" townid="33" size="175" />
+	<house name="Radiant Plaza 4" houseid="1176" entryx="1815" entryy="215" entryz="7" rent="0" townid="33" size="105" />
 </houses>
