@@ -34,89 +34,91 @@
 --action itemid="2553" script="pick.lua" --
 <action itemid="2152" script="platinum.lua" />
 
-<action itemid="2328" script="food.lua" /> --dragon egg - weight= 0.3 --
-<action itemid="2362" script="food.lua" /> --carrot - weight= 2.0 -96s--
-<action itemid="2363" script="food.lua" /> --red apple - weight=1.5 -72s--
-<action itemid="2666" script="food.lua" /> --meat - weight= 13.0 -180s--
-<action itemid="2667" script="food.lua" /> --fish - weight= 5.2 -144s--
-<action itemid="2668" script="food.lua" /> --salmon - weight= 3.2 -120s--
-<action itemid="2669" script="food.lua" /> --big fish - weight= 1.2 --
-<action itemid="2670" script="food.lua" /> --shrimp - weight=  --
-<action itemid="2671" script="food.lua" /> --ham - weight= 20.0 -360s--
-<action itemid="2672" script="food.lua" /> --dragon ham - weight= 30.0 -720s--
-<action itemid="2673" script="food.lua" /> --pears - weight= 1.4 --
-<action itemid="2674" script="food.lua" /> --apple - weight=1.5 --
-<action itemid="2675" script="food.lua" /> --orange - weight= 1.1 -156s--
-<action itemid="2676" script="food.lua" /> --banana - weight= 1.8 -96s--
-<action itemid="2677" script="food.lua" /> --blueberry - weight= 0.2 -8s--
-<action itemid="2678" script="food.lua" /> --coconut - weight= 4.8 --
-<action itemid="2679" script="food.lua" /> --cherry - weight= 0.2 -12s---
-<action itemid="2680" script="food.lua" /> --strawberry - weight= 0.2 -24s--
-<action itemid="2681" script="food.lua" /> --grape - weight= 2.5 -108s--
-<action itemid="2682" script="food.lua" /> --melon - weight= 9.5 -240s--
-<action itemid="2683" script="food.lua" /> --pumpkin - weight=  --
-<action itemid="2684" script="food.lua" /> --carrot - weight= 2.0 -96s--
-<action itemid="2685" script="food.lua" /> --tomato - weight= 1.0 --
-<action itemid="2686" script="food.lua" /> --corncob - weight= 3.5 -108s--
-<action itemid="2687" script="food.lua" /> --cookie - weight= 0.1 -24s--
-<action itemid="2688" script="food.lua" /> --candy cane weight= 0.5 --
-<action itemid="2689" script="food.lua" /> --bread - weight= 5.0 -120s--
-<action itemid="2690" script="food.lua" /> --roll - weight= 0.8 -36s--
-<action itemid="2691" script="food.lua" /> --brown - bread weight= 4.0 -96s--
-<action itemid="2695" script="food.lua" /> --egg - weight= 0.3 -96s--
-<action itemid="2696" script="food.lua" /> --cheese - weight= 4.0 -108s--
-<action itemid="2787" script="food.lua" /> --white mushroom - weight= 0.4 -72s--
-<action itemid="2788" script="food.lua" /> --red mushroom - weight= 0.5 -32s--
-<action itemid="2789" script="food.lua" /> --brown mushroom - weight= 0.2 -176s--
-<action itemid="2790" script="food.lua" /> --mushroom - weight= 0.3 -84s--
-<action itemid="2791" script="food.lua" /> --mushroom - weight= 0.3 -84s--
-<action itemid="2792" script="food.lua" /> --dark mushroom - weight= 0.1 --
-<action itemid="2793" script="food.lua" /> --mushroom - weight= 0.1 -84s--
-<action itemid="2794" script="food.lua" /> --mushroom - weight= 0.1 -84s--
-<action itemid="2795" script="food.lua" /> --fire mushroom - weight= 0.1 --
-<action itemid="2796" script="food.lua" /> --green mushroom - weight= 0.1 -140s--
-<action itemid="5678" script="food.lua" /> --tortuge egg
-<action itemid="5097" script="food.lua" /> --Mango
-<action itemid="6125" script="food.lua" /> --
-<action itemid="6278" script="food.lua" /> --
-<action itemid="6279" script="food.lua" /> --
-<action itemid="6280" script="food.lua" /> --
-<action itemid="6393" script="food.lua" /> --
-<action itemid="6394" script="food.lua" /> --
-<action itemid="6501" script="food.lua" /> --
-
-<action itemid="6541" script="food.lua" /> --
-<action itemid="6542" script="food.lua" /> --
-<action itemid="6543" script="food.lua" /> --
-<action itemid="6544" script="food.lua" /> --
-<action itemid="6545" script="food.lua" /> --
-<action itemid="6569" script="food.lua" /> --
-<action itemid="6574" script="food.lua" /> --
-<action itemid="7158" script="food.lua" /> --
-<action itemid="7159" script="food.lua" /> --
-<action itemid="7172" script="food.lua" /> --
-<action itemid="7173" script="food.lua" /> --
-<action itemid="7174" script="food.lua" /> --
-<action itemid="7175" script="food.lua" /> --
-<action itemid="7176" script="food.lua" /> --
-<action itemid="7177" script="food.lua" /> --
-<action itemid="7966" script="food.lua" /> --
-<action itemid="8111" script="food.lua" /> --
-<action itemid="8112" script="food.lua" /> --
-<action itemid="8194" script="food.lua" /> --
-<action itemid="8208" script="food.lua" /> --
-
-<action itemid="8838" script="food.lua" /> --
-<action itemid="8839" script="food.lua" /> --
-<action itemid="8840" script="food.lua" /> --
-<action itemid="8841" script="food.lua" /> --
-<action itemid="8842" script="food.lua" /> --
-<action itemid="8843" script="food.lua" /> --
-<action itemid="8844" script="food.lua" /> --
-<action itemid="8845" script="food.lua" /> --
-<action itemid="8846" script="food.lua" /> --
-<action itemid="8847" script="food.lua" /> --
-<action itemid="8848" script="food.lua" /> --
+	<!-- Foods -->
+	<action itemid="2328" script="foods/food.lua"/>
+	<action itemid="2362" script="foods/food.lua"/>
+	<action itemid="2666" script="foods/food.lua"/>
+	<action itemid="2667" script="foods/food.lua"/>
+	<action itemid="2668" script="foods/food.lua"/>
+	<action itemid="2669" script="foods/food.lua"/>
+	<action itemid="2670" script="foods/food.lua"/>
+	<action itemid="2671" script="foods/food.lua"/>
+	<action itemid="2672" script="foods/food.lua"/>
+	<action itemid="2673" script="foods/food.lua"/>
+	<action itemid="2674" script="foods/food.lua"/>
+	<action itemid="2675" script="foods/food.lua"/>
+	<action itemid="2676" script="foods/food.lua"/>
+	<action itemid="2677" script="foods/food.lua"/>
+	<action itemid="2678" script="foods/food.lua"/>
+	<action itemid="2679" script="foods/food.lua"/>
+	<action itemid="2680" script="foods/food.lua"/>
+	<action itemid="2681" script="foods/food.lua"/>
+	<action itemid="2682" script="foods/food.lua"/>
+	<action itemid="2683" script="foods/food.lua"/>
+	<action itemid="2684" script="foods/food.lua"/>
+	<action itemid="2685" script="foods/food.lua"/>
+	<action itemid="2686" script="foods/food.lua"/>
+	<action itemid="2687" script="foods/food.lua"/>
+	<action itemid="2688" script="foods/food.lua"/>
+	<action itemid="2689" script="foods/food.lua"/>
+	<action itemid="2690" script="foods/food.lua"/>
+	<action itemid="2691" script="foods/food.lua"/>
+	<action itemid="2695" script="foods/food.lua"/>
+	<action itemid="2696" script="foods/food.lua"/>
+	<action itemid="2787" script="foods/food.lua"/>
+	<action itemid="2788" script="foods/food.lua"/>
+	<action itemid="2789" script="foods/food.lua"/>
+	<action itemid="2790" script="foods/food.lua"/>
+	<action itemid="2791" script="foods/food.lua"/>
+	<action itemid="2792" script="foods/food.lua"/>
+	<action itemid="2793" script="foods/food.lua"/>
+	<action itemid="2794" script="foods/food.lua"/>
+	<action itemid="2795" script="foods/food.lua"/>
+	<action itemid="2796" script="foods/food.lua"/>
+	<action itemid="5097" script="foods/food.lua"/>
+	<action itemid="5678" script="foods/food.lua"/>
+	<action itemid="6125" script="foods/food.lua"/>
+	<action itemid="6278" script="foods/food.lua"/>
+	<action itemid="6279" script="foods/food.lua"/>
+	<action itemid="6280" script="foods/food.lua"/>
+	<action itemid="6393" script="foods/food.lua"/>
+	<action itemid="6394" script="foods/food.lua"/>
+	<action itemid="6501" script="foods/food.lua"/>
+	<action itemid="6541" script="foods/food.lua"/>
+	<action itemid="6542" script="foods/food.lua"/>
+	<action itemid="6543" script="foods/food.lua"/>
+	<action itemid="6544" script="foods/food.lua"/>
+	<action itemid="6545" script="foods/food.lua"/>
+	<action itemid="7158" script="foods/food.lua"/>
+	<action itemid="7159" script="foods/food.lua"/>
+	<action itemid="7372" script="foods/food.lua"/>
+	<action itemid="7373" script="foods/food.lua"/>
+	<action itemid="7374" script="foods/food.lua"/>
+	<action itemid="7375" script="foods/food.lua"/>
+	<action itemid="7376" script="foods/food.lua"/>
+	<action itemid="7377" script="foods/food.lua"/>
+	<action itemid="7963" script="foods/food.lua"/>
+	<action itemid="8838" script="foods/food.lua"/>
+	<action itemid="8839" script="foods/food.lua"/>
+	<action itemid="8840" script="foods/food.lua"/>
+	<action itemid="8841" script="foods/food.lua"/>
+	<action itemid="8842" script="foods/food.lua"/>
+	<action itemid="8843" script="foods/food.lua"/>
+	<action itemid="8844" script="foods/food.lua"/>
+	<action itemid="8845" script="foods/food.lua"/>
+	<action itemid="8847" script="foods/food.lua"/>
+	<action itemid="9005" script="foods/food.lua"/>
+	<action itemid="9992" script="foods/rotworm_stew.lua"/>
+	<action itemid="9993" script="foods/hydra_tongue_salad.lua"/>
+	<action itemid="9994" script="foods/roasted_dragon_wings.lua"/>
+	<action itemid="9995" script="foods/fried_tropical_terrorbird.lua"/>
+	<action itemid="9996" script="foods/food.lua"/>
+	<action itemid="9997" script="foods/veggie_casserole.lua"/>
+	<action itemid="9998" script="foods/filled_jalapeno_peppers.lua"/>
+	<action itemid="9999" script="foods/blessed_steak.lua"/>
+	<action itemid="10000" script="foods/carrot_cake.lua"/>
+	<action itemid="10001" script="foods/northern_fishburger.lua"/>
+	<action itemid="10454" script="foods/food.lua"/>
 
 <action itemid="1386" script="teleport.lua" /> --escalera de palos.
 <action itemid="3678" script="teleport.lua" /> --escalera de palos jungla.
