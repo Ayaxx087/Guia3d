@@ -330,8 +330,8 @@ lua_excepted_type_errors_enabled = false
 guild_wars_end_only_on_startup = true
 
 -- motd (the message box that you sometimes get before you choose characters)
-motd = "Welcome to Ultima Alianza Tibia Guia3d RPG ONLINE: \n \n www.uatibia.com \n\n Follow us in facebook www.facebook.com/uatibia and get the official \n source for news, tips and good assistance for the game.\n\n *Have fun! \n\n\n The Administration."
-motdnum = "1"
+motd = "Welcome to Ultima Alianza Tibia Guia3d RPG ONLINE: \n \n www.uatibia.com \n\n Follow us in facebook www.facebook.com/uatibia and get the official \n source for news, tips and good assistance for the game.\n Join the community in our forums: http://forums.uatibia.com.\n\n *Have fun! \n\n\n The Administration."
+motdnum = "2"
 
 -- login message
 loginmsg = "Welcome to the UATibia Guia3d RPG online, for get the official source for news and more info, visit: http://www.uatibia.com"
