@@ -168,7 +168,7 @@ experience_stages = true
 -- rates (experience, skill, magic level, loot and spawn)
 rate_exp = 1
 rate_exp_pvp = 0
-rate_skill = 25
+rate_skill = 20
 rate_mag = 7
 rate_loot = 1
 rate_spawn = 1
