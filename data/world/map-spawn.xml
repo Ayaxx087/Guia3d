@@ -15892,8 +15892,20 @@
 		<monster name="Rotworm" x="-3" y="9" z="9" spawntime="180" />
 		<monster name="Rotworm" x="-2" y="9" z="9" spawntime="180" />
 	</spawn>
+	<spawn centerx="380" centery="128" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="382" centery="128" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="385" centery="128" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="1767" centery="129" centerz="9" radius="1">
 		<monster name="Ghoul" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="385" centery="130" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="726" centery="130" centerz="9" radius="10">
 		<monster name="Dwarf Guard" x="9" y="-1" z="9" spawntime="180" />
@@ -15905,6 +15917,15 @@
 	</spawn>
 	<spawn centerx="1768" centery="131" centerz="9" radius="1">
 		<monster name="Ghoul" x="1" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="385" centery="132" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="380" centery="133" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="382" centery="133" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="665" centery="133" centerz="9" radius="12">
 		<monster name="Dwarf Guard" x="3" y="-7" z="9" spawntime="180" />
@@ -15924,12 +15945,42 @@
 		<monster name="Dwarf Guard" x="-1" y="0" z="9" spawntime="180" />
 		<monster name="Dwarf Guard" x="1" y="0" z="9" spawntime="180" />
 	</spawn>
+	<spawn centerx="334" centery="137" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="342" centery="137" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="350" centery="137" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="357" centery="137" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="365" centery="137" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="635" centery="137" centerz="9" radius="10">
 		<monster name="Dragon" x="-9" y="-1" z="9" spawntime="240" />
 		<monster name="Dragon" x="-9" y="1" z="9" spawntime="240" />
 	</spawn>
 	<spawn centerx="1794" centery="138" centerz="9" radius="1">
 		<monster name="Ghoul" x="1" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="334" centery="139" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="342" centery="139" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="350" centery="139" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="357" centery="139" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="365" centery="139" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1777" centery="139" centerz="9" radius="1">
 		<monster name="Crypt shambler" x="0" y="0" z="9" spawntime="60" />
@@ -15972,8 +16023,20 @@
 		<monster name="Sibang" x="5" y="5" z="9" spawntime="180" />
 		<monster name="Sibang" x="-2" y="6" z="9" spawntime="180" />
 	</spawn>
+	<spawn centerx="334" centery="141" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="350" centery="141" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="1850" centery="141" centerz="9" radius="1">
 		<monster name="Adept of the Cult" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="334" centery="143" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="350" centery="143" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="512" centery="143" centerz="9" radius="20">
 		<monster name="Rotworm" x="0" y="-10" z="9" spawntime="180" />
@@ -16007,11 +16070,26 @@
 	<spawn centerx="1849" centery="144" centerz="9" radius="1">
 		<monster name="Acolyte Of the Cult" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="334" centery="145" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="342" centery="145" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="357" centery="145" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="365" centery="145" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="1803" centery="145" centerz="9" radius="1">
 		<monster name="Crypt shambler" x="1" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1822" centery="145" centerz="9" radius="1">
 		<monster name="Acolyte Of the Cult" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="386" centery="146" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1716" centery="146" centerz="9" radius="1">
 		<monster name="Nightmare Scion" x="0" y="0" z="9" spawntime="60" />
@@ -16022,11 +16100,26 @@
 	<spawn centerx="1843" centery="146" centerz="9" radius="1">
 		<monster name="Adept of the Cult" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="334" centery="147" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="342" centery="147" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="357" centery="147" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="365" centery="147" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="1756" centery="147" centerz="9" radius="1">
 		<monster name="Ghoul" x="1" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1817" centery="147" centerz="9" radius="1">
 		<monster name="Acolyte Of the Cult" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="386" centery="148" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="684" centery="148" centerz="9" radius="11">
 		<monster name="Dwarf Geomancer" x="-1" y="4" z="9" spawntime="200" />
@@ -16041,21 +16134,72 @@
 	<spawn centerx="1839" centery="148" centerz="9" radius="1">
 		<monster name="Adept of the Cult" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="334" centery="149" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="342" centery="149" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="350" centery="149" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="357" centery="149" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="365" centery="149" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="1726" centery="149" centerz="9" radius="1">
 		<monster name="Nightmare Scion" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="386" centery="150" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="334" centery="151" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="342" centery="151" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="350" centery="151" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="357" centery="151" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="365" centery="151" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1767" centery="151" centerz="9" radius="1">
 		<monster name="Crypt shambler" x="1" y="0" z="9" spawntime="60" />
 		<monster name="Ghoul" x="-1" y="1" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="352" centery="153" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="381" centery="153" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="383" centery="153" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="1789" centery="153" centerz="9" radius="1">
 		<monster name="Skeleton" x="1" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="354" centery="154" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1835" centery="154" centerz="9" radius="1">
 		<monster name="Adept of the Cult" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="383" centery="155" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="1781" centery="155" centerz="9" radius="1">
 		<monster name="Ghoul" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="354" centery="156" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1788" centery="156" centerz="9" radius="1">
 		<monster name="Skeleton" x="1" y="0" z="9" spawntime="60" />
@@ -16066,16 +16210,34 @@
 	<spawn centerx="1818" centery="156" centerz="9" radius="1">
 		<monster name="Adept of the Cult" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
+	<spawn centerx="383" centery="157" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="1804" centery="157" centerz="9" radius="1">
 		<monster name="Ghoul" x="1" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="354" centery="158" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="653" centery="158" centerz="9" radius="12">
 		<monster name="Giant Spider" x="-9" y="-1" z="9" spawntime="300" />
 		<monster name="Giant Spider" x="-1" y="6" z="9" spawntime="300" />
 		<monster name="Giant Spider" x="-2" y="7" z="9" spawntime="300" />
 	</spawn>
+	<spawn centerx="381" centery="159" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="383" centery="159" centerz="9" radius="1">
+		<monster name="Train" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
 	<spawn centerx="1847" centery="159" centerz="9" radius="1">
 		<monster name="Adept of the Cult" x="1" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="352" centery="160" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
+	</spawn>
+	<spawn centerx="354" centery="160" centerz="9" radius="1">
+		<monster name="torun" x="0" y="0" z="9" spawntime="60" />
 	</spawn>
 	<spawn centerx="1762" centery="160" centerz="9" radius="1">
 		<monster name="Ghoul" x="0" y="0" z="9" spawntime="60" />
@@ -16426,6 +16588,13 @@
 		<monster name="Dwarf Soldier" x="2" y="4" z="9" spawntime="180" />
 	</spawn>
 	<spawn centerx="327" centery="211" centerz="9" radius="50">
+		<monster name="Train" x="23" y="-43" z="9" spawntime="60" />
+		<monster name="torun" x="25" y="-43" z="9" spawntime="60" />
+		<monster name="torun" x="27" y="-43" z="9" spawntime="60" />
+		<monster name="torun" x="27" y="-41" z="9" spawntime="60" />
+		<monster name="torun" x="26" y="-40" z="9" spawntime="60" />
+		<monster name="torun" x="25" y="-39" z="9" spawntime="60" />
+		<monster name="torun" x="24" y="-38" z="9" spawntime="60" />
 		<monster name="Dragon lord Hatchling" x="27" y="-28" z="9" spawntime="300" />
 		<monster name="Dragon lord Hatchling" x="26" y="-27" z="9" spawntime="300" />
 		<monster name="Dragon lord Hatchling" x="9" y="-26" z="9" spawntime="300" />
@@ -19306,6 +19475,33 @@
 		<monster name="Dwarf" x="-5" y="3" z="10" spawntime="180" />
 		<monster name="Dwarf" x="-4" y="3" z="10" spawntime="180" />
 	</spawn>
+	<spawn centerx="777" centery="92" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="785" centery="92" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="793" centery="92" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="800" centery="93" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="802" centery="93" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="777" centery="94" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="785" centery="94" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="793" centery="94" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="805" centery="94" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
 	<spawn centerx="243" centery="95" centerz="10" radius="15">
 		<monster name="Wyvern" x="-1" y="-3" z="10" spawntime="200" />
 	</spawn>
@@ -19319,6 +19515,15 @@
 		<monster name="Rotworm" x="6" y="1" z="10" spawntime="180" />
 		<monster name="Rotworm" x="-11" y="5" z="10" spawntime="180" />
 		<monster name="Rotworm" x="-10" y="5" z="10" spawntime="180" />
+	</spawn>
+	<spawn centerx="777" centery="96" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="793" centery="96" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="805" centery="96" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="290" centery="98" centerz="10" radius="15">
 		<monster name="Dwarf Guard" x="-10" y="-8" z="10" spawntime="200" />
@@ -19334,9 +19539,60 @@
 		<monster name="Dwarf" x="4" y="12" z="10" spawntime="180" />
 		<monster name="Dwarf Soldier" x="5" y="13" z="10" spawntime="180" />
 	</spawn>
+	<spawn centerx="777" centery="98" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="793" centery="98" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="805" centery="98" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="777" centery="100" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="785" centery="100" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="805" centery="100" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="777" centery="102" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="785" centery="102" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
 	<spawn centerx="380" centery="104" centerz="10" radius="5">
 		<monster name="Vampire" x="-2" y="-4" z="10" spawntime="360" />
 		<monster name="Vampire" x="0" y="-4" z="10" spawntime="360" />
+	</spawn>
+	<spawn centerx="777" centery="104" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="785" centery="104" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="793" centery="104" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="805" centery="104" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="777" centery="106" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="785" centery="106" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="793" centery="106" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="795" centery="108" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="797" centery="109" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="620" centery="110" centerz="10" radius="8">
 		<monster name="Dwarf Guard" x="-1" y="-4" z="10" spawntime="180" />
@@ -19346,6 +19602,18 @@
 		<monster name="Giant Spider" x="-6" y="2" z="10" spawntime="360" />
 		<monster name="Dwarf Soldier" x="5" y="5" z="10" spawntime="180" />
 		<monster name="Dwarf Guard" x="0" y="6" z="10" spawntime="180" />
+	</spawn>
+	<spawn centerx="797" centery="111" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="797" centery="113" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="795" centery="115" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="797" centery="115" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="333" centery="116" centerz="10" radius="15">
 		<monster name="Dwarf" x="-2" y="1" z="10" spawntime="180" />
@@ -19375,15 +19643,32 @@
 		<monster name="Dwarf" x="-5" y="11" z="10" spawntime="180" />
 		<monster name="Dwarf" x="-6" y="12" z="10" spawntime="180" />
 	</spawn>
+	<spawn centerx="792" centery="123" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="794" centery="123" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="796" centery="123" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
 	<spawn centerx="77" centery="124" centerz="10" radius="10">
 		<monster name="Wyvern" x="-4" y="-1" z="10" spawntime="200" />
 		<monster name="Wyvern" x="-4" y="1" z="10" spawntime="200" />
+	</spawn>
+	<spawn centerx="796" centery="126" centerz="10" radius="1">
+		<monster name="Train" x="1" y="-1" z="10" spawntime="60" />
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Train" x="-1" y="1" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="167" centery="128" centerz="10" radius="12">
 		<monster name="Dragon" x="8" y="-7" z="10" spawntime="240" />
 		<monster name="Dragon" x="-1" y="-6" z="10" spawntime="240" />
 		<monster name="Dragon" x="-12" y="0" z="10" spawntime="240" />
 		<monster name="Dragon" x="1" y="2" z="10" spawntime="240" />
+	</spawn>
+	<spawn centerx="792" centery="128" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="139" centery="129" centerz="10" radius="8">
 		<monster name="Dwarf Soldier" x="0" y="-6" z="10" spawntime="180" />
@@ -21191,11 +21476,71 @@
 		<monster name="Orc" x="0" y="3" z="10" spawntime="180" />
 		<monster name="Poison spider" x="6" y="8" z="10" spawntime="180" />
 	</spawn>
+	<spawn centerx="79" centery="1131" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="82" centery="1131" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="84" centery="1131" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="84" centery="1134" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="79" centery="1136" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="81" centery="1136" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="33" centery="1140" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="41" centery="1140" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="49" centery="1140" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="56" centery="1140" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="64" centery="1140" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
 	<spawn centerx="200" centery="1140" centerz="10" radius="8">
 		<monster name="Orc Spearman" x="-6" y="-5" z="10" spawntime="180" />
 		<monster name="Orc Berserker" x="0" y="-2" z="10" spawntime="180" />
 		<monster name="Orc Spearman" x="0" y="5" z="10" spawntime="180" />
 		<monster name="Orc Spearman" x="1" y="5" z="10" spawntime="180" />
+	</spawn>
+	<spawn centerx="33" centery="1142" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="41" centery="1142" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="49" centery="1142" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="56" centery="1142" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="64" centery="1142" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="33" centery="1144" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="49" centery="1144" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="33" centery="1146" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="49" centery="1146" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="142" centery="1147" centerz="10" radius="9">
 		<monster name="Orc Warrior" x="0" y="-3" z="10" spawntime="180" />
@@ -21207,6 +21552,18 @@
 		<monster name="Orc Warrior" x="-6" y="8" z="10" spawntime="180" />
 		<monster name="Orc" x="7" y="8" z="10" spawntime="180" />
 	</spawn>
+	<spawn centerx="33" centery="1148" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="41" centery="1148" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="56" centery="1148" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="64" centery="1148" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
 	<spawn centerx="215" centery="1148" centerz="10" radius="12">
 		<monster name="Orc Berserker" x="2" y="-10" z="10" spawntime="180" />
 		<monster name="Orc Berserker" x="8" y="-8" z="10" spawntime="180" />
@@ -21216,10 +21573,91 @@
 		<monster name="Orc Berserker" x="1" y="6" z="10" spawntime="180" />
 		<monster name="Orc Leader" x="6" y="9" z="10" spawntime="300" />
 	</spawn>
+	<spawn centerx="85" centery="1149" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="33" centery="1150" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="41" centery="1150" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="56" centery="1150" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="64" centery="1150" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="85" centery="1151" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="33" centery="1152" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="41" centery="1152" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="49" centery="1152" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="56" centery="1152" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="64" centery="1152" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="85" centery="1153" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="33" centery="1154" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="41" centery="1154" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="49" centery="1154" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="56" centery="1154" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="64" centery="1154" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="80" centery="1156" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="82" centery="1156" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="53" centery="1157" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="82" centery="1158" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="53" centery="1159" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="82" centery="1160" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="53" centery="1161" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
 	<spawn centerx="160" centery="1161" centerz="10" radius="8">
 		<monster name="Orc Spearman" x="-5" y="-8" z="10" spawntime="180" />
 		<monster name="Orc Berserker" x="7" y="-4" z="10" spawntime="180" />
 		<monster name="Orc Berserker" x="3" y="4" z="10" spawntime="180" />
+	</spawn>
+	<spawn centerx="80" centery="1162" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="82" centery="1162" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="53" centery="1163" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="155" centery="1165" centerz="10" radius="7">
 		<monster name="Orc Berserker" x="-6" y="0" z="10" spawntime="180" />
@@ -21229,15 +21667,27 @@
 		<monster name="Larva" x="2" y="-6" z="10" spawntime="180" />
 		<monster name="Larva" x="-2" y="0" z="10" spawntime="180" />
 	</spawn>
+	<spawn centerx="48" centery="1171" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="50" centery="1171" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="52" centery="1171" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="53" centery="1173" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
+	</spawn>
 	<spawn centerx="70" centery="1174" centerz="10" radius="10">
-		<monster name="Orc Spearman" x="-3" y="-9" z="10" spawntime="180" />
-		<monster name="Orc Spearman" x="-2" y="-9" z="10" spawntime="180" />
-		<monster name="Rotworm" x="4" y="-1" z="10" spawntime="180" />
-		<monster name="Rotworm" x="10" y="-1" z="10" spawntime="180" />
-		<monster name="Rotworm" x="10" y="0" z="10" spawntime="180" />
-		<monster name="Orc Spearman" x="0" y="1" z="10" spawntime="180" />
-		<monster name="Rotworm" x="4" y="1" z="10" spawntime="180" />
-		<monster name="Orc Spearman" x="0" y="2" z="10" spawntime="180" />
+		<monster name="Train" x="7" y="-3" z="10" spawntime="60" />
+		<monster name="Train" x="9" y="-3" z="10" spawntime="60" />
+		<monster name="Train" x="10" y="-1" z="10" spawntime="60" />
+		<monster name="Train" x="7" y="1" z="10" spawntime="60" />
+		<monster name="Train" x="9" y="1" z="10" spawntime="60" />
+	</spawn>
+	<spawn centerx="51" centery="1175" centerz="10" radius="1">
+		<monster name="Train" x="0" y="0" z="10" spawntime="60" />
 	</spawn>
 	<spawn centerx="138" centery="1183" centerz="10" radius="10">
 		<monster name="Minotaur guard" x="0" y="-3" z="10" spawntime="180" />
