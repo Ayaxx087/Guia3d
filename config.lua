@@ -111,10 +111,10 @@ premonlybeds = false
 use_balance_house_paying = false
 
 -- How long time the red skull will last in seconds (default 30 days)
-red_skull_duration = 3*24*60*60
+red_skull_duration = 7*24*60*60
 
 -- How long time the black skull will last in seconds (default 45 days)
-black_skull_duration = 7*24*60*60
+black_skull_duration = 14*24*60*60
 
 -- White skull duration, how long a player will get pz locked/white skull
 unjust_skull_duration = 15*60*1000
@@ -124,15 +124,15 @@ defensive_pz_lock = true
 
 -- How many players you need to kill to gain a red skull per day/week/month
 -- Set 0 to disable
-kills_per_day_red_skull = 8
-kills_per_week_red_skull = 56
-kills_per_month_red_skull = 240
+kills_per_day_red_skull = 5
+kills_per_week_red_skull = 8
+kills_per_month_red_skull = 32
 
 -- How many players you need to kill to gain a black skull per day/week/month
 -- Set 0 to disable
-kills_per_day_black_skull = 14
-kills_per_week_black_skull = 98
-kills_per_month_black_skull = 420
+kills_per_day_black_skull = 7
+kills_per_week_black_skull = 10
+kills_per_month_black_skull = 40
 
 -- Broadcast violation window banishments
 broadcast_banishments = "no"
@@ -168,10 +168,10 @@ experience_stages = true
 -- rates (experience, skill, magic level, loot and spawn)
 rate_exp = 1
 rate_exp_pvp = 0
-rate_skill = 6
-rate_mag = 3
-rate_loot = 2
-rate_spawn = 6
+rate_skill = 3
+rate_mag = 2
+rate_loot = 1
+rate_spawn = 1
 
 --Displays the skill advanced to when advancing in skills (melee) [default: "no"]
 --Example: "You advanced to sword fighting 17. "
