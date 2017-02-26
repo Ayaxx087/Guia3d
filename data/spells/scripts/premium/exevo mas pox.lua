@@ -2,7 +2,7 @@
  setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_POISONDAMAGE)
  setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_GREEN_RINGS)
  
-setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.2, 30, -2.2, 0)
+setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -1.2, 30, -1.2, 0)
 
 arr = {
 {0, 0, 0, 1, 0, 0, 0},

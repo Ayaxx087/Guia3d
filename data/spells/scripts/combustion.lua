@@ -2,7 +2,7 @@ local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_FIREDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_FIREAREA)
 setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_FIRE)
-setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -1.8, -30, -2.2, 0)
+setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -0.8, -30, -1.2, 0)
 
 local condition = createConditionObject(CONDITION_FIRE)
 setConditionParam(condition, CONDITION_PARAM_DELAYED, 1)

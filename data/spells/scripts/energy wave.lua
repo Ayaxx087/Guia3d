@@ -2,7 +2,7 @@ local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_ENERGYDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_ENERGYAREA)
 setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_ENERGY)
-setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.3, 0, -2.7, 0)
+setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -1.3, 0, -1.7, 0)
 
 local arr = {
 {1, 1, 1},

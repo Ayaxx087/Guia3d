@@ -1,7 +1,7 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_HITAREA)
-setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -3.9, 30, -5.5, 0)
+setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.9, 30, -4.5, 0)
 --etCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.2, 30, -2.8, 0)
 
 local arr = {
