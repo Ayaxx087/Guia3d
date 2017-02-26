@@ -1027,4 +1027,57 @@
 <vocation name="Shaman" />
 </instant>
 
+--new spells
+<instant name="Train Party" words="utito mas sio" lvl="32" mana="0" prem="1" aggressive="0" selftarget="1" script="tatuy/support/party_knight.lua">
+	<vocation name="Knight" />
+	<vocation name="Soldier" />
+	<vocation name="Warrior" />
+</instant>
+<instant name="Protect Party" words="utamo mas sio" lvl="32" mana="0" prem="1" aggressive="0" selftarget="1" script="tatuy/support/party_paladin.lua">
+	<vocation name="Paladin"/>
+	<vocation name="Hunter" />
+	<vocation name="Scout" />
+</instant>
+<instant name="Heal Party" words="utura mas sio" lvl="32" mana="0" prem="1" aggressive="0" selftarget="1" script="tatuy/support/party_druid.lua">
+	<vocation name="Druid"/>
+	<vocation name="Shaman" />
+</instant>
+<instant name="Enchant Party" words="utori mas sio" lvl="32" mana="0" prem="1" aggressive="0" selftarget="1" script="tatuy/support/party_sorcerer.lua">
+	<vocation name="Sorcerer"/>
+	<vocation name="Wizard" />
+</instant>
+<instant name="Protector" words="utamo tempo" lvl="55" mana="200" prem="1" selftarget="1" script="tatuy/support/protector.lua">
+	<vocation name="Knight" />
+	<vocation name="Soldier" />
+	<vocation name="Warrior" />
+</instant>
+<instant name="Blood Rage" words="utito tempo" lvl="60" mana="290" prem="1" selftarget="1" script="tatuy/support/blood_rage.lua">
+	<vocation name="Knight" />
+	<vocation name="Soldier" />
+	<vocation name="Warrior" />
+</instant>
+<instant name="Charge" words="utani tempo hur" lvl="25" mana="100" prem="1" selftarget="1" aggressive="0" script="tatuy/support/charge.lua">
+	<vocation name="Knight" />
+	<vocation name="Soldier" />
+	<vocation name="Warrior" />
+</instant>
+<instant name="Swift Foot" words="utamo tempo san" lvl="55" mana="400" prem="1" selftarget="1" aggressive="0" script="tatuy/support/swift_foot.lua">
+	<vocation name="Paladin"/>
+	<vocation name="Hunter" />
+	<vocation name="Scout" />
+</instant>
+<instant name="Sharpshooter" words="utito tempo san" lvl="60" mana="450" prem="1" selftarget="1" aggressive="0" script="tatuy/support/sharpshooter.lua">
+	<vocation name="Paladin"/>
+	<vocation name="Hunter" />
+	<vocation name="Scout" />
+</instant>
+<rune name="Wild Growth" id="2269" allowfaruse="1" charges="2" lvl="27" maglv="8" exhaustion="2000" blocktype="all" script="tatuy/support/wild_growth.lua">
+	<vocation name="Druid"/>
+	<vocation name="Shaman"/>
+</rune>
+<conjure name="Wild Growth" words="adevo grav vita" lvl="27" mana="200" soul="0" prem="0" reagentId="2260" conjureId="2269" conjureCount="8" needlearn="0" function="conjureRune">
+	<vocation name="Druid"/>
+	<vocation name="Shaman"/>
+</conjure>
+
 </spells>
