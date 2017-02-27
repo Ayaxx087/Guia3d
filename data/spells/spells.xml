@@ -48,7 +48,12 @@
 -- Support Runes
 <rune name="Chameleon" id="2291" selftarget="1" charges="1" maglv="4" mana="0" aggressive="0" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" function="chameleon"></rune>
 <rune name="Magic Wall" id="2293" charges="3" maglv="9" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" blocktype="all" enabled="1" script="magic_wall.lua"></rune>
-<rune name="Paralyze" id="2278" charges="1" maglv="18" mana="1400" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="paralyze.lua"></rune>
+<rune name="Paralyze" id="2278" charges="1" maglv="18" mana="1400" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="paralyze.lua">
+<vocation name="Druid"/>
+<vocation name="Sorcerer"/>
+<vocation name="Shaman" />
+<vocation name="Wizard" />
+</rune>
 <rune name="Drunkness" id="2267" charges="3" needtarget="1" lvl="10" maglv="2" mana="0"  enabled="1" allowfaruse="1" script="drunk.lua"></rune>
 --GM Runes
 <rune name="2hpDAMAGE" id="2299" charges="1" maglv="4000" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="gmrune2hp.lua"></rune>
@@ -73,6 +78,7 @@
 <instant prem="1" name="GM spell" words="xxx1" lvl="1000" maglv="400" mana="20000" aggressive="1"  direction="0" enabled="1" script="xxx.lua">
 <vocation name="GameMaster" />
 </instant>
+
 
 <instant prem="1" name="Apocalypse" words="exevo gran mas flam" lvl="70" maglv="1" manapercent="60" needlearn="0" soul="0"  enabled="1" script="apocalypse.lua">
 <vocation name="Wizard" />
@@ -126,7 +132,7 @@
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="0" name="Wild Growth" words="exevo grav vita" lvl="27" maglv="1" mana="200" aggressive="1" direction="1" blocktype="all"  enabled="1" script="wild growth.lua">
+<instant prem="0" name="Wild Growth" words="exevo grav vita" lvl="27" maglv="1" mana="62" aggressive="1" direction="1" blocktype="all"  enabled="1" script="wild growth.lua">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </instant>
@@ -176,7 +182,7 @@
 <vocation name="Wizard"/>
 </instant>
 
-<instant prem="0" name="Challenge" words="exeta res" lvl="4" maglv="1" mana="90"  enabled="1" script="challenge.lua">
+<instant prem="0" name="Challenge" words="exeta res" lvl="4" aggressive="0" selftarget="1" maglv="1" mana="90"  enabled="1" script="challenge.lua">
 <vocation name="Knight"/>
 <vocation name="Warrior" />
 <vocation name="Soldier" />
@@ -283,7 +289,7 @@
 <vocation name="Shaman" />
 </instant>
 
-<instant prem="0" name="Berserk" words="exori" lvl="35" maglv="1" mana="200"  enabled="1" script="exori.lua">
+<instant prem="0" name="Berserk" words="exori" lvl="41" maglv="1" mana="200"  enabled="1" script="exori.lua">
 <vocation name="Knight"/>
 <vocation name="Soldier" />
 <vocation name="Warrior" />
@@ -767,7 +773,7 @@
 <vocation name="Soldier" />
 </instant>
 
-<instant prem="1" name="Force Strike" words="exori wall" direction="1" lvl="32" maglv="1" mana="62"  enabled="1" script="premium/exori wall.lua">
+<instant prem="1" name="Force Strike" words="exori wall" direction="1" lvl="32" maglv="1" mana="62"  enabled="1" exhaustion="2000" script="premium/exori wall.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Shaman" />
@@ -1020,45 +1026,27 @@
 </instant>
 
 --new spells
-<instant name="Train Party" words="utito mas sio" lvl="32" mana="0" prem="1" aggressive="0" selftarget="1" script="tatuy/support/party_knight.lua">
+<instant name="Protector" words="utamo tempo" lvl="55" mana="200" prem="0" selftarget="1" script="tatuy/support/protector.lua">
 	<vocation name="Knight" />
 	<vocation name="Soldier" />
 	<vocation name="Warrior" />
 </instant>
-<instant name="Protect Party" words="utamo mas sio" lvl="32" mana="0" prem="1" aggressive="0" selftarget="1" script="tatuy/support/party_paladin.lua">
+<instant name="Blood Rage" words="utito tempo" lvl="60" mana="290" prem="0" selftarget="1" script="tatuy/support/blood_rage.lua">
+	<vocation name="Knight" />
+	<vocation name="Soldier" />
+	<vocation name="Warrior" />
+</instant>
+<instant name="Charge" words="utani tempo hur" lvl="25" mana="100" prem="0" selftarget="1" aggressive="0" script="tatuy/support/charge.lua">
+	<vocation name="Knight" />
+	<vocation name="Soldier" />
+	<vocation name="Warrior" />
+</instant>
+<instant name="Swift Foot" words="utamo tempo san" lvl="55" mana="400" prem="0" selftarget="1" aggressive="0" script="tatuy/support/swift_foot.lua">
 	<vocation name="Paladin"/>
 	<vocation name="Hunter" />
 	<vocation name="Scout" />
 </instant>
-<instant name="Heal Party" words="utura mas sio" lvl="32" mana="0" prem="1" aggressive="0" selftarget="1" script="tatuy/support/party_druid.lua">
-	<vocation name="Druid"/>
-	<vocation name="Shaman" />
-</instant>
-<instant name="Enchant Party" words="utori mas sio" lvl="32" mana="0" prem="1" aggressive="0" selftarget="1" script="tatuy/support/party_sorcerer.lua">
-	<vocation name="Sorcerer"/>
-	<vocation name="Wizard" />
-</instant>
-<instant name="Protector" words="utamo tempo" lvl="55" mana="200" prem="1" selftarget="1" script="tatuy/support/protector.lua">
-	<vocation name="Knight" />
-	<vocation name="Soldier" />
-	<vocation name="Warrior" />
-</instant>
-<instant name="Blood Rage" words="utito tempo" lvl="60" mana="290" prem="1" selftarget="1" script="tatuy/support/blood_rage.lua">
-	<vocation name="Knight" />
-	<vocation name="Soldier" />
-	<vocation name="Warrior" />
-</instant>
-<instant name="Charge" words="utani tempo hur" lvl="25" mana="100" prem="1" selftarget="1" aggressive="0" script="tatuy/support/charge.lua">
-	<vocation name="Knight" />
-	<vocation name="Soldier" />
-	<vocation name="Warrior" />
-</instant>
-<instant name="Swift Foot" words="utamo tempo san" lvl="55" mana="400" prem="1" selftarget="1" aggressive="0" script="tatuy/support/swift_foot.lua">
-	<vocation name="Paladin"/>
-	<vocation name="Hunter" />
-	<vocation name="Scout" />
-</instant>
-<instant name="Sharpshooter" words="utito tempo san" lvl="60" mana="450" prem="1" selftarget="1" aggressive="0" script="tatuy/support/sharpshooter.lua">
+<instant name="Sharpshooter" words="utito tempo san" lvl="60" mana="450" prem="0" selftarget="1" aggressive="0" script="tatuy/support/sharpshooter.lua">
 	<vocation name="Paladin"/>
 	<vocation name="Hunter" />
 	<vocation name="Scout" />

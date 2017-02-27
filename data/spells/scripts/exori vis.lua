@@ -3,7 +3,7 @@ setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_ENERGYDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_ENERGYAREA)
 --setCombatParam(combat, COMBAT_PARAM_DISTANCEEFFECT, CONST_ANI_ENERGY)
 --COMBAT_FORMULA_LEVELMAGIC, -0.8, 0, -0, 0)
-setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -0.2, 0, -0.4, 0)
+setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -1.2, 0, -1.4, 0)
 
 local arr = {
 {0, 3, 0},

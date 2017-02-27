@@ -20,7 +20,7 @@ setCombatArea(combat, area)
 function spellCallback(param)
 	if param.count > 0 or math.random(0, 1) == 1 then
 		doSendMagicEffect(param.pos, CONST_ME_HITBYFIRE)
-		doAreaCombatHealth(param.cid, COMBAT_FIREDAMAGE, param.pos, 0, -100, -100, CONST_ME_EXPLOSIONHIT)
+		doAreaCombatHealth(param.cid, COMBAT_FIREDAMAGE, param.pos, 0, -200, -200, CONST_ME_EXPLOSIONHIT)
 	end
 
 	if(param.count < 5) then

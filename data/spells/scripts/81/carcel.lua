@@ -1,7 +1,7 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_BLUE)
 
-function onTargetCreature(cid, frompos, target)
+function onTargetCreature(cid, target)
 		newpos = {x=40, y=430, z=7}
 		doPlayerSendTextMessage(target,22,"wellcome to the Jail!!.")
 		doTeleportThing(target,newpos)

@@ -1,5 +1,6 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_RED)
+setCombatParam(combat, COMBAT_PARAM_AGGRESSIVE, false)
 
 local arr = {
 {0, 1, 1, 1, 0},
