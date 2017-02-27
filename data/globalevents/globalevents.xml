@@ -18,6 +18,8 @@
 	<globalevent name="Server Save" time="09:00:00" script="serversave.lua"/>
 	
 	<globalevent interval="3600000" name="AutoSave" script="autosave.lua"/>
+	
+	<globalevent name="autoBroadcast" interval="900000" script="autobroadcast.lua"/>
 	<!--
 	<globalevent name="Server Save1" time="00:00:00" script="littleserversave2.lua"/>
 	<globalevent name="Server Save2" time="06:00:00" script="littleserversave2.lua"/>
