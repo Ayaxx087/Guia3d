@@ -7,12 +7,12 @@ function onTargetTile(cid, pos)
 	item = getThingfromPos(posEx)
 
 	if item.itemid > 0 then
-		if isInArray(fieldItems, item.itemid) == 1 then
+		if isInArray(fieldItems, item.itemid) == true then
 			doRemoveItem(item.uid,1)
 		end
 	end
 
-	doSendMagicEffect(pos,2)
+	doSendMagicEffect(pos, CONST_ME_POFF)
 end
 
 setCombatCallback(combat, CALLBACK_PARAM_TARGETTILE, "onTargetTile")
