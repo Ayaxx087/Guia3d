@@ -183,13 +183,6 @@
 <vocation name="Soldier" />
 </instant>
 
-<instant prem="0" name="Summon Creature" words="utevo res" lvl="25" aggressive="1" params="1"  enabled="1" function="summonMonster">
-<vocation name="Druid"/>
-<vocation name="Sorcerer"/>
-<vocation name="Shaman" />
-<vocation name="Wizard" />
-</instant>
-
 <instant prem="0" name="invisiblee" words="utana vid" selftarget="1" aggressive="0" lvl="35" maglv="1" mana="220"  enabled="1" script="invisible.lua">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
@@ -971,7 +964,7 @@
 
 <!--//MONSTERS SPELLS\\-->
 
-<rune name="bolt" id="20001" enabled="1" script="monsters/bolt.lua"></rune>
+<rune name="bolt" id="20006" enabled="1" script="monsters/bolt.lua"></rune>
 <rune name="spider bite" id="20002" enabled="1" script="monsters/spider bite.lua"></rune>
 <rune name="imitate" id="20003" enabled="1" script="monsters/imitate.lua"></rune>
 <rune name="explosive arrow" id="20004" enabled="1" script="monsters/explosive arrow.lua"></rune>
