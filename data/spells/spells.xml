@@ -1068,7 +1068,7 @@
 	<vocation name="Druid"/>
 	<vocation name="Shaman"/>
 </rune>
-<conjure name="Wild Growth" words="adevo grav vita" lvl="27" mana="200" soul="0" prem="0" reagentId="2260" conjureId="2269" conjureCount="8" needlearn="0" function="conjureRune">
+<conjure name="Wild Growth" words="adevo grav vita" lvl="27" mana="200" soul="0" prem="0" reagentId="2260" conjureId="2269" conjureCount="4" needlearn="0" function="conjureRune">
 	<vocation name="Druid"/>
 	<vocation name="Shaman"/>
 </conjure>
