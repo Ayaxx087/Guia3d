@@ -1,17 +1,12 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_HEALING)
-setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_HOLYDAMAGE)
-setCombatParam(combat, COMBAT_PARAM_AGGRESSIVE, 0)
-setCombatParam(combat, COMBAT_PARAM_TARGETCASTERORTOPMOST, 1)
+setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_MAGIC_BLUE)
+setCombatParam(combat, COMBAT_PARAM_AGGRESSIVE, false)
 setCombatParam(combat, COMBAT_PARAM_DISPEL, CONDITION_PARALYZE)
---setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.2, 0, -3.0, 0)
 
 function onGetFormulaValues(cid, level, maglevel)
-	min = (level * 2 + maglevel * 3) * 2.5
-	max = (level * 2 + maglevel * 3) * 2.8
-	if min < 250 then
-		min = 250
-	end
+	local min = ((level/5)+(maglevel*18.5))
+	local max = ((level/5)+(maglevel*25.0))
 	return min, max
 end
 
