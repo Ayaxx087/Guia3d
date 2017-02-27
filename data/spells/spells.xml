@@ -323,51 +323,51 @@
 
 <!--//Spell for Druid\\-->
 
-<conjure prem="0" name="Antidote" words="adana pox" lvl="15" mana="30" soul="0"  reagentId="2260" conjureId="2266" conjureCount="4" enabled="1" function="conjureRune">
+<conjure prem="0" name="Antidote" words="adana pox" lvl="15" mana="30" soul="0"  reagentId="2260" conjureId="2266" conjureCount="2" enabled="1" function="conjureRune">
 <vocation name="Druid" />
 <vocation name="Shaman"/>
 </conjure>
 
-<conjure prem="0" name="Ultimate Healing Rune" words="adura vita" lvl="24" reagentId="2260" conjureId="2273" conjureCount="6" aggressive="0" maglv="1" mana="100" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Ultimate Healing Rune" words="adura vita" lvl="24" reagentId="2260" conjureId="2273" conjureCount="3" aggressive="0" maglv="1" mana="100" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Wizard" />
 <vocation name="Shaman"/>
 </conjure>
 
-<conjure prem="0" name="Energy bomb rune" words="adevo mas vis" lvl="37" reagentId="2260" conjureId="2262" conjureCount="4" aggressive="0" maglv="1" mana="220" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Energy bomb rune" words="adevo mas vis" lvl="37" reagentId="2260" conjureId="2262" conjureCount="2" aggressive="0" maglv="1" mana="220" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Wizard"/>
 <vocation name="Shaman"/>
 </conjure>
 
-<conjure prem="0" name="Magic wall rune" words="adevo grav tera" lvl="32" reagentId="2260" conjureId="2293" conjureCount="8" aggressive="0" maglv="1" mana="250" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Magic wall rune" words="adevo grav tera" lvl="32" reagentId="2260" conjureId="2293" conjureCount="4" aggressive="0" maglv="1" mana="250" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Sorcerer"/>
 <vocation name="Wizard"/>
 </conjure>
 
-<conjure prem="0" name="Paralyze rune" words="adana ani" lvl="54" reagentId="2260" conjureId="2278" conjureCount="2" aggressive="0" maglv="1" mana="700" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Paralyze rune" words="adana ani" lvl="54" reagentId="2260" conjureId="2278" conjureCount="1" aggressive="0" maglv="1" mana="700" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Chameleon rune" words="adevo ina" lvl="27" reagentId="2260" conjureId="2291" conjureCount="4" aggressive="0" maglv="1" mana="90" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Chameleon rune" words="adevo ina" lvl="27" reagentId="2260" conjureId="2291" conjureCount="2" aggressive="0" maglv="1" mana="90" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Convince Creature rune" words="adeta sio" lvl="16" reagentId="2260" conjureId="2290" conjureCount="4" aggressive="0" maglv="1" mana="150" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Convince Creature rune" words="adeta sio" lvl="16" reagentId="2260" conjureId="2290" conjureCount="2" aggressive="0" maglv="1" mana="150" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Intense healing rune" words="adura gran" lvl="15" reagentId="2260" conjureId="2265" conjureCount="4" aggressive="0" maglv="1" mana="60" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Intense healing rune" words="adura gran" lvl="15" reagentId="2260" conjureId="2265" conjureCount="2" aggressive="0" maglv="1" mana="60" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Envenom rune" words="adevo res pox" lvl="21" reagentId="2260" conjureId="2292" conjureCount="6" aggressive="0" maglv="1" mana="100" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Envenom rune" words="adevo res pox" lvl="21" reagentId="2260" conjureId="2292" conjureCount="3" aggressive="0" maglv="1" mana="100" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </conjure>
@@ -375,41 +375,41 @@
 
 <!--//Spell for Sorcerer\\-->
 
-<conjure prem="0" name="Sudden death rune" words="adori vita vis" lvl="35" reagentId="2260" conjureId="2268" conjureCount="6" aggressive="0" maglv="1" mana="220" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Sudden death rune" words="adori vita vis" lvl="35" reagentId="2260" conjureId="2268" conjureCount="3" aggressive="0" maglv="1" mana="220" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 </conjure>
 
 <!--//Spell for Druid - Sorcerer\\-->
-<conjure prem="0" name="FireField rune" words="adevo grav flam" lvl="15" reagentId="2260" conjureId="2301" conjureCount="6" aggressive="0" maglv="1" mana="60" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="FireField rune" words="adevo grav flam" lvl="15" reagentId="2260" conjureId="2301" conjureCount="3" aggressive="0" maglv="1" mana="60" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Soul fire rune" words="adevo res flam" lvl="27" reagentId="2260" conjureId="2308" conjureCount="4" aggressive="0" maglv="1" mana="150" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Soul fire rune" words="adevo res flam" lvl="27" reagentId="2260" conjureId="2308" conjureCount="2" aggressive="0" maglv="1" mana="150" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Fire bomb rune" words="adevo mas flam" lvl="27" reagentId="2260" conjureId="2305" conjureCount="6" aggressive="0" maglv="1" mana="150" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Fire bomb rune" words="adevo mas flam" lvl="27" reagentId="2260" conjureId="2305" conjureCount="3" aggressive="0" maglv="1" mana="150" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Sorcerer"/>
 <vocation name="Druid"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Great fireball rune" words="adori gran flam" lvl="23" reagentId="2260" conjureId="2304" conjureCount="6" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Great fireball rune" words="adori gran flam" lvl="23" reagentId="2260" conjureId="2304" conjureCount="3" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Fireball" words="adori flam" lvl="17" maglv="1" mana="100" soul="0"  reagentId="2260" conjureId="2302" conjureCount="6" enabled="1" function="conjureRune">
+<conjure prem="0" name="Fireball" words="adori flam" lvl="17" maglv="1" mana="100" soul="0"  reagentId="2260" conjureId="2302" conjureCount="3" enabled="1" function="conjureRune">
 <vocation name="Sorcerer" />
 <vocation name="Druid" />
 <vocation name="Paladin" />
@@ -419,68 +419,68 @@
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="0" name="Poisonfield rune" words="adevo grav pox" lvl="14" reagentId="2260" conjureId="2285" conjureCount="6" aggressive="0" maglv="1" mana="50" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Poisonfield rune" words="adevo grav pox" lvl="14" reagentId="2260" conjureId="2285" conjureCount="3" aggressive="0" maglv="1" mana="50" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Poison Bomb" words="adevo mas pox" lvl="25" maglv="1" mana="210" soul="0"  reagentId="2260" conjureId="2286" conjureCount="4" enabled="1" function="conjureRune">
+<conjure prem="0" name="Poison Bomb" words="adevo mas pox" lvl="25" maglv="1" mana="210" soul="0"  reagentId="2260" conjureId="2286" conjureCount="2" enabled="1" function="conjureRune">
 <vocation name="Druid" />
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="energy field rune" words="adevo grav vis" lvl="18" reagentId="2260" conjureId="2277" conjureCount="6" aggressive="0" maglv="1" mana="80" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="energy field rune" words="adevo grav vis" lvl="18" reagentId="2260" conjureId="2277" conjureCount="3" aggressive="0" maglv="1" mana="80" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Fire Wall rune" words="adevo mas grav flam" reagentId="2260" lvl="33" conjureId="2303" conjureCount="8" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Fire Wall rune" words="adevo mas grav flam" reagentId="2260" lvl="33" conjureId="2303" conjureCount="4" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Energy Wall rune" words="adevo mas grav vis" lvl="41" reagentId="2260" conjureId="2279" conjureCount="8" aggressive="0" maglv="1" mana="250" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Energy Wall rune" words="adevo mas grav vis" lvl="41" reagentId="2260" conjureId="2279" conjureCount="4" aggressive="0" maglv="1" mana="250" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Poison Wall rune" words="adevo mas grav pox" lvl="29" reagentId="2260" conjureId="2289" conjureCount="8" aggressive="0" maglv="1" mana="160" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Poison Wall rune" words="adevo mas grav pox" lvl="29" reagentId="2260" conjureId="2289" conjureCount="4" aggressive="0" maglv="1" mana="160" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Explosion rune" words="adevo mas hur" lvl="31" reagentId="2260" conjureId="2313" conjureCount="8" aggressive="0" maglv="1" mana="180" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Explosion rune" words="adevo mas hur" lvl="31" reagentId="2260" conjureId="2313" conjureCount="4" aggressive="0" maglv="1" mana="180" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Make rune" words="adori blank" lvl="20" conjureId="2260" conjureCount="2" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Make rune" words="adori blank" lvl="20" conjureId="2260" conjureCount="1" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Thunderstorm rune" words="adori mas vis" lvl="28" reagentId="2260" conjureId="2315" conjureCount="10" aggressive="0" maglv="1" mana="150" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Thunderstorm rune" words="adori mas vis" lvl="28" reagentId="2260" conjureId="2315" conjureCount="5" aggressive="0" maglv="1" mana="150" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Wizard" />
 <vocation name="Shaman" />
 </conjure>
 
-<conjure prem="0" name="Icicle rune" words="adori frigo" lvl="28" reagentId="2260" conjureId="2271" conjureCount="10" aggressive="0" maglv="1" mana="70" soul="0" enabled="1" function="conjureRune">
+<conjure prem="0" name="Icicle rune" words="adori frigo" lvl="28" reagentId="2260" conjureId="2271" conjureCount="5" aggressive="0" maglv="1" mana="70" soul="0" enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Paladin"/>
@@ -491,7 +491,7 @@
 </conjure>
 
 <!--//Spell for Druid - Sorcerer - Paladin\\-->
-<conjure prem="0" name="Heavy Magic Missile" words="adori gran" lvl="25" reagentId="2260" conjureId="2311" conjureCount="10" aggressive="0" maglv="1" mana="70" soul="0" enabled="1" function="conjureRune">
+<conjure prem="0" name="Heavy Magic Missile" words="adori gran" lvl="25" reagentId="2260" conjureId="2311" conjureCount="5" aggressive="0" maglv="1" mana="70" soul="0" enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Paladin"/>
@@ -501,7 +501,7 @@
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="0" name="Destroyfield rune" words="adito grav" lvl="17" reagentId="2260" conjureId="2261" conjureCount="6" aggressive="0" maglv="1" mana="60" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Destroyfield rune" words="adito grav" lvl="17" reagentId="2260" conjureId="2261" conjureCount="3" aggressive="0" maglv="1" mana="60" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Paladin"/>
@@ -511,42 +511,42 @@
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="0" name="Light Magic Missile rune" words="adori" lvl="15" reagentId="2260" conjureId="2287" conjureCount="10" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Light Magic Missile rune" words="adori" lvl="15" reagentId="2260" conjureId="2287" conjureCount="5" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" function="conjureRune">
 
 </conjure>
 
 <!--//Spell for Paladins\\-->
-<conjure prem="0" name="Conjure Bolt" words="exevo con mort" lvl="17" conjureId="2543" conjureCount="30" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure Bolt" words="exevo con mort" lvl="17" conjureId="2543" conjureCount="15" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
 
-<conjure prem="0" name="Conjure Arrow" words="exevo con" lvl="13" conjureId="2544" conjureCount="30" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure Arrow" words="exevo con" lvl="13" conjureId="2544" conjureCount="15" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
 
-<conjure prem="0" name="Conjure Poison Arrow" words="exevo con pox" lvl="16" conjureId="2545" conjureCount="30" aggressive="0" maglv="1" mana="70" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure Poison Arrow" words="exevo con pox" lvl="16" conjureId="2545" conjureCount="15" aggressive="0" maglv="1" mana="70" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
 
-<conjure prem="0" name="Conjure Explosion Arrow" words="exevo con flam" lvl="25" conjureId="2546" conjureCount="30" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure Explosion Arrow" words="exevo con flam" lvl="25" conjureId="2546" conjureCount="15" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
 
-<conjure prem="0" name="Conjure Power Bolt" words="exevo con vis" lvl="59" conjureId="2547" conjureCount="30" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure Power Bolt" words="exevo con vis" lvl="59" conjureId="2547" conjureCount="15" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
 
-<conjure prem="0" name="Conjure infernal Bolt" words="exevo con vis mort" lvl="60" conjureId="6529" conjureCount="30" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure infernal Bolt" words="exevo con vis mort" lvl="60" conjureId="6529" conjureCount="15" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
 
-<conjure prem="0" name="Drunk rune" words="drunk" lvl="30" reagentId="2260" conjureId="2267" conjureCount="6" aggressive="0" maglv="1" mana="100" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Drunk rune" words="drunk" lvl="30" reagentId="2260" conjureId="2267" conjureCount="3" aggressive="0" maglv="1" mana="100" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Knight"/>
 <vocation name="Warrior" />
 <vocation name="Soldier" />
@@ -556,41 +556,41 @@
 </conjure>
 
 --8.0 spell
-<conjure prem="0" name="Conjure sniper arrow" words="exevo con hur" lvl="24" conjureId="7364" conjureCount="30" aggressive="0" maglv="1" mana="45" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure sniper arrow" words="exevo con hur" lvl="24" conjureId="7364" conjureCount="15" aggressive="0" maglv="1" mana="45" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="0" name="Conjure onyx arrow" words="exevo con mas" lvl="55" conjureId="7365" conjureCount="30" aggressive="0" maglv="1" mana="180" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure onyx arrow" words="exevo con mas" lvl="55" conjureId="7365" conjureCount="15" aggressive="0" maglv="1" mana="180" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="0" name="Conjure piercing bolt" words="exevo con grav" lvl="33" conjureId="7363" conjureCount="30" aggressive="0" maglv="1" mana="85" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure piercing bolt" words="exevo con grav" lvl="33" conjureId="7363" conjureCount="15" aggressive="0" maglv="1" mana="85" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
 --Scout
-<conjure prem="0" name="Conjure Bolt" words="exina con mort" lvl="17" conjureId="2543" conjureCount="50" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure Bolt" words="exina con mort" lvl="17" conjureId="2543" conjureCount="25" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="0" name="Conjure Arrow" words="exina con" lvl="13" conjureId="2544" conjureCount="50" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure Arrow" words="exina con" lvl="13" conjureId="2544" conjureCount="25" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="0" name="Conjure Poison Arrow" words="exina con pox" lvl="16" conjureId="2545" conjureCount="50" aggressive="0" maglv="1" mana="70" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure Poison Arrow" words="exina con pox" lvl="16" conjureId="2545" conjureCount="25" aggressive="0" maglv="1" mana="70" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="0" name="Conjure Explosion Arrow" words="exina con flam" lvl="25" conjureId="2546" conjureCount="50" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure Explosion Arrow" words="exina con flam" lvl="25" conjureId="2546" conjureCount="25" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="0" name="Conjure Power Bolt" words="exina con vis" lvl="59" conjureId="2547" conjureCount="50" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure Power Bolt" words="exina con vis" lvl="59" conjureId="2547" conjureCount="25" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="0" name="Conjure infernal Bolt" words="exina con vis mort" lvl="60" conjureId="6529" conjureCount="50" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure infernal Bolt" words="exina con vis mort" lvl="60" conjureId="6529" conjureCount="25" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
 
@@ -643,7 +643,7 @@
 <vocation name="Warrior" />
 </instant>
 
-<conjure prem="0" name="Conjure enchanted staff" words="exeta vis" lvl="41" reagentId="2401" conjureId="2433" conjureCount="2" aggressive="0" maglv="1" mana="80" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="0" name="Conjure enchanted staff" words="exeta vis" lvl="41" reagentId="2401" conjureId="2433" conjureCount="1" aggressive="0" maglv="1" mana="80" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Sorcerer"/>
 <vocation name="Druid"/>
 <vocation name="Wizard" />
@@ -678,25 +678,25 @@
 <vocation name="Shaman" />
 </instant>
 
-<conjure prem="0" name="Conjure earth Arrow" words="exevo con earth" lvl="25" conjureId="7850" conjureCount="30" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure earth Arrow" words="exevo con earth" lvl="25" conjureId="7850" conjureCount="15" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="0" name="Conjure fire Arrow" words="exevo con hot" lvl="25" conjureId="7840" conjureCount="30" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure fire Arrow" words="exevo con hot" lvl="25" conjureId="7840" conjureCount="15" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="0" name="Conjure fire Arrow" words="exevo con ice" lvl="25" conjureId="7839" conjureCount="30" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure fire Arrow" words="exevo con ice" lvl="25" conjureId="7839" conjureCount="15" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="0" name="Conjure fire Arrow" words="exevo con ray" lvl="25" conjureId="7838" conjureCount="30" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="0" name="Conjure fire Arrow" words="exevo con ray" lvl="25" conjureId="7838" conjureCount="15" aggressive="0" maglv="2" mana="45" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
@@ -710,13 +710,13 @@
 <vocation name="Paladin" />
 </instant>
 
-<conjure prem="1" name="Explosion rune" words="adevo mas hur ina" lvl="31" reagentId="2260" conjureId="2313" conjureCount="8" aggressive="0" maglv="1" mana="180" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="1" name="Explosion rune" words="adevo mas hur ina" lvl="31" reagentId="2260" conjureId="2313" conjureCount="4" aggressive="0" maglv="1" mana="180" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Knight" />
 <vocation name="Soldier" />
 <vocation name="Warrior" />
 </conjure>
 
-<conjure prem="1" name="Heavy Magic Missile" words="adori gran ina" lvl="25" reagentId="2260" conjureId="2311" conjureCount="10" aggressive="0" maglv="1" mana="70" soul="0" enabled="1" function="conjureRune">
+<conjure prem="1" name="Heavy Magic Missile" words="adori gran ina" lvl="25" reagentId="2260" conjureId="2311" conjureCount="5" aggressive="0" maglv="1" mana="70" soul="0" enabled="1" function="conjureRune">
 <vocation name="Knight" />
 <vocation name="Soldier" />
 <vocation name="Warrior" />
@@ -889,36 +889,36 @@
 <vocation name="Soldier" />
 </instant>
 
-<conjure prem="1" name="Conjure sniper arrow" words="exevo con hur mas" lvl="24" conjureId="7364" conjureCount="50" aggressive="0" maglv="1" mana="45" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="1" name="Conjure sniper arrow" words="exevo con hur mas" lvl="24" conjureId="7364" conjureCount="25" aggressive="0" maglv="1" mana="45" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="1" name="Conjure onyx arrow" words="exevo con mas gran" lvl="55" conjureId="7365" conjureCount="50" aggressive="0" maglv="1" mana="180" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="1" name="Conjure onyx arrow" words="exevo con mas gran" lvl="55" conjureId="7365" conjureCount="25" aggressive="0" maglv="1" mana="180" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
-<conjure prem="1" name="Conjure piercing bolt" words="exevo con grav mas" lvl="33" conjureId="7363" conjureCount="50" aggressive="0" maglv="1" mana="85" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="1" name="Conjure piercing bolt" words="exevo con grav mas" lvl="33" conjureId="7363" conjureCount="25" aggressive="0" maglv="1" mana="85" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
 </conjure>
 
 <!--//Premium SPELLS CREATE ITEM\\-->
-<conjure prem="1" name="Conjure Bolt" words="exevo con mort mas" lvl="17" conjureId="2543" conjureCount="50" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="1" name="Conjure Bolt" words="exevo con mort mas" lvl="17" conjureId="2543" conjureCount="25" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
 
-<conjure prem="1" name="Conjure infernal Bolt" words="exevo con vis mort mas" lvl="60" conjureId="6529" conjureCount="50" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="1" name="Conjure infernal Bolt" words="exevo con vis mort mas" lvl="60" conjureId="6529" conjureCount="25" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 </conjure>
 
-<conjure prem="1" name="Heavy Magic Missile" words="adori gran mas" lvl="25" reagentId="2260" conjureId="2311" conjureCount="10" aggressive="0" maglv="1" mana="50" soul="0"  enabled="1" function="conjureRune">
+<conjure prem="1" name="Heavy Magic Missile" words="adori gran mas" lvl="25" reagentId="2260" conjureId="2311" conjureCount="5" aggressive="0" maglv="1" mana="50" soul="0"  enabled="1" function="conjureRune">
 <vocation name="Druid"/>
 <vocation name="Sorcerer"/>
 <vocation name="Paladin"/>
@@ -927,27 +927,27 @@
 <vocation name="Shaman" />
 </conjure>
 --scout
-<conjure prem="1" name="Conjure Bolt" words="exina con mort mas" lvl="17" conjureId="2543" conjureCount="70" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="1" name="Conjure Bolt" words="exina con mort mas" lvl="17" conjureId="2543" conjureCount="35" aggressive="0" maglv="1" mana="75" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="1" name="Conjure Arrow" words="exina con mas" lvl="13" conjureId="2544" conjureCount="70" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="1" name="Conjure Arrow" words="exina con mas" lvl="13" conjureId="2544" conjureCount="35" aggressive="0" maglv="1" mana="40" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="1" name="Conjure Poison Arrow" words="exina con pox mas" lvl="16" conjureId="2545" conjureCount="70" aggressive="0" maglv="1" mana="70" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="1" name="Conjure Poison Arrow" words="exina con pox mas" lvl="16" conjureId="2545" conjureCount="35" aggressive="0" maglv="1" mana="70" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="1" name="Conjure Explosion Arrow" words="exina con flam mas" lvl="25" conjureId="2546" conjureCount="70" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="1" name="Conjure Explosion Arrow" words="exina con flam mas" lvl="25" conjureId="2546" conjureCount="35" aggressive="0" maglv="1" mana="120" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="1" name="Conjure Power Bolt" words="exina con vis mas" lvl="59" conjureId="2547" conjureCount="70" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="1" name="Conjure Power Bolt" words="exina con vis mas" lvl="59" conjureId="2547" conjureCount="35" aggressive="0" maglv="1" mana="200" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
-<conjure prem="1" name="Conjure infernal Bolt" words="exina con vis mort mas" lvl="60" conjureId="6529" conjureCount="70" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
+<conjure prem="1" name="Conjure infernal Bolt" words="exina con vis mort mas" lvl="60" conjureId="6529" conjureCount="35" aggressive="0" maglv="1" mana="280" soul="0"  enabled="1" function="conjureItem">
 <vocation name="Scout"/>
 </conjure>
 
 --SPELL UPDATE 80 PREMIUN
-<conjure prem="1" name="Conjure enchanted spear" words="exeta con" lvl="45" reagentId="2389" conjureId="7367" conjureCount="2" aggressive="0" maglv="1" mana="50" soul="0" enabled="1" function="conjureRune">
+<conjure prem="1" name="Conjure enchanted spear" words="exeta con" lvl="45" reagentId="2389" conjureId="7367" conjureCount="1" aggressive="0" maglv="1" mana="50" soul="0" enabled="1" function="conjureRune">
 <vocation name="Paladin"/>
 <vocation name="Hunter" />
 <vocation name="Scout" />
@@ -998,12 +998,12 @@
 <vocation name="Wizard" />
 </instant>
 
-<instant prem="0" name="Ice wave" words="exevo frigo hur" direction="1" lvl="18" maglv="1" mana="25"  enabled="1" script="81/exevo frigo hur.lua">
+<instant prem="0" name="Ice Strike" words="exevo frigo hur" direction="1" lvl="18" maglv="1" mana="25"  enabled="1" script="81/exevo frigo hur.lua">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </instant>
 
-<instant prem="0" name="Terra wave" words="exevo tera hur" direction="1" lvl="38" maglv="1" mana="125"  enabled="1" script="81/exevo tera hur.lua">
+<instant prem="0" name="Ice Strike" words="exevo tera hur" direction="1" lvl="38" maglv="1" mana="125"  enabled="1" script="81/exevo tera hur.lua">
 <vocation name="Druid"/>
 <vocation name="Shaman" />
 </instant>
@@ -1055,7 +1055,7 @@
 	<vocation name="Druid"/>
 	<vocation name="Shaman"/>
 </rune>
-<conjure name="Wild Growth" words="adevo grav vita" lvl="27" mana="200" soul="0" prem="0" reagentId="2260" conjureId="2269" conjureCount="8" needlearn="0" function="conjureRune">
+<conjure name="Wild Growth" words="adevo grav vita" lvl="27" mana="200" soul="0" prem="0" reagentId="2260" conjureId="2269" conjureCount="4" needlearn="0" function="conjureRune">
 	<vocation name="Druid"/>
 	<vocation name="Shaman"/>
 </conjure>
