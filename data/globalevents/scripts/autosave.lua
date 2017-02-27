@@ -7,7 +7,7 @@ local function serverSave()
 	end
 	
 	if doSaveServer(true) then
-		doTatuyBroadcastMessage("Server saved, next save in 1 hour.")
+		doTatuyBroadcastMessage("Server has been saved, next save in 1 hour.")
 	else
 		doTatuyBroadcastMessage("Server could not be saved.")
 	end

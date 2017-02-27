@@ -10,7 +10,11 @@ local function serverSave()
         if cleanMapAtServerSave then
                 cleanMap()
         end
-        saveServer()
+        if doSaveServer(true) then
+		doTatuyBroadcastMessage("Server has been saved.")
+		else
+		doTatuyBroadcastMessage("Server could not be saved.")
+		end
 end
 
 local function secondServerSaveWarning()
