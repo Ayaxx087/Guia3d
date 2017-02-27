@@ -5,8 +5,12 @@ local function serverSave()
 		--cleanMap()
 		--Game.broadcastMessage('Server Saved, next save in 1 hour.', MESSAGE_STATUS_WARNING)
 	end
-	doTatuyBroadcastMessage("Server Saved, next save in 1 hour.")
-	saveServer()
+	
+	if doSaveServer(true) then
+		doTatuyBroadcastMessage("Server saved, next save in 1 hour.")
+	else
+		doTatuyBroadcastMessage("Server could not be saved.")
+	end
 end
 
 function onThink(interval)
