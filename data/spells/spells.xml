@@ -34,7 +34,7 @@
 <rune name="Thunderstorm" id="2315" charges="5" maglv="4" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="81/adori mas vis rune.lua"></rune>
 <rune name="Icicle Rune" id="2271" charges="5" maglv="1" mana="0" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="81/adori frigo rune.lua"></rune>
 
-<rune name="Mana Rune" id="2316" charges="1" maglv="1" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="manarune.lua"></rune>
+<rune name="Mana Rune" id="2300" charges="1" maglv="1" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="manarune.lua"></rune>
 
 <rune name="Antidote Rune" id="2266" charges="1" maglv="0" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="antidote.lua"></rune>
 <rune name="Intense Healing Rune" id="2265" charges="1" maglv="1" mana="0" aggressive="0" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="intense_healing.lua"></rune>
@@ -51,7 +51,7 @@
 <rune name="Paralyze" id="2278" charges="1" maglv="18" mana="1400" aggressive="1" needtarget="1" allowfaruse="1" blockwalls="1" enabled="1" script="paralyze.lua"></rune>
 <rune name="Drunkness" id="2267" charges="3" needtarget="1" lvl="10" maglv="2" mana="0"  enabled="1" allowfaruse="1" script="drunk.lua"></rune>
 --GM Runes
-<rune name="2hpDAMAGE" id="2300" charges="1" maglv="4000" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="gmrune2hp.lua"></rune>
+<rune name="2hpDAMAGE" id="2299" charges="1" maglv="4000" mana="0" aggressive="1" needtarget="0" allowfaruse="1" blockwalls="1" enabled="1" script="gmrune2hp.lua"></rune>
 
 
 <instant prem="1" name="Portal Thalia" words="Exani ina thalia" lvl="1000" maglv="400" aggressive="1" mana="20000"  enabled="1" script="81/blue.lua">
@@ -74,9 +74,8 @@
 <vocation name="GameMaster" />
 </instant>
 
-
-<instant prem="1" name="Apocalypse" words="exevo gran mas flam" lvl="1000" maglv="400" manapercent="60" needlearn="1" soul="0"  enabled="1" script="apocalypse.lua">
-<vocation name="GameMaster" />
+<instant prem="1" name="Apocalypse" words="exevo gran mas flam" lvl="70" maglv="1" manapercent="60" needlearn="0" soul="0"  enabled="1" script="apocalypse.lua">
+<vocation name="Wizard" />
 </instant>
 
 <instant prem="0" name="Muted Friend" words="muted sio" aggressive="0" params="1" needtarget="1" lvl="1000" maglv="400" mana="70"  enabled="1" script="gm/muted sio.lua">
