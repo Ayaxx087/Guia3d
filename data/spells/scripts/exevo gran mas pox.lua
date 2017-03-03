@@ -1,7 +1,7 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_POISONDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_GREEN_RINGS)
-setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -3.1, 30, -3, 0)
+setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.6, 30, -2.5, 0)
 
 arr = {
 {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
