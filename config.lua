@@ -168,8 +168,8 @@ experience_stages = true
 -- rates (experience, skill, magic level, loot and spawn)
 rate_exp = 1
 rate_exp_pvp = 0
-rate_skill = 6
-rate_mag = 4
+rate_skill = 3
+rate_mag = 2
 rate_loot = 1
 rate_spawn = 1
 
@@ -330,8 +330,8 @@ lua_excepted_type_errors_enabled = false
 guild_wars_end_only_on_startup = true
 
 -- motd (the message box that you sometimes get before you choose characters)
-motd = "Welcome to Ultima Alianza Tibia Guia3d RPG ONLINE: \n \n www.uatibia.com \n\n Follow us in facebook www.facebook.com/uatibia and get the official \n source for news, tips and good assistance for the game.\n Join the community in our forums: http://forums.uatibia.com.\n\n*Evento activo: Skills y ML al doble!\n *Have fun! \n\n\n The Administration."
-motdnum = "5"
+motd = "Welcome to Ultima Alianza Tibia Guia3d RPG ONLINE: \n \n www.uatibia.com \n\n Follow us in facebook www.facebook.com/uatibia and get the official \n source for news, tips and good assistance for the game.\n Join the community in our forums: http://forums.uatibia.com.\n\n *Have fun! \n\n\n The Administration."
+motdnum = "6"
 
 -- login message
 loginmsg = "Welcome to the UATibia Guia3d RPG online, for get the official source for news and more info, visit: http://www.uatibia.com"
