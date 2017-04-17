@@ -10254,6 +10254,9 @@
 		<monster name="Demon Skeleton" x="40" y="43" z="7" spawntime="210" />
 		<monster name="Demon Skeleton" x="41" y="43" z="7" spawntime="210" />
 		<monster name="Hero" x="40" y="44" z="7" spawntime="300" />
+		<monster name="Dragon Lord" x="-57" y="54" z="7" spawntime="360" />
+		<monster name="Dragon Lord" x="-56" y="54" z="7" spawntime="360" />
+		<monster name="Dragon Lord" x="-61" y="58" z="7" spawntime="360" />
 		<monster name="Rabbit" x="64" y="61" z="7" spawntime="121" />
 		<monster name="War Wolf" x="49" y="62" z="7" spawntime="121" />
 	</spawn>
@@ -10402,10 +10405,44 @@
 		<monster name="Yeti" x="-4" y="7" z="7" spawntime="420" />
 		<monster name="Frost Scout" x="-2" y="7" z="7" spawntime="180" />
 	</spawn>
+	<spawn centerx="557" centery="966" centerz="7" radius="10">
+		<monster name="Dragon" x="-8" y="-7" z="7" spawntime="240" />
+		<monster name="Dragon" x="1" y="-5" z="7" spawntime="240" />
+		<monster name="Dragon" x="2" y="-5" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="582" centery="972" centerz="7" radius="10">
+		<monster name="Dragon" x="1" y="0" z="7" spawntime="240" />
+		<monster name="Dragon" x="2" y="0" z="7" spawntime="240" />
+		<monster name="Dragon" x="1" y="1" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="605" centery="972" centerz="7" radius="10" />
+	<spawn centerx="545" centery="974" centerz="7" radius="10">
+		<monster name="Dragon" x="0" y="-1" z="7" spawntime="240" />
+		<monster name="Dragon" x="1" y="-1" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="526" centery="978" centerz="7" radius="10">
+		<monster name="Dragon" x="-3" y="-2" z="7" spawntime="240" />
+		<monster name="Dragon" x="3" y="-2" z="7" spawntime="240" />
+		<monster name="Dragon" x="-3" y="2" z="7" spawntime="240" />
+	</spawn>
 	<spawn centerx="713" centery="978" centerz="7" radius="8" />
 	<spawn centerx="734" centery="982" centerz="7" radius="8">
 		<monster name="War Wolf" x="2" y="1" z="7" spawntime="121" />
 		<monster name="Rabbit" x="8" y="8" z="7" spawntime="121" />
+	</spawn>
+	<spawn centerx="559" centery="985" centerz="7" radius="10">
+		<monster name="Dragon" x="-3" y="-1" z="7" spawntime="240" />
+		<monster name="Dragon" x="1" y="-1" z="7" spawntime="240" />
+		<monster name="Dragon" x="2" y="-1" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="576" centery="987" centerz="7" radius="10">
+		<monster name="Dragon" x="-3" y="-1" z="7" spawntime="240" />
+		<monster name="Dragon" x="1" y="-1" z="7" spawntime="240" />
+		<monster name="Dragon" x="2" y="-1" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="605" centery="991" centerz="7" radius="10">
+		<monster name="Dragon" x="-1" y="-1" z="7" spawntime="240" />
+		<monster name="Dragon" x="0" y="-1" z="7" spawntime="240" />
 	</spawn>
 	<spawn centerx="760" centery="994" centerz="7" radius="8">
 		<monster name="War Wolf" x="0" y="1" z="7" spawntime="121" />
@@ -10414,12 +10451,33 @@
 		<monster name="War Wolf" x="-5" y="0" z="7" spawntime="121" />
 		<monster name="War Wolf" x="8" y="3" z="7" spawntime="121" />
 	</spawn>
+	<spawn centerx="541" centery="998" centerz="7" radius="10">
+		<monster name="Dragon Lord" x="5" y="0" z="7" spawntime="360" />
+		<monster name="Dragon Lord" x="-3" y="2" z="7" spawntime="360" />
+	</spawn>
 	<spawn centerx="724" centery="999" centerz="7" radius="8">
 		<monster name="War Wolf" x="2" y="0" z="7" spawntime="121" />
+	</spawn>
+	<spawn centerx="529" centery="1009" centerz="7" radius="10">
+		<monster name="Dragon" x="-1" y="1" z="7" spawntime="240" />
+		<monster name="Dragon Lord" x="-1" y="4" z="7" spawntime="360" />
+	</spawn>
+	<spawn centerx="602" centery="1010" centerz="7" radius="10">
+		<monster name="Dragon Lord" x="1" y="-1" z="7" spawntime="360" />
+		<monster name="Dragon Lord" x="1" y="1" z="7" spawntime="360" />
 	</spawn>
 	<spawn centerx="783" centery="1011" centerz="7" radius="8">
 		<monster name="Rabbit" x="-4" y="-1" z="7" spawntime="121" />
 		<monster name="War Wolf" x="1" y="1" z="7" spawntime="121" />
+	</spawn>
+	<spawn centerx="614" centery="1012" centerz="7" radius="12">
+		<monster name="Dragon" x="2" y="-1" z="7" spawntime="240" />
+		<monster name="Dragon" x="3" y="0" z="7" spawntime="240" />
+		<monster name="Dragon" x="1" y="4" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="577" centery="1014" centerz="7" radius="15">
+		<monster name="Demodras" x="-3" y="-3" z="7" spawntime="420" />
+		<monster name="Demodras" x="1" y="0" z="7" spawntime="420" />
 	</spawn>
 	<spawn centerx="694" centery="1014" centerz="7" radius="13">
 		<monster name="Dragon" x="6" y="-8" z="7" spawntime="121" />
@@ -10439,6 +10497,13 @@
 		<monster name="Barbarian Headsplitter" x="7" y="7" z="7" spawntime="121" />
 		<monster name="Barbarian Bloodwalker" x="3" y="10" z="7" spawntime="121" />
 	</spawn>
+	<spawn centerx="547" centery="1018" centerz="7" radius="14">
+		<monster name="Dragon" x="-5" y="-4" z="7" spawntime="240" />
+		<monster name="Dragon" x="4" y="-3" z="7" spawntime="240" />
+		<monster name="Dragon" x="1" y="-1" z="7" spawntime="240" />
+		<monster name="Dragon" x="1" y="4" z="7" spawntime="240" />
+		<monster name="Dragon" x="13" y="9" z="7" spawntime="240" />
+	</spawn>
 	<spawn centerx="966" centery="1022" centerz="7" radius="10">
 		<monster name="Barbarian Bloodwalker" x="1" y="-10" z="7" spawntime="121" />
 		<monster name="Barbarian Skullhunter" x="-4" y="-9" z="7" spawntime="121" />
@@ -10450,6 +10515,24 @@
 		<monster name="Barbarian Bloodwalker" x="1" y="8" z="7" spawntime="121" />
 		<monster name="Barbarian Skullhunter" x="9" y="8" z="7" spawntime="121" />
 		<monster name="Barbarian Brutetamer" x="4" y="9" z="7" spawntime="121" />
+	</spawn>
+	<spawn centerx="561" centery="1028" centerz="7" radius="10">
+		<monster name="Dragon" x="-2" y="6" z="7" spawntime="240" />
+		<monster name="Dragon" x="0" y="6" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="608" centery="1028" centerz="7" radius="10">
+		<monster name="Dragon" x="1" y="-1" z="7" spawntime="240" />
+		<monster name="Dragon" x="7" y="2" z="7" spawntime="240" />
+		<monster name="Dragon" x="9" y="2" z="7" spawntime="240" />
+	</spawn>
+	<spawn centerx="535" centery="1030" centerz="7" radius="10">
+		<monster name="Demodras" x="-8" y="0" z="7" spawntime="420" />
+		<monster name="Demodras" x="-4" y="5" z="7" spawntime="420" />
+	</spawn>
+	<spawn centerx="585" centery="1030" centerz="7" radius="11">
+		<monster name="Dragon Lord" x="-4" y="3" z="7" spawntime="360" />
+		<monster name="Dragon" x="3" y="3" z="7" spawntime="240" />
+		<monster name="Dragon Lord" x="1" y="5" z="7" spawntime="360" />
 	</spawn>
 	<spawn centerx="1074" centery="1030" centerz="7" radius="10">
 		<monster name="Frost Dragon" x="5" y="3" z="7" spawntime="121" />
@@ -14950,10 +15033,10 @@
 		<monster name="Rotworm" x="2" y="0" z="8" spawntime="180" />
 	</spawn>
 	<spawn centerx="551" centery="933" centerz="8" radius="6">
-		<monster name="Rat" x="3" y="-3" z="8" spawntime="180" />
-		<monster name="Rat" x="4" y="2" z="8" spawntime="180" />
-		<monster name="Rat" x="-1" y="4" z="8" spawntime="180" />
-		<monster name="Rat" x="0" y="4" z="8" spawntime="180" />
+		<monster name="Train" x="3" y="-3" z="8" spawntime="60" />
+		<monster name="Train" x="4" y="2" z="8" spawntime="60" />
+		<monster name="Train" x="-1" y="4" z="8" spawntime="60" />
+		<monster name="Train" x="0" y="4" z="8" spawntime="60" />
 	</spawn>
 	<spawn centerx="421" centery="936" centerz="8" radius="14">
 		<monster name="Carrion Worm" x="-7" y="-10" z="8" spawntime="180" />
