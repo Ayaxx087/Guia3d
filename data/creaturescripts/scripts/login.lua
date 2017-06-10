@@ -6,7 +6,7 @@ function onLogin(cid)
 		registerCreatureEvent(cid, "KILLMESSAGES")
 		
 		--Free bless low levels
-		if getPlayerLevel(cid) < 36 and getPlayerStorageValue(cid,9999998) == -1 then
+		if getPlayerLevel(cid) < 101 and getPlayerStorageValue(cid,9999998) == -1 then
 		setPlayerStorageValue(cid,9999998,1)
 		end
 		
