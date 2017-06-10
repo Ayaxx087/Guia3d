@@ -111,28 +111,28 @@ premonlybeds = false
 use_balance_house_paying = false
 
 -- How long time the red skull will last in seconds (default 30 days)
-red_skull_duration = 7*24*60*60
+red_skull_duration = 1*24*60*60
 
 -- How long time the black skull will last in seconds (default 45 days)
-black_skull_duration = 14*24*60*60
+black_skull_duration = 1*24*60*60
 
 -- White skull duration, how long a player will get pz locked/white skull
-unjust_skull_duration = 15*60*1000
+unjust_skull_duration = 10*60*1000
 
 -- Enable this and players will get pzlocked regardless of being the aggressor or not (<8.5 this was set to true)
 defensive_pz_lock = true
 
 -- How many players you need to kill to gain a red skull per day/week/month
 -- Set 0 to disable
-kills_per_day_red_skull = 6
-kills_per_week_red_skull = 15
-kills_per_month_red_skull = 60
+kills_per_day_red_skull = 15
+kills_per_week_red_skull = 70
+kills_per_month_red_skull = 300
 
 -- How many players you need to kill to gain a black skull per day/week/month
 -- Set 0 to disable
-kills_per_day_black_skull = 8
-kills_per_week_black_skull = 19
-kills_per_month_black_skull = 76
+kills_per_day_black_skull = 30
+kills_per_week_black_skull = 140
+kills_per_month_black_skull = 600
 
 -- Broadcast violation window banishments
 broadcast_banishments = "no"
@@ -168,8 +168,8 @@ experience_stages = true
 -- rates (experience, skill, magic level, loot and spawn)
 rate_exp = 1
 rate_exp_pvp = 0
-rate_skill = 3
-rate_mag = 2
+rate_skill = 20
+rate_mag = 7
 rate_loot = 2
 rate_spawn = 1
 
