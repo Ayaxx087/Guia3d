@@ -30,20 +30,20 @@ ip = "104.236.233.249"
 
 -- login server port
 -- This should be the port used for connecting with IP changers etc.
-login_port = "7171"
+login_port = "7000"
 
 -- game server port
 -- game server must be on it's own port (due to limits of the protocol)
-game_port = "7172"
+game_port = "7001"
 
 -- status port
 -- Used by status protocol connections, should be same as login
 -- to work correctly with server lists etc.
-status_port = "7171"
+status_port = "7000"
 
 -- admin port
 -- Port used by the OTAdmin protocol
-admin_port = "7171"
+admin_port = "7000"
 
 -- server url
 url = "http://uatibia.com"
