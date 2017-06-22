@@ -15,7 +15,7 @@
 	<globalevent name="startup" type="startup" script="startup.lua"/>
 	-->
 	
-	<globalevent name="Server Save" time="09:00:00" script="serversave.lua"/>
+	<globalevent name="Server Save" time="09:55:00" script="serversave.lua"/>
 	
 	<globalevent interval="3600000" name="AutoSave" script="autosave.lua"/>
 	
