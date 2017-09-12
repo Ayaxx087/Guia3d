@@ -23,7 +23,7 @@ mapkind = "OTBM"
 servername = "UATibia"
 
 -- server location
-location = "Spain"
+location = "USA"
 
 -- server ip (the ip that server listens on)
 ip = "162.243.186.43"
@@ -114,25 +114,25 @@ use_balance_house_paying = false
 red_skull_duration = 1*24*60*60
 
 -- How long time the black skull will last in seconds (default 45 days)
-black_skull_duration = 1*24*60*60
+black_skull_duration = 2*24*60*60
 
 -- White skull duration, how long a player will get pz locked/white skull
-unjust_skull_duration = 10*60*1000
+unjust_skull_duration = 15*60*1000
 
 -- Enable this and players will get pzlocked regardless of being the aggressor or not (<8.5 this was set to true)
 defensive_pz_lock = true
 
 -- How many players you need to kill to gain a red skull per day/week/month
 -- Set 0 to disable
-kills_per_day_red_skull = 15
+kills_per_day_red_skull = 25
 kills_per_week_red_skull = 70
-kills_per_month_red_skull = 300
+kills_per_month_red_skull = 200
 
 -- How many players you need to kill to gain a black skull per day/week/month
 -- Set 0 to disable
-kills_per_day_black_skull = 30
+kills_per_day_black_skull = 50
 kills_per_week_black_skull = 140
-kills_per_month_black_skull = 600
+kills_per_month_black_skull = 400
 
 -- Broadcast violation window banishments
 broadcast_banishments = "no"
@@ -147,15 +147,15 @@ final_banishment_length = 30*86400 --seconds
 ip_banishment_length = 86400 --seconds
 
 -- Extra experience % per player when sharing experience
-party_exp_mul = 15
+party_exp_mul = 25
 
 -- Anti-MageBomb system
 -- This system works as in Tibia, time in milliseconds
-login_attack_delay = 1000
+login_attack_delay = 1*1000
 
 -- AFK Configuration (in milliseconds, but use values for minutes)
 -- Maximum time a player can stay away from keyboard before being kicked
-max_idle_time = 1501*60*1000
+max_idle_time = 1600*60*1000
 -- Player will be warned about being kicked at this time
 max_idle_time_warning = 1500*60*1000
 
@@ -168,8 +168,8 @@ experience_stages = true
 -- rates (experience, skill, magic level, loot and spawn)
 rate_exp = 1
 rate_exp_pvp = 0
-rate_skill = 20
-rate_mag = 7
+rate_skill = 12
+rate_mag = 6
 rate_loot = 2
 rate_spawn = 1
 
@@ -189,7 +189,7 @@ orange_spell_text = false
 -- Should the client show the popup window after a death? [default: "yes"]
 show_death_window = false
 -- What message should be sent for the player, after its own death? Use "" to disable.
-death_msg = "You are dead. Please login on the game again."
+death_msg = "You are dead. Please log in again."
 
 --should players be able to rope creatures (like at older versions of tibia)?
 can_rope_creatures = true
@@ -330,8 +330,8 @@ lua_excepted_type_errors_enabled = false
 guild_wars_end_only_on_startup = true
 
 -- motd (the message box that you sometimes get before you choose characters)
-motd = "Welcome to Ultima Alianza Tibia Guia3d RPG ONLINE: \n \n www.uatibia.com \n\n Follow us in facebook www.facebook.com/uatibia and get the official \n source for news, tips and good assistance for the game.\n Join the community in our forums: http://forums.uatibia.com.\n\n *Have fun! \n\n\n The Administration."
-motdnum = "6"
+motd = "Welcome to Ultima Alianza Tibia Guia3d RPG ONLINE: \n \n www.uatibia.com \n\n Follow us in facebook www.facebook.com/uatibia and get the official \n source for news, tips and good assistance for the game.\n Join the community in our forums: http://uatibia.com/forum/\n\n *Have fun! \n\n\n The Administration."
+motdnum = "7"
 
 -- login message
 loginmsg = "Welcome to the UATibia Guia3d RPG online, for get the official source for news and more info, visit: http://www.uatibia.com"
@@ -388,7 +388,7 @@ show_house_prices = true
 
 -- max packets per second to elemeniate spamming of packets to server 
 -- 0 disabled
-max_packets_per_second = 100
+max_packets_per_second = 1000
 
 
 -- SQL type
