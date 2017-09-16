@@ -21758,7 +21758,13 @@
 	<spawn centerx="53" centery="1173" centerz="10" radius="1">
 		<monster name="Train" x="0" y="0" z="10" spawntime="121" />
 	</spawn>
-	<spawn centerx="70" centery="1174" centerz="10" radius="10" />
+	<spawn centerx="70" centery="1174" centerz="10" radius="10">
+		<monster name="Train" x="7" y="-3" z="10" spawntime="121" />
+		<monster name="Train" x="9" y="-3" z="10" spawntime="121" />
+		<monster name="Train" x="10" y="-1" z="10" spawntime="121" />
+		<monster name="Train" x="7" y="1" z="10" spawntime="121" />
+		<monster name="Train" x="9" y="1" z="10" spawntime="121" />
+	</spawn>
 	<spawn centerx="51" centery="1175" centerz="10" radius="1">
 		<monster name="Train" x="0" y="0" z="10" spawntime="121" />
 	</spawn>
