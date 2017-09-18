@@ -4,8 +4,8 @@ setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_ENERGYHIT)
 --etCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -0.8, -0, -0, 0)
 
 function onGetFormulaValues(cid, level, maglevel)
-	min = -((level * 2) + (maglevel * 3)) * 0.2
-	max = -((level * 2) + (maglevel * 3)) * 0.4
+	min = -((level * 2) + (maglevel * 3)) * 0.68
+	max = -((level * 2) + (maglevel * 3)) * 1.3
 	return min, max
 end
 
