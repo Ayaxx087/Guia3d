@@ -1,7 +1,15 @@
 local combat = createCombatObject()
 setCombatParam(combat, COMBAT_PARAM_TYPE, COMBAT_PHYSICALDAMAGE)
 setCombatParam(combat, COMBAT_PARAM_EFFECT, CONST_ME_MORTAREA)
-setCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -3.3, 30, -4, 0)
+--etCombatFormula(combat, COMBAT_FORMULA_LEVELMAGIC, -2.3, 30, -3, 0)
+
+function onGetFormulaValues(cid, level, maglevel)
+	min = -((level * 2) + (maglevel * 3)) * 2.3
+	max = -((level * 2) + (maglevel * 3)) * 3
+	return min, max
+end
+
+setCombatCallback(combat, CALLBACK_PARAM_LEVELMAGICVALUE, "onGetFormulaValues")
 
 arr = {
 {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
