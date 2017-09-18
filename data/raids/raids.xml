@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <raids>
 	<!-- Nova -->
-	<raid name="RatsThalia" file="ratsthalia.xml" interval2="250" margin="60"/>
-	<raid name="OrcsThalia" file="orcsthalia.xml" interval2="250" margin="60"/>
+	<raid name="RatsThalia" file="ratsthalia.xml" interval2="500" margin="80"/>
+	<raid name="OrcsThalia" file="orcsthalia.xml" interval2="500" margin="70"/>
 	
 	<!-- Bosses -->
 	<raid name="HellgorakVulcano" file="hellgorakvulcano.xml" interval2="1440" margin="60"/>
