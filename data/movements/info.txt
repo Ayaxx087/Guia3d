@@ -1,2 +1,0 @@
-### Carpeta original de guia3d.
-- Se agregó switch_tiles.lua de legacy source.

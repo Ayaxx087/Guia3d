@@ -1,5 +1,0 @@
-### Carpeta original de otserv.
-- Se removió "level" de todas las armas (menos rods y wands).
-- Se removió "vocation" de todas las armas (menos rods y wands).
-- Se agregó merlin staff, jester staff y el script de explosive_arrow.
-- Se redujo el daño de explosive arrow en un 30%.

@@ -1,2 +1,0 @@
-### Carpeta original de otserv.
-- Se ha agregado el sistema save global que se activa cada 24 horas.
