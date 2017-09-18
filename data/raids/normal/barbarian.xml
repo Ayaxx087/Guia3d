@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Scouts report a barbarian army gathering near Vincent of Glory" />
+<announce delay="4000" type="event" message="Some invaders might try to access Vincent of Glory via the North." />
+<announce delay="8000" type="event" message="Raiders are attacking Vincent of Glory!" />
+
+  <areaspawn delay="10000" fromx="210" fromy="300" fromz="7" tox="300" toy="350" toz="7">
+    <monster name="Barbarian Bloodwalker" amount="35" />
+    <monster name="Barbarian Brutetamer" amount="22" />
+    <monster name="Barbarian Headsplitter" amount="22" />
+    <monster name="Barbarian Skullhunter" amount="28" />
+  <monster name="Ice Witch" amount="15" />
+  </areaspawn>
+</raid>

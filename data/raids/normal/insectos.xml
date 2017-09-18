@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Insect manifestation sighted west of Rookgaard." />
+<announce delay="65000" type="event" message="Thousands of different insects emerged to the west of Rookgaard, take care! Fleshcrawler is leading they." />
+
+  <areaspawn delay="65000" fromx="38" fromy="1107" fromz="7" tox="131" toy="1198" toz="7">
+    <monster name="Ancient Scarab" amount="25" />
+	<monster name="Scarab" amount="50" />
+  </areaspawn>
+
+
+
+</raid>

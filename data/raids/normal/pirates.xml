@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="1000" type="event" message="Pirates are launching a surprise attack on Nova! Take care, they seem to be everywhere." />
+<announce delay="10000" type="event" message="Pirates have invaded the city." />
+
+  <areaspawn delay="11000" fromx="360" fromy="400" fromz="7" tox="480" toy="500" toz="7">
+    <monster name="Pirate Corsair" amount="105" />
+    <monster name="Pirate Buccaneer" amount="100" />
+    <monster name="Pirate Cutthroat" amount="105" />
+    <monster name="Pirate Marauder" amount="105" />
+    <monster name="Smuggler" amount="105" />
+  </areaspawn>
+
+  <singlespawn delay="11000" name="Pirate Corsair" x="453" y="424" z="6" />
+
+  <singlespawn delay="1000" name="Pirate Buccaneer" x="443" y="460" z="6" />
+
+  <singlespawn delay="1000" name="Pirate Cutthroat" x="489" y="473" z="6" />
+
+  <singlespawn delay="1000" name="Pirate Marauder" x="422" y="492" z="6" />
+  </raid>
