@@ -5,8 +5,11 @@ function onSay(cid, words, param, channel)
 	end
 
 	local t = string.explode(param, ";", 1)
+	local playerGuid = getPlayerGUID(cid)
+	local playerName = getPlayerNameByGUID(playerGuid)
 	if(not t[2] or MESSAGE_TYPES[t[1]] == nil) then
-		broadcastMessage(param)
+		--broadcastMessage(param)
+		broadcastMessage("> " .. playerName .. " broadcasted: \"" .. param .. "\".")
 	else
 		broadcastMessage(t[2], MESSAGE_TYPES[t[1]])
 	end
