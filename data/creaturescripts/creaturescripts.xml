@@ -12,9 +12,8 @@
 	<event type="kill" name="PKRedKill" script="guia3d/killpkred.lua" />
 	<event name="RemoveBless" type="die" script="guia3d/removebless.lua"/>
 	<!--<event name="Premmy" type="advance" script="guia3d/premmy.lua"/>-->
-	
-	<event type="kill" name="KillTask" event="script" script="killtask.lua"/>
-	<event name="ServerRecord" type="login" script="record.lua"/>
+	<event type="kill" name="KillTask" event="script" script="guia3d/killtask.lua"/>
+	<event name="ServerRecord" type="login" script="guia3d/record.lua"/>
 	<!-- End Guia3d -->
 	
 </creaturescripts>
