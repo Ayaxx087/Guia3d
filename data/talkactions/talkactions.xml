@@ -40,6 +40,7 @@
 		<!-- Guia3d -->
 		<talkaction words="/jail" access="2" filter="first word" script="guia3d/jail.lua"/>
 		<talkaction words="/unjail" access="2" filter="first word" script="guia3d/unjail.lua"/>
+		<talkaction words="/mc" access="3" filter="first word" script="guia3d/mc.lua"/>
 
 	<!-- Tutors -->
 	<talkaction words="/serverinfo" access="1" script="serverinfo.lua"/>
