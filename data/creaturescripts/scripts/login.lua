@@ -1,5 +1,12 @@
 function onLogin(cid)
 	--Guia3d
+		local events = {
+			"lookPlayer" -- Register on look player
+		}
+		-- Register events
+		for i = 1, #events do
+			registerCreatureEvent(cid, events[i])
+		end
 		--Hi All!
 		doPlayerSay(cid, "Hi all!", 1)
 		--Register the kill message

@@ -14,6 +14,7 @@
 	<!--<event name="Premmy" type="advance" script="guia3d/premmy.lua"/>-->
 	<event type="kill" name="KillTask" event="script" script="guia3d/killtask.lua"/>
 	<event name="ServerRecord" type="login" script="guia3d/record.lua"/>
+	<event name="lookPlayer" type="look" script="guia3d/lookplayer.lua"/>
 	<!-- End Guia3d -->
 	
 </creaturescripts>
